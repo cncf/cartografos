@@ -21,9 +21,9 @@ We want to educate and inform users with effective and practical guidance to hel
 
 We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
 As you get started, you are in the best position to give us feedback on areas where the working group needs help. This includes:
-Gaps in our documentation
-Working to define new artifacts
-Engaging with TAGs and SIGs within the CNCF and its projects
+- Gaps in our documentation
+- Working to define new artifacts
+- Engaging with TAGs and SIGs within the CNCF and its projects
 
 ## Contributing
 
