@@ -38,9 +38,3 @@ collaborators:
     # Triage Team
     # manage issues (edit labels, occasionally edit)
     # needs "push" permission, even though triage team should not merge PRs
-
-  - username: CathPag
-    permission: push
-
-  - username: JasonMorgan
-    permission: push
