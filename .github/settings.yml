@@ -26,6 +26,15 @@ collaborators:
   - username: siforster
     permission: admin
     
+  - username: daniellemcook
+    permission: admin
+
+  - username: Deep-Cyber
+    permission: admin
+
+  - username: robertglenn
+    permission: admin
+    
     # Triage Team
     # manage issues (edit labels, occasionally edit)
     # needs "push" permission, even though triage team should not merge PRs

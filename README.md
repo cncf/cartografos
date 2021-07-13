@@ -15,7 +15,9 @@ Currently assets under development:
 
 ## Come join us
 
-Please sign up to the CNCF’s community platform at <https://community.cncf.io/> and then join <https://community.cncf.io/cncf-cartografos-working-group/>
+Please sign up to the CNCF’s community platform at <https://community.cncf.io/> and  join <https://community.cncf.io/cncf-cartografos-working-group/>
 
-We hold regular community meetings every second Tuesday at 6PM London,UK and we encourage you to join:
-<https://community.cncf.io/events/details/cncf-cncf-cartografos-working-group-presents-cartografos-community-meeting/>
+We hold regular community meetings every second Tuesday at 6PM London, UK, and we encourage you to join.  They too are listed on the same page:
+<https://community.cncf.io/cncf-cartografos-working-group/>
+
+Please also join our our CNCF Slack channel, `#cartografos-wg`
