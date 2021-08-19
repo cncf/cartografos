@@ -106,10 +106,13 @@ In order for you to build a sustainable ecosystems for cloud native infrastructu
 Organizations may wish to consider the CKA and CKAD exams around level 2 and 3; and the CKS around level 4.
 
 [**Certified Kubernetes Administrator (CKA)**](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
+
 * This program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
 
 [**Certified Kubernetes Application Developer (CKAD)**](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/)
+
 * This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
 
 [**Certified Kubernetes Security Specialist (CKS)**](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/)
+
 * This program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
