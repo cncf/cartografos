@@ -42,16 +42,14 @@ We will propose new assets that guide adopters of cloud native technology, in li
 
 - Slack channel: slack.cncf.io, `#cartografos-wg`
 
-- Please sign up to the CNCF’s community platform at <https://community.cncf.io/> and then join <https://community.cncf.io/cncf-cartografos-working-group/>
-
 - To participate in the working group, please sign up to the CNCF’s community platform at <https://community.cncf.io/> and  join <https://community.cncf.io/cncf-cartografos-working-group/>
 
-- We hold regular community meetings every second Tuesday at 6PM London, UK, and we encourage you to join.  They too are listed on the same page:
+- We hold regular community meetings every second Tuesday at 1PM US/Eastern, and we encourage you to join.  The meetings are listed on the same page and you can simply RSVP to each event:
 <https://community.cncf.io/cncf-cartografos-working-group/>
 
 ## Meeting Schedule
 
-Every second Tuesday at 6PM-7PM London, UK.
+Every second Tuesday at 1PM-2PM US/Eastern
 
 The meeting cadence due for review after KubeCon North America 2021
 

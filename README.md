@@ -28,7 +28,7 @@ As these are living documents, we welcome your feed back and invite you to submi
 
 Please sign up to the CNCF’s community platform at <https://community.cncf.io/> and  join <https://community.cncf.io/cncf-cartografos-working-group/>
 
-We hold regular community meetings every second Tuesday at 6PM London, UK, and we encourage you to join.  They too are listed on the same page:
+We hold regular community meetings every second Tuesday at 1PM US/Eastern, and we encourage you to join.  They are listed on the same page and you can simply RSVP to the meeting instance:
 <https://community.cncf.io/cncf-cartografos-working-group/>
 
 Please also join our our CNCF Slack channel, `#cartografos-wg`

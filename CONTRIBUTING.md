@@ -21,6 +21,7 @@ We want to educate and inform users with effective and practical guidance to hel
 
 We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
 As you get started, you are in the best position to give us feedback on areas where the working group needs help. This includes:
+
 - Gaps in our documentation
 - Working to define new artifacts
 - Engaging with TAGs and SIGs within the CNCF and its projects
@@ -42,11 +43,9 @@ Not everything happens through a GitHub pull request. Please come to our meeting
 
 ## Come to meetings
 
-Everyone is welcome to come to any of our meetings.
+Everyone is welcome to come to any of our meetings. We hold regular community meetings every second Tuesday at 6PM US/Eastern time
 
-You may need to join the Cartografos Working Group community on community.cncf.io to get access to the meeting - simply click on "Join" within <https://community.cncf.io/cncf-cartografos-working-group/>
-
-We hold regular community meetings every second Tuesday at 6PM London, UK, and we encourage you to join. You can join simply by RSVP'ing to the event on community.cncf.io.
+You will need to join the Cartografos Working Group community on <https://community.cncf.io> then simply RSVP within the meeting instance at <https://community.cncf.io/cncf-cartografos-working-group/>
 
 The first time you come, introducing yourself is more than enough. Over time, we hope that you feel comfortable voicing your opinions, giving feedback on others’ ideas, and even sharing your own ideas, and experiences.
 
