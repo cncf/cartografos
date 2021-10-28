@@ -106,3 +106,7 @@ You are revisiting decisions made earlier and monitoring applications and infras
 In each of the following sections, we will highlight core concepts and discuss what this means in each stage of your maturity across people, process, policy and technology.
 
 We welcome feedback from the community on the Cloud Native Maturity Model!
+
+## Position on Included Technologies
+The Cloud Native Maturity model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software. 
+
