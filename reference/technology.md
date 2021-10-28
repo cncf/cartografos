@@ -9,6 +9,9 @@ The Cloud Native Maturity Model is composed of five separate documents - the [Pr
 * [Policy](./policy.md)  
 * [Technology](./technology.md)
 
+## Position on Included Technologies
+***The Cloud Native Maturity model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software.*** 
+
 ## Introduction
 
 The Cloud Native Maturity Model covers four major dimensions - People, Process, Policy and Technology. This paper addresses technology - the practical tooling that makes up cloud native applications, platforms, and infrastructure. As well as referring to specific technologies, this paper aims to show the stages you may go through as you move from starting out all the way through to cloud native excellence.
