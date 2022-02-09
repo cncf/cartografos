@@ -19,7 +19,7 @@ Working from level one to five, your team will be new to the technology with som
 
 * Level 2: Individuals are actively invested in training and skills. The outcome is that small pockets of SMEs and expertise are appearing. DevOps has started to appear with inclusion of cloud skill engineers and developer groups offering platform skills. Cloud Native efforts are also owned by members of leadership.
 
-* Level 3: The team’s competency is growing and there is commitment from Dev, Ops and security. You are formalizing expertise around a cloud native center of excellence. Cloud Native becomes a first-class citizen for strategy.
+* Level 3: The team’s competency is growing and there is commitment from Dev, Ops and security. You are formalizing expertise and curating standards and accelerators. Cloud Native becomes a first-class citizen for strategy.
 
 * Level 4: As you improve, you are shifting competency to the development team for them to self-service. Full commitment from leadership.
 
@@ -33,7 +33,7 @@ With the adoption of cloud native technologies, your business will undertake org
 
 * Level 2: Organizational change is happening. You will define project teams, create agile project groups and have quick feedback/testing loops.
 
-* Level 3: As your people’s competency grows, the organization structure is now in place to support best practices. You will have formalized responsibilities. A common pattern used for this structure often embraces agile and scrum. You may have established a Center of Excellence to provide oversight and guidance.
+* Level 3: As your people’s competency grows, the organization structure is now in place to support best practices and these are curated and encoded for reuse. You will have formalized responsibilities and embrace an agile methodology.
 
 * Level 4: Cloud is now the default infrastructure for all services. The business is now requesting services from DevSecOps vs. requesting traditional servers.  
 
