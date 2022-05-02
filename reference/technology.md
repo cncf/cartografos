@@ -11,7 +11,7 @@ The Cloud Native Maturity Model is composed of five separate documents - the [Pr
 
 ## Position on Included Technologies
 
-***The Cloud Native Maturity model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software.***
+***The Cloud Native Maturity Model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software.***
 
 ## Introduction
 
@@ -30,7 +30,7 @@ At a high level, the key steps in your cloud native journey will look something 
 
 * Level 1: You’ll have your initial experimentation and adoption of Kubernetes. You’ll start with relatively basic tools and technology. You’ll assess your existing toolset to see how they fit within the new landscape (what plays well with cloud native, and what doesn’t?). You’ll have limited automation, but don’t worry, it’s coming! Your focus is on getting the baseline technology implemented, and you won’t be in production yet.
 
-* Level 2: This marks your first step into production. You’ve worked hard to build your foundation in Level 1, and now you are moving to production. You might have started with something relatively small and simple, but this leap to production has certainly required you to address some significant steps. You’ll probably have had to incorporate monitoring and observability into your workloads. You’ll have brought Prometheus in and started monitoring your clusters for standard metrics such as RAM, CPU etc. While you might be starting to evaluate application tracing, don’t worry about it too much if you have started to gather core metrics. Your focus here is on getting an application running in production and having enough to support it.
+* Level 2: This marks your first step into production. You’ve worked hard to build your foundation in Level 1, and now you are moving to production. You might have started with something relatively small and simple, but this leap to production has certainly required you to address some significant steps. You’ll probably have had to incorporate monitoring and observability into your workloads. You’ll have brought key observability tooling in and started monitoring your clusters for standard metrics such as RAM, CPU etc. While you might be starting to evaluate application tracing, don’t worry about it too much if you have started to gather core metrics. Your focus here is on getting an application running in production and having enough platform resource, observability and operational capability to support it within your organization.
 
 * Level 3: Here you start to scale. Your suite of tools is more standardized. You're getting your release tooling, secrets management and policy tooling in place. You’re also starting to get a level of buy-in across your organization, which is helping to propel you forward. This is where you will be running the largest number of tools as you will be in the thick of evaluating, implementing, and running in production.
 
@@ -40,11 +40,11 @@ At a high level, the key steps in your cloud native journey will look something 
 
 ## Infrastructure
 
-* Level 1: You are building your cloud infrastructure either on-prem or off. It will pay dividends to consider early your supporting technology such as your network, firewalls and IAM, access controls and policies (and if you need to change them). Many topics will come out of your initial experimentation with Kubernetes, so ensure you keep track of these - they are the ‘breadcrumbs’ you will follow as you move towards cloud native. This will include RBAC policies, load balancer and/or ingress configuration, cluster dashboards, privileged access (or lack thereof!) and container logging. Your aim is to move away from ‘pets’ to ‘livestock’ so you invest in declarative solutions for your Infrastructure as a Service with Infrastructure as Code (IaC) tooling. If you do not have a consolidated DevOps practice at this level, bring your future operations team in at this level to build familiarity.
+* Level 1: You are building your cloud infrastructure either on-prem or off. It will pay dividends to consider early your supporting technology such as your network, firewalls and IAM, access controls and policies (and if you need to change them). Many topics will come out of your initial experimentation with Kubernetes, so ensure you keep track of these - they are the ‘breadcrumbs’ you will follow as you move towards cloud native. This will include RBAC policies, load balancer and/or ingress configuration, cluster dashboards, privileged access (or lack thereof!) and container logging. Your aim is to move away from ‘pets’ to ‘livestock’ so you invest in declarative solutions for your Infrastructure as a Service with Infrastructure as Code (IaC) tooling. If you do not have a consolidated DevOps practice at this level, bring your future operations team in to build familiarity.
 
-* Level 2: Because production is your goal, you’ve built Kubernetes clusters for production.
+* Level 2: Because production is your goal, you’ve built Kubernetes clusters for production with a focus on reliability and security.
 
-* Level 3: As part of building confidence in your cloud infrastructure, you need to gain visibility into what your infrastructure is doing. Developing your monitoring, alerting and resource usage capabilities is going to be your focus. An important consideration here is that where previously you may have considered machine-specific properties such as cpu, ram etc, you’ll also want to factor in cluster resource metrics also. Additionally, you’ll replace components when they fail rather than spending time remediating issues in production. This builds on Level two. Furthermore, you may also look to manage infrastructure with Kubernetes like you would software.
+* Level 3: As part of building confidence in your cloud infrastructure, you need to gain visibility into what your infrastructure is doing. Developing your monitoring, alerting and resource usage capabilities is going to be your focus. An important consideration here is that where previously you may have considered machine-specific properties such as CPU, RAM etc, you’ll also want to factor in cluster resource metrics also. Additionally, you’ll replace components when they fail rather than spending time remediating issues in production. This builds on Level 2. Furthermore, you may also look to manage infrastructure with Kubernetes like you would software.
 
 * Level 4: Kubernetes and its API has become extremely familiar to you. With your infrastructure and IaC  tooling, you’ll likely find yourself investigating ClusterAPI and using that for deploying and managing the lifecycle of your clusters. As you also look to further refine control of your platforms, you’ll work to implement policy for your infrastructure control plane and other infrastructure controllers.
 
@@ -72,15 +72,15 @@ Here is a working model for the microservices path. You may adapt this to your m
 
 * Level 2: You’re working in production now. You will experiment with tooling to augment the basics in production to help with security, policy management, workload misconfigurations, resource requests and limits. Key security practices for container hygiene are being incorporated.
 
-* Level 3: Whereas in level 2 you’ve been experimenting, in level 3, as you increase your workload, and as you scale, you need consistent tooling across clusters to gain continuous visibility into your Kubernetes clusters. This should include automatic scanning and having runtime observability of what is occurring within your containers and your cluster. CNCF projects are good options here. You will have alerting and dashboards in place.
+* Level 3: Whereas in Level 2 you’ve been experimenting, in level 3, as you increase your workload, and as you scale, you need consistent tooling across clusters to gain continuous visibility into your Kubernetes clusters. This should include automatic scanning and having runtime observability of what is occurring within your containers and your cluster. CNCF projects are good options here. You will have alerting and dashboards in place.
 
-* Level 4: With your sources of information you've gained from level three, your goal is to further integrate your data sources and gain visibility along with alerting. This closes the feedback loop on runtime and operations and allows you to respond quickly to unplanned events.
+* Level 4: With your sources of information you've gained from Level 3, your goal is to further integrate your data sources and gain visibility along with alerting. This closes the feedback loop on runtime and operations and allows you to respond quickly to unplanned events.
 
 * Level 5: You’re now automating the response to events, and you have all your security data in one central repository. The platform is able to respond to events
 
 ## Application Release and Operations
 
-Managing a cluster with infrastructure-as-code is different to managing application release and deployment, however many of the same techniques and tools will be common to both.
+Managing a cluster with Infrastructure as Code (IaC) is different to managing application release and deployment, however many of the same techniques and tools will be common to both.
 
 * Level 1: When starting with Kubernetes, it is important that you start out with as much hands-on experience as possible. Initially you’ll be doing ad-hoc deployments with kubectl and kustomize.
 
