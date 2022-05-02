@@ -72,7 +72,7 @@ Here is a working model for the microservices path. You may adapt this to your m
 
 * Level 2: You’re working in production now. You will experiment with tooling to augment the basics in production to help with security, policy management, workload misconfigurations, resource requests and limits. Key security practices for container hygiene are being incorporated.
 
-* Level 3: Whereas in Level 2 you’ve been experimenting, in level 3, as you increase your workload, and as you scale, you need consistent tooling across clusters to gain continuous visibility into your Kubernetes clusters. This should include automatic scanning and having runtime observability of what is occurring within your containers and your cluster. CNCF projects are good options here. You will have alerting and dashboards in place.
+* Level 3: Whereas in Level 2 you’ve been experimenting, in Level 3, as you increase your workload, and as you scale, you need consistent tooling across clusters to gain continuous visibility into your Kubernetes clusters. This should include automatic scanning and having runtime observability of what is occurring within your containers and your cluster. CNCF projects are good options here. You will have alerting and dashboards in place.
 
 * Level 4: With your sources of information you've gained from Level 3, your goal is to further integrate your data sources and gain visibility along with alerting. This closes the feedback loop on runtime and operations and allows you to respond quickly to unplanned events.
 
@@ -100,7 +100,7 @@ Managing a cluster with Infrastructure as Code (IaC) is different to managing ap
 
 * Level 3: On the basis of your experiments in the previous level, you’ll be implementing this in production, and including good alerting and good dashboards, building out your observability capabilities.
 
-* Level 4: As your environment becomes more complex in production, some issue remediation may require adjusting your policy-as-code or components of your infrastructure-as-code, as well as your application. Issues may relate to more than one application so you will aggregate across applications to determine trends. These may relate to bugs such as memory leaks, as well as security or policy issues. Your remediation may be to fix them at source, ideally as ‘far left’ as possible, or otherwise building automation capable of fixing them when they occur, and tuning it over time.
+* Level 4: As your environment becomes more complex in production, some issue remediation may require adjusting your policy-as-code or components of your Infrastructure as Code, as well as your application. Issues may relate to more than one application so you will aggregate across applications to determine trends. These may relate to bugs such as memory leaks, as well as security or policy issues. Your remediation may be to fix them at source, ideally as ‘far left’ as possible, or otherwise building automation capable of fixing them when they occur, and tuning it over time.
 
 * Level 5: Here we further optimize the automation used in responses to issues by working to prevent mistakes from entering production in the first place.
 
