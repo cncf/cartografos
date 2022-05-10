@@ -2,12 +2,13 @@
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of five separate documents - the [Prologue](./prologue.md) and the four key reference documents:
+The Cloud Native Maturity Model is composed of six separate documents - the [Prologue](./prologue.md) and the five key reference documents:
 
 * [People](./people.md)
 * [Process](./process.md)
 * [Policy](./policy.md)
 * [Technology](./technology.md)
+* [Business Outcomes](./business_outcomes.md)
 
 ## Introduction
 
