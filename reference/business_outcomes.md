@@ -1,4 +1,4 @@
-# H1 Cloud Native Maturity Model Business Outcomes
+# Cloud Native Maturity Model Business Outcomes
 
 Deciding to adopt a cloud native approach for your application or services is usually driven by business reasons. Whether your business wants to scale to millions of users and you need the scalable infrastructure to support or your product team needs to ship features to market faster, cloud native can support. 
 
@@ -10,7 +10,7 @@ Just as you will have addressed your journey across people, process, policy and 
 
 It is important to accept that your cloud native maturity is not a linear evolution and there will be setbacks. Remember to communicate this clearly. For example, you may have put the infrastructure in place to ensure a reliable application for your customers, but due to a misconfiguration in code, the outcome is delayed. As with all development, communicate the pros and cons to stakeholders so they understand before passing judgment on cloud native. 
 
-## H2 Level 1: Build
+## Level 1: Build
 Level 1 of the Cloud Native Maturity Model is where your team has a baseline implementation in place and you are in pre-production. Here you will have completed a successful POC. Based on the POC, you should have initial findings on how cloud native will help improve your app. In a dev environment, you could, for example, have seen that:
 - An app is using less resources (cost savings / more efficient use)
 - A new feature shipped faster (faster time to market and thus increased revenue)
@@ -34,7 +34,8 @@ In this phase, you will determine how you’ll measure (your initial KPIs) the s
 
 In this phase, it’s important that the business outcomes are examined and explained to business stakeholders. It should be a discussion with engineering leadership, the application owner (finance, marketing, etc), the CEO, and even the board. Without these discussions and alignment, maturing to the next phases will come with little appreciation and possibly even skepticism. 
  
-## H2 Level 2: Operate
+
+## Level 2: Operate
 
 Cloud native is now established and your technologists are moving to production. While the technical outcome of Level 2 is a fully functional application or group of applications migrated to cloud native tools and practices, the business outcomes are the ability to evaluate the benefits of the migrations. This is also the level that most customers/corporations get to and plateau.  This is when a cloud native maturity model shows its true value. 
 
@@ -45,7 +46,8 @@ Repeatable patterns will also emerge as teams operate in Level 2. These will be 
 
 Your KPIs can also include your return on investment ROI, but know that in Level 2, your ROI will be lower than when you reach Level 5. This is because you are investing a lot in acquiring tools, establishing the right team and skill set, whereas in Level 5 you are optimizing. 
 
-## H2 Level 3: Scale
+
+## Level 3: Scale
 
 In Level 3, your competency is growing and you are scaling. Up to this point, your teams have been focusing on learning cloud native. In this stage, your business outcomes are dependent on your team’s experience. As the team builds confidence, their competency around security, efficiency and reliability grows and they will implement defined processes for scale. All of these will impact your services and applications as the team improves. Your business should start to notice operations are more scalable and if not you will need to improve lines of communication to demonstrate this scale, or review the actual scaling results, so they can be optimized further. 
 
@@ -59,20 +61,21 @@ Finally, you should be observing the flexibility and scalability of cloud native
 - Observability: Logging, metrics and tracing.  **Business translation: quicker responsiveness to changes in application behavior or business demand.  Better customer experience and reduction in lost sales due to service degradation.**
 - Improved Reusability: containers and microservices make it easier to reuse components already available from previous projects. **Business translation: 1. guarantee of brand image consistency and standardized functionalities throughout the multiple apps; 2. a lower learning curve for customers using those apps.**
 
-## H2 Level 4: Improve
+
+## Level 4: Improve
 
 Level 4 is focused on improvements around security, policy and governance across your environment. The team can focus more of their time on your business instead of maintaining Kubernetes. Level 4 is also the next level where clients and customers plateau.  And most customers can stay at this level as they further mature.
 
 Your team has cloud native confidence and now it’s time to take that knowledge and apply it more thoroughly to your business goals.You have continued to measure yourself against established KPIs in Level 1 and provided those to the business. You’ll have alignment on goals because you can demonstrate outcomes. The business should expect to see:
-Established protocols and procedures
-Policy enforcement of compliance standards
-Comparison of cloud native apps vs. non-cloud native
+- Established protocols and procedures
+- Policy enforcement of compliance standards
+- Comparison of cloud native apps vs. non-cloud native
 
 The business should expect more reporting in this phase. Reporting should cover compliance, security, performance and cost. These should be easily aligned to the business goals established in Level 1.
 
 At this point, you may start to migrate your other applications and have a better understanding of what you want to achieve and where you will see value during each level of maturity. 
 
-## H2 Level 5: Optimize
+## Level 5: Optimize
 
 This phase of optimization will see lots of changes with people, process, policy and technology. For the business, you should have achieved your business goals and have the measurable results to show your leadership teams, CEO, CFO or the board.
 
