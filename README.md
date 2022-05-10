@@ -15,12 +15,13 @@ Currently assets under development:
 
 ## Cloud Native Maturity Model Reference Documents
 
-The Cloud Native Maturity Model Reference documents are located in this repository in the `reference` directory. We suggest reading the [prologue](./reference/prologue.md) document first, followed by the four key reference documents:
+The Cloud Native Maturity Model Reference documents are located in this repository in the `reference` directory. We suggest reading the [prologue](./reference/prologue.md) document first, followed by the five key reference documents:
 
 * [People](./reference/people.md)
 * [Process](./reference/process.md)  
 * [Policy](./reference/policy.md)  
 * [Technology](./reference/technology.md)
+* [Business Outcomes](./reference/business_outcomes.md)
 
 As these are living documents, we welcome your feed back and invite you to submit issues and pull requests.
 
