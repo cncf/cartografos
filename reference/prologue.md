@@ -2,12 +2,13 @@
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of five separate documents - this document, the [Prologue](./prologue.md), and the four key reference documents:
+The Cloud Native Maturity Model is composed of six separate documents - this document, the [Prologue](./prologue.md), and the five key reference documents:
 
 * [People](./people.md)  
 * [Process](./process.md)  
 * [Policy](./policy.md)  
 * [Technology](./technology.md)
+* [Business Outcomes](./business_outcomes.md)
 
 ## Aim
 
@@ -33,6 +34,7 @@ Developing a cloud native maturity is not just a technology journey, but one whi
 2. Process - What processes do we need, what technology is required and how do we map workflows and CI/CD using infrastructure as code (IaC) and how do we shift security as "far left" as possible?.
 3. Policy - What internal and external policies are required to achieve security and compliance mandates? Do these policies reflect your business’s operating environment?
 4. Technology - What technology is required for you to deliver on the benefits of cloud native and support people, processes and policy as well as the technology for CI/CD, adoption of GitOps, observability, security, storage, networking, etc.
+5. Business outcomes - 
 
 ## But what if we don’t fit this model…
 
@@ -83,6 +85,12 @@ You may be ready to start your cloud native journey if you meet the following cr
 * Your applications may rely on infrastructure solutions for high availability, which in turn may be more costly than you’d like
 * Your server estate could range from single physical or virtual servers with low levels of availability, through to highly available clusters. Scaling could be a real challenge and may require considerable investment in money, time and planning.
 * You may have started to dip your toe into a 'Everything as Code' model. i.e. started to script your infrastructure with Terraform.
+
+### Business Outcomes
+
+* Your business is growing and needs the ability to scale to meet demand.
+* Your business needs to improve and/or deliver an exceptional customer experience.
+* Your business needs to get features to market faster.
 
 The Cloud Native Maturity Model Journey
 
