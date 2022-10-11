@@ -87,7 +87,7 @@ We know you already have great people, but they need to be equipped to take on t
 
 ## Security
 
-With all the many attack vectors that have to be mitigated remotely in a cloud-native context, a security-first posture for all aspects of the application lifecycle (including software delivery and ongoing operation/maintenance).
+With all the many attack vectors that have to be mitigated remotely in a cloud-native context, it is imparative to have a security-first posture for all aspects of the application lifecycle (including software delivery and ongoing operation/maintenance).
 
 * Level 1: Default security settings will be used and will work in pre-production. You’ll spend time identifying your open source security posture and conduct a security POC of the pre-production environment so that both Dev, Ops and security understands what is required in cloud native workloads.
 
