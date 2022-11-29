@@ -20,7 +20,7 @@ Working from level one to five, your team will be new to the technology with som
 
 * Level 2: Individuals are actively invested in training and skills. The outcome is that small pockets of SMEs and expertise are appearing. DevOps has started to appear with inclusion of cloud skill engineers and developer groups offering platform skills. Cloud Native efforts are also owned by members of leadership.
 
-* Level 3: The team’s competency is growing and there is commitment from Dev, Ops and security. You are formalizing expertise around a cloud native center of excellence. Cloud Native becomes a first-class citizen for strategy.
+* Level 3: The team’s competency is growing and there is commitment from Dev, Ops and security. You are formalizing expertise and curating standards and accelerators. Cloud Native becomes a first-class citizen for strategy.
 
 * Level 4: As you improve, you are shifting competency to the development team for them to self-service. Full commitment from leadership.
 
@@ -34,7 +34,7 @@ With the adoption of cloud native technologies, your business will undertake org
 
 * Level 2: Organizational change is happening. You will define project teams, create agile project groups and have quick feedback/testing loops.
 
-* Level 3: As your people’s competency grows, the organization structure is now in place to support best practices. You will have formalized responsibilities. A common pattern used for this structure often embraces agile and scrum.
+* Level 3: As your people’s competency grows, the organization structure is now in place to support best practices and these are curated and encoded for reuse. You will have formalized responsibilities and embrace an agile methodology.
 
 * Level 4: Cloud is now the default infrastructure for all services. The business is now requesting services from DevSecOps vs. requesting traditional servers.  
 
@@ -42,11 +42,13 @@ With the adoption of cloud native technologies, your business will undertake org
 
 ## Teams and Decentralization
 
+Just like workloads in the cloud, your teams will become fit-to-purpose and highly scalable.
+
 * Level 1: Teams are exploring cloud native tooling, primarily Kubernetes.  However, this is not just for the sake of exploring, but rather it is with the goal of reaching production.  All work is generally taking place within a formal MVP program.
 
-* Level 2: We are starting to formalize central services and responsibilities, including the consolidation of tooling, as well as the culling or evaporation of non-cloud native tooling.
+* Level 2: We are starting to formalize central services and responsibilities, including the consolidation of tooling, as well as the deprecation of non-cloud native tooling.
 
-* Level 3: You’re really starting to see a high degree of centralisation, with clear and understood responsibilities. There may however be a decrease in velocity and chokepoints in the process. Things may start to slow down.
+* Level 3: You’re really starting to see a high degree of centralisation, with clear and understood responsibilities. A balance must be struck, however, between flexibility and velocity: exceptions or customizations to standardized support may introduce validation and approval bottlenecks.
 
 * Level 4: As the platform becomes more established, you can really start the process of decentralization. You can work on the development of a self-service portal incorporating the policies and processes of your organization to enable developer service ownership.
 
@@ -64,11 +66,11 @@ Your organization is committed to decentralization and will employ “teams of t
 
 * Level 4: Feedback is extended from application metrics through to platform and non-functional requirements with clear mapping of value streams to technological implementation. Developers are able to quickly test complex scenarios with many unknowns, cloud and application risks are easily and quickly identified and patched.
 
-* Level 5: The group has strong ability to recover and maintain throughput tolerating individuals joining and leaving. Business decisions are well informed by rich and accurate data across all teams in the organization allowing adoption of FinOps.
+* Level 5: The group has strong ability to recover and maintain throughput, tolerating individuals joining and leaving. Business decisions are well informed by rich and accurate data across all teams in the organization allowing adoption of FinOps.
 
 ## Upskilling Developers
 
-The maturity of your people will include upskilling the development team.
+We know you already have great people, but they need to be equipped to take on the new challenges inherent to the cloud.
 
 * Level 1: Your application team will be trained in 12 factor applications, microservice and cloud native patterns. You will also require developers who are quite comfortable with cloud native concepts and tooling such as kubectl in order to bootstrap your development team.
 
@@ -86,7 +88,7 @@ The maturity of your people will include upskilling the development team.
 
 ## Security
 
-The people implementing cloud native will need to focus on security.
+With all the many attack vectors that have to be mitigated remotely in a cloud-native context, it is imparative to have a security-first posture for all aspects of the application lifecycle (including software delivery and ongoing operation/maintenance).
 
 * Level 1: Default security settings will be used and will work in pre-production. You’ll spend time identifying your open source security posture and conduct a security POC of the pre-production environment so that both Dev, Ops and security understands what is required in cloud native workloads.
 
