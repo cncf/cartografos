@@ -77,10 +77,6 @@ weight = 1
 
 # Everything below this are Site Params
 
-# Comment out if you don't want the "print entire section" link enabled.
-[outputs]
-section = ["HTML", "print", "RSS"]
-
 [params]
 copyright = "CNCF"
 privacy_policy = "https://policies.google.com/privacy"
@@ -195,17 +191,3 @@ enable = false
   icon = "fa fa-envelope"
   desc = "Discuss development issues around the project"
 
-# hugo module configuration
-
-[module]
-  # uncomment line below for temporary local development of module
-  # replacements = "github.com/google/docsy -> ../../docsy"
-  [module.hugoVersion]
-    extended = true
-    min = "0.75.0"
-  [[module.imports]]
-    path = "github.com/google/docsy"
-    disable = false
-  [[module.imports]]
-    path = "github.com/google/docsy/dependencies"
-    disable = false    
