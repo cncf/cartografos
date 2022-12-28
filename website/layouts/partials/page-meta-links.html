@@ -1,5 +1,10 @@
 {{ if .Path }}
-{{- $path := ($.Path) -}}
+{{ $path := "" }}
+{{ with .File }}
+  {{ $path = .Path }}
+{{ else }}
+  {{ $path = .Path }}
+{{ end }}
 {{ $pathFormatted := replace $path "\\" "/" }}
 {{- $prefix := index (split $path "/") 0 -}}
 {{- $github := index ($.Site.Param "github") $prefix -}}
