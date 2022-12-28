@@ -10,6 +10,8 @@ enableMissingTranslationPlaceholders = true
 
 enableRobotsTXT = true
 
+theme = ["docsy"]
+
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
@@ -190,4 +192,3 @@ enable = false
   url = "https://example.org/mail"
   icon = "fa fa-envelope"
   desc = "Discuss development issues around the project"
-
