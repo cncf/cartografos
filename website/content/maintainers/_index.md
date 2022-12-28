@@ -1,9 +1,9 @@
 
 ---
-title: "Project Guidance"
-linkTitle: "Maintainers"
-weight: 30
+title: "Cloud Native Maturity Model"
+linkTitle: "Maturity Model"
+weight: 10
 menu:
   main:
-    weight: 30
+    weight: 10
 ---

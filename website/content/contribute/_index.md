@@ -1,9 +1,9 @@
 ---
-title: Contribution Guides to the CNCF Ecosystem
-linkTitle: "Contributors"
+title: How to Contribute
+linkTitle: "Contribute"
 menu:
   main:
-    weight: 20
+    weight: 30
 ---
 
 Welcome! Are you interested in contributing to one of CNCF hosted projects? This repository should help you. It contains information and guidelines about contributions to CNCF projects.

@@ -1,7 +1,3 @@
 {{ define "main" }}
-<div class="external-content">
-{{ with .Content }}
-</div>
-{{ . }}
-{{ end }}
+{{ .Render "content" }}
 {{ end }}
