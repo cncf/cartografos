@@ -2,7 +2,7 @@ baseURL = "/"
 title = "Cloud Native Maturity Model"
 
 # Language settings
-contentDir = "content/en"
+contentDir = "content"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
