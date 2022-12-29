@@ -24,7 +24,7 @@
   </div>
   <div id="content-desktop"></div>
   {{ end -}}
-  <nav class="collapse td-sidebar-nav{{ if .Site.Params.ui.sidebar_menu_foldable }} foldable-nav{{ end }}" id="td-section-nav">
+  <nav class="collapse mt-3 td-sidebar-nav{{ if .Site.Params.ui.sidebar_menu_foldable }} foldable-nav{{ end }}" id="td-section-nav">
     {{ if  (gt (len .Site.Home.Translations) 0) -}}
     <div class="nav-item dropdown d-block d-lg-none">
       {{ partial "navbar-lang-selector.html" . }}
@@ -32,7 +32,7 @@
     {{ end -}}
 
     {{ if not .Params.hide_sidebar_nav }}
-      {{ $navRoot := cond (and (ne .Params.toc_root true) (eq .Site.Home.Type "docs")) .Site.Home .FirstSection -}}
+      {{ $navRoot := .Site.Home -}}
       {{ $ulNr := 0 -}}
       {{ $ulShow := cond (isset .Site.Params.ui "ul_show") .Site.Params.ui.ul_show 1 -}}
       {{ $sidebarMenuTruncate := cond (isset .Site.Params.ui "sidebar_menu_truncate") .Site.Params.ui.sidebar_menu_truncate 50 -}}

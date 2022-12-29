@@ -1,3 +1,3 @@
 ---
-title: Level 3
+title: Level 3 - Scale
 ---

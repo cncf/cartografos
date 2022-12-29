@@ -13,4 +13,4 @@ About the Cloud Native Maturity Model, how it was built, the team involved, etc.
 
 {{% /blocks/lead %}}
 
-In-depth discription.
+## In-depth discription.
