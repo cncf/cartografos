@@ -1,6 +1,5 @@
 ---
 title: "Maturity Model"
-type: single
 ---
 
 *This is an introduction to the Cloud Native Maturity Model and any other content we want on the homepage.*
