@@ -1,7 +1,7 @@
 ---
 title: How to Contribute
 linkTitle: "Contribute"
-hide_sidebar_nav: true
+toc_hide: true
 menu:
   main:
     weight: 30
