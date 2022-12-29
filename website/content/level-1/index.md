@@ -1,10 +1,8 @@
 ---
 title: "Level 1 - Build"
+description: >
+   You have a baseline cloud native implementation in place and are in pre-production.
 ---
-
-{{% blocks/lead color="primary" align="left" %}}
-You have a baseline cloud native implementation in place and are in pre-production.
-{{% /blocks/lead %}}
 
 ## People 
 
