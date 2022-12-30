@@ -4,7 +4,7 @@ description: >
    You have a baseline cloud native implementation in place and are in pre-production.
 ---
 
-## People 
+## <i class="fas fa-users"></i> People 
 
 ### People Overview
 
@@ -40,7 +40,7 @@ Cloud Native Computing Foundation (CNCF) serves as the vendor-neutral home for m
 
 In order for you to build a sustainable ecosystems for cloud native infrastructure is it important to have your team invest in the CNCF Certifications. It is unlikely you’ll achieve certifications in level 1. 
 
-## Process
+## <i class="fas fa-cogs"></i> Process
 
 ### Process Overview
 
@@ -69,7 +69,7 @@ Your process will include logging and auditing. This can be based on internal re
 
 Manual log scraping is likely ad-hoc and you may not have a central logging point or SIEM.
 
-## Policy
+## <i class="fas fa-edit"></i> Policy
 
 ### Policy Overview
 
@@ -89,7 +89,7 @@ You will need policies in place to achieve compliance especially in highly regul
 
 Spend time understanding your compliance requirements: CIS, NIST, PCI for example. Design SLOs and priorities for compliance. This will take time and may not be a pre-production requirement, but will increase as you move to production.
 
-## Technology
+## <i class="fas fa-server"></i> Technology
 
 ### Technology Overview
 
@@ -122,7 +122,7 @@ Start building your secured CI-CD pipeline if you don’t have one already and d
 
 When just starting out, much of your testing will be conducted manually on your business application that you’ve identified as your initial production candidate. With Kubernetes you’ll be focussing on your general network connectivity, and ensuring you’re able to deploy your applications. You will have smoke tests, and UAT testing.
 
-## Business Outcomes
+## <i class="fas fa-building"></i> Business Outcomes
 
 Level 1 of the Cloud Native Maturity Model is where your team has a baseline implementation in place and you are in pre-production. Here you will have completed a successful POC. Based on the POC, you should have initial findings on how cloud native will help improve your app. In a dev environment, you could, for example, have seen that:
 - An app is using less resources (cost savings / more efficient use)

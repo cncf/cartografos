@@ -3,7 +3,7 @@ title: Level 3 - Scale
 description: Your competency is growing and you are defining processes for scale.
 ---
 
-## People 
+## <i class="fas fa-users"></i> People 
 
 ### People Overview
 
@@ -41,7 +41,7 @@ This program provides assurance that CKAs have the skills, knowledge, and compet
 
 This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
 
-## Process
+## <i class="fas fa-cogs"></i> Process
 
 ### Process Overview
 
@@ -63,7 +63,7 @@ Implement automatic continuous scanning to flag misconfigurations or security is
 
 Start to audit and implement initial alerts. Filter noise.
 
-## Policy
+## <i class="fas fa-edit"></i> Policy
 
 ### Policy Overview
 
@@ -77,7 +77,7 @@ Create policies based on metrics refined around security, efficiency and reliabi
 
 Policy compliance and auditing carried out through automated means on Kubernetes. This will likely include initial development of policy-as-code.
 
-## Technology
+## <i class="fas fa-server"></i> Technology
 
 ### Technology Overview
 
@@ -107,7 +107,7 @@ It’s now time to step up and automate your deployment guardrails and security 
 
 On the basis of your experiments in the previous level, you’ll be implementing this in production, and including good alerting and good dashboards, building out your observability capabilities.
 
-## Business Outcomes
+## <i class="fas fa-building"></i> Business Outcomes
 
 In Level 3, your competency is growing and you are scaling. Up to this point, your teams have been focusing on learning cloud native. In this stage, your business outcomes are dependent on your team’s experience. As the team builds confidence, their competency around security, efficiency and reliability grows and they will implement defined processes for scale. All of these will impact your services and applications as the team improves. Your business should start to notice operations are more scalable and if not you will need to improve lines of communication to demonstrate this scale, or review the actual scaling results, so they can be optimized further.
 

@@ -3,7 +3,7 @@ title: Level 2 - Operate
 description: The cloud native foundation is established and you are moving to production.
 ---
 
-## People 
+## <i class="fas fa-users"></i> People 
 
 ### People Overview
 
@@ -45,7 +45,7 @@ This program provides assurance that CKAs have the skills, knowledge, and compet
 
 This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
 
-## Process
+## <i class="fas fa-cogs"></i> Process
 
 ### Process Overview
 
@@ -68,7 +68,7 @@ Build security into your CI process including container scanning and configurati
 Spend time defining log aggregation.
 
 
-## Policy
+## <i class="fas fa-edit"></i> Policy
 
 ### Policy Overview
 As your services approach production, you have initial policies agreed as standard and these are mostly documented.
@@ -81,7 +81,7 @@ Define initial resource metrics and start collecting data.
 
 Initial auditing, carried out manually or through simple scripts.
 
-## Technology
+## <i class="fas fa-server"></i> Technology
 
 ### Technology Overview
 
@@ -111,7 +111,7 @@ Ensure that your development and operations groups are following good practice w
 
 Now that you are in production, you’ll be experimenting with tooling to help with security, policy management, workload misconfigurations, resource requests, limits and observability, in your staging or development environment.
 
-## Business Outcomes
+## <i class="fas fa-building"></i> Business Outcomes
 
 Cloud native is now established and your technologists are moving to production. While the technical outcome of Level 2 is a fully functional application or group of applications migrated to cloud native tools and practices, the business outcomes are the ability to evaluate the benefits of the migrations. This is also the level that most customers/corporations get to and plateau. This is when a cloud native maturity model shows its true value.
 

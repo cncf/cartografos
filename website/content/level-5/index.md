@@ -3,7 +3,7 @@ title: Level 5 - Optimize
 description: You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
 ---
 
-## People 
+## <i class="fas fa-users"></i> People 
 
 ### People Overview
 
@@ -28,7 +28,7 @@ The group has strong ability to recover and maintain throughput tolerating indiv
 
 Advanced testing and release patterns developed and in use, such as blue/green or canary
 
-## Process
+## <i class="fas fa-cogs"></i> Process
 
 ### Process Overview
 
@@ -47,7 +47,7 @@ The software supply chain is secured, with reproducible builds and software bill
 ### Audit and Logs
 You are enforcing audits.
 
-## Policy
+## <i class="fas fa-edit"></i> Policy
 
 ### Policy Overview
 
@@ -61,7 +61,7 @@ Contribute policies to the open source community and active engagement with regu
 
 Compliance never ends! You will tighten the feedback loop with stakeholders and take advantage of advanced machine learning and other tooling to understand what is normal for your environment and ensure visibility of anomalous conditions in a large volume of compliance data.
 
-## Technology
+## <i class="fas fa-server"></i> Technology
 
 ### Technology Overview
 
@@ -91,7 +91,7 @@ Here you will have ongoing optimization and adjustment in line with new requirem
 
 Here we further optimize the automation used in responses to issues by working to prevent mistakes from entering production in the first place.
 
-## Business Outcomes
+## <i class="fas fa-building"></i> Business Outcomes
 
 This phase of optimization will see lots of changes with people, process, policy and technology. For the business, you should have achieved your business goals and have the measurable results to show your leadership teams, CEO, CFO or the board.
 

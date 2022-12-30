@@ -3,7 +3,7 @@ title: Level 4 - Improve
 description: You are improving security, policy and governance across your environment.
 ---
 
-## People 
+## <i class="fas fa-users"></i> People 
 
 ### People Overview
 
@@ -36,7 +36,7 @@ Organizations may wish to consider the CKS around level 4.
 #### Certified Kubernetes Security Specialist (CKS)
 This program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
 
-## Process
+## <i class="fas fa-cogs"></i> Process
 
 ### Process Overview
 
@@ -58,7 +58,7 @@ Ensure security remediation is automated and/or identified automatically with re
 
 Audit and alerts become mainstream and are made mandatory across applications.
 
-## Policy
+## <i class="fas fa-edit"></i> Policy
 
 ### Policy Overview
 
@@ -72,7 +72,7 @@ Customize policies based on your business needs and minimize exceptions.
 
 Expansion of policy tooling to include applications such as traffic proxies, service mesh, message buses and Linux. This will broaden the scope of managed policies, but it will also help in having them under control by way of declarative configurations.
 
-## Technology
+## <i class="fas fa-server"></i> Technology
 
 ### Technology Overview
 
@@ -102,7 +102,7 @@ Apply your policy against production in case you haven’t already. You’ll con
 
 As your environment becomes more complex in production, some issue remediation may require adjusting your policy-as-code or components of your Infrastructure as Code, as well as your application. Issues may relate to more than one application so you will aggregate across applications to determine trends. These may relate to bugs such as memory leaks, as well as security or policy issues. Your remediation may be to fix them at source, ideally as ‘far left’ as possible, or otherwise building automation capable of fixing them when they occur, and tuning it over time.
 
-## Business Outcomes
+## <i class="fas fa-building"></i> Business Outcomes
 
 Level 4 is focused on improvements around security, policy and governance across your environment. The team can focus more of their time on your business instead of maintaining Kubernetes. Level 4 is also the next level where clients and customers plateau. And most customers can stay at this level as they further mature.
 
