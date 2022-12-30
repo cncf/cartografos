@@ -10,6 +10,8 @@ description: Welcome! Are you interested in contributing to the Cloud Native Mat
 
 ## Content Guidelines
 
+The Cloud Native Maturity Model content is stored in [this GitHub repo](https://github.com/cncf/cartografos) where you’ll find a list of [issues](https://github.com/cncf/cartografos/issues), [PRs](https://github.com/cncf/cartografos/pulls), and [discussions](https://github.com/cncf/cartografos/discussions) about the content.
+
 *more info on this*
 
 ## Contributing to the Website
