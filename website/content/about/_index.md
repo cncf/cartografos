@@ -9,4 +9,4 @@ description: >
    About the Cloud Native Maturity Model, how it was built, the team involved, etc.
 ---
 
-*In-depth discription.*
+*In-depth description.*
