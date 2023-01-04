@@ -1,5 +1,5 @@
 ---
-title: About Cloud Native Maturity Model
+title: About the Maturity Model
 linkTitle: About
 toc_hide: true
 menu:
