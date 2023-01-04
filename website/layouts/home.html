@@ -1,9 +1,11 @@
 {{ define "main" }}
 
-{{ with .Content }}
 <div class="td-content">
-{{ . }}
+    <h1>{{ .Title }}</h1>
+    
+    {{ with .Content }}
+    {{ . }}
+    {{ end }}
 </div>
-{{ end }}
 
 {{ end }}
