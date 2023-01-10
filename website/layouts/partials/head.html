@@ -15,8 +15,6 @@
 {{- template "_internal/schema.html" . -}}
 {{- partial "twitter_cards.html" . -}}
 {{ if hugo.IsProduction }}
-{{ template "_internal/google_analytics_async.html" . }}
-<!-- also include GA4 property -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6VMPWFRDW"></script>
 <script>
