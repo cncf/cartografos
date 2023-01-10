@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {{ hugo.Generator }}
-{{ if eq (getenv "HUGO_ENV") "production" }}
+{{ if and hugo.IsProduction -}}
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 {{ else }}
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -14,7 +14,7 @@
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/schema.html" . -}}
 {{- partial "twitter_cards.html" . -}}
-{{ if eq (getenv "HUGO_ENV") "production" }}
+{{ if hugo.IsProduction }}
 {{ template "_internal/google_analytics_async.html" . }}
 <!-- also include GA4 property -->
 <!-- Google tag (gtag.js) -->
