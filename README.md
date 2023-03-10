@@ -1,27 +1,27 @@
-# The Cartografos Working Group
+# Die Cartografos-Arbeitsgruppe
 
-The cloud native landscape and ecosystem is evolving quickly. The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.
+Die Cloud-Native-Landschaft und das Ökosystem entwickeln sich schnell weiter. Die Cartografos-Arbeitsgruppe hat sich zum Ziel gesetzt, Tools zur Verfügung zu stellen, die Anwendern und Endnutzern helfen, sich in der CNCF-Landschaft und dem breiteren Cloud-Native-Ökosystem zurechtzufinden.
 
-We want to educate and inform users with effective and practical guidance to help them understand the cloud native ecosystem. We do this by collaborating with groups inside and outside the CNCF.
+Wir möchten die Nutzer mit effektiven und praktischen Anleitungen informieren und ihnen helfen, das Cloud Native Ecosystem zu verstehen. Wir tun dies durch die Zusammenarbeit mit Gruppen innerhalb und außerhalb der CNCF.
 
-We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
+Wir engagieren uns für CNCF-Projekte auf Sandbox-, Incubation- und Graduate-Ebene, um eine effektive und akkurate Repräsentation innerhalb der Assets sowie der CNCF Technical Advisory Groups sicherzustellen. Wir bieten auch ein herstellerneutrales Forum für Validierung, Diskussion und Feedback.
 
-Areas in scope of the working group are CNCF non-code assets such as the CNCF Landscape, the Trail Map, as well as a maturity model and landscape guide - the last two under development. Additionally any other assets that help cloud native technology adopters navigate the various CNCF and cloud native community projects.
+Die Arbeitsgruppe befasst sich mit Nicht-Code-Assets der CNCF wie der CNCF-Landschaft, der Trail Map sowie einem Reifegradmodell und einer Cloud Native Landscape - die letzten beiden sind in Entwicklung. Darüber hinaus alle anderen Assets, die Cloud Native-Technologie-Anwendern helfen, sich in den verschiedenen CNCF- und Cloud Native-Community-Projekten zurechtzufinden.
 
-Currently assets under development:
+Derzeit in der Entwicklung befindliche Assets:
 
-* The Cloud Native Maturity Model
-* The CNCF Landscape Guide, in association with the CNCF Business Value Subcommittee.
+* Das Cloud Native Maturity Model
+* Die CNCF Landscape Guide, in Zusammenarbeitmit dem CNCF Business Value Subcommittee.
 
 ## Cloud Native Maturity Model Website
 
-The Cloud Native Maturity Model is published to the CNCF website.
+Das Cloud Native Maturity Model wird auf der CNCF-Website veröffentlicht.
 
-It can be found here: https://maturitymodel.cncf.io/
+Es ist hier zu finden: https://maturitymodel.cncf.io/
 
-## Cloud Native Maturity Model Reference Documents
+## Cloud Native Maturity Model Referenzdokumente
 
-The Cloud Native Maturity Model Reference documents are located in this repository in the `reference` directory. We suggest reading the [prologue](./reference/prologue.md) document first, followed by the five key reference documents:
+Die Referenzdokumente des Cloud Native Maturity Models befinden sich in diesem Repository im Verzeichnis `reference`. Wir empfehlen, zuerst das Dokument [prologue](./reference/prologue.md) zu lesen, gefolgt von den fünf wichtigsten Referenzdokumenten:
 
 * [People](./reference/people.md)
 * [Process](./reference/process.md)  
@@ -29,30 +29,30 @@ The Cloud Native Maturity Model Reference documents are located in this reposito
 * [Technology](./reference/technology.md)
 * [Business Outcomes](./reference/business_outcomes.md)
 
-As these are living documents, we welcome your feed back and invite you to submit issues and pull requests.
+Da es sich hierbei um lebende Dokumente handelt, freuen wir uns über Ihre Rückmeldungen und laden Sie ein, Probleme und Pull Requests einzureichen.
 
-## Come join us
+## Machen Sie mit
 
-Anyone interested in educating and informing users with guidance to understand the cloud native ecosystem is welcome to join the Cartografos Working Group! Above we showcase assets under development.  
+Jeder, der daran interessiert ist, Nutzer mit Anleitungen zum Verständnis des Cloud-Native-Ökosystems aufzuklären und zu informieren, ist herzlich eingeladen, der Cartografos Working Group beizutreten! Oben zeigen wir die in Entwicklung befindlichen Assets.  
 
-Please also join our our CNCF Slack channel, `#cartografos-wg`
+Bitte treten Sie auch unserem CNCF Slack-Kanal bei, `#cartografos-wg`.
 
-# Meeting Information 
+# Informationen zum Treffen
 
 CNCF Slack #cartografos-wg
 
-Meeting times
+Zeiten
 
-US: Bi-weekly on Tuesdays at 1pm US/EST
+US: Zweiwöchentlich dienstags um 19 Uhr CET
 
-To participate in the working group, please sign up to the CNCF’s community platform at https://community.cncf.io/ and join https://community.cncf.io/cncf-cartografos-working-group/. 
-Meetings are listed on the same page and you should RSVP to each meeting instance you want to attend: https://community.cncf.io/cncf-cartografos-working-group/.
+Um an der Arbeitsgruppe teilzunehmen, melden Sie sich bitte bei der Community-Plattform der CNCF unter https://community.cncf.io/ an und treten Sie https://community.cncf.io/cncf-cartografos-working-group/ bei.
+Die Treffen sind auf der gleichen Seite aufgelistet, und Sie sollten für jedes Treffen, an dem Sie teilnehmen möchten, eine Einverständniserklärung abgeben: https://community.cncf.io/cncf-cartografos-working-group/.
 
 [Meeting minutes and agenda](https://docs.google.com/document/d/15aRVtbMT9F472wOv8bBU7Wg893ugXUf-WtP3g9Ob_KY/edit#heading=h.itd3wrdelhab)
 
-# Questions
+# Fragen
 
-Any questions can be directed to one of the co-chairs: 
+Alle Fragen können an einen der beiden Vorsitzenden gerichtet werden:
 
 Leadership:
 Simon Forster, co-chair, simon@stackegy.com
