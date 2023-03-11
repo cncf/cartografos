@@ -1,55 +1,55 @@
-# Cloud Native Maturity Model - Policy
+# Cloud Native Maturity Model - Richtlinien
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of six separate documents - the [Prologue](./prologue.md) and the five key reference documents:
+Das Cloud Native Maturity Model besteht aus sechs separaten Dokumenten - dem [Prolog](./prologue.md) und den fünf wichtigsten Referenzdokumenten:
 
-* [People](./people.md)
-* [Process](./process.md)
-* [Policy](./policy.md)
-* [Technology](./technology.md)
-* [Business Outcomes](./business_outcomes.md)
+* [Personen](./people.md)
+* [Prozess](./process.md)
+* [Richtlinien](./policy.md)
+* [Technologie](./technology.md)
+* [Business-Ergebnis](./business_outcomes.md)
 
-## Introduction
+## Einführung
 
-The Cloud Native Maturity Model covers four major dimensions - People, Process, Policy and Technology. This paper addresses policy, the critical implementation of internal requirements, and compliance to external regulations. Your goal as a cloud native practitioner should be to implement policies that enable and encourage shift left security. As your maturity grows, you will seek to automate policy enforcement in CI/CD and continuously monitor against policies in production.
+Das Cloud Native Maturity Model umfasst vier Hauptdimensionen: Menschen, Prozesse, Richtlinien und Technologie. Dieses Papier befasst sich mit Richtlinien, der kritischen Umsetzung interner Anforderungen und der Einhaltung externer Vorschriften. Ihr Ziel als Cloud Native-Anwender sollte es sein, Richtlinien zu implementieren, die eine Verlagerung der Sicherheit nach links ermöglichen und fördern. Mit zunehmender Reife werden Sie versuchen, die Durchsetzung von Richtlinien in CI/CD zu automatisieren und die Einhaltung von Richtlinien in der Produktion kontinuierlich zu überwachen.
 
-We recognize policy adoption is a gradient. Every organization has a different risk appetite. Use this document as a guide to how you can define and enforce policy. By level 5, you will have achieved full policy maturity, however your mileage may vary.
+Wir sind uns bewusst, dass die Annahme von Richtlinien ein Gefälle aufweist. Jede Organisation hat eine andere Risikobereitschaft. Verwenden Sie dieses Dokument als Leitfaden für die Definition und Durchsetzung von Richtlinien. Mit Stufe 5 haben Sie die volle Richtlinienreife erreicht, aber das kann sich ändern.
 
-* Level 1: You will have a limited set of documented policies in place to support services you're building in the cloud.
+* Level 1: Sie verfügen über eine begrenzte Anzahl dokumentierter Richtlinien zur Unterstützung der Dienste, die Sie in der Cloud aufbauen.
 
-* Level 2: As your services approach production, you have initial policies agreed as standard and these are mostly documented.
+* Level 2: Wenn sich Ihre Dienste der Produktion nähern, haben Sie erste Richtlinien als Standard vereinbart, die meist dokumentiert sind.
 
-* Level 3: You will implement policy-as-code and build this into your CI pipeline.
+* Level 3: Sie werden policy-as-code implementieren und in Ihre CI-Pipeline einbauen.
 
-* Level 4: You now have defined SLAs around policies and remediation.
+* Level 4: Sie haben nun SLAs für Richtlinien und Abhilfemaßnahmen definiert.
 
-* Level 5: Based on your learnings, you will refine your policies as your organization achieves maturity, taking advantage of technologies such as machine learning in order to improve detection and enforcement.
+* Level 5: Auf der Grundlage der gewonnenen Erkenntnisse werden Sie Ihre Richtlinien mit zunehmender Reife Ihres Unternehmens verfeinern und Technologien wie maschinelles Lernen nutzen, um die Erkennung und Durchsetzung zu verbessern.
 
-## Policy Creation
+## Richtliniengestaltung
 
-You will need to translate your organization’s policies and compliance requirements to your cloud native environment.
+Sie müssen die Richtlinien und Compliance-Anforderungen Ihres Unternehmens auf Ihre  Cloud-Native-Umgebung übertragen.
 
-* Level 1: Spend time understanding your application's functional and architectural requirements.
+* Level 1: Nehmen Sie sich Zeit, um die funktionalen und architektonischen Anforderungen Ihrer Anwendung zu verstehen.
 
-* Level 2: Define initial resource metrics and start collecting data.
+* Level 2: Definieren Sie erste Ressourcenmetriken und beginnen Sie mit der Datenerfassung.
 
-* Level 3: Create policies based on metrics refined around security, efficiency and reliability.
+* Level 3: Erstellen Sie Richtlinien auf der Grundlage von Metriken, die auf Sicherheit, Effizienz und Zuverlässigkeit ausgerichtet sind.
 
-* Level 4: Customize policies based on your business needs and minimize exceptions.
+* Level 4: Passen Sie die Richtlinien an die Anforderungen Ihres Unternehmens an und minimieren Sie Ausnahmen.
 
-* Level 5: Contribute policies to the open source community and active engagement with regulators and other external stakeholders.
+* Level 5: Beitrag zu Strategien für die Open-Source-Community und aktives Engagement für Regulierungsbehörden und andere externe Interessengruppen.
 
 ## Compliance
 
-You will need policies in place to achieve compliance especially in highly regulated industries. For compliance, there is a gradient of what you will achieve.
+Vor allem in stark regulierten Branchen benötigen Sie Richtlinien, um die Einhaltung der Vorschriften zu gewährleisten. Bei der Einhaltung der Vorschriften gibt es ein gewisses Gefälle, was erreichbar ist.
 
-* Level 1: Spend time understanding your compliance requirements: CIS, NIST, PCI for example. Design SLOs and priorities for compliance. This will take time and may not be a pre-production requirement, but will increase as you move to production.
+* Level 1: Nehmen Sie sich Zeit, um Ihre Compliance-Anforderungen zu verstehen: CIS, NIST, PCI zum Beispiel. Entwickeln Sie SLOs und Prioritäten für die Einhaltung. Dies wird Zeit in Anspruch nehmen und ist möglicherweise keine Vorbedingung für die Produktion, wird aber mit dem Übergang zur Produktion zunehmen.
 
-* Level 2: Initial auditing, carried out manually or through simple scripts.
+* Level 2: Erstprüfung, die manuell oder durch einfache Skripte durchgeführt wird.
 
-* Level 3: Policy compliance and auditing carried out through automated means on Kubernetes. This will likely include initial development of policy-as-code.
+* Level 3: Die Einhaltung von Richtlinien und die Prüfung erfolgt durch automatisierte Mittel in Kubernetes. Dies wird wahrscheinlich die anfängliche Entwicklung von "Policy-as-Code" beinhalten.
 
-* Level 4: Expansion of policy tooling to include applications such as traffic proxies, service mesh, message buses and Linux. This will broaden the scope of managed policies, but it will also help in having them under control by way of declarative configurations.
+* Level 4: Erweiterung des Policy-Toolings auf Anwendungen wie Traffic Proxies, Service Mesh, Message Buses und Linux. Dies wird den Anwendungsbereich der verwalteten Richtlinien erweitern, aber auch dazu beitragen, sie durch deklarative Konfigurationen unter Kontrolle zu haben.
 
-* Level 5: Compliance never ends! You will tighten the feedback loop with stakeholders and take advantage of advanced machine learning and other tooling to understand what is normal for your environment and ensure visibility of anomalous conditions in a large volume of compliance data.
+* Level 5: Compliance hört nie auf! Sie werden die Feedbackschleife mit den Stakeholdern straffen und die Vorteile des fortschrittlichen maschinellen Lernens und anderer Tools nutzen, um zu verstehen, was in Ihrer Umgebung normal ist, und um sicherzustellen, dass Anomalien in einer großen Menge von Compliance-Daten sichtbar werden.
