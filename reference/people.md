@@ -10,112 +10,112 @@ The Cloud Native Maturity Model is composed of six separate documents - the [Pro
 * [Technology](./technology.md)
 * [Business Outcomes](./business_outcomes.md)
 
-## Introduction
+## Einleitung
 
-As you adopt cloud native technologies, you and your team will become increasingly knowledgeable. The Cloud Native Maturity Model covers four major dimensions - People, Process, Policy and Technology.  This paper addresses people - the key to success of your deployment.
+Mit der Einführung von Cloud-Native-Technologien werden Sie und Ihr Team immer sachkundiger. Das Cloud Native Maturity Model umfasst vier Hauptdimensionen: Menschen, Prozesse, Richtlinien und Technologie.  Dieses Papier befasst sich mit den Menschen - dem Schlüssel zum Erfolg Ihrer Implementierung.
 
-Working from level one to five, your team will be new to the technology with some basic technical understanding. Over time, your team will be actively invested in training and skill development, grow competency and shift it to the development team. You’ve reached maturity when you have DevOps and DevSecOps working and your team is comfortable with experimenting with new technologies and sandbox trials. Your leadership team has accepted cloud native as the future and understands the value it brings to the business. Your leadership team actively drives agile transformation.
+Wenn Sie von Level eins bis fünf arbeiten, ist Ihr Team neu in der Technologie und verfügt über ein gewisses technisches Grundverständnis. Im Laufe der Zeit wird Ihr Team aktiv in Schulungen und die Entwicklung von Fertigkeiten investieren, seine Kompetenzen ausbauen und sie an das Entwicklungsteam weitergeben. Sie haben sie nötige Reife erreicht, wenn DevOps und DevSecOps funktionieren und Ihr Team mit neuen Technologien und Sandbox Trials experimentieren kann. Ihr Führungsteam hat Cloud Native als die Zukunft akzeptiert und versteht den Wert, den es für das Unternehmen hat. Ihr Führungsteam treibt die agile Transformation aktiv voran.
 
-* Level 1: Cloud native framework is driving your business and technical goals. You and your team are new to the technology, however do have some basic technical understanding and some pre-existing qualifications. Your business leaders understand the benefits of cloud native.
+* Level 1: Das Cloud-Native-Framework ist die Grundlage für Ihre geschäftlichen und technischen Ziele. Sie und Ihr Team sind neu in der Technologie, verfügen jedoch über ein grundlegendes technisches Verständnis und einige bereits vorhandene Qualifikationen. Ihre Unternehmensleiter verstehen die Vorteile von Cloud Native.
 
-* Level 2: Individuals are actively invested in training and skills. The outcome is that small pockets of SMEs and expertise are appearing. DevOps has started to appear with inclusion of cloud skill engineers and developer groups offering platform skills. Cloud Native efforts are also owned by members of leadership.
+* Level 2: Inidividuen investieren aktiv in Ausbildung und Qualifikation. Das Ergebnis ist, dass kleine Gruppen von Spezialisten und Fachleuten auftauchen. DevOps hat mit der Einbeziehung von Ingenieuren mit Cloud-Fähigkeiten und Entwicklergruppen, die Plattformfähigkeiten anbieten, begonnen zu erscheinen. Cloud Native-Bemühungen werden auch von Mitgliedern der Führungsebene getragen..
 
-* Level 3: The team’s competency is growing and there is commitment from Dev, Ops and security. You are formalizing expertise and curating standards and accelerators. Cloud Native becomes a first-class citizen for strategy.
+* Level 3: Die Kompetenz des Teams wächst und es gibt ein Engagement von Entwicklung, Ops und Security. Sie formalisieren das Fachwissen und kuratieren Standards und Beschleuniger. Cloud Native wird für die Strategie zur ersten Wahl.
 
-* Level 4: As you improve, you are shifting competency to the development team for them to self-service. Full commitment from leadership.
+* Level 4: Im rahmen der Verbesserung verlagern sich ihre Kompetenzen in den Self-Service der Entwicklungsteams. Es gibt ein vollst'ndiges Commitment der Führung.
 
-* Level 5: You've reached maturity, the organization is skilled and you have DevOps and DevSecOps working. Teams are comfortable experimenting with new technologies and sandbox trials.
+* Level 5: Sie haben den Reifegrad erreicht, die Organisation ist qualifiziert und DevOps und DevSecOps funktionieren. Die Teams experimentieren gerne mit neuen Technologien und Sandbox Experimenten.
 
-## Organizational Change
+## Organisatorischer Wandel
 
-With the adoption of cloud native technologies, your business will undertake organizational changes. You must be ready for this as teams, who you hire, and how you structure infrastructure and development will change.
+Mit der Einführung nativer Cloud-Technologien gibt es in Ihrem Unternehmen organisatorische Veränderungen. Seien sie darauf vorbereitet, wie sich die Teams, die Mitarbeiter und die Struktur von Infrastruktur und Entwicklung ändern wird.
 
-* Level 1: As you transform, you will have limited organizational support and will be in a proof of concept (POC) phase or be focused on only one application.
+* Level 1: Bei der Umstellung werden Sie nur über eine begrenzte organisatorische Unterstützung verfügen und sich in einer Proof-of-Concept-Phase (POC) befinden bzw. sich auf nur eine Anwendung konzentrieren.
 
-* Level 2: Organizational change is happening. You will define project teams, create agile project groups and have quick feedback/testing loops.
+* Level 2: Organisatorische Veränderungen finden statt. Sie werden Projektteams definieren, agile Projektgruppen bilden und schnelle Feedback-/Testschleifen haben.
 
-* Level 3: As your people’s competency grows, the organization structure is now in place to support best practices and these are curated and encoded for reuse. You will have formalized responsibilities and embrace an agile methodology.
+* Level 3: Während die Kompetenz Ihrer Mitarbeiter wächst, ist die Organisationsstruktur nun so angelegt, dass sie erprobte Verfahren unterstützt, und diese werden kuratiert und für die Wiederverwendung dokumentiert. Sie werden formalisierte Verantwortlichkeiten haben und agile Methoden anwenden.
 
-* Level 4: Cloud is now the default infrastructure for all services. The business is now requesting services from DevSecOps vs. requesting traditional servers.  
+* Level 4: Cloud ist jetzt die Standardinfrastruktur für alle Dienste. Das Unternehmen fordert nun Dienste von DevSecOps an, anstatt herkömmliche Server anzufordern.  
 
-* Level 5: At maturity, the entire organization is committed and onboarded to the cloud native environment.
+* Level 5: Bei Erreichen des Reifegrads ist das gesamte Unternehmen in die Cloud-Umgebung eingebunden und integriert.
 
-## Teams and Decentralization
+## Teams und Dezentralisierung
 
 Just like workloads in the cloud, your teams will become fit-to-purpose and highly scalable.
 
-* Level 1: Teams are exploring cloud native tooling, primarily Kubernetes.  However, this is not just for the sake of exploring, but rather it is with the goal of reaching production.  All work is generally taking place within a formal MVP program.
+* Level 1: Die Teams explorieren Cloud-native Tools, vor allem Kubernetes.  Dies geschieht jedoch nicht nur um der Erkundung willen, sondern vielmehr mit dem Ziel, die Produktion zu erreichen.  Alle Arbeiten finden im Allgemeinen im Rahmen eines offiziellen MVP-Programms statt.
 
-* Level 2: We are starting to formalize central services and responsibilities, including the consolidation of tooling, as well as the deprecation of non-cloud native tooling.
+* Level 2: Es beginnt Formalisierung zentraler Dienste und Zuständigkeiten, einschließlich der Konsolidierung von Werkzeugen und der Abschaffung von nicht cloudbasierten Werkzeugen.
 
-* Level 3: You’re really starting to see a high degree of centralisation, with clear and understood responsibilities. A balance must be struck, however, between flexibility and velocity: exceptions or customizations to standardized support may introduce validation and approval bottlenecks.
+* Level 3: Es zeichnet sich ein hohes Maß an Zentralisierung mit klaren und verständlichen Zuständigkeiten ab. Es muss jedoch ein Gleichgewicht zwischen Flexibilität und Schnelligkeit gefunden werden: Ausnahmen oder Anpassungen der standardisierten Unterstützung können zu Validierungs- und Genehmigungsengpässen führen.
 
-* Level 4: As the platform becomes more established, you can really start the process of decentralization. You can work on the development of a self-service portal incorporating the policies and processes of your organization to enable developer service ownership.
+* Level 4: Wenn sich die Plattform weiter etabliert hat, können Sie den Prozess der Dezentralisierung in Angriff nehmen. Sie können an der Entwicklung eines Selbstbedienungsportals arbeiten, das die Richtlinien und Prozesse Ihrer Organisation einbezieht, um die Eigenverantwortung der Entwickler für die Dienste zu ermöglichen.
 
-* Level 5: You now have self-provisioning amongst different groups, along with organizational acceptance of the self-service portal. The business benefits from service ownership.
+* Level 5: Sie haben nun die Möglichkeit der Selbstbereitstellung durch verschiedene Gruppen und die organisatorische Akzeptanz des Self-Service-Portals. Das Unternehmen profitiert von der Serviceverantwortung.
 
-## Developer Agility
+## Entwicklungsagilität
 
-Your organization is committed to decentralization and will employ “teams of teams”. This is an essential requirement of your people. Across the different levels of maturity, people will be implementing tools for automated testing, metrics and feedback. DevOps SMEs will appear around level 4 and you will have group cohesion. By level 5 maturity, agile is well incorporated into the organization.
+Ihre Organisation hat sich der Dezentralisierung verschrieben und wird "Teams von Teams" einsetzen. Dies ist eine wesentliche Anforderung an Ihre Mitarbeiter. In den verschiedenen Reifegraden werden die Mitarbeiter Tools für automatisierte Tests, Metriken und Feedback implementieren. DevOps-Spezialisten werden um Stufe 4 herum auftauchen und Sie werden einen Gruppenzusammenhalt haben. Bei Reifegrad 5 ist Agil in der Organisation fest verankert.
 
-* Level 1: Developers may have learned about Agile Manifesto and adopted Scrum Framework without necessarily including Operations. Developers may attempt to resolve external dependencies themselves, slowing down feedback, with incomplete features per sprint.
+* Level 1: Die Entwickler haben möglicherweise das Agile Manifest kennengelernt und das Scrum-Framework übernommen, ohne notwendigerweise die operativen Abläufe einzubeziehen. Die Entwickler versuchen möglicherweise, externe Abhängigkeiten selbst zu lösen, was das Feedback verlangsamt und zu unvollständigen Funktionen pro Sprint führt.
 
-* Level 2: The team is comfortable with technically challenging problems and how cloud native can help. There is an organizational commitment to decentralisation and automated testing of builds, with automated deployments to some environments.
+* Level 2: Das Team ist mit technisch anspruchsvollen Problemen vertraut und weiß, wie Cloud Native helfen kann. Es gibt eine organisatorische Verpflichtung zur Dezentralisierung und zum automatisierten Testen von Builds, mit automatischer Bereitstellung in einigen Umgebungen.
 
-* Level 3: Your people have implemented continuous delivery for all environments, including for complex releases and with built-in compliance testing. The ops team is now integrated into cross-functional teams, though individuals may not necessarily be able to do all functions.
+* Level 3: Ihre Mitarbeiter haben Continuous Delivery für alle Umgebungen implementiert, auch für komplexe Releases und mit integrierten Compliance-Tests. Das Ops-Team ist jetzt in funktionsübergreifende Teams integriert, auch wenn einzelne Mitarbeiter nicht unbedingt alle Funktionen übernehmen können.
 
-* Level 4: Feedback is extended from application metrics through to platform and non-functional requirements with clear mapping of value streams to technological implementation. Developers are able to quickly test complex scenarios with many unknowns, cloud and application risks are easily and quickly identified and patched.
+* Level 4: Das Feedback erstreckt sich von Anwendungsmetriken bis hin zu Plattform- und nicht-funktionalen Anforderungen mit klarer Zuordnung von Wertströmen zur technologischen Umsetzung. Entwickler sind in der Lage, komplexe Szenarien mit vielen Unbekannten schnell zu testen, Cloud- und Anwendungsrisiken werden einfach und schnell erkannt und behoben.
 
-* Level 5: The group has strong ability to recover and maintain throughput, tolerating individuals joining and leaving. Business decisions are well informed by rich and accurate data across all teams in the organization allowing adoption of FinOps.
+* Level 5: Die Gruppe ist in der Lage, sich zu erholen und den Durchsatz aufrechtzuerhalten, wobei sie den Zu- und Abgang einzelner Mitarbeiter toleriert. Geschäftsentscheidungen werden durch reichhaltige und genaue Daten in allen Teams der Organisation gut informiert, was die Einführung von FinOps ermöglicht.
 
-## Upskilling Developers
+## Weiterbildung von Entwicklern
 
-We know you already have great people, but they need to be equipped to take on the new challenges inherent to the cloud.
+Wir wissen, dass Sie bereits großartige Mitarbeiter haben, aber diese müssen für die neuen Herausforderungen der Cloud gerüstet sein.
 
-* Level 1: Your application team will be trained in 12 factor applications, microservice and cloud native patterns. You will also require developers who are quite comfortable with cloud native concepts and tooling such as kubectl in order to bootstrap your development team.
+* Level 1: Ihr Anwendungsteam wird in 12-Faktor-Anwendungen, Microservices und Cloud Native Patterns geschult. Außerdem benötigen Sie Entwickler, die sich mit Cloud-Native-Konzepten und Tools wie kubectl auskennen, um Ihr Entwicklungsteam zu verstärken.
 
-* Level 2: Your wider development team is able to operate the fundamentals of Kubernetes including:  
-  * Connecting an operator to the Kubernetes API
-  * Become comfortable with Kubectl commands
-  * Understanding how to list and view resources
-  * Performing basic actions (mechanical actions with limited understanding of how it works)
+* Level 2: Der größte Teil des Entwicklungsteam beherrscht die Grundlagen von Kubernetes:  
+  * Verbinden eines Operators mit der Kubernetes-API
+  * Sich mit Kubectl-Befehlen vertraut machen
+  * Verstehen, wie man Ressourcen auflistet und anzeigt
+  * Ausführen grundlegender Aktionen (mechanische Aktionen mit begrenztem Verständnis der Funktionsweise)
 
-* Level 3: Implement a repeatable cycle of troubleshooting so changes and iterations are done quickly.
+* Level 3: Implementieren Sie einen wiederholbaren Zyklus zur Fehlerbehebung, damit Änderungen und Iterationen schnell durchgeführt werden können.
 
-* Level 4: Developers are more sophisticated and Kubernetes is widely adopted by multiple groups in different business areas, with a body of knowledge developing and actively shared including integration and release processes. Developers and cluster owners are actively expanding Kubernetes in line with their specific business and technical needs.
+* Level 4: Die Entwickler sind anspruchsvoller geworden, und Kubernetes wird von mehreren Gruppen in verschiedenen Geschäftsbereichen übernommen. Es hat sich ein Wissensfundus entwickelt, der aktiv geteilt wird, einschließlich Integrations- und Freigabeprozessen. Entwickler und Cluster-Owner erweitern Kubernetes aktiv im Einklang mit ihren spezifischen geschäftlichen und technischen Anforderungen.
 
-* Level 5: Advanced testing and release patterns developed and in use, such as blue/green or canary
+* Level 5: Fortgeschrittene Test- und Releasemuster wurden entwickelt und im Einsatz, wie z. B. blau/green oder Canary Deploys.
 
-## Security
+## Sicherheit
 
-With all the many attack vectors that have to be mitigated remotely in a cloud-native context, it is imparative to have a security-first posture for all aspects of the application lifecycle (including software delivery and ongoing operation/maintenance).
+Angesichts der vielen Angriffsvektoren, die in einem Cloud-nativen Kontext aus der Ferne abgewehrt werden müssen, ist es unerlässlich, alle Aspekte des Anwendungslebenszyklus (einschließlich Softwarebereitstellung und laufender Betrieb/Wartung) auf Sicherheit auszurichten.
 
-* Level 1: Default security settings will be used and will work in pre-production. You’ll spend time identifying your open source security posture and conduct a security POC of the pre-production environment so that both Dev, Ops and security understands what is required in cloud native workloads.
+* Level 1: Es gibt Standard-Security-Settings, die aktiv genutzt und in der Preproduction eingesetzt werden. Sie werden einige Zeit damit verbringen, Ihre Open-Source-Sicherheitslage zu ermitteln und einen Sicherheits-POC der Preproduction durchzuführen, damit sowohl Entwicklung, Betrieb und Security verstehen, was bei Cloud-nativen Workloads erforderlich ist.
 
-* Level 2: Your team needs to focus on who is responsible for Kubernetes cluster security and how it will be managed. That will require the inclusion of the security team.
+* Level 2: Ihr Team muss sich darauf konzentrieren, wer für die Sicherheit des Kubernetes-Clusters verantwortlich ist und wie sie verwaltet werden soll. Dies erfordert die Einbeziehung des Security-Teams.
 
-* Level 3: Your risk tolerance will impact at what level you are focused on cloud native security training so you are actively skilling people.
+* Level 3: Ihre Risikotoleranz bestimmt das Niveau des Fokusses auf Cloud Native Sicherheitstrainings in der aktiven Fortbildung der Mitarbeiter.
 
-* Level 4: By this level, security is involved in design and deployment, you will enforce security in your cloud native environment. Your organization is committed to security with full understanding of policies and regulations both inside and outside of the organization.
+* Level 4: In diesem Level ist Sicherheit in den Entwurf und die Bereitstellung einbezogen, und Sie werden die Sicherheit in Ihrer nativen Cloud-Umgebung umsetzen. Ihr Unternehmen hat sich der Sicherheit verschrieben und kennt die Richtlinien und Vorschriften innerhalb und außerhalb des Unternehmens genau.
 
-* Level 5: You will be actively developing security internally, with the community and regulators.
+* Level 5: Sie werden die Sicherheit intern, in der Community und bei den Regulierungsbehörden aktiv weiterentwickeln.
 
-## CNCF Certifications
+## CNCF Zertifizierungen
 
-Cloud Native Computing Foundation (CNCF) serves as the vendor-neutral home for many of the fastest-growing open source projects, including Kubernetes, Prometheus, and Envoy.
+Die Cloud Native Computing Foundation (CNCF) dient als herstellerneutrale Heimat für viele der am schnellsten wachsenden Open-Source-Projekte, darunter Kubernetes, Prometheus und Envoy.
 
-In order for you to build a sustainable ecosystems for cloud native infrastructure is it important to have your team invest in the CNCF Certifications.
+Damit Sie ein nachhaltiges Ökosystem für cloud-native Infrastrukturen aufbauen können, ist es wichtig, dass Ihr Team in die CNCF-Zertifizierungen investiert.
 
-Organizations may wish to consider the CKA and CKAD exams around level 2 and 3; and the CKS around level 4.
+Unternehmen sollten die CKA- und CKAD-Prüfungen auf Stufe 2 und 3 und die CKS-Prüfung auf Stufe 4 in Betracht ziehen.
 
 [**Certified Kubernetes Administrator (CKA)**](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
 
-* This program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
+* Dieses Programm stellt sicher, dass CKAs die Fähigkeiten, das Wissen und die Kompetenz besitzen, um die Aufgaben von Kubernetes-Administratoren zu erfüllen.
 
 [**Certified Kubernetes Application Developer (CKAD)**](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/)
 
-* This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
+* Diese Prüfung bescheinigt, dass Benutzer Cloud-native Anwendungen für Kubernetes entwerfen, erstellen, konfigurieren und bereitstellen können.
 
 [**Certified Kubernetes Security Specialist (CKS)**](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/)
 
-* This program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
+* Dieses Programm bietet die Gewissheit, dass ein CKS die Fähigkeiten, das Wissen und die Kompetenz für eine breite Palette von Best Practices zur Sicherung von Container-basierten Anwendungen und Kubernetes-Plattformen während der Erstellung, Bereitstellung und Laufzeit besitzt. Die CKA-Zertifizierung ist Voraussetzung für die Teilnahme an dieser Prüfung.
