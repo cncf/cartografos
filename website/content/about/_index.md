@@ -1,49 +1,49 @@
 ---
-title: About the Maturity Model
-linkTitle: About
+title: Über das Reifegradmodell
+linkTitle: Über
 toc_hide: true
 menu:
   main:
     weight: 20
 description: >
-   The cloud native landscape and ecosystem is evolving quickly.
+   Die Cloud-Native-Landscape und das Ökosystem entwickeln sich schnell weiter.
 ---
 
-## The Cartografos Working Group
+## Die Cartografos-Arbeitsgruppe
 
- The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.
+ Die Cartografos-Arbeitsgruppe hat sich zum Ziel gesetzt, Tools zur Verfügung zu stellen, die Adoptern und Endnutzern helfen, sich in der CNCF-Landschaft und dem breiteren Cloud-Native-Ökosystem zurechtzufinden.
 
-We want to educate and inform users with effective and practical guidance to help them understand the cloud native ecosystem. We do this by collaborating with groups inside and outside the CNCF.
+Wir möchten die Nutzer mit effektiven und praktischen Anleitungen unterstützen und ihnen helfen, das Cloud Native Ecosystem zu verstehen. Wir tun dies durch die Zusammenarbeit mit Gruppen innerhalb und außerhalb der CNCF.
 
-We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
+Wir engagieren uns für CNCF-Projekte auf Sandbox-, Inkubations- und Graduate-Ebene, um eine effektive und genaue Repräsentation innerhalb der Assets sowie der technischen Beratungsgruppen der CNCF sicherzustellen. Wir bieten auch ein anbieterneutrales Forum für Validierung, Diskussion und Feedback.
 
-Areas in scope of the working group are CNCF non-code assets such as the CNCF Landscape, the Trail Map, as well as a maturity model and landscape guide - the last two under development. Additionally any other assets that help cloud native technology adopters navigate the various CNCF and cloud native community projects.
+Die Arbeitsgruppe befasst sich mit non-code Assets der CNCF wie der CNCF Landscape, der Trail Map sowie einem Reifegradmodell und einem Landscape Guide - die letzten beiden sind in Entwicklung. Darüber hinaus alle weiteren Assets, die Cloud Native-Technologie-Anwendern helfen, sich in den verschiedenen CNCF- und Cloud Native-Community-Projekten zurechtzufinden.
 
-Currently assets under development:
+Derzeit in der Entwicklung befindliche Assets:
 
-* The Cloud Native Maturity Model
-* The CNCF Landscape Guide, in association with the CNCF Business Value Subcommittee.
+* Das Cloud Native Maturity Model
+* Der CNCF Landscape Guide, in Zusammenarbeit mit dem CNCF Business Value Subcommittee.
 
-## Come join us
+## Komm zu uns
 
-Anyone interested in educating and informing users with guidance to understand the cloud native ecosystem is welcome to join the Cartografos Working Group! Please also join our our CNCF Slack channel, `#cartografos-wg`
+Jeder, der daran interessiert ist, Benutzer mit Anleitungen zum Verständnis des Cloud-Native-Ökosystems aufzuklären und zu informieren, ist herzlich eingeladen, der Cartografos Working Group beizutreten! Bitte treten Sie auch unserem CNCF Slack-Kanal bei, `#cartografos-wg`
 
 ## Meeting Information 
 
 CNCF Slack #cartografos-wg
 
-Meeting times
+Sitzungszeiten
 
-US: Bi-weekly on Tuesdays at 1pm US/EST
+US: Zweiwöchentlich Dienstags um 13 Uhr US/EST
 
-To participate in the working group, please sign up to the CNCF’s community platform at https://community.cncf.io/ and join https://community.cncf.io/cncf-cartografos-working-group/. 
-Meetings are listed on the same page and you should RSVP to each meeting instance you want to attend: https://community.cncf.io/cncf-cartografos-working-group/.
+Um an der Arbeitsgruppe teilzunehmen, melden Sie sich bitte bei der Community-Plattform der CNCF unter https://community.cncf.io/ an und treten Sie https://community.cncf.io/cncf-cartografos-working-group/ bei.
+Die Treffen sind auf der gleichen Seite aufgelistet und Sie sollten für jedes Treffen, an dem Sie teilnehmen möchten, eine Anmeldung abgeben: https://community.cncf.io/cncf-cartografos-working-group/.
 
-[Meeting minutes and agenda](https://docs.google.com/document/d/15aRVtbMT9F472wOv8bBU7Wg893ugXUf-WtP3g9Ob_KY/edit#heading=h.itd3wrdelhab)
+[Sitzungsprotokolle und Tagesordnung](https://docs.google.com/document/d/15aRVtbMT9F472wOv8bBU7Wg893ugXUf-WtP3g9Ob_KY/edit#heading=h.itd3wrdelhab)
 
-## Questions
+## Fragen
 
-Any questions can be directed to one of the co-chairs: 
+Alle Fragen können an die Co-Vorsitzenden gerichtet werden:
 
 Simon Forster, co-chair, simon@stackegy.com  
 Danielle Cook, co-chair, danielle@fairwinds.com  
