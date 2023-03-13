@@ -1,4 +1,4 @@
-# Cloud Native Maturity Model Business Outcomes
+# Cloud Native Maturity Model Business Ergebnisse
 
 Die Entscheidung für einen Cloud-Native-Ansatz für Ihre Anwendung oder Ihre Dienste wird in der Regel aus geschäftlichen Gründen getroffen. Ganz gleich, ob Ihr Unternehmen auf Millionen von Nutzern skalieren möchte und Sie dafür eine skalierbare Infrastruktur benötigen oder ob Ihr Produktteam Funktionen schneller auf den Markt bringen muss, Cloud Native kann Sie dabei unterstützen.
 

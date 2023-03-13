@@ -5,7 +5,7 @@
 Das Cloud Native Maturity Model besteht aus sechs separaten Dokumenten - dem [Prolog](./prologue.md) und den fünf wichtigsten Referenzdokumenten:
 
 * [Personen](./people.md)
-* [Prozess](./process.md)
+* [Prozesse](./process.md)
 * [Richtlinien](./policy.md)
 * [Technologie](./technology.md)
 * [Business-Ergebnis](./business_outcomes.md)

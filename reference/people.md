@@ -1,14 +1,14 @@
-# Cloud Native Maturity Model - People
+# Cloud Native Maturity Model - Personen
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of six separate documents - the [Prologue](./prologue.md) and the five key reference documents:
+Das Cloud Native Maturity Model besteht aus sechs separaten Dokumenten - dem [Prolog](./prologue.md) und den fünf wichtigsten Referenzdokumenten:
 
-* [People](./people.md)  
-* [Process](./process.md)  
-* [Policy](./policy.md)  
-* [Technology](./technology.md)
-* [Business Outcomes](./business_outcomes.md)
+* [Personen](./people.md)  
+* [Prozesse](./process.md)  
+* [Richtlinien](./policy.md)  
+* [Technologie](./technology.md)
+* [Business Ergebnisse](./business_outcomes.md)
 
 ## Einleitung
 
