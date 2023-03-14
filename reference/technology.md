@@ -14,105 +14,107 @@ The Cloud Native Maturity Model is composed of six separate documents - the [Pro
 
 ***The Cloud Native Maturity Model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software.***
 
-## Introduction
+## Einführung
 
-The Cloud Native Maturity Model covers four major dimensions - People, Process, Policy and Technology. This paper addresses technology - the practical tooling that makes up cloud native applications, platforms, and infrastructure. As well as referring to specific technologies, this paper aims to show the stages you may go through as you move from starting out all the way through to cloud native excellence.
+Das Cloud Native Maturity Model umfasst vier Hauptdimensionen: Menschen, Prozesse, Richtlinien und Technologie. Dieses Dokument befasst sich mit der Technologie - den praktischen Werkzeugen, aus denen Cloud Native-Anwendungen, Plattformen und Infrastrukturen bestehen. Dieses Papier bezieht sich nicht nur auf spezifische Technologien, sondern soll auch die Phasen aufzeigen, die Sie auf Ihrem Weg von den Anfängen bis hin zur Cloud Native Excellence durchlaufen können.
 
-This paper illustrates just one path - but all journeys differ. This is absolutely as it should be, as organizations all start out at different points and have different destinations (business outcomes). Different locations, sizes, starting points (greenfield or long established), regulatory environments, and of course people, all influence the cloud native journey.
+Dieses Dokument veranschaulicht nur einen Weg - aber alle Wege sind unterschiedlich. Das ist auch gut so, denn jedes Unternehmen beginnt an einem anderen Punkt und hat ein anderes Ziel (Geschäftsergebnis). Unterschiedliche Standorte, Größen, Ausgangspunkte (neue oder alteingesessene Unternehmen), regulatorische Umgebungen und natürlich Menschen beeinflussen die Cloud Native-Reise.
 
-The technology section of the Cloud Native Maturity Model is not exhaustive. We would love contributions to ensure the model is robust and useful for all users.
+Der Technologieabschnitt des Cloud Native Maturity Model ist nicht vollständig. Wir freuen uns über Beiträge, um sicherzustellen, dass das Modell robust und für alle Benutzer nützlich ist.
 
-## The Technology Overview
+## Die Technologie im Überblick
 
-We anticipate that you already have knowledge, experience and perhaps access to infrastructure such as virtual machines. You’ll likely have some baseline security components such as firewalls, SIEM for security events and logging; a security concept that likely lends itself to RBAC, and some identity and access management tooling such as LDAP or Active Directory directories.
+Wir gehen davon aus, dass Sie bereits über Kenntnisse, Erfahrungen und vielleicht auch Zugang zu Infrastrukturen wie virtuellen Maschinen verfügen. Sie verfügen wahrscheinlich über einige grundlegende Sicherheitskomponenten wie Firewalls, SIEM für Sicherheitsereignisse und -Protokollierung, ein Sicherheitskonzept, das sich wahrscheinlich für RBAC eignet, und einige Tools für die Identitäts- und Zugriffsverwaltung wie LDAP oder Active Directory-Verzeichnisse.
 
-Most importantly, we anticipate you’ll have a reasonable understanding of why you want to adopt cloud native technology i.e. your expected business outcomes. Clarity on why you wish to undertake this journey to achieving full cloud native adoption is your largest asset.
-At a high level, the key steps in your cloud native journey will look something like this:
+Am wichtigsten ist jedoch, dass Sie wissen, warum Sie die Cloud Native Technologie einführen wollen, d.h. welche Geschäftsergebnisse Sie erwarten. Klarheit darüber, warum Sie sich auf den Weg zu einer vollständigen Cloud Native Adoption machen wollen, ist Ihr größtes Kapital.
+Auf einer hohen Ebene sehen die wichtigsten Schritte in ihrer Cloud Native-Reise in etwa folgendermaßen aus:
 
-* Level 1: You’ll have your initial experimentation and adoption of Kubernetes. You’ll start with relatively basic tools and technology. You’ll assess your existing toolset to see how they fit within the new landscape (what plays well with cloud native, and what doesn’t?). You’ll have limited automation, but don’t worry, it’s coming! Your focus is on getting the baseline technology implemented, and you won’t be in production yet.
+* Stufe 1: Sie experimentieren zunächst mit Kubernetes und führen es ein. Sie werden mit relativ grundlegenden Tools und Technologien beginnen. Sie werden Ihre vorhandenen Tools bewerten, um zu sehen, wie sie in die neue Landschaft passen (was funktioniert gut mit Cloud Native, was nicht?). Sie werden nur über eine begrenzte Automatisierung verfügen, aber keine Sorge, das kommt schon noch! Ihr Fokus liegt auf der Implementierung der Basistechnologie, und Sie werden noch nicht in Produktion sein.
 
-* Level 2: This marks your first step into production. You’ve worked hard to build your foundation in Level 1, and now you are moving to production. You might have started with something relatively small and simple, but this leap to production has certainly required you to address some significant steps. You’ll probably have had to incorporate monitoring and observability into your workloads. You’ll have brought key observability tooling in and started monitoring your clusters for standard metrics such as RAM, CPU etc. While you might be starting to evaluate application tracing, don’t worry about it too much if you have started to gather core metrics. Your focus here is on getting an application running in production and having enough platform resource, observability and operational capability to support it within your organization.
+* Stufe 2: Dies ist Ihr erster Schritt in die Produktion. Sie haben hart gearbeitet, um in Stufe 1 eine Grundlage zu schaffen, und jetzt gehen Sie in die Produktion über. Vielleicht haben Sie mit etwas relativ Kleinem und Einfachem begonnen, aber dieser Sprung in die Produktion hat Ihnen sicherlich einige wichtige Schritte abverlangt. Wahrscheinlich mussten Sie Monitoring und Observabilität in Ihre Workloads einbauen. Sie haben wichtige Beobachtungstools eingeführt und damit begonnen, Ihre Cluster auf Standardmetriken wie RAM, CPU usw. zu überwachen. Auch wenn Sie mit der Auswertung des Anwendungs-Tracing beginnen, sollten Sie sich nicht zu viele Gedanken darüber machen, wenn Sie damit begonnen haben, Kernmetriken zu sammeln. Ihr Hauptaugenmerk liegt hier darauf, eine Anwendung in Produktion zu bringen und über genügend Plattformressourcen, Beobachtungsmöglichkeiten und Betriebskapazitäten zu verfügen, um sie innerhalb Ihres Unternehmens zu unterstützen.
 
-* Level 3: Here you start to scale. Your suite of tools is more standardized. You're getting your release tooling, secrets management and policy tooling in place. You’re also starting to get a level of buy-in across your organization, which is helping to propel you forward. This is where you will be running the largest number of tools as you will be in the thick of evaluating, implementing, and running in production.
+* Stufe 3: Hier beginnen Sie zu skalieren. Ihre Tool-Suite ist stärker standardisiert. Sie bauen Ihre Release-Tools, Ihr Secrets-Management und Ihre Policy-Tools auf. Sie beginnen auch, ein gewisses Maß an Akzeptanz in Ihrem Unternehmen zu erreichen, was Ihnen hilft, voranzukommen. In dieser Phase werden Sie die meisten Tools einsetzen, da Sie sich mitten in der Evaluierung, Implementierung und im Produktionsbetrieb befinden.
 
-* Level 4: You’ve got full control over your environment, and you’ve built your confidence, with rapid adoption of cloud native patterns for new applications and platforms. You’ve also gained organizational commitment to cloud native and this is adding to your momenting. You’re starting to feel like you’ve “crossed the chasm.”
+* Stufe 4: Sie haben die volle Kontrolle über Ihre Umgebung und haben durch die rasche Übernahme von Cloud-Native-Mustern für neue Anwendungen und Plattformen Ihr Vertrauen gewonnen. Sie haben auch das Engagement des Unternehmens für Cloud Native gewonnen, was Ihnen zusätzlichen Schwung verleiht. Sie haben das Gefühl, dass Sie "die Kluft überquert" haben.
 
-* Level 5: Your investment is now focused on automation in functional and non-functional areas such as scanning, policy, security and testing. You’ve got operators doing your operations for you and you’re fully automated.
+* Stufe 5: Ihre Anstrengungen konzentrieren sich jetzt auf die Automatisierung in funktionalen und nicht-funktionalen Bereichen wie Scanning, Richtlinien, Sicherheit und Tests. Sie haben Operatoren, die Ihre Operationen für Sie erledigen, und Sie sind vollständig automatisiert.
 
-## Infrastructure
 
-* Level 1: You are building your cloud infrastructure either on-prem or off. It will pay dividends to consider early your supporting technology such as your network, firewalls and IAM, access controls and policies (and if you need to change them). Many topics will come out of your initial experimentation with Kubernetes, so ensure you keep track of these - they are the ‘breadcrumbs’ you will follow as you move towards cloud native. This will include RBAC policies, load balancer and/or ingress configuration, cluster dashboards, privileged access (or lack thereof!) and container logging. Your aim is to move away from ‘pets’ to ‘livestock’ so you invest in declarative solutions for your Infrastructure as a Service with Infrastructure as Code (IaC) tooling. If you do not have a consolidated DevOps practice at this level, bring your future operations team in to build familiarity.
 
-* Level 2: Because production is your goal, you’ve built Kubernetes clusters for production with a focus on reliability and security.
+## Infrastruktur
 
-* Level 3: As part of building confidence in your cloud infrastructure, you need to gain visibility into what your infrastructure is doing. Developing your monitoring, alerting and resource usage capabilities is going to be your focus. An important consideration here is that where previously you may have considered machine-specific properties such as CPU, RAM etc, you’ll also want to factor in cluster resource metrics also. Additionally, you’ll replace components when they fail rather than spending time remediating issues in production. This builds on Level 2. Furthermore, you may also look to manage infrastructure with Kubernetes like you would software.
+* Stufe 1: Sie bauen Ihre Cloud-Infrastruktur entweder On-Premise oder dezentral auf. Es zahlt sich aus, wenn Sie sich frühzeitig Gedanken über Ihre unterstützende Technologie wie Ihr Netzwerk, Firewalls und IAM, Zugriffskontrollen und Richtlinien machen (und ob Sie diese ändern müssen). Viele Themen werden sich aus Ihren ersten Experimenten mit Kubernetes ergeben, also stellen Sie sicher, dass Sie diese im Auge behalten - sie sind die "Brotkrumen", denen Sie folgen werden, während Sie sich in Richtung Cloud Native bewegen. Dazu gehören RBAC-Richtlinien, Load Balancer- und/oder Ingress-Konfiguration, Cluster-Dashboards, privilegierter Zugriff (oder dessen Fehlen!) und Container-Logging. Ihr Ziel ist es, von "Haustieren" zu "Nutztieren" überzugehen, also investieren Sie in deklarative Lösungen für Ihre Infrastructure as a Service mit Infrastructure as Code (IaC) Tooling. Wenn Sie auf dieser Stufe noch keine konsolidierte DevOps-Praxis haben, sollten Sie Ihr künftiges Betriebsteam einbeziehen, um sich mit der Materie vertraut zu machen.
 
-* Level 4: Kubernetes and its API has become extremely familiar to you. With your infrastructure and IaC  tooling, you’ll likely find yourself investigating ClusterAPI and using that for deploying and managing the lifecycle of your clusters. As you also look to further refine control of your platforms, you’ll work to implement policy for your infrastructure control plane and other infrastructure controllers.
+* Stufe 2: Da die Produktivumgebung Ihr Ziel ist, haben Sie Kubernetes-Cluster für die Produktivumgebung aufgebaut, wobei der Schwerpunkt auf Zuverlässigkeit und Sicherheit liegt.
 
-* Level 5: Here you are managing your complete infrastructure lifecycle through software and tooling. Builds, upgrades, decommissioning is all taking place through code.
+* Stufe 3: Um Vertrauen in Ihre Cloud-Infrastruktur zu schaffen, müssen Sie Einblick in die Aktivitäten Ihrer Infrastruktur gewinnen. Die Entwicklung Ihrer Monitoring-, Alarmierungs- und Ressourcenauslastungsfunktionen wird Ihr Schwerpunkt sein. Ein wichtiger Aspekt dabei ist, dass Sie nicht nur maschinenspezifische Eigenschaften wie CPU, RAM usw. berücksichtigen, sondern auch Cluster-Ressourcenmetriken einbeziehen müssen. Außerdem werden Sie Komponenten ersetzen, wenn sie ausfallen, anstatt Zeit damit zu verbringen, Probleme in der Produktivumgebung zu beheben. Dies setzt auf Stufe 2 auf. Des Weiteren können Sie mit Kubernetes auch Ihre Infrastruktur so verwalten, wie Sie es mit Software tun würden.
 
-## Application Patterns and Refactoring
+* Stufe 4: Kubernetes und seine API sind Ihnen inzwischen sehr vertraut. Mit Ihrer Infrastruktur und Ihren IaC-Tools werden Sie sich wahrscheinlich mit der ClusterAPI beschäftigen und diese für die Bereitstellung und Verwaltung des Lebenszyklus Ihrer Cluster verwenden. Da Sie die Kontrolle über Ihre Plattformen weiter verfeinern wollen, werden Sie daran arbeiten, Richtlinien für Ihre Infrastruktur-Kontrollebene und andere Infrastruktur-Controller zu implementieren.
 
-Start with a canonical microservice application if you can and confirm that it runs and that people are familiar with it. Attempt to start with a microservice application on your cloud native journey if you can. You can try an existing or monolithic application if this makes sense, as this will flush out tooling and dependencies you'll have for your journey to cloud native, such as kubectl, network connectivity and other topics.
+* Stufe 5: Hier verwalten Sie den gesamten Lebenszyklus Ihrer Infrastruktur mithilfe von Software und Werkzeugen. Builds, Upgrades und Außerbetriebnahme erfolgen alle über Code.
 
-Here is a working model for the microservices path. You may adapt this to your model.
+## Anwendungspatterns und Refactoring
 
-* Level 1: Your business needs to review microservice patterns and architecture and look to understand the specifics for your applications. Non-functional requirements such as latency, resilience, scaling and third party tooling should definitely be considered. If you're transforming a monolith, this may impose significant redesign on the application as existing needs may not have the technical resources available. Consider your state management, as refactoring a monolith may require effort here. Try to ensure that the knowledge stays with the code, so make sure an existing developer familiar with the code participates in its migration to the cloud. Minimize divergence between cloud and your existing estate. This exercise will ensure all understand that it's a commitment to move to cloud native.
+Beginnen Sie mit einer kanonischen Microservice-Anwendung, wenn Sie können, und bestätigen Sie, dass sie läuft und die Mitarbeiter damit vertraut sind. Versuchen Sie, mit einer Microservice-Anwendung auf Ihrem Weg in die Cloud zu beginnen, wenn Sie können. Sie können eine bestehende oder monolithische Anwendung ausprobieren, wenn dies sinnvoll ist, da dies die Werkzeuge und Abhängigkeiten, die Sie auf Ihrer Reise zu Cloud Native haben werden, wie kubectl, Netzwerkkonnektivität und andere Themen, hervorbringen wird.
 
-* Level 2: You're in production, with your first APIs exposed. Consider developing a “microservices first” framework particularly if your first choice is always a microservices approach. If not, consider moving applications suitable for lift and shift or don't migrate the app until later.
+Hier ist ein Arbeitsmodell für den Microservices-Pfad. Sie können es an Ihr Modell anpassen.
 
-* Level 3: Culturally, your organization has started to think about services rather than “servers”. Microservices are embraced within the organization and are now used by default where appropriate.
+* Stufe 1: Ihr Unternehmen muss die Microservice-Muster und -Architektur prüfen und die Besonderheiten Ihrer Anwendungen verstehen. Nicht-funktionale Anforderungen wie Latenz, Resilienz, Skalierung und Tools von Drittanbietern sollten unbedingt berücksichtigt werden. Wenn Sie einen Monolithen umwandeln, kann dies zu einer erheblichen Umgestaltung der Anwendung führen, da für die bestehenden Anforderungen möglicherweise nicht die technischen Ressourcen zur Verfügung stehen. Berücksichtigen Sie Ihr Zustandsmanagement, da das Refactoring eines Monolithen hier Aufwand erfordern kann. Versuchen Sie sicherzustellen, dass das Wissen mit dem Code zusammenbleibt, also stellen Sie sicher, dass ein bestehender Entwickler, der mit dem Code vertraut ist, an der Migration in die Cloud teilnimmt. Minimieren Sie die Divergenz zwischen der Cloud und Ihrem bestehenden Bestand. Diese Maßnahme wird sicherstellen, dass alle Beteiligten verstehen, dass die Umstellung auf Cloud Native eine feste Entscheidung ist.
 
-* Level 4: Microservices have become the preferred pattern for applications. The use of APIs is expanding within the organization, and other internal systems may be exposed and consumed, and they are available for general consumption, open across the organization via a service mesh. The organization becomes data-centric and API-centric, and data can be more easily consumed.
+* Stufe 2: Sie sind in Produktion und haben Ihre ersten APIs offengelegt. Ziehen Sie die Entwicklung eines "Microservices First"-Frameworks in Betracht, vor allem, wenn Ihre erste Wahl immer ein Microservices-Ansatz ist. Wenn nicht, ziehen Sie Anwendungen in Betracht, die sich für Lift and Shift eignen, oder migrieren Sie die Anwendung erst später.
 
-* Level 5: Unless applications have specific requirements, such as extremely low latency, new greenfield applications are cloud native. You’ll look to onboard your existing portfolio of applications to your cloud native platform using your proven process. You’ll see now that your application matches your platform strengths and capabilities.
+* Stufe 3: Kulturell hat Ihr Unternehmen begonnen, über Dienste und nicht über "Server" nachzudenken. Microservices werden innerhalb der Organisation akzeptiert und werden nun standardmäßig verwendet, wo es angebracht ist.
 
-## Container and Runtime Management
+* Stufe 4: Microservices sind das bevorzugte Muster für Anwendungen geworden. Die Nutzung von APIs wird innerhalb der Organisation ausgeweitet, und andere interne Systeme können offengelegt und genutzt werden, und sie stehen für die allgemeine Nutzung zur Verfügung, offen in der gesamten Organisation über ein Dienstnetz. Das Unternehmen wird datenzentriert und API-zentriert, und die Daten können leichter genutzt werden.
 
-* Level 1: Initially you’ll want to focus on just building containers. One of your first steps will be to add container builds to your CI for your application. You’ll also want to adopt a container registry for your images and you’ll need to consider versioning and tagging so that you can ensure you know exactly what code is in use.
+* Stufe 5: Sofern die Anwendungen keine besonderen Anforderungen stellen, wie z. B. eine extrem niedrige Latenz, sind neue Anwendungen auf der grünen Wiese Cloud-nativ. Sie werden versuchen, Ihr bestehendes Anwendungsportfolio mit Hilfe Ihres bewährten Prozesses auf Ihre Cloud Native Plattform zu übertragen. Sie werden jetzt sehen, dass Ihre Anwendung den Stärken und Fähigkeiten Ihrer Plattform entspricht.
 
-* Level 2: You’re working in production now. You will experiment with tooling to augment the basics in production to help with security, policy management, workload misconfigurations, resource requests and limits. Key security practices for container hygiene are being incorporated.
+## Container- und Laufzeitmanagement
 
-* Level 3: Whereas in Level 2 you’ve been experimenting, in Level 3, as you increase your workload, and as you scale, you need consistent tooling across clusters to gain continuous visibility into your Kubernetes clusters. This should include automatic scanning and having runtime observability of what is occurring within your containers and your cluster. CNCF projects are good options here. You will have alerting and dashboards in place.
+* Stufe 1: Anfangs werden Sie sich nur auf die Erstellung von Containern konzentrieren wollen. Einer Ihrer ersten Schritte wird sein, Container-Builds zur CI für Ihre Anwendung hinzuzufügen. Außerdem sollten Sie eine Container-Registry für Ihre Images einrichten und sich Gedanken über Versionierung und Tagging machen, um sicherzustellen, dass Sie genau wissen, welcher Code in Verwendung ist.
 
-* Level 4: With your sources of information you've gained from Level 3, your goal is to further integrate your data sources and gain visibility along with alerting. This closes the feedback loop on runtime and operations and allows you to respond quickly to unplanned events.
+* Stufe 2: Sie arbeiten jetzt in Produktion. Sie werden mit Werkzeugen experimentieren, um die Grundlagen im Produktivbetrieb zu erweitern, die bei Sicherheit, Richtlinienverwaltung, Fehlkonfigurationen der Arbeitslast, Ressourcenanforderungen und -begrenzungen helfen. Die wichtigsten Sicherheitspraktiken für die Container-Hygiene werden integriert.
 
-* Level 5: You’re now automating the response to events, and you have all your security data in one central repository. The platform is able to respond to events
+* Stufe 3: Während Sie in Stufe 2 experimentiert haben, benötigen Sie in Stufe 3 mit zunehmender Arbeitslast und Skalierung ein konsistentes Tooling für alle Cluster, um eine kontinuierliche Transparenz Ihrer Kubernetes-Cluster zu erhalten. Dies sollte automatisches Scannen und die Möglichkeit zur Laufzeitbeobachtung der Vorgänge in Ihren Containern und Ihrem Cluster beinhalten. CNCF-Projekte sind hier eine gute Option. Sie werden über Warnmeldungen und Dashboards verfügen.
 
-## Application Release and Operations
+* Stufe 4: Mit den Informationsquellen, die Sie auf Stufe 3 gewonnen haben, ist es Ihr Ziel, Ihre Datenquellen weiter zu integrieren und zusammen mit der Alarmierung Sichtbarkeit zu erlangen. Dies schließt die Feedback-Schleife zu Laufzeit und Betrieb und ermöglicht es Ihnen, schnell auf ungeplante Ereignisse zu reagieren.
 
-Managing a cluster with Infrastructure as Code (IaC) is different to managing application release and deployment, however many of the same techniques and tools will be common to both.
+* Stufe 5: Sie automatisieren jetzt die Reaktion auf Ereignisse und haben alle Ihre Sicherheitsdaten in einem zentralen Repository. Die Plattform ist in der Lage, auf Ereignisse zu reagieren.
 
-* Level 1: When starting with Kubernetes, it is important that you start out with as much hands-on experience as possible. Initially you’ll be doing ad-hoc deployments with kubectl and kustomize.
+## Anwendungs-Release und Betrieb
 
-* Level 2: For your initial steps into production, you’ll be using  CI or release tooling, kubectl and kustomize to potentially deploy your first smaller applications. It’s really important by now that you  develop key skills in Kubernetes configuration.
+Die Verwaltung eines Clusters mit Infrastructure as Code (IaC) unterscheidet sich von der Verwaltung der Anwendungs-Release und -bereitstellung, aber viele der gleichen Techniken und Tools sind für beide anwendbar.
 
-* Level 3: Because consistency is important, you may be starting to write Helm Charts for your application releases. You may also be starting to take your first steps into GitOps with Flux and Argo, introducing controllers to manage your release and operations.
+* Stufe 1: Wenn Sie mit Kubernetes beginnen, ist es wichtig, dass Sie zunächst so viel praktische Erfahrung wie möglich sammeln. Zu Beginn werden Sie Ad-hoc-Bereitstellungen mit kubectl und kustomize durchführen.
 
-* Level 4: Not only are you using GitOps operators for rapid deployment, but you may also be using them for development and test purposes. You’ll be expecting most of your software to be packaged with Helm with the feedback loop being closed as quickly as possible to reduce configuration drift.
+* Level 2: Für Ihre ersten Schritte in Produktion werden Sie CI oder Release-Tools, kubectl und kustomize verwenden, um möglicherweise Ihre ersten kleineren Anwendungen bereitzustellen. Jetzt ist es wirklich wichtig, dass Sie Schlüsselkompetenzen in der Kubernetes-Konfiguration entwickeln.
 
-* Level 5: You’re now in full production with GitOps operators and controls, and your release and operations workflows reside within Git.
+* Stufe 3: Da Konsistenz wichtig ist, beginnen Sie vielleicht damit, Helm Charts für Ihre Anwendungsreleases zu schreiben. Vielleicht machen Sie auch Ihre ersten Schritte in Richtung GitOps mit Flux und Argo und führen Controller zur Verwaltung Ihrer Releases und Operationen ein.
 
-## Testing and Issue Detection
+* Stufe 4: Sie verwenden GitOps-Operatoren nicht nur für die schnelle Bereitstellung, sondern vielleicht auch für Entwicklungs- und Testzwecke. Sie erwarten, dass der größte Teil Ihrer Software mit Helm verpackt wird und die Feedback-Schleife so schnell wie möglich geschlossen wird, um Konfigurationsabweichungen zu reduzieren.
 
-* Level 1: When just starting out, much of your testing will be conducted manually on your business application that you’ve identified as your initial production candidate. With Kubernetes you’ll be focussing on your general network connectivity, and ensuring you’re able to deploy your applications. You will have smoke tests, and UAT testing.
+* Stufe 5: Sie sind jetzt in voller Produktion mit GitOps-Operatoren und -Kontrollen, und Ihre Release- und Operations-Workflows finden in Git statt.
 
-* Level 2: Now that you are in production, you’ll be experimenting with tooling to help with security, policy management, workload misconfigurations, resource requests, limits and observability, in your staging or development environment.
+## Tests und Fehlererkennung
 
-* Level 3: On the basis of your experiments in the previous level, you’ll be implementing this in production, and including good alerting and good dashboards, building out your observability capabilities.
+* Stufe 1: Wenn Sie gerade erst anfangen, wird ein Großteil Ihrer Tests manuell an Ihrer Geschäftsanwendung durchgeführt, die Sie als ersten Produktionskandidaten identifiziert haben. Bei Kubernetes konzentrieren Sie sich auf die allgemeine Netzwerkkonnektivität und stellen sicher, dass Sie Ihre Anwendungen bereitstellen können. Sie werden Smoke-Tests und UAT-Tests durchführen.
 
-* Level 4: As your environment becomes more complex in production, some issue remediation may require adjusting your policy-as-code or components of your Infrastructure as Code, as well as your application. Issues may relate to more than one application so you will aggregate across applications to determine trends. These may relate to bugs such as memory leaks, as well as security or policy issues. Your remediation may be to fix them at source, ideally as ‘far left’ as possible, or otherwise building automation capable of fixing them when they occur, and tuning it over time.
+* Stufe 2: In der Produktivumgebung experimentieren Sie mit Tools für Sicherheit, Richtlinienverwaltung, Fehlkonfigurationen der Arbeitslast, Ressourcenanforderungen, Grenzen und Beobachtbarkeit in Ihrer Staging- oder Entwicklungsumgebung.
 
-* Level 5: Here we further optimize the automation used in responses to issues by working to prevent mistakes from entering production in the first place.
+* Stufe 3: Auf der Grundlage Ihrer Experimente in der vorherigen Stufe implementieren Sie diese in der Produktivumgebung, einschließlich guter Warnsysteme und guter Dashboards, und bauen Ihre Überwachungsfähigkeiten aus.
 
-## Security and Policy
+* Stufe 4: Da Ihre Umgebung in Produktion immer komplexer wird, kann es sein, dass die Behebung von Problemen eine Anpassung Ihrer Policy-as-Code oder von Komponenten Ihrer Infrastructure-as-Code sowie Ihrer Anwendung erfordert. Probleme können sich auf mehr als eine Anwendung beziehen, so dass Sie alle Anwendungen zusammenfassen, um Trends zu ermitteln. Dabei kann es sich um Bugs wie Speicherlecks sowie um Sicherheits- oder Richtlinienprobleme handeln. Ihre Abhilfemaßnahmen können darin bestehen, sie an der Quelle zu beheben, idealerweise "so weit links" wie möglich, oder aber eine Automatisierung zu entwickeln, die in der Lage ist, sie zu beheben, wenn sie auftreten, und sie im Laufe der Zeit zu optimieren.
 
-* Level 1: Start building your secured CI-CD pipeline if you don’t have one already and don’t forget that what you are doing today with VMs will end up quite different in the future.
+* Stufe 5: Hier optimieren wir die Automatisierung zur Behebung von Problemen weiter, indem wir verhindern, dass Fehler überhaupt erst in den Produktivbetrieb gelangen.
 
-* Level 2: Ensure that your development and operations groups are following good practice with containers, secrets and security. Because you are in production, you will want to ensure that you have encryption as well and authentication and authorization addressed.
+## Sicherheit und Policy
 
-* Level 3: It’s now time to step up and automate your deployment guardrails and security best practices with policy as code. Determine your strategy for enforcement. Begin adopting third party benchmarks and standards where relevant. Consider also adopting anomaly and threat detection technologies.
+* Stufe 1: Beginnen Sie mit dem Aufbau einer gesicherten CI-CD-Pipeline, wenn Sie noch keine haben, und vergessen Sie nicht, dass das, was Sie heute mit VMs machen, in Zukunft ganz anders aussehen wird.
 
-* Level 4: Apply your policy against production in case you haven’t already. You’ll continue to tune your policies in production.
+* Stufe 2: Stellen Sie sicher, dass Ihre Entwicklungs- und Betriebsgruppen bewährte Verfahren für Container, Secrets und Sicherheit anwenden. Da Sie sich in einer Produktivumgebung befinden, sollten Sie sicherstellen, dass auch die Verschlüsselung sowie die Authentifizierung und Autorisierung berücksichtigt werden.
 
-* Level 5: Here you will have ongoing optimization and adjustment in line with new requirements, aligning with the ongoing threat environment. Exceptions to policy are both minimized, and are formally controlled. You may incorporate machine learning as part of your threat detection practices.
+* Stufe 3: Jetzt ist es an der Zeit, die Leitplanken für die Bereitstellung und die bewährten Sicherheitsverfahren mit Policy as Code zu automatisieren. Legen Sie Ihre Strategie für die Durchsetzung fest. Beginnen Sie mit der Übernahme von Benchmarks und Standards von Drittanbietern, sofern diese relevant sind. Erwägen Sie auch den Einsatz von Technologien zur Erkennung von Anomalien und Bedrohungen.
+
+* Stufe 4: Wenden Sie Ihre Policy in der Produktivumgebung an, falls Sie das noch nicht getan haben. Sie werden Ihre Policies in der Produktivumgebung weiter abstimmen.
+
+* Stufe 5: Hier erfolgt eine kontinuierliche Optimierung und Anpassung an neue Anforderungen, die mit der aktuellen Bedrohungslage in Einklang stehen. Ausnahmen von der Policy werden sowohl minimiert als auch formell kontrolliert. Sie können maschinelles Lernen als Teil Ihrer Verfahren zur Erkennung von Bedrohungen einbeziehen.
