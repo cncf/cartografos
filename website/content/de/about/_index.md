@@ -6,14 +6,14 @@ menu:
   main:
     weight: 20
 description: >
-   Die Cloud-Native-Landscape und das Ökosystem entwickeln sich schnell weiter.
+  Die Cloud-native-Landscape und das Ökosystem entwickeln sich schnell weiter.
 ---
 
 ## Die Cartografos-Arbeitsgruppe
 
- Die Cartografos-Arbeitsgruppe hat sich zum Ziel gesetzt, Tools zur Verfügung zu stellen, die Adoptern und Endnutzern helfen, sich in der CNCF-Landschaft und dem breiteren Cloud-Native-Ökosystem zurechtzufinden.
+Die Cartografos-Arbeitsgruppe hat sich zum Ziel gesetzt, Tools zur Verfügung zu stellen, die Adoptern und Endnutzern helfen, sich in der CNCF-Landschaft und dem breiteren Cloud-native-Ökosystem zurechtzufinden.
 
-Wir möchten die Nutzer mit effektiven und praktischen Anleitungen unterstützen und ihnen helfen, das Cloud Native Ecosystem zu verstehen. Wir tun dies durch die Zusammenarbeit mit Gruppen innerhalb und außerhalb der CNCF.
+Wir möchten die Nutzer mit effektiven und praktischen Anleitungen unterstützen und ihnen helfen, das Cloud-nativeEcosystem zu verstehen. Wir tun dies durch die Zusammenarbeit mit Gruppen innerhalb und außerhalb der CNCF.
 
 Wir engagieren uns für CNCF-Projekte auf Sandbox-, Inkubations- und Graduate-Ebene, um eine effektive und genaue Repräsentation innerhalb der Assets sowie der technischen Beratungsgruppen der CNCF sicherzustellen. Wir bieten auch ein anbieterneutrales Forum für Validierung, Diskussion und Feedback.
 
@@ -21,14 +21,14 @@ Die Arbeitsgruppe befasst sich mit non-code Assets der CNCF wie der CNCF Landsca
 
 Derzeit in der Entwicklung befindliche Assets:
 
-* Das Cloud Native Maturity Model
-* Der CNCF Landscape Guide, in Zusammenarbeit mit dem CNCF Business Value Subcommittee.
+- Das Cloud-native-Maturity-Model
+- Der CNCF Landscape Guide, in Zusammenarbeit mit dem CNCF Business Value Subcommittee.
 
 ## Komm zu uns
 
-Jeder, der daran interessiert ist, Benutzer mit Anleitungen zum Verständnis des Cloud-Native-Ökosystems aufzuklären und zu informieren, ist herzlich eingeladen, der Cartografos Working Group beizutreten! Bitte treten Sie auch unserem CNCF Slack-Kanal bei, `#cartografos-wg`
+Jeder, der daran interessiert ist, Benutzer mit Anleitungen zum Verständnis des Cloud-native-Ökosystems aufzuklären und zu informieren, ist herzlich eingeladen, der Cartografos Working Group beizutreten! Bitte treten Sie auch unserem CNCF Slack-Kanal bei, `#cartografos-wg`
 
-## Meeting Information 
+## Meeting Information
 
 CNCF Slack #cartografos-wg
 

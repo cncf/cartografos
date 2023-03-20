@@ -1,10 +1,10 @@
 ---
 title: "Level 1 - Aufbau"
 description: >
-   Sie haben eine grundlegende Cloud-native-Implementierung eingerichtet und befinden sich in der Testphase.
+  Sie haben eine grundlegende Cloud-native-Implementierung eingerichtet und befinden sich in der Testphase.
 ---
 
-## <i class="fas fa-users"></i> Mitarbeiter 
+## <i class="fas fa-users"></i> Mitarbeiter
 
 ### Mitarbeiter Überblick
 
@@ -20,7 +20,7 @@ Die Teams testen Cloud-native Tools, vor allem Kubernetes. Dies geschieht jedoch
 
 ### Sicherheit
 
-Die Personen, die Cloud Native implementieren, konzentrieren sich auf Security. Es werden Standard-Sicherheitseinstellungen verwendet, die in der Testphase funktionieren werden. Sie werden Zeit darauf verwenden, Ihre Open-Source-Sicherheitslage zu ermitteln und einen Sicherheits-POC der Test-Umgebung durchzuführen, damit sowohl die Entwicklungs- und Betriebsabteilung als auch der Security-Bereich verstehen, was bei Cloud Native Workloads erforderlich ist.
+Die Personen, die Cloud-nativeimplementieren, konzentrieren sich auf Security. Es werden Standard-Sicherheitseinstellungen verwendet, die in der Testphase funktionieren werden. Sie werden Zeit darauf verwenden, Ihre Open-Source-Sicherheitslage zu ermitteln und einen Sicherheits-POC der Test-Umgebung durchzuführen, damit sowohl die Entwicklungs- und Betriebsabteilung als auch der Security-Bereich verstehen, was bei Cloud-nativeWorkloads erforderlich ist.
 
 ### Agilität der Entwickler
 
@@ -32,19 +32,19 @@ Die Entwickler haben vielleicht das Agile Manifest kennengelernt und das Scrum-F
 
 Zum Reifegrad Ihrer Mitarbeiter gehört auch die Fortbildung des Entwicklungsteams.
 
-Ihr Anwendungsteam wird in 12-Faktor-Anwendungen, Microservice- und Cloud-Native-Mustern geschult werden. Außerdem benötigen Sie Entwickler, die mit Cloud-Native-Konzepten und Werkzeugen wie kubectl vertraut sind, um Ihr Entwicklungsteam zu verstärken.
+Ihr Anwendungsteam wird in 12-Faktor-Anwendungen, Microservice- und Cloud-native-Mustern geschult werden. Außerdem benötigen Sie Entwickler, die mit Cloud-native-Konzepten und Werkzeugen wie kubectl vertraut sind, um Ihr Entwicklungsteam zu verstärken.
 
 ### CNCF-Zertifizierungen
 
-Die Cloud Native Computing Foundation (CNCF) dient als herstellerneutrale Heimat für viele der am schnellsten wachsenden Open-Source-Projekte, darunter Kubernetes, Prometheus und Envoy.
+Die Cloud-nativeComputing Foundation (CNCF) dient als herstellerneutrale Heimat für viele der am schnellsten wachsenden Open-Source-Projekte, darunter Kubernetes, Prometheus und Envoy.
 
-Damit Sie ein nachhaltiges Ökosystem für Cloud Native Infrastructure aufbauen können, ist es wichtig, dass Ihr Team in die CNCF-Zertifizierungen investiert. Es ist unwahrscheinlich, dass Sie die Zertifizierungen in Stufe 1 erreichen werden.
+Damit Sie ein nachhaltiges Ökosystem für Cloud-nativeInfrastructure aufbauen können, ist es wichtig, dass Ihr Team in die CNCF-Zertifizierungen investiert. Es ist unwahrscheinlich, dass Sie die Zertifizierungen in Stufe 1 erreichen werden.
 
-## <i class="fas fa-cogs"></i> Prozess
+## <i class="fas fa-cogs"></i> Prozesse
 
-### Prozess-Übersicht
+### Prozesse Überblick
 
-Sie erstellen eine Übersicht über die Anwendungsanforderungen, sowohl über die funktionalen (Anwendungsfunktionen und -code) als auch über die nicht-funktionalen, wie Leistung, Kapazität und Verfügbarkeit, und legen fest, wie Ihr Unternehmen skaliert werden soll. Das Feedback erfolgt manuell, z. B. per Slack, E-Mail und Telefon, und Sie werden auch manuell Korrekturen vornehmen. Wiederholbarkeit wird durch den Einsatz von Git-Workflows sichergestellt. Plattform- und Technologie-Lebenszyklen und -Updates, insbesondere Sicherheitsupdates, müssen regelmäßig durchgeführt werden, da anfällige Systeme ein besonderes Risiko darstellen.Diese Updates können adhoc und per Hand, aber auch im Rahmen der Updatemechanismen der Distributionen stattfinden. 
+Sie erstellen eine Übersicht über die Anwendungsanforderungen, sowohl über die funktionalen (Anwendungsfunktionen und -code) als auch über die nicht-funktionalen, wie Leistung, Kapazität und Verfügbarkeit, und legen fest, wie Ihr Unternehmen skaliert werden soll. Das Feedback erfolgt manuell, z. B. per Slack, E-Mail und Telefon, und Sie werden auch manuell Korrekturen vornehmen. Wiederholbarkeit wird durch den Einsatz von Git-Workflows sichergestellt. Plattform- und Technologie-Lebenszyklen und -Updates, insbesondere Sicherheitsupdates, müssen regelmäßig durchgeführt werden, da anfällige Systeme ein besonderes Risiko darstellen.Diese Updates können adhoc und per Hand, aber auch im Rahmen der Updatemechanismen der Distributionen stattfinden.
 
 ### CI/CD
 
@@ -57,10 +57,11 @@ Wenn Sie bereits CI/CD anwenden, müssen Sie es in Ihre Cloud Native-Umgebung ü
 Es wird eine Änderungsontrolle für Deployments eingeführt. Es gibt noch keinen Prozess dafür, die Änderungen werden ad-hoc durchgeführt.
 
 ### Sicherheit
-Es ist entscheidend für die Sicherheit ihrer Cloud Native-Umgebung, dass sie möglichst frühzeitig Sicherheitstools und -praktiken in Ihre native Cloud-Umgebung integrieren, sei es in Form einer Praxis oder eines Prozesses. Wir verwenden häufig den Begriff "Shift Left", wenn es darum geht, Test- oder Sicherheit-praktiken, so früh wie möglich in einen Prozess einzubinden. Sicherheit wird in allen Abschnitten des Cloud Native Maturity Model behandelt und jeder Abschnitt mit Menschen, Prozessen, Richtlinien und Technologie kann kombiniert werden, um das Sicherheitsteam bei der Reifung der Cloud Native Security des Unternehmens zu unterstützen.
+
+Es ist entscheidend für die Sicherheit ihrer Cloud Native-Umgebung, dass sie möglichst frühzeitig Sicherheitstools und -praktiken in Ihre native Cloud-Umgebung integrieren, sei es in Form einer Praxis oder eines Prozesses. Wir verwenden häufig den Begriff "Shift Left", wenn es darum geht, Test- oder Sicherheit-praktiken, so früh wie möglich in einen Prozess einzubinden. Sicherheit wird in allen Abschnitten des Cloud-native-Maturity-Model behandelt und jeder Abschnitt mit Menschen, Prozessen, Richtlinien und Technologie kann kombiniert werden, um das Sicherheitsteam bei der Reifung der Cloud-nativeSecurity des Unternehmens zu unterstützen.
 
 Werden Sie aktiv: Ihre Sicherheitsreise beginnt hier. Berücksichtigen Sie die Sicherheit in allen Aspekten der Implementierung und machen Sie sie zu einem Bürger erster Klasse.
- 
+
 ### Audit und Logs
 
 Ihr Prozess enthält Logging und die Auditierung. Dies kann auf internen Anforderungen beruhen oder Ihre Compliance-Vorgaben unterstützen.
@@ -77,7 +78,7 @@ Sie verfügen dann über eine begrenzte Anzahl dokumentierter Richtlinien zur Un
 
 ### Richtlinien definieren
 
-Sie müssen die Richtlinien und Konformitätsanforderungen Ihres Unternehmens auf Ihre native Cloud-Native-Umgebung übertragen.
+Sie müssen die Richtlinien und Konformitätsanforderungen Ihres Unternehmens auf Ihre native Cloud-native-Umgebung übertragen.
 
 Nehmen Sie sich Zeit, um die funktionalen und architektonischen Anforderungen Ihrer Anwendungen zu verstehen.
 
@@ -95,7 +96,7 @@ Sie werden die ersten Experimente mit Kubernetes machen und es übernehmen. Sie 
 
 ### Infrastruktur
 
-Sie bauen Ihre Cloud-Infrastruktur entweder vor Ort oder extern auf. Es zahlt sich aus, wenn Sie sich frühzeitig Gedanken über Ihre unterstützende Technologie wie Ihr Netzwerk, Firewalls und IAM, Zugriffskontrollen und Richtlinien machen (und ob Sie diese ändern müssen). Viele Themen werden sich aus Ihren ersten Experimenten mit Kubernetes ergeben, also stellen Sie sicher, dass Sie diese im Auge behalten - sie sind die "Brotkrumen", denen Sie folgen werden, wenn Sie sich in Richtung Cloud Native bewegen. Dazu gehören RBAC-Richtlinien, Load Balancer- und/oder Ingress-Konfiguration, Cluster-Dashboards, privilegierter Zugriff (oder dessen Fehlen!) und Container-Protokollierung. Ihr Ziel ist es, von "Pets" zu "Cattle" überzugehen, also investieren Sie in deklarative Lösungen für Ihre Infrastructure as a Service mit Infrastructure as Code (IaC)-Tools. Wenn Sie noch nicht über eine konsolidierte DevOps-Praxis auf dieser Ebene verfügen, sollten Sie Ihr künftiges Betriebsteam einbeziehen, um es mit der Materie vertraut zu machen.
+Sie bauen Ihre Cloud-Infrastruktur entweder vor Ort oder extern auf. Es zahlt sich aus, wenn Sie sich frühzeitig Gedanken über Ihre unterstützende Technologie wie Ihr Netzwerk, Firewalls und IAM, Zugriffskontrollen und Richtlinien machen (und ob Sie diese ändern müssen). Viele Themen werden sich aus Ihren ersten Experimenten mit Kubernetes ergeben, also stellen Sie sicher, dass Sie diese im Auge behalten - sie sind die "Brotkrumen", denen Sie folgen werden, wenn Sie sich in Richtung Cloud-nativebewegen. Dazu gehören RBAC-Richtlinien, Load Balancer- und/oder Ingress-Konfiguration, Cluster-Dashboards, privilegierter Zugriff (oder dessen Fehlen!) und Container-Protokollierung. Ihr Ziel ist es, von "Pets" zu "Cattle" überzugehen, also investieren Sie in deklarative Lösungen für Ihre Infrastructure as a Service mit Infrastructure as Code (IaC)-Tools. Wenn Sie noch nicht über eine konsolidierte DevOps-Praxis auf dieser Ebene verfügen, sollten Sie Ihr künftiges Betriebsteam einbeziehen, um es mit der Materie vertraut zu machen.
 
 ### Container- und Runtime-Management
 
@@ -103,9 +104,9 @@ Zunächst werden Sie sich auf die Erstellung von Containern konzentrieren wollen
 
 ### Applikationsmuster und Refactoring
 
-Wenn möglich starten Sie mit einer klassischen Microservice-Anwendung, und stellen Sie sicher, dass sie läuft und Ihre Mitarbeiter damit vertraut sind. Sie können es mit einer bestehenden oder monolithischen Anwendung versuchen, wenn dies sinnvoll ist, da dies die Werkzeuge und Abhängigkeiten, die Sie auf Ihrer Reise zu Cloud Native haben werden, wie kubectl, Netzwerkkonnektivität und andere Themen, identifizieren wird.
+Wenn möglich starten Sie mit einer klassischen Microservice-Anwendung, und stellen Sie sicher, dass sie läuft und Ihre Mitarbeiter damit vertraut sind. Sie können es mit einer bestehenden oder monolithischen Anwendung versuchen, wenn dies sinnvoll ist, da dies die Werkzeuge und Abhängigkeiten, die Sie auf Ihrer Reise zu Cloud-nativehaben werden, wie kubectl, Netzwerkkonnektivität und andere Themen, identifizieren wird.
 
-Ihr Unternehmen muss Microservice-Muster und -Architekturen prüfen und die Besonderheiten Ihrer Anwendungen verstehen. Nicht-funktionale Anforderungen wie Latenz, Ausfallsicherheit, Skalierung und Tools von Drittanbietern sollten unbedingt berücksichtigt werden. Wenn Sie einen Monolithen migrieren, kann dies zu einer erheblichen Umgestaltung der Anwendung führen, da für die bestehenden Anforderungen möglicherweise nicht die technischen Ressourcen zur Verfügung stehen. Prüfen Sie Ihr Zustandsmanagement, da das Refactoring eines Monolithen hier Aufwand erfordern kann. Stellen Sie sicher, dass das Wissen mit dem Code erhalten bleibt und die bestehenden Entwickler, die mit dem Code bereits vertraut sind, an der Migration in die Cloud teilnehmen. Minimieren Sie die Divergenz zwischen der Cloud und Ihrer existierenden Lösung, um allen zu zeigen, dass der Weg in zu Cloud Native verbindlich ist.
+Ihr Unternehmen muss Microservice-Muster und -Architekturen prüfen und die Besonderheiten Ihrer Anwendungen verstehen. Nicht-funktionale Anforderungen wie Latenz, Ausfallsicherheit, Skalierung und Tools von Drittanbietern sollten unbedingt berücksichtigt werden. Wenn Sie einen Monolithen migrieren, kann dies zu einer erheblichen Umgestaltung der Anwendung führen, da für die bestehenden Anforderungen möglicherweise nicht die technischen Ressourcen zur Verfügung stehen. Prüfen Sie Ihr Zustandsmanagement, da das Refactoring eines Monolithen hier Aufwand erfordern kann. Stellen Sie sicher, dass das Wissen mit dem Code erhalten bleibt und die bestehenden Entwickler, die mit dem Code bereits vertraut sind, an der Migration in die Cloud teilnehmen. Minimieren Sie die Divergenz zwischen der Cloud und Ihrer existierenden Lösung, um allen zu zeigen, dass der Weg in zu Cloud-nativeverbindlich ist.
 
 ### Applikations-Releases und Betrieb
 
@@ -122,7 +123,8 @@ Wenn Sie gerade erst anfangen, wird ein Großteil Ihrer Tests manuell an Ihrer G
 
 ## <i class="fas fa-building"></i> Geschäftsnutzen
 
-Auf Level 1 des Cloud Native Maturity Model verfügt Ihr Team über eine Basisimplementierung und Sie befinden sich in der Pre-Production. Hier haben Sie einen erfolgreichen POC abgeschlossen. Auf der Grundlage des POC sollten Sie erste Erkenntnisse darüber haben, wie Cloud Native zur Verbesserung Ihrer Anwendung beitragen wird. In einer Entwicklungsumgebung könnten Sie zum Beispiel Folgendes festgestellt haben:
+Auf Level 1 des Cloud-native-Maturity-Model verfügt Ihr Team über eine Basisimplementierung und Sie befinden sich in der Pre-Production. Hier haben Sie einen erfolgreichen POC abgeschlossen. Auf der Grundlage des POC sollten Sie erste Erkenntnisse darüber haben, wie Cloud-nativezur Verbesserung Ihrer Anwendung beitragen wird. In einer Entwicklungsumgebung könnten Sie zum Beispiel Folgendes festgestellt haben:
+
 - Eine Anwendung verbraucht weniger Ressourcen (Kosteneinsparungen / effizientere Nutzung)
 - Eine neue Funktion wurde schneller ausgeliefert (kürzere Markteinführungszeit und damit höhere Einnahmen)
 - Es gab keine Ausfallzeiten (verbesserte Zuverlässigkeit für Kunden)
@@ -130,7 +132,8 @@ Auf Level 1 des Cloud Native Maturity Model verfügt Ihr Team über eine Basisim
 
 Dies sind nur Beispiele, sie sind keine Garantie für Ihre Umgebung, da die Ergebnisse variieren können.
 
-In dieser Phase legen Sie fest, wie Sie den Erfolg Ihrer Cloud Native Journey messen (Ihre anfänglichen KPIs) und, was ebenso wichtig ist, wie Sie ihn den Stakeholdern demonstrieren werden. Dies ist ein wichtiges Ergebnis von Stufe 1, da der gesamte Erfolg der Reise auf diese Messung abgestimmt werden sollte. Denken Sie daran, dass dies nicht sofort an Tag 1 der Fall sein wird. Einige quantitative und qualitative Beispiele für KPIs könnten sein
+In dieser Phase legen Sie fest, wie Sie den Erfolg Ihrer Cloud-nativeJourney messen (Ihre anfänglichen KPIs) und, was ebenso wichtig ist, wie Sie ihn den Stakeholdern demonstrieren werden. Dies ist ein wichtiges Ergebnis von Stufe 1, da der gesamte Erfolg der Reise auf diese Messung abgestimmt werden sollte. Denken Sie daran, dass dies nicht sofort an Tag 1 der Fall sein wird. Einige quantitative und qualitative Beispiele für KPIs könnten sein
+
 - Reduzierung der Ausgaben für die App-Infrastruktur um 25 % durch Kostenoptimierung
 - Verringerung der Entwicklungskosten um 10%
 - Reduzierung des Teamfokus auf die Anwendungsinfrastruktur um 15 % durch weitestgehende Automatisierung

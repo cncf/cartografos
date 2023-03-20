@@ -19,15 +19,15 @@ Während die Plattform immer etablierter wird, können Sie mit dem Prozess der D
 
 ### Sicherheit
 
-Auf diesem Level ist Sicherheit in Design und dem Deployment involviert. Sie werden die Sicherheit in Ihrer Cloud-Native-Umgebung sicherstellen. Ihr Unternehmen hat sich der Sicherheit verschrieben und kennt die Richtlinien und Vorschriften innerhalb und außerhalb des Unternehmens genau.
+Auf diesem Level ist Sicherheit in Design und dem Deployment involviert. Sie werden die Sicherheit in Ihrer Cloud-native-Umgebung sicherstellen. Ihr Unternehmen hat sich der Sicherheit verschrieben und kennt die Richtlinien und Vorschriften innerhalb und außerhalb des Unternehmens genau.
 
-### Entwickler-Agilität
+### Agilität der Entwickler
 
-Feedback erstreckt sich von Anwendungsmetriken bis hin zu Plattform- und nicht-funktionalen Anforderungen mit mit klarer Zuordnung von Wertströmen zur technologischen Umsetzung. Entwickler können komplexe Szenarien mit vielen Unbekannten schnell testen. Cloud- und Anwendungsrisiken werden schnell und einfach identifiziert und behoben.
+Feedback erstreckt sich von Anwendungsmetriken bis hin zu Plattform- und nicht-funktionalen Anforderungen mit klarer Zuordnung von Wertströmen zur technologischen Umsetzung. Entwickler können komplexe Szenarien mit vielen Unbekannten schnell testen. Cloud- und Anwendungsrisiken werden schnell und einfach identifiziert und behoben.
 
-### Fortbildung von Entwicklern
+### Fortbildung der Entwickler
 
-Entwickler sind anspruchsvoller geworden und Kubernetes wird von mehreren Gruppen in verschiedenen Geschäftsbereichen weit verbreitet eingesetzt. Dabei hat sich ein Wissensfundus entwickelt, der aktiv geteilt wird, einschließlich Integrations- und Freigabeprozessen. Entwickler und Clusterbetreiber erweitern Kubernetes aktiv entsprechend ihrer spezifischen geschäftlichen und technischen Anforderungen.
+Die Entwickler sind anspruchsvoller geworden und Kubernetes wird von mehreren Gruppen in verschiedenen Geschäftsbereichen weit verbreitet eingesetzt. Dabei hat sich ein Wissensfundus entwickelt, der aktiv geteilt wird, einschließlich Integrations- und Freigabeprozessen. Entwickler und Cluster-Betreiber erweitern Kubernetes aktiv entsprechend ihrer spezifischen geschäftlichen und technischen Anforderungen.
 
 ### CNCF-Zertifizierungen
 
@@ -41,15 +41,15 @@ Dieses Zertifikat garantiert, dass ein CKS über die Fähigkeiten, Kenntnisse un
 
 ### Prozessübersicht
 
-Das vorhandene Governance-Modell wird DevSecOps unterstützen. Sie haben Leitlinien zur Unterstützung der agilen Softwareentwicklung. Sie werden eine Anwendungsservices-Bibliothek einführen. Sie werden auch Richtlinien zu Container-Nutzung, wie beispielsweise Autoscaling-Richtlinien oder High Performance Computing, festlegen.
+Das vorhandene Governance-Modell wird DevSecOps unterstützen. Sie haben Leitlinien zur Unterstützung der agilen Softwareentwicklung. Sie führen eine Anwendungsservices-Bibliothek und legen Richtlinien zu Container-Nutzung, wie beispielsweise Autoscaling-Richtlinien oder High Performance Computing, fest.
 
 ### CI/CD
 
 Sie werden Ihre Release-Geschwindigkeit und -Frequenz messen, um Verbesserungen vorzunehmen.
 
-### Change Control
+### Änderungsverfolging
 
-Sie haben Continuous-Delivery, aber kein Continuous-Deployment in die Produktivumgebung. Sie haben aber immer noch einen Weg in die Produktivumgebung, der die Genehmigung des zuständigen Mitarbeiters  erfordert.
+Sie haben Continuous-Delivery, aber kein Continuous-Deployment in der Produktivumgebung. Sie haben immer noch einen Weg in die Produktivumgebung, der die Genehmigung des zuständigen Mitarbeiters erfordert.
 
 ### Sicherheit
 
@@ -57,11 +57,11 @@ Stellen Sie sicher, dass die Sicherheitsbehebung automatisiert und/oder automati
 
 ### Audit und Logs
 
-Audit und Alerting werden mainstream und sind für alle Anwendungen obligatorisch.
+Audit und Alerting werden main-Stream und sind für alle Anwendungen obligatorisch.
 
 ## <i class="fas fa-edit"></i> Richtlinie
 
-### Richtlinienüberblick
+### Richtlinien Überblick
 
 Sie haben nun Service Level Agreements(SLAs) für Richtlinien und Korrekturmaßnahmen definiert.
 
@@ -71,17 +71,17 @@ Passen Sie die Richtlinien an die Anforderungen Ihres Unternehmens an und minimi
 
 ### Compliance
 
-Erweiterung der Richtlinientooling zur Einbeziehung von Anwendungen wie Traffic Proxies, Service Meshes, Message Busses und Linux. Dies wird den Anwendungsbereich der verwalteten Richtlinien erweitern, aber auch dazu beitragen, sie durch deklarative Konfigurationen unter Kontrolle zu haben.
+Erweiterung des Richtlinien-Toolings zur Einbeziehung von Anwendungen wie Traffic-Proxies, Service-Meshes, Message-Busses und Linux. Dies wird den Anwendungsbereich der verwalteten Richtlinien erweitern, aber auch dazu beitragen, sie durch deklarative Konfigurationen unter Kontrolle zu haben.
 
 ## <i class="fas fa-server"></i> Technologie
 
 ### Technologieüberblick
 
-Sie haben die volle Kontrolle über Ihre Umgebung und haben durch die schnelle Übernahme von Cloud-Native-Patterns für neue Anwendungen und Plattformen Ihr Vertrauen gestärkt. Sie haben auch das Engagement des Unternehmens für Cloud Native gewonnen, was Ihnen noch mehr Auftrieb gibt. Sie haben das Gefühl, dass Sie "die Kluft überwunden" haben.
+Sie haben die volle Kontrolle über Ihre Umgebung und durch die schnelle Übernahme von Cloud-native-Patterns für neue Anwendungen und Plattformen Ihr Vertrauen gestärkt. Sie haben auch das Engagement des Unternehmens für Cloud-native gewonnen, was Ihnen noch mehr Auftrieb gibt. Sie haben das Gefühl, dass Sie "die Kluft überwunden" haben.
 
 ### Infrastruktur
 
-Kubernetes und seine API sind Ihnen inzwischen sehr vertraut. Mit Ihrem Infrastruktur- und IaC-Tooling werden Sie wahrscheinlich mit der ClusterAPI beschäftigen und diese zur Bereitstellung und Verwaltung des Lebenszyklus Ihrer Cluster verwenden. Wenn Sie auch weiterhin die Kontrolle über Ihre Plattformen verfeinern möchten, werden Sie Richtlinien für Ihre Infrastruktursteuerungsebene und andere Infrastrukturcontroller implementieren.
+Kubernetes und seine API sind Ihnen inzwischen sehr vertraut. Mit Ihrem Infrastruktur- und IaC-Tooling werden Sie wahrscheinlich mit der Cluster-API beschäftigen und diese zur Bereitstellung und Verwaltung des Lebenszyklus Ihrer Cluster verwenden. Wenn Sie auch weiterhin die Kontrolle über Ihre Plattformen verfeinern möchten, werden Sie Richtlinien für Ihre Infrastruktursteuerungsebene und andere Infrastrukturcontroller implementieren.
 
 ### Container- und Laufzeitmanagement
 
@@ -93,7 +93,7 @@ Microservices sind zum bevorzugten Muster für Anwendungen geworden. Die Verwend
 
 ### Anwendungsveröffentlichung und -betrieb
 
-Sie verwenden GitOps-Operatoren nicht nur für die schnelle Deployments, sondern vielleicht auch für Entwicklungs- und Testzwecke. Sie erwarten, dass der Großteil Ihrer Software mit Helm paketiert wird und die Feedback-Schleife so schnell wie möglich geschlossen wird, um Configuration Drift zu reduzieren.
+Sie verwenden GitOps-Operatoren nicht nur für schnelle Deployments, sondern vielleicht auch für Entwicklungs- und Testzwecke. Sie erwarten, dass der Großteil Ihrer Software mit Helm paketiert wird und die Feedback-Schleife so schnell wie möglich geschlossen wird, um Configuration-Drift zu reduzieren.
 
 ### Sicherheit und Richtlinien
 
@@ -101,9 +101,9 @@ Wenden Sie Ihre Richtlinie auf die Produktion an, falls Sie das noch nicht getan
 
 ### Testing und Fehlererkennung
 
-Wenn Ihre Umgebung in der Produktion komplexer wird, kann es sein, dass die Behebung von Problemen eine Anpassung Ihrer Policy-as-Code oder Komponenten Ihrer Infrastructure-as-Code sowie Ihrer Anwendung erfordert. Probleme können sich auf mehr als eine Anwendung beziehen, sodass Sie sie über mehrere Anwendunen aggregieren müssen, um Trends zu erkennen. Dabei kann es sich um Bugs wie Speicherlecks sowie um Sicherheits- oder Richtlinienprobleme handeln. Ihre Behebung kann darin bestehen, sie an der Quelle zu beheben, idealerweise so "weit links" wie möglich, oder aber eine Automatisierung zu entwickeln, die in der Lage ist, sie zu beheben, wenn sie auftreten, und sie im Laufe der Zeit zu optimieren.
+Wenn Ihre Umgebung in der Produktion komplexer wird, kann es sein, dass die Behebung von Problemen eine Anpassung Ihrer Policy-as-Code, Komponenten Ihrer Infrastructure-as-Code oder Ihrer Anwendung erfordert. Probleme können sich auf mehr als eine Anwendung beziehen, sodass Sie sie über mehrere Anwendungen aggregieren müssen, um Trends zu erkennen. Dabei kann es sich um Bugs wie Speicherlecks sowie um Sicherheits- oder Richtlinienprobleme handeln. Ihre Behebung kann darin bestehen, sie an der Quelle zu beheben, idealerweise so "weit links" wie möglich, oder aber eine Automatisierung zu entwickeln, die in der Lage ist, sie unmittelbar beim Auftreten zu beheben, und sie im Laufe der Zeit zu optimieren.
 
-## <i class="fas fa-building"></i> Geschäftsergebnisse
+## <i class="fas fa-building"></i> Geschäftsnutzen
 
 Level 4 konzentriert sich auf Verbesserungen im Bereich Sicherheit, Richtlinien und Governance in Ihrer Umgebung. Das Team kann sich mehr auf Ihr Geschäft konzentrieren, anstatt auf die Wartung von Kubernetes. Level 4 ist auch die nächste Stufe, auf der Kunden und Auftraggeber ein Plateau erreichen. Die meisten Kunden können auf diesem Niveau bleiben, während sie sich weiterentwickeln.
 
@@ -112,6 +112,6 @@ Ihr Team hat das Selbstvertrauen in der Cloud-Technologie erlangt und es ist nun
 - Etablierte Protokolle und Verfahren
 - Durchsetzung von Richtlinien zur Einhaltung von Standards
 - Vergleich von Cloud-nativen Anwendungen vs. Nicht-Cloud-nativen Anwendungen
-- Das Unternehmen sollte in dieser Phase mit mehr Berichterstattung rechnen. Berichte sollten Compliance, Sicherheit, Leistung und Kosten abdecken. Diese sollten leicht mit den in Level 1 festgelegten Geschäftszielen abgestimmt werden können.
+- das Unternehmen sollte in dieser Phase mit mehr Berichterstattung rechnen. Berichte sollten Compliance, Sicherheit, Leistung und Kosten abdecken. Diese sollten leicht mit den in Level 1 festgelegten Geschäftszielen abgestimmt werden können.
 
-Zu diesem Zeitpunkt können Sie mit der Migration Ihrer anderen Anwendungen beginnen und haben ein besseres Verständnis dafür, was Sie erreichen wollen und wo Sie in den einzelnen Reifegraden einen Nutzen sehen werden.
+Zu diesem Zeitpunkt können Sie mit der Migration Ihrer anderen Anwendungen beginnen und haben ein besseres Verständnis dafür, was Sie erreichen wollen und wo Sie in den einzelnen Reifegraden einen Nutzen sehen.

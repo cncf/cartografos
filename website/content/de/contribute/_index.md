@@ -23,7 +23,7 @@ In der Anfangsphase sind Sie in der besten Position, um uns Feedback zu Bereiche
 
 ## Beitragen
 
-Jeder ist eingeladen, Änderungen, Ergänzungen und Verbesserungen an den Artefakten der Arbeitsgruppe vorzuschlagen.  Wir verwenden einen von der CNCF gesteuerten Prozess zur Entwicklung und Verbesserung von Artefakten. Beiträge sind von allen Teilnehmern in Übereinstimmung mit dem Zweck und der Charta der Arbeitsgruppe willkommen. Jeder, der einen Beitrag leisten möchte, kann ein GitHub Issue einreichen oder einen Pull Request erstellen.
+Jeder ist eingeladen, Änderungen, Ergänzungen und Verbesserungen an den Artefakten der Arbeitsgruppe vorzuschlagen. Wir verwenden einen von der CNCF gesteuerten Prozess zur Entwicklung und Verbesserung von Artefakten. Beiträge sind von allen Teilnehmern in Übereinstimmung mit dem Zweck und der Charta der Arbeitsgruppe willkommen. Jeder, der einen Beitrag leisten möchte, kann ein GitHub Issue einreichen oder einen Pull Request erstellen.
 Neben Beiträgen zu Artefakten und Dokumentation ist Ihre Hilfe auf folgende Weise sehr willkommen:
 
 - Erstellen oder Beitragen von Artefakten zur Arbeitsgruppe, die die Aufgabe der Gruppe unterstützen, bei der Navigation in der Cloud-native-Landscape zu helfen
@@ -137,7 +137,7 @@ Zusätzliche Privilegien:
 
 - Freigabe von Pull Requests in bestimmten Verzeichnissen
 - Kann andere Mitwirkende empfehlen und prüfen, Prüfer zu werden
-Der Prozess, ein Prüfer zu werden, ist folgender:
+  Der Prozess, ein Prüfer zu werden, ist folgender:
 
 - Der Mitwirkende wird nominiert, indem er einen PR gegen das entsprechende Repository eröffnet, wodurch sein GitHub-Benutzername der OWNERS-Datei für ein oder mehrere Verzeichnisse hinzugefügt wird.
 - Mindestens zwei Mitglieder des Teams, dem das Repository oder das Hauptverzeichnis gehört, die bereits Approver sind, genehmigen den PR.
@@ -177,8 +177,8 @@ Verfahren, um Maintainer zu werden:
 
 ## Beitragen zur Website
 
-Wir verwenden [Hugo](https://gohugo.io/) zum Formatieren und Generieren der Maturity-Model-Website, 
-[Docsy](https://github.com/google/docsy) für das Styling und die Struktur der Website 
+Wir verwenden [Hugo](https://gohugo.io/) zum Formatieren und Generieren der Maturity-Model-Website,
+[Docsy](https://github.com/google/docsy) für das Styling und die Struktur der Website
 und [Netlify](https://www.netlify.com/), um die Bereitstellung der Website zu verwalten.
 Hugo ist ein Open-Source-Generator für statische Websites, der uns mit Vorlagen versorgt,
 Vorlagen, die Organisation von Inhalten in einer Standardverzeichnisstruktur und eine Website-Generierungs
@@ -191,7 +191,7 @@ Informationen zur Verwendung von Pull-Requests.
 
 ### Einrichten einer lokalen Instanz
 
-Installieren Sie eine lokale Kopie der Cloud Native Maturity Model-Site mit diesen Anweisungen. Beachten Sie, dass Sie [npm](https://www.npmjs.com/) und [Hugo](https://gohugo.io/) installiert haben müssen.
+Installieren Sie eine lokale Kopie der Cloud-native-Maturity-Model-Site mit diesen Anweisungen. Beachten Sie, dass Sie [npm](https://www.npmjs.com/) und [Hugo](https://gohugo.io/) installiert haben müssen.
 
 ```
 git clone https://github.com/cncf/cartografos.git
