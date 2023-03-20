@@ -1,12 +1,12 @@
 ---
-title: "Level 1 - Build"
+title: "Level 1 - Aufbau"
 description: >
-   Sie haben eine grundlegende Cloud-Native-Implementierung eingerichtet und befinden sich in der Testphase.
+   Sie haben eine grundlegende Cloud-native-Implementierung eingerichtet und befinden sich in der Testphase.
 ---
 
 ## <i class="fas fa-users"></i> Mitarbeiter 
 
-### Mitarbeiter Sicht
+### Mitarbeiter Überblick
 
 Ihre geschäftlichen und technischen Ziele werden von einem cloudbasierten Framework bestimmt. Sie und Ihr Team sind neu in der Technologie, verfügen jedoch über ein gewisses technisches Grundverständnis und einige bereits vorhandene Qualifikationen. Die Unternehmensleitung versteht die Vorteile von Cloud Native.
 
@@ -28,7 +28,7 @@ Ihr Unternehmen hat sich der Dezentralisierung verschrieben und wird "Teams von 
 
 Die Entwickler haben vielleicht das Agile Manifest kennengelernt und das Scrum-Framework übernommen, ohne es notwendigerweise den operativen Bereich einzubeziehen. Die Entwickler versuchen möglicherweise, externe Abhängigkeiten selbst zu lösen, was das Feedback verlangsamt und zu unvollständigen Features im Sprint führt.
 
-### Upskilling von Entwicklern
+### Fortbildung der Entwickler
 
 Zum Reifegrad Ihrer Mitarbeiter gehört auch die Fortbildung des Entwicklungsteams.
 
@@ -52,7 +52,7 @@ Ein zentraler Punkt bei der Umstellung auf die Cloud ist die Einführung von CI/
 
 Wenn Sie bereits CI/CD anwenden, müssen Sie es in Ihre Cloud Native-Umgebung übertragen. Dazu gehören ihre Best Practices und Sie bauen auf ihnen auf.
 
-### Änderungskontrolle
+### Änderungsverfolgung
 
 Es wird eine Änderungsontrolle für Deployments eingeführt. Es gibt noch keinen Prozess dafür, die Änderungen werden ad-hoc durchgeführt.
 
@@ -61,7 +61,7 @@ Es ist entscheidend für die Sicherheit ihrer Cloud Native-Umgebung, dass sie m�
 
 Werden Sie aktiv: Ihre Sicherheitsreise beginnt hier. Berücksichtigen Sie die Sicherheit in allen Aspekten der Implementierung und machen Sie sie zu einem Bürger erster Klasse.
  
-### Auditierung und Logs
+### Audit und Logs
 
 Ihr Prozess enthält Logging und die Auditierung. Dies kann auf internen Anforderungen beruhen oder Ihre Compliance-Vorgaben unterstützen.
 
@@ -69,19 +69,19 @@ Manuelles Log-Scraping findet wahrscheinlich ad-hoc statt, und es fehlt vielleic
 
 ## <i class="fas fa-edit"></i> Richtlinien
 
-### Überblick über die Richtlinien
+### Richtlinien Überblick
 
 Wir sind uns bewusst, dass das Etablieren von Richtlinien graduell stattfindet. Jede Organisation hat eine andere Risikobereitschaft. Verwenden Sie dieses Dokument als Leitfaden für die Definition und Durchsetzung von Richtlinien. Mit Stufe 5 haben Sie die volle Reife der Richtlinien erreicht, aber das Ergebnis kann unterschiedlich sein.
 
 Sie verfügen dann über eine begrenzte Anzahl dokumentierter Richtlinien zur Unterstützung der Dienste, die Sie in der Cloud aufbauen.
 
-### Erstellung von Richtlinien
+### Richtlinien definieren
 
 Sie müssen die Richtlinien und Konformitätsanforderungen Ihres Unternehmens auf Ihre native Cloud-Native-Umgebung übertragen.
 
 Nehmen Sie sich Zeit, um die funktionalen und architektonischen Anforderungen Ihrer Anwendungen zu verstehen.
 
-### Einhaltung der Compliance
+### Compliance
 
 Vor allem in stark regulierten Branchen sind Richtlinien erforderlich, um die Compliance zu gewährleisten. Bei Compliance ist die Reichweite fliessend.
 
@@ -89,7 +89,7 @@ Nehmen Sie sich Zeit, um Ihre Compliance-Anforderungen zu verstehen: zum Beispie
 
 ## <i class="fas fa-server"></i> Technologie
 
-### Technologie-Übersicht
+### Technologie Überblick
 
 Sie werden die ersten Experimente mit Kubernetes machen und es übernehmen. Sie werden mit relativ einfachen Tools und Technologien beginnen. Sie werden Ihr bestehendes Toolset bewerten, um zu sehen, wie es in die neue Landschaft passt (was passt gut zu Cloud Native, was nicht?). Sie verfügen über eine begrenzte Automatisierung, aber keine Sorge, das kommt schon noch! Ihr Fokus liegt auf der Implementierung der Basistechnologie, und Sie sind noch nicht in Produktion.
 
@@ -97,17 +97,17 @@ Sie werden die ersten Experimente mit Kubernetes machen und es übernehmen. Sie 
 
 Sie bauen Ihre Cloud-Infrastruktur entweder vor Ort oder extern auf. Es zahlt sich aus, wenn Sie sich frühzeitig Gedanken über Ihre unterstützende Technologie wie Ihr Netzwerk, Firewalls und IAM, Zugriffskontrollen und Richtlinien machen (und ob Sie diese ändern müssen). Viele Themen werden sich aus Ihren ersten Experimenten mit Kubernetes ergeben, also stellen Sie sicher, dass Sie diese im Auge behalten - sie sind die "Brotkrumen", denen Sie folgen werden, wenn Sie sich in Richtung Cloud Native bewegen. Dazu gehören RBAC-Richtlinien, Load Balancer- und/oder Ingress-Konfiguration, Cluster-Dashboards, privilegierter Zugriff (oder dessen Fehlen!) und Container-Protokollierung. Ihr Ziel ist es, von "Pets" zu "Cattle" überzugehen, also investieren Sie in deklarative Lösungen für Ihre Infrastructure as a Service mit Infrastructure as Code (IaC)-Tools. Wenn Sie noch nicht über eine konsolidierte DevOps-Praxis auf dieser Ebene verfügen, sollten Sie Ihr künftiges Betriebsteam einbeziehen, um es mit der Materie vertraut zu machen.
 
-### Container- und Laufzeitmanagement
+### Container- und Runtime-Management
 
 Zunächst werden Sie sich auf die Erstellung von Containern konzentrieren wollen. Einer Ihrer ersten Schritte wird sein, Container-Builds zu Ihrem CI für Ihre Anwendung hinzuzufügen. Außerdem sollten Sie eine Container-Registry für Ihre Images einrichten und sich Gedanken über die Versionierung und das Tagging machen, um sicher zu wissen, welcher Code verwendet wird.
 
-### Application Patterns und Refactoring
+### Applikationsmuster und Refactoring
 
 Wenn möglich starten Sie mit einer klassischen Microservice-Anwendung, und stellen Sie sicher, dass sie läuft und Ihre Mitarbeiter damit vertraut sind. Sie können es mit einer bestehenden oder monolithischen Anwendung versuchen, wenn dies sinnvoll ist, da dies die Werkzeuge und Abhängigkeiten, die Sie auf Ihrer Reise zu Cloud Native haben werden, wie kubectl, Netzwerkkonnektivität und andere Themen, identifizieren wird.
 
 Ihr Unternehmen muss Microservice-Muster und -Architekturen prüfen und die Besonderheiten Ihrer Anwendungen verstehen. Nicht-funktionale Anforderungen wie Latenz, Ausfallsicherheit, Skalierung und Tools von Drittanbietern sollten unbedingt berücksichtigt werden. Wenn Sie einen Monolithen migrieren, kann dies zu einer erheblichen Umgestaltung der Anwendung führen, da für die bestehenden Anforderungen möglicherweise nicht die technischen Ressourcen zur Verfügung stehen. Prüfen Sie Ihr Zustandsmanagement, da das Refactoring eines Monolithen hier Aufwand erfordern kann. Stellen Sie sicher, dass das Wissen mit dem Code erhalten bleibt und die bestehenden Entwickler, die mit dem Code bereits vertraut sind, an der Migration in die Cloud teilnehmen. Minimieren Sie die Divergenz zwischen der Cloud und Ihrer existierenden Lösung, um allen zu zeigen, dass der Weg in zu Cloud Native verbindlich ist.
 
-### Anwendungsfreigabe und Betrieb
+### Applikations-Releases und Betrieb
 
 Die Verwaltung eines Clusters mit Infrastructure as Code (IaC) unterscheidet sich von der Verwaltung der Anwendungsfreigabe und -bereitstellung, aber viele der gleichen Techniken und Tools sind für beide gleich.
 Wenn Sie mit Kubernetes beginnen, ist es wichtig, dass Sie zunächst so viel praktische Erfahrung wie möglich sammeln. Zu Beginn werden Sie Ad-hoc-Bereitstellungen mit kubectl und kustomize durchführen.
@@ -120,7 +120,7 @@ Beginnen Sie mit dem Aufbau einer sicheren CI-CD-Pipeline, falls Sie noch keine 
 
 Wenn Sie gerade erst anfangen, wird ein Großteil Ihrer Tests manuell an Ihrer Geschäftsanwendung durchgeführt, die Sie als ersten Produktionskandidaten identifiziert haben. Bei Kubernetes werden Sie sich auf die allgemeine Netzwerkkonnektivität konzentrieren und sicherstellen, dass Sie Ihre Anwendungen bereitstellen können. Sie werden Smoke-Tests und UAT-Tests haben.
 
-## <i class="fas fa-building"></i> Geschäftsergebnisse
+## <i class="fas fa-building"></i> Geschäftsnutzen
 
 Auf Level 1 des Cloud Native Maturity Model verfügt Ihr Team über eine Basisimplementierung und Sie befinden sich in der Pre-Production. Hier haben Sie einen erfolgreichen POC abgeschlossen. Auf der Grundlage des POC sollten Sie erste Erkenntnisse darüber haben, wie Cloud Native zur Verbesserung Ihrer Anwendung beitragen wird. In einer Entwicklungsumgebung könnten Sie zum Beispiel Folgendes festgestellt haben:
 - Eine Anwendung verbraucht weniger Ressourcen (Kosteneinsparungen / effizientere Nutzung)
