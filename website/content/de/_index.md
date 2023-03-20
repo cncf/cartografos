@@ -20,19 +20,19 @@ Die Hauptzielgruppe für dieses Modell ist breit gefächert und umfasst die folg
 
 ## Wie das Modell aufgeteilt ist
 
-Die Entwicklung einer Cloud-native Reife ist nicht nur eine technologische Reise, sondern eine, die von vier Hauptbereichen beeinflusst wird:
+Die Entwicklung einer Cloud-native-Reife ist nicht nur eine technologische Reise, sondern eine, die von vier Hauptbereichen beeinflusst wird:
 
 1. Mitarbeiter - Wie arbeiten wir, welche Fähigkeiten benötigen wir, wie sieht unsere Organisation aus, wenn wir diesen Prozess durchlaufen, und wie binden wir die Sicherheit in die Arbeitsweise der Personen ein?
-2. Prozess - Welche Prozesse brauchen wir, welche Technologie ist erforderlich und wie bilden wir Arbeitsabläufe und CI/CD unter Verwendung von Infrastructure-as-Code (IaC) ab und wie verlagern wir die Sicherheit so weit wie möglich nach links"?
+2. Prozess - Welche Prozesse brauchen wir, welche Technologie ist erforderlich und wie bilden wir Arbeitsabläufe und CI/CD unter Verwendung von Infrastructure-as-Code (IaC) ab und wie verlagern wir die Sicherheit so weit wie möglich nach links?
 3. Richtlinien - Welche internen und externen Richtlinien sind erforderlich, um Sicherheits- und Compliance-Vorgaben zu erfüllen? Spiegeln diese Richtlinien die Betriebsumgebung Ihres Unternehmens wider?
 4. Technologie - Welche Technologie ist erforderlich, damit Sie die Vorteile von Cloud-native nutzen und Menschen, Prozesse und Richtlinien sowie die Technologie für CI/CD, die Einführung von GitOps, Observability, Sicherheit, Speicherung, Vernetzung usw. unterstützen können?
 5. Geschäftsnutzen - Was kann das Unternehmen von Cloud-native erwarten? Wie werden Sie die Vorteile dem CXO und/oder der Geschäftsleitung vermitteln?
 
 ## Aber was, wenn wir nicht in dieses Modell passen ...
 
-Entspannen Sie sich! Von keinem Projekt, keiner Organisation oder Person wird erwartet, dass sie alle Details des Modells perfekt erfüllen. Es ist bewusst so konzipiert, dass es viele verschiedene Szenarien abdeckt; alles von Startups bis hin zu Fortune-100-Unternehmen. Nehmen Sie das, was für Sie und Ihre Situation am relevantesten ist, und wenn es Ihnen hilft, sich für bestimmte Punkte oder Bereiche zu inspirieren (oder diese zwar zu berücksichtigen, dann aber auszuschließen), dann betrachten wir dies als Erfolg für Sie!
+Entspannen Sie sich! Von keinem Projekt, keiner Organisation oder Person wird erwartet, dass sie alle Details des Modells perfekt erfüllen. Es ist bewusst so konzipiert, dass es viele verschiedene Szenarien abdeckt; alles von Start-ups bis hin zu Fortune-100-Unternehmen. Nehmen Sie das, was für Sie und Ihre Situation am relevantesten ist, und wenn es Ihnen hilft, sich für bestimmte Punkte oder Bereiche zu inspirieren (oder diese zwar zu berücksichtigen, dann aber auszuschließen), dann betrachten wir dies als Erfolg für Sie!
 
-\*Das Ziel dieses Modells ist es nicht, übermäßig präskriptiv zu sein, sondern vielmehr ein Werkzeug zu sein, das Sie auf Ihrer Reise begleitet. Die Cloud-native-Transformation ist keine exakte Wissenschaft, sondern lebt in Ihrem Projekt, in Ihrer Organisation und findet natürlich in einer bestimmten Zeit und an einem bestimmten Ort statt.
+Das Ziel dieses Modells ist es nicht, übermäßig präskriptiv zu sein, sondern vielmehr ein Werkzeug zu sein, das Sie auf Ihrer Reise begleitet. Die Cloud-native-Transformation ist keine exakte Wissenschaft, sondern lebt in Ihrem Projekt, in Ihrer Organisation und findet natürlich in einer bestimmten Zeit und an einem bestimmten Ort statt.
 
 ## Voraussetzungen für das Cloud-native-Maturity-Model
 
@@ -58,7 +58,7 @@ Wenn Sie die folgenden Kriterien erfüllen, sind Sie möglicherweise bereit, Ihr
 
 ### Prozesse
 
-- Ihre Anwendungs-Deploy erfolgt in vielen Fällen manuell, oder Ihre Freigabeprozesse benötigen sehr viel Zeit, oft mit mehreren Versuchen.
+- Ihr Anwendungs-Deploy erfolgt in vielen Fällen manuell, oder Ihre Freigabeprozesse benötigen sehr viel Zeit, oft mit mehreren Versuchen.
 - Sie unterstützen möglicherweise mehrere Versionen derselben Software und haben Schwierigkeiten, Upgrades oder Evaluierungen ohne erhebliche Ausfallzeiten durchzuführen.
 
 ### Richtlinien
@@ -88,19 +88,19 @@ Wenn Sie die folgenden Kriterien erfüllen, sind Sie möglicherweise bereit, Ihr
 
 ## Die Reise durch das Cloud-native-Maturity-Model
 
-Das Cloud-native-Maturity-Model besteht aus fünf Stufen. Während Sie sich für eine Anwendung in Stufe fünf befinden, können Sie sich gleichzeitig für eine andere Anwendung in Stufe 2 befinden. Behalten Sie das im Hinterkopf, wenn Sie Ihre Reifegradstufe ermitteln.
+Das Cloud-native-Maturity-Model besteht aus fünf Stufen. Während Sie sich für eine Anwendung in Stufe fünf befinden, können Sie sich für eine andere Anwendung in Stufe 2 befinden. Behalten Sie das im Hinterkopf, wenn Sie Ihren Reifegrad ermitteln.
 
 - **[Stufe 1 - Aufbau](/Stufe-1/)**
   Sie haben eine grundlegende Cloud-native-Implementierung eingerichtet und befinden sich in der Vorproduktionsphase.
 
 - **[Stufe 2 - Betrieb](/Stufe-2/)**
-Die Cloud-native-Grundlage ist etabliert und Sie gehen in die Produktion über.
+  Die Cloud-native-Grundlage ist etabliert und Sie gehen in die Produktion über.
 
 - **[Stufe 3 - Skalieren](/Stufe-3/)**
   Ihre Kompetenz wächst und Sie definieren Prozesse für die Skalierung.
 
 - **[Stufe 4 - Verbessern](/Stufe-4/)**
-Sie verbessern die Sicherheit, die Richtlinien und die Verwaltung in Ihrer gesamten Umgebung.
+  Sie verbessern die Sicherheit, die Richtlinien und die Verwaltung in Ihrer gesamten Umgebung.
 
 - **[Stufe 5 - Optimieren](/Stufe-5/)**
   Sie überprüfen frühere Entscheidungen und überwachen Anwendungen und Infrastrukturen, um sie zu optimieren.

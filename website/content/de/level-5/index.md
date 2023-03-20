@@ -69,7 +69,7 @@ Sie stellen Ihre Richtlinien der Open Source Community zur Verfügung und kooper
 
 ### Compliance
 
-Compliance sitzt Ihnen immer im Nacken! Sie werden gezwungen sein, eng mit den Stakeholdern zusammenzuarbeiten. Moderne Machine Learning Techniken können herangezogen werden, um Anomaly-Detection zu betreiben und ungewöhnliche Bedingungen in Ihren Complience-Daten zu finden.
+Compliance sitzt Ihnen immer im Nacken! Sie werden gezwungen sein, eng mit den Stakeholdern zusammenzuarbeiten. Moderne Machine Learning Techniken können herangezogen werden, um Anomaly-Detection zu betreiben und ungewöhnliche Bedingungen in Ihren Compliance-Daten zu finden.
 
 
 ## <i class="fas fa-server"></i> Technologie
@@ -102,7 +102,7 @@ Es findet eine ständige Optimierung und Anpassung an neue Anforderungen statt, 
 
 Die Automatisierung der Reaktion auf Probleme wird weiter optimiert, sodass Fehler überhaupt erst in Produktion auftauchen.
 
-## <i class="fas fa-building"></i> Geeschäftsnutzen
+## <i class="fas fa-building"></i> Geschäftsnutzen
 
 In der Optimierungsphase sind viele Änderungen mit Personen, Prozessen, Richtlinien und Technologie zu sehen. Für die Businessseite sind die Geschäftsziele erreicht, und Sie haben messbare Ergebnisse, die man den Leadership-Teams, der Unternehmensleitung, dem CFO und dem Board präsentieren kann.
 
