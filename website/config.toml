@@ -2,7 +2,7 @@ baseURL = "https://maturitymodel.cncf.io/"
 title = "Cloud Native Maturity Model"
 
 # Language settings
-contentDir = "content"
+contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
