@@ -10,11 +10,11 @@ description: Herzlich willkommen! Wir freuen uns, dass Sie in der Arbeitsgruppe 
 
 ## Einführung
 
-Die Cartografos-Arbeitsgruppe hat sich zum Ziel gesetzt, Tools zur Verfügung zu stellen, die Adoptern und Endnutzern helfen, sich in der CNCF-Landcape und dem breiteren Cloud-Native-Ökosystem zurechtzufinden.
+Die Cartografos-Arbeitsgruppe hat sich zum Ziel gesetzt, Tools zur Verfügung zu stellen, die Adoptern und Endnutzern helfen, sich in der CNCF-Landcape und dem breiteren Cloud-native-Ökosystem zurechtzufinden.
 
-Wir möchten Benutzer mit effektiven und praktischen Anleitungen unterstützen und aufklären, um ihnen zu helfen, das Cloud-Native-Ökosystem zu verstehen. Wir tun dies durch die Zusammenarbeit mit Gruppen innerhalb und außerhalb der CNCF.
+Wir möchten Benutzer mit effektiven und praktischen Anleitungen unterstützen und aufklären, um ihnen zu helfen, das Cloud-native-Ökosystem zu verstehen. Wir tun dies durch die Zusammenarbeit mit Gruppen innerhalb und außerhalb der CNCF.
 
-Wir arbeiten mit CNCF-Projekten auf Sandbox-, Incubating- und Graduated-Ebene zusammen, um eine effektive und akkurate Repräsentation innerhalb der Assets sowie der CNCF Technical Advisory Groups sicherzustellen. Außerdem bieten wir auch ein anbieterneutrales Forum für Validierung, Diskussion und Feedback.
+Wir arbeiten mit CNCF-Projekten auf Sandbox-, Incubating- und Graduated-Ebene zusammen, um eine effektive und akkurate Repräsentation innerhalb der Assets sowie der CNCF-Technical-Advisory-Groups sicherzustellen. Außerdem bieten wir auch ein anbieterneutrales Forum für Validierung, Diskussion und Feedback.
 In der Anfangsphase sind Sie in der besten Position, um uns Feedback zu Bereichen zu geben, in denen die Arbeitsgruppe Hilfe benötigt. Dazu gehören:
 
 - Lücken in unserer Dokumentation zu schließen
@@ -23,10 +23,10 @@ In der Anfangsphase sind Sie in der besten Position, um uns Feedback zu Bereiche
 
 ## Beitragen
 
-Jeder ist eingeladen, Änderungen, Ergänzungen und Verbesserungen an den Artefakten der Arbeitsgruppe vorzuschlagen.  Wir verwenden einen von der CNCF gesteuerten Prozess zur Entwicklung und Verbesserung von Artefakten.  Beiträge sind von allen Teilnehmern in Übereinstimmung mit dem Zweck und der Charta der Arbeitsgruppe willkommen.  Jeder, der einen Beitrag leisten möchte, kann ein GitHub Issue einreichen oder einen Pull Request erstellen.
+Jeder ist eingeladen, Änderungen, Ergänzungen und Verbesserungen an den Artefakten der Arbeitsgruppe vorzuschlagen.  Wir verwenden einen von der CNCF gesteuerten Prozess zur Entwicklung und Verbesserung von Artefakten. Beiträge sind von allen Teilnehmern in Übereinstimmung mit dem Zweck und der Charta der Arbeitsgruppe willkommen. Jeder, der einen Beitrag leisten möchte, kann ein GitHub Issue einreichen oder einen Pull Request erstellen.
 Neben Beiträgen zu Artefakten und Dokumentation ist Ihre Hilfe auf folgende Weise sehr willkommen:
 
-- Erstellen oder Beitragen von Artefakten zur Arbeitsgruppe, die die Aufgabe der Gruppe unterstützen, bei der Navigation in der Cloud Native Landscape zu helfen
+- Erstellen oder Beitragen von Artefakten zur Arbeitsgruppe, die die Aufgabe der Gruppe unterstützen, bei der Navigation in der Cloud-native-Landscape zu helfen
 - Beitragen von Aktualisierungen zu bestehenden Artefakten
 - Ideen für neue Artefakte und Verbesserungen, die Sie gerne sehen würden
 - Dokumentation
@@ -72,9 +72,9 @@ Bevor Sie den PR öffnen, vergewissern Sie sich, dass Sie auf dem neuesten Stand
 Wenn vor der Zusammenführung Ihres PR andere Commits in den Upstream gepusht werden, müssen Sie ebenfalls einen Re-Base durchführen, bevor der PR zusammengeführt wird.
 Allgemeine Hinweise zum Einreichen eines Pull-Requests finden Sie unter [Creating a pull request] (https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) auf GitHub.
 
-## Beitragender "Leiter"
+## Mitwirkungsstufen
 
-Die Beitragender "Leiter" beschreibt die verschiedenen Rollen der Mitwirkenden innerhalb der Arbeitsgruppe sowie die damit verbundenen Verantwortlichkeiten und Privilegien. Community-Mitglieder beginnen in der Regel auf den ersten Stufen der "Leiter" und steigen mit wachsendem Engagement in der Arbeitsgruppe auf. Die Mitglieder unserer Arbeitsgruppe helfen Ihnen gerne dabei, auf der Leiter der Mitwirkenden aufzusteigen.
+Die Mitwirkugnsstufen beschreiben die verschiedenen Rollen der Mitwirkenden innerhalb der Arbeitsgruppe sowie die damit verbundenen Verantwortlichkeiten und Privilegien. Community-Mitglieder beginnen in der Regel auf den ersten Stufen der "Leiter" und steigen mit wachsendem Engagement in der Arbeitsgruppe auf. Die Mitglieder unserer Arbeitsgruppe helfen Ihnen gerne dabei, auf der Leiter der Mitwirkenden aufzusteigen.
 
 ### Participant
 
@@ -177,8 +177,8 @@ Verfahren, um Maintainer zu werden:
 
 ## Beitragen zur Website
 
-Wir verwenden [Hugo](https://gohugo.io/) zum Formatieren und Generieren der Maturity Model Website, das
-[Docsy](https://github.com/google/docsy) für das Styling und die Struktur der Website,
+Wir verwenden [Hugo](https://gohugo.io/) zum Formatieren und Generieren der Maturity-Model-Website, 
+[Docsy](https://github.com/google/docsy) für das Styling und die Struktur der Website 
 und [Netlify](https://www.netlify.com/), um die Bereitstellung der Website zu verwalten.
 Hugo ist ein Open-Source-Generator für statische Websites, der uns mit Vorlagen versorgt,
 Vorlagen, die Organisation von Inhalten in einer Standardverzeichnisstruktur und eine Website-Generierungs
