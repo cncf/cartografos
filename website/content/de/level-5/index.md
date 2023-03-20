@@ -7,7 +7,7 @@ description: Frühere Entscheidungen werden kontinuierlich reevaluiert und Anwen
 
 ### Mitarbeiter Überblick
 
-Das Unternehmen hat einen großen Erfahrungsschatz und beschäftigt kompetente DevOps und DevSecOps. Die Teams experimentieren gerne mit neuen Technologien und Sandbox-Umbgebungen.
+Das Unternehmen hat einen großen Erfahrungsschatz und beschäftigt kompetente DevOps und DevSecOps. Die Teams experimentieren gerne mit neuen Technologien und Sandbox-Umgebungen.
 
 ### Organisatorischer Wandel
 
@@ -26,7 +26,7 @@ Sie arbeiten aktiv an der Weiterentwicklung von Sicherheit, sowohl intern als au
 
 Das Team kann Fluktuation abfedern und sein Arbeitspensum konstant halten oder schnell wiederherstellen. Geschäftsentscheidungen werden durch umfangreiche und akkurate Daten in allen Bereichen des Unternehmens gestützt, was die Einführung von FinOps ermöglicht.
 
-### Weiterbildung von Entwicklern
+### Fortbildung der Entwickler
 
 Es werden moderne Test- und Release-Strategien entwickelt und verwendet, wie beispielsweise Blue/Green oder Canary-Deployments.
 
@@ -46,7 +46,7 @@ Ihre Reife ermöglicht Ihnen nun auch, den Mehrwert von CI/CD für Ihr Unternehm
 
 ### Änderungsverfolgung
 
-Sie verfügen jetzt über die erforderlichen Fähigkeiten zur Qualitätssicherung. Das bedeutet, dass Sie über Qualitätsstandards verfügen, die in der Produktionsumgebung durch eine Pipeline mit automatischen Tests gesichert werden. Deployments, die nicht den Standards entsprechen, schlagen von vorneherein fehl. Sie stellen fest, dass weniger Fehler, Hotfixes und Bugfixes veröffentlicht werden. Best Practices sind stabil etabliert. Auf die Produktionsumgebung wird nicht mehr über persönliche Accounts. sondern über Service-Accounts zugegriffen. Automatisierte Fehlerüberwachung ermöglicht Management und Neustart von problematischen Ressourcen.
+Sie verfügen jetzt über die erforderlichen Fähigkeiten zur Qualitätssicherung. Das bedeutet, dass Sie über Qualitätsstandards verfügen, die in der Produktionsumgebung durch eine Pipeline mit automatischen Tests gesichert werden. Deployments, die nicht den Standards entsprechen, schlagen von vorneherein fehl. Sie stellen fest, dass weniger Fehler, Hotfixes und Bugfixes veröffentlicht werden. Best Practices sind stabil etabliert. Auf die Produktionsumgebung wird nicht mehr über persönliche Accounts, sondern über Service-Accounts zugegriffen. Automatisierte Fehlerüberwachung ermöglicht Management und Neustart von problematischen Ressourcen.
 
 ### Sicherheit
 
@@ -62,7 +62,7 @@ Revisionen sind obligatorisch.
 
 Auf der Grundlage Ihrer Erfahrung werden Sie Ihre Policy mit zunehmender Kompetenz verfeinern und Technologien wie Machine Learning nutzen, um Richtlinienverletzungen zu erkennen und zu korrigieren.
 
-### Gestaltung
+### Richtlinien definieren
 
 Sie stellen Ihre Richtlinien der Open Source Community zur Verfügung und kooperieren mit Aufsichtsbehörden und anderen externen Interessengruppen.
 
@@ -74,19 +74,19 @@ Compliance sitzt Ihnen immer im Nacken! Sie werden gezwungen sein, eng mit den S
 
 ## <i class="fas fa-server"></i> Technologie
 
-### Technologie Überblick*
+### Technologie Überblick
 
-Ihre Investments konzentrieren sich jetzt auf die Automatisierung von funktionalen und nicht-funktionalen Bereichen wie Scanning, Richtlinien, Sicherheit und Tests. Diese Aufgaben werden durch Operatoren erledigt und sind voll automatisiert.
+Ihre Investments konzentrieren sich jetzt auf die Automatisierung von funktionalen und nichtfunktionalen Bereichen wie Scanning, Richtlinien, Sicherheit und Tests. Diese Aufgaben werden durch Operatoren erledigt und sind voll automatisiert.
 
 ### Infrastruktur
 
-Sie verwalten den gesamten Lebenszyklus Ihrer Infrastruktur mithilfe von Software und Tooling. Builds, Upgrades und Decomissioning erfolgen vollständig durch Code.
+Sie verwalten den gesamten Lebenszyklus Ihrer Infrastruktur mithilfe von Software und Tooling. Builds, Upgrades und Dekommissionierung erfolgen vollständig durch Code.
 
 ### Container- und Runtime-Management
 
 Die Reaktion auf Ereignisse geschieht automatisiert, und alle Sicherheitsdaten befinden sich in einem zentralen Repository. Die Plattform ist selbstständig in der Lage, auf Ereignisse zu reagieren.
 
-### Anwendungsmuster und Refactoring
+### Applikationsmuster und Refactoring
 
 Solange sie keine besonderen Anforderungen stellen, wie z. B. extrem niedrige Latenzzeiten, sind neue Greenfield-Anwendungen Cloud-nativ. Sie migrieren Ihr bestehendes Anwendungsportfolio mithilfe Ihres bewährten Prozesses auf Ihre Cloud-native-Plattform. Sie werden feststellen, dass Ihre Anwendung den Stärken und Möglichkeiten Ihrer Plattform entspricht.
 
@@ -102,7 +102,7 @@ Es findet eine ständige Optimierung und Anpassung an neue Anforderungen statt, 
 
 Die Automatisierung der Reaktion auf Probleme wird weiter optimiert, sodass Fehler überhaupt erst in Produktion auftauchen.
 
-## <i class="fas fa-building"></i> Geeschätsnutzen
+## <i class="fas fa-building"></i> Geeschäftsnutzen
 
 In der Optimierungsphase sind viele Änderungen mit Personen, Prozessen, Richtlinien und Technologie zu sehen. Für die Businessseite sind die Geschäftsziele erreicht, und Sie haben messbare Ergebnisse, die man den Leadership-Teams, der Unternehmensleitung, dem CFO und dem Board präsentieren kann.
 

@@ -3,9 +3,9 @@ title: Level 3 - Skalierung
 description: Ihre Kompetenz wächst, und Sie definieren Prozesse für die Skalierung.
 ---
 
-## <i class="fas fa-users"></i> Personen
+## <i class="fas fa-users"></i> Mitarbeiter
 
-### Personen Überblick
+### Mitarbeiter Überblick
 
 Die Kompetenz des Teams wächst und es gibt ein Engagement in Entwicklung, Betrieb und Sicherheit. Sie formalisieren Expertise rund um ein Cloud-basiertes Kompetenzzentrum. Cloud-native wird zu einem primären Bestandteil Ihrer Strategie.
 

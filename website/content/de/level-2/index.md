@@ -96,7 +96,7 @@ Da Ihr Ziel die Produktion ist, haben Sie Kubernetes-Cluster für die Produktion
 
 Sie arbeiten jetzt in der Produktion. Sie werden mit Werkzeugen experimentieren, um die Grundlagen in der Produktion zu erweitern, um bei Sicherheit, Richtlinien-Management, Workload-Fehlkonfigurationen, Ressourcen-Anforderungen und -Limitierungen zu helfen. Die wichtigsten Sicherheitspraktiken für die Container-Hygiene werden integriert.
 
-### Anwendungsmuster und Refactoring
+### Applikationsmuster und Refactoring
 
 Sie sind in Produktion und haben Ihre ersten APIs offengelegt. Ziehen Sie die Entwicklung eines Microservices-first-Frameworks in Betracht, insbesondere wenn Ihre erste Wahl immer ein Microservices-Ansatz ist. Wenn dies nicht der Fall ist, ziehen Sie Anwendungen in Betracht, die für Lift-and-Shift geeignet sind, oder migrieren Sie die Anwendung erst später.
 

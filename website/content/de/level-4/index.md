@@ -3,15 +3,15 @@ title: Level 4 - Verbessern
 description: Sie verbessern Sicherheit, Richtlinien und Governance in Ihrer gesamten Umgebung.
 ---
 
-## <i class="fas fa-users"></i> Personen
+## <i class="fas fa-users"></i> Mitarbeiter
 
-### Mitarbeiter
+### Mitarbeiter Überblick
 
 Während Sie sich verbessern, verlagern Sie die Kompetenz in das Entwicklungsteam, damit es sich selbst verwalten kann. Volles Engagement der Führungsebene.
 
 ### Organisatorischer Wandel
 
-Die Cloud ist jetzt die Standard-Infrastruktur für alle Dienste. Das Unternehmen fordert nun Dienste von DevSecOps anstatt herkömmliche Server anzufordern.
+Die Cloud ist jetzt die Standard-Infrastruktur für alle Dienste. Das Unternehmen fordert nun Dienste von DevSecOps, anstatt herkömmliche Server anzufordern.
 
 ### Teams und Dezentralisierung
 
@@ -23,11 +23,11 @@ Auf diesem Level ist Sicherheit in Design und dem Deployment involviert. Sie wer
 
 ### Agilität der Entwickler
 
-Feedback erstreckt sich von Anwendungsmetriken bis hin zu Plattform- und nicht-funktionalen Anforderungen mit klarer Zuordnung von Wertströmen zur technologischen Umsetzung. Entwickler können komplexe Szenarien mit vielen Unbekannten schnell testen. Cloud- und Anwendungsrisiken werden schnell und einfach identifiziert und behoben.
+Feedback erstreckt sich von Anwendungsmetriken bis hin zu Plattform- und nichtfunktionalen Anforderungen mit klarer Zuordnung von Wertströmen zur technologischen Umsetzung. Entwickler können komplexe Szenarien mit vielen Unbekannten schnell testen. Cloud- und Anwendungsrisiken werden schnell und einfach identifiziert und behoben.
 
 ### Fortbildung der Entwickler
 
-Die Entwickler sind anspruchsvoller geworden und Kubernetes wird von mehreren Gruppen in verschiedenen Geschäftsbereichen weit verbreitet eingesetzt. Dabei hat sich ein Wissensfundus entwickelt, der aktiv geteilt wird, einschließlich Integrations- und Freigabeprozessen. Entwickler und Cluster-Betreiber erweitern Kubernetes aktiv entsprechend ihrer spezifischen geschäftlichen und technischen Anforderungen.
+Die Entwickler sind anspruchsvoller geworden und Kubernetes wird von mehreren Gruppen in verschiedenen Geschäftsbereichen weitverbreitet eingesetzt. Dabei hat sich ein Wissensfundus entwickelt, der aktiv geteilt wird, einschließlich Integrations- und Freigabeprozessen. Entwickler und Cluster-Betreiber erweitern Kubernetes aktiv entsprechend ihrer spezifischen geschäftlichen und technischen Anforderungen.
 
 ### CNCF-Zertifizierungen
 
@@ -39,7 +39,7 @@ Dieses Zertifikat garantiert, dass ein CKS über die Fähigkeiten, Kenntnisse un
 
 ## <i class="fas fa-cogs"></i> Prozess
 
-### Prozessübersicht
+### Prozess Überblick
 
 Das vorhandene Governance-Modell wird DevSecOps unterstützen. Sie haben Leitlinien zur Unterstützung der agilen Softwareentwicklung. Sie führen eine Anwendungsservices-Bibliothek und legen Richtlinien zu Container-Nutzung, wie beispielsweise Autoscaling-Richtlinien oder High Performance Computing, fest.
 
@@ -57,15 +57,15 @@ Stellen Sie sicher, dass die Sicherheitsbehebung automatisiert und/oder automati
 
 ### Audit und Logs
 
-Audit und Alerting werden main-Stream und sind für alle Anwendungen obligatorisch.
+Audit und Alerting werden Main-Stream und sind für alle Anwendungen obligatorisch.
 
 ## <i class="fas fa-edit"></i> Richtlinie
 
 ### Richtlinien Überblick
 
-Sie haben nun Service Level Agreements(SLAs) für Richtlinien und Korrekturmaßnahmen definiert.
+Sie haben nun Service-Level-Agreements(SLAs) für Richtlinien und Korrekturmaßnahmen definiert.
 
-### Richtlinienerstellung
+### Richtlinien definieren
 
 Passen Sie die Richtlinien an die Anforderungen Ihres Unternehmens an und minimieren Sie Ausnahmen.
 
@@ -75,9 +75,9 @@ Erweiterung des Richtlinien-Toolings zur Einbeziehung von Anwendungen wie Traffi
 
 ## <i class="fas fa-server"></i> Technologie
 
-### Technologieüberblick
+### Technologie Überblick
 
-Sie haben die volle Kontrolle über Ihre Umgebung und durch die schnelle Übernahme von Cloud-native-Patterns für neue Anwendungen und Plattformen Ihr Vertrauen gestärkt. Sie haben auch das Engagement des Unternehmens für Cloud-native gewonnen, was Ihnen noch mehr Auftrieb gibt. Sie haben das Gefühl, dass Sie "die Kluft überwunden" haben.
+Sie haben die volle Kontrolle über Ihre Umgebung und durch die schnelle Übernahme von Cloud-native-Patterns für neue Anwendungen und Plattformen Ihr Vertrauen gestärkt. Sie haben auch das Engagement des Unternehmens für Cloud-native gewonnen, was Ihnen noch mehr Auftrieb gibt, und Sie haben das Gefühl, dass Sie "die Kluft überwunden" haben.
 
 ### Infrastruktur
 
@@ -87,11 +87,11 @@ Kubernetes und seine API sind Ihnen inzwischen sehr vertraut. Mit Ihrem Infrastr
 
 Ihr Ziel ist es, mit den von Level 3 gewonnenen Informationsquellen Ihre Datenquellen weiter zu integrieren und Transparenz sowie Alerting zu erhalten. Dadurch wird die Feedback-Loop für Laufzeit und Betrieb geschlossen und Sie können schnell auf ungeplante Ereignisse reagieren.
 
-### Anwendungs-Patterns und Refactoring
+### Applikationsmuster und Refactoring
 
 Microservices sind zum bevorzugten Muster für Anwendungen geworden. Die Verwendung von APIs wird innerhalb der Organisation ausgeweitet und andere interne Systeme können freigegeben und konsumiert werden und stehen über einen Service Mesh für die allgemeine Nutzung offen. Das Unternehmen wird datenzentriert und API-zentriert. Die Daten können somit leichter genutzt werden.
 
-### Anwendungsveröffentlichung und -betrieb
+### Applikations-Releases und -betrieb
 
 Sie verwenden GitOps-Operatoren nicht nur für schnelle Deployments, sondern vielleicht auch für Entwicklungs- und Testzwecke. Sie erwarten, dass der Großteil Ihrer Software mit Helm paketiert wird und die Feedback-Schleife so schnell wie möglich geschlossen wird, um Configuration-Drift zu reduzieren.
 
