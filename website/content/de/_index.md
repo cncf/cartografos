@@ -4,9 +4,9 @@ title: "Cloud-native-Maturity-Model"
 
 ![Frau auf einer Konferenz](/images/woman-at-conference.jpg)
 
-Es ist kein Geheimnis, dass die Welt Cloud-native geworden ist! Die Autoren dieses Werks haben gesehen, dass viele Unternehmen ihre Cloud-native-Reise ohne einen wirklichen Rahmen für die Einführung dieser neuen Anwendungen und Plattformen beginnen. Die Autoren wollen einen Rahmen für den Erfolg bieten.
+Es ist kein Geheimnis, dass die Welt Cloud-native geworden ist! Die Autoren dieses Werks haben gesehen, dass viele Unternehmen ihre Cloud-native-Reise ohne einen wirklichen Rahmen für die Einführung dieser neuen Anwendungen und Plattformen beginnen. Die Autoren wollen diesen Rahmen für Ihren Erfolg anbieten.
 
-Das Ziel dieses Modells ist es, Ihnen dabei zu helfen, sich von den Anfängen bis zur vollständigen Übernahme von Cloud-native-Technologien unter Verwendung der CNCF-Landschaft zu bewegen, um die vollen Vorteile der Ausführung skalierbarer Anwendungen in modernen, dynamischen Umgebungen in öffentlichen und hybriden Clouds zu erreichen.
+Das Ziel dieses Modells ist es, Ihnen dabei zu helfen, sich von den Anfängen bis zur vollständigen Übernahme von Cloud-native-Technologien unter Verwendung der CNCF-Landschaft zu bewegen, um die vollen Vorteile der Ausführung skalierbarer Anwendungen in modernen, dynamischen Umgebungen in öffentlichen und hybriden Clouds zu erhalten.
 
 ## Zielpublikum
 
@@ -22,17 +22,17 @@ Die Hauptzielgruppe für dieses Modell ist breit gefächert und umfasst die folg
 
 Die Entwicklung einer Cloud-native-Reife ist nicht nur eine technologische Reise, sondern eine, die von vier Hauptbereichen beeinflusst wird:
 
-1. Mitarbeiter - Wie arbeiten wir, welche Fähigkeiten benötigen wir, wie sieht unsere Organisation aus, wenn wir diesen Prozess durchlaufen, und wie binden wir die Sicherheit in die Arbeitsweise der Personen ein?
-2. Prozess - Welche Prozesse brauchen wir, welche Technologie ist erforderlich und wie bilden wir Arbeitsabläufe und CI/CD unter Verwendung von Infrastructure-as-Code (IaC) ab und wie verlagern wir die Sicherheit so weit wie möglich nach links?
+1. Mitarbeiter - Wie arbeiten wir, welche Fähigkeiten benötigen wir, wie sieht unsere Organisation aus, wenn wir diesen Prozess durchlaufen, und wie integrieren wir Sicherheit in die Arbeitsweise der Beteiligten?
+2. Prozesse - Welche Prozesse brauchen wir, welche Technologien sind erforderlich, wie bilden wir Arbeitsabläufe und CI/CD unter Verwendung von Infrastructure-as-Code (IaC) ab und wie verlagern wir die Sicherheit so weit wie möglich nach links?
 3. Richtlinien - Welche internen und externen Richtlinien sind erforderlich, um Sicherheits- und Compliance-Vorgaben zu erfüllen? Spiegeln diese Richtlinien die Betriebsumgebung Ihres Unternehmens wider?
-4. Technologie - Welche Technologie ist erforderlich, damit Sie die Vorteile von Cloud-native nutzen und Menschen, Prozesse und Richtlinien sowie die Technologie für CI/CD, die Einführung von GitOps, Observability, Sicherheit, Speicherung, Vernetzung usw. unterstützen können?
+4. Technologie - Welche Technologien sind erforderlich, damit Sie die Vorteile von Cloud-native nutzen und Menschen, Prozesse und Richtlinien sowie die Technologie für CI/CD, die Einführung von GitOps, Observability, Sicherheit, Speicherung, Vernetzung usw. unterstützen können?
 5. Geschäftsnutzen - Was kann das Unternehmen von Cloud-native erwarten? Wie werden Sie die Vorteile dem CXO und/oder der Geschäftsleitung vermitteln?
 
 ## Aber was, wenn wir nicht in dieses Modell passen ...
 
 Entspannen Sie sich! Von keinem Projekt, keiner Organisation oder Person wird erwartet, dass sie alle Details des Modells perfekt erfüllen. Es ist bewusst so konzipiert, dass es viele verschiedene Szenarien abdeckt; alles von Start-ups bis hin zu Fortune-100-Unternehmen. Nehmen Sie das, was für Sie und Ihre Situation am relevantesten ist, und wenn es Ihnen hilft, sich für bestimmte Punkte oder Bereiche zu inspirieren (oder diese zwar zu berücksichtigen, dann aber auszuschließen), dann betrachten wir dies als Erfolg für Sie!
 
-Das Ziel dieses Modells ist es nicht, übermäßig präskriptiv zu sein, sondern vielmehr ein Werkzeug zu sein, das Sie auf Ihrer Reise begleitet. Die Cloud-native-Transformation ist keine exakte Wissenschaft, sondern lebt in Ihrem Projekt, in Ihrer Organisation und findet natürlich in einer bestimmten Zeit und an einem bestimmten Ort statt.
+*Das Ziel dieses Modells ist es nicht, übermäßig präskriptiv zu sein, sondern vielmehr ein Werkzeug zu sein, das Sie auf Ihrer Reise begleitet. Die Cloud-native-Transformation ist keine exakte Wissenschaft, sondern lebt in Ihrem Projekt, in Ihrer Organisation und findet natürlich in einer bestimmten Zeit und an einem bestimmten Ort statt.*
 
 ## Voraussetzungen für das Cloud-native-Maturity-Model
 
@@ -44,11 +44,11 @@ Nur wenige Unternehmen beginnen mit einem völlig leeren Blatt Papier (oft als "
 - Sie verfügen möglicherweise über einen beträchtlichen Bestand an Anwendungen, Plattformen und Infrastrukturen.
 - Möglicherweise haben Sie sogar eine Migration zu Cloud-Service-Anbietern eingeleitet, vielleicht mit einem Lift-and-Shift-Ansatz für Ihren bestehenden Bestand.
 
-Das Wichtigste, was Sie haben sollten, ist eine klare Vorstellung von den Geschäftsergebnissen, die Sie erreichen wollen. Diese werden Ihr "Nordstern" sein und Ihnen bei der Entscheidungsfindung helfen.
+Das Wichtigste, was Sie haben sollten, ist eine klare Vorstellung vom den Geschäftsnutzen, die Sie erreichen wollen. Diese werden Ihr "Nordstern" sein und Ihnen bei der Entscheidungsfindung helfen.
 
 ## Wann ist der richtige Zeitpunkt
 
-Wenn Sie die folgenden Kriterien erfüllen, sind Sie möglicherweise bereit, Ihre Reise in die Cloud zu beginnen:
+Wenn Sie die folgenden Kriterien erfüllen, sind Sie vermutlich bereit, Ihre Reise in die Cloud zu beginnen:
 
 ### Mitarbeiter
 
