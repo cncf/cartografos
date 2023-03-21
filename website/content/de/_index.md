@@ -80,7 +80,7 @@ Wenn Sie die folgenden Kriterien erfüllen, sind Sie vermutlich bereit, Ihre Rei
 
 ![Frau auf einer Konferenz](/images/man-at-conference.jpg)
 
-### Geschäftserfolg
+### Geschäftsnutzen
 
 - Ihr Unternehmen wächst und muss in der Lage sein, die Nachfrage zu befriedigen.
 - Ihr Unternehmen muss ein außergewöhnliches Kundenerlebnis verbessern und/oder bieten.
