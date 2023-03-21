@@ -2,7 +2,6 @@ baseURL = "https://maturitymodel.cncf.io/"
 title = "Cloud Native Maturity Model"
 
 # Language settings
-contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
@@ -50,6 +49,7 @@ anchor = "smart"
 title = "Cloud Native Maturity Model"
 description = "The intent of the Cloud Native Maturity Model is to help you move from inception through to full adoption of cloud native technologies using the CNCF landscape to achieve the full benefits of running scalable applications in modern, dynamic environments in public and hybrid clouds."
 languageName ="English"
+contentDir = "content/en"
 # Weight used for sorting.
 weight = 1
 
