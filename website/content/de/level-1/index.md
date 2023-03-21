@@ -6,7 +6,7 @@ description: >
 
 ## <i class="fas fa-users"></i> Mitarbeiter
 
-### Mitarbeiter Überblick
+### Mitarbeiterüberblick
 
 Ihre geschäftlichen und technischen Ziele werden von einem cloudbasierten Framework bestimmt. Sie und Ihr Team sind neu in der Technologie, verfügen jedoch über ein gewisses technisches Grundverständnis und einige bereits vorhandene Qualifikationen. Die Unternehmensleitung versteht die Vorteile von Cloud-native.
 
@@ -42,7 +42,7 @@ Damit Sie ein nachhaltiges Ökosystem für Cloud-native-Infrastructure aufbauen 
 
 ## <i class="fas fa-cogs"></i> Prozesse
 
-### Prozesse Überblick
+### Prozessüberblick
 
 Sie erstellen eine Übersicht über die Anwendungsanforderungen, sowohl über die funktionalen (Anwendungsfunktionen und -code) als auch über die nicht-funktionalen, wie Leistung, Kapazität und Verfügbarkeit, und legen fest, wie Ihr Unternehmen skaliert werden soll. Das Feedback erfolgt manuell, z. B. per Slack, E-Mail und Telefon, und Sie werden auch manuell Korrekturen vornehmen. Wiederholbarkeit wird durch den Einsatz von Git-Workflows sichergestellt. Plattform- und Technologie-Lebenszyklen und -Updates, insbesondere Sicherheitsupdates, müssen regelmäßig durchgeführt werden, da anfällige Systeme ein besonderes Risiko darstellen. Diese Updates können adhoc und per Hand, aber auch im Rahmen der Updatemechanismen der Distributionen stattfinden.
 
@@ -70,7 +70,7 @@ Manuelles Log-Scraping findet wahrscheinlich adhoc statt, und es fehlt vielleich
 
 ## <i class="fas fa-edit"></i> Richtlinien
 
-### Richtlinien Überblick
+### Richtlinienüberblick
 
 Wir sind uns bewusst, dass das Etablieren von Richtlinien graduell stattfindet. Jede Organisation hat eine andere Risikobereitschaft. Verwenden Sie dieses Dokument als Leitfaden für die Definition und Durchsetzung von Richtlinien. Mit Stufe 5 haben Sie die vollständige Reife der Richtlinien erreicht, aber das Ergebnis kann unterschiedlich sein.
 
@@ -90,7 +90,7 @@ Nehmen Sie sich Zeit, um Ihre Compliance-Anforderungen zu verstehen: zum Beispie
 
 ## <i class="fas fa-server"></i> Technologie
 
-### Technologie Überblick
+### Technologieüberblick
 
 Sie machen die ersten Experimente mit Kubernetes und setzen es ein. Sie werden mit relativ einfachen Tools und Technologien beginnen und Ihr bestehendes Toolset bewerten, um zu sehen, wie es in die neue Landschaft passt (was passt gut zu Cloud-native, was nicht?). Sie verfügen über eine begrenzte Automatisierung, aber keine Sorge, das kommt schon noch! Ihr Fokus liegt auf der Implementierung der Basistechnologie, und Sie sind noch nicht in Produktion.
 

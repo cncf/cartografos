@@ -1,17 +1,17 @@
 ---
 title: Level 4 - Verbessern
-description: Sie verbessern Sicherheit, Richtlinien und Governance in Ihrer gesamten Umgebung.
+description: Sie verbessern Sicherheit, Richtlinien und Führung in Ihrer gesamten Umgebung.
 ---
 
 ## <i class="fas fa-users"></i> Mitarbeiter
 
-### Mitarbeiter Überblick
+### Mitarbeiterüberblick
 
 Während Sie sich verbessern, verlagern Sie die Kompetenz in das Entwicklungsteam, damit es sich selbst verwalten kann. Volles Engagement der Führungsebene.
 
 ### Organisatorischer Wandel
 
-Die Cloud ist jetzt die Standard-Infrastruktur für alle Dienste. Das Unternehmen fordert nun Dienste von DevSecOps, anstatt herkömmliche Server anzufordern.
+Die Cloud ist jetzt die Standardinfrastruktur für alle Dienste. Das Unternehmen fordert nun Dienste von DevSecOps anstatt herkömmliche Server anzufordern.
 
 ### Teams und Dezentralisierung
 
@@ -27,7 +27,7 @@ Feedback erstreckt sich von Anwendungsmetriken bis hin zu Plattform- und nichtfu
 
 ### Fortbildung der Entwickler
 
-Die Entwickler sind anspruchsvoller geworden und Kubernetes wird von mehreren Gruppen in verschiedenen Geschäftsbereichen weitverbreitet eingesetzt. Dabei hat sich ein Wissensfundus entwickelt, der aktiv geteilt wird, einschließlich Integrations- und Freigabeprozessen. Entwickler und Cluster-Betreiber erweitern Kubernetes aktiv entsprechend ihrer spezifischen geschäftlichen und technischen Anforderungen.
+Die Entwickler sind anspruchsvoller geworden und Kubernetes wird von mehreren Gruppen in unterschiedlichen Geschäftsbereichen allgemein akzeptiert. Dabei hat sich ein Wissensfundus entwickelt, der aktiv geteilt wird, einschließlich Integrations- und Freigabeprozessen. Entwickler und Cluster-Betreiber erweitern Kubernetes aktiv entsprechend ihren spezifischen geschäftlichen und technischen Anforderungen.
 
 ### CNCF-Zertifizierungen
 
@@ -39,31 +39,31 @@ Dieses Zertifikat garantiert, dass ein CKS über die Fähigkeiten, Kenntnisse un
 
 ## <i class="fas fa-cogs"></i> Prozesse
 
-### Prozess Überblick
+### Prozessüberblick
 
-Das vorhandene Governance-Modell wird DevSecOps unterstützen. Sie haben Leitlinien zur Unterstützung der agilen Softwareentwicklung. Sie führen eine Anwendungsservices-Bibliothek und legen Richtlinien zu Container-Nutzung, wie beispielsweise Autoscaling-Richtlinien oder High Performance Computing, fest.
+Das vorhandene Führungskonzept wird DevSecOps unterstützen. Sie haben Leitlinien zur Unterstützung der agilen Softwareentwicklung. Sie führen eine Anwendungsservices-Bibliothek und legen Richtlinien zu Container-Nutzung, wie beispielsweise Autoscaling-Richtlinien oder High Performance Computing, fest.
 
 ### CI/CD
 
-Sie werden Ihre Release-Geschwindigkeit und -Frequenz messen, um Verbesserungen vorzunehmen.
+Sie werden Ihre Release-Geschwindigkeit und -Frequenz messen um Verbesserungen vorzunehmen.
 
-### Änderungsverfolging
+### Änderungsverfolgung
 
 Sie haben Continuous-Delivery, aber kein Continuous-Deployment in der Produktivumgebung. Sie haben immer noch einen Weg in die Produktivumgebung, der die Genehmigung des zuständigen Mitarbeiters erfordert.
 
 ### Sicherheit
 
-Stellen Sie sicher, dass die Sicherheitsbehebung automatisiert und/oder automatisch identifiziert wird, mit Empfehlungen zur Behebung.
+Stellen Sie sicher, dass die Sicherheitsbehebung automatisiert und/oder automatisch identifiziert wird - mit Empfehlungen zur Behebung.
 
 ### Audit und Logs
 
-Audit und Alerting werden Main-Stream und sind für alle Anwendungen obligatorisch.
+Audit und Alerting werden zur Normalität und sind für alle Anwendungen obligatorisch.
 
 ## <i class="fas fa-edit"></i> Richtlinien
 
-### Richtlinien Überblick
+### Richtlinienüberblick
 
-Sie haben nun Service-Level-Agreements(SLAs) für Richtlinien und Korrekturmaßnahmen definiert.
+Sie haben nun Service-Level-Agreements (SLAs) für Richtlinien und Korrekturmaßnahmen definiert.
 
 ### Richtlinien definieren
 
@@ -71,13 +71,13 @@ Passen Sie die Richtlinien an die Anforderungen Ihres Unternehmens an und minimi
 
 ### Compliance
 
-Erweiterung des Richtlinien-Toolings zur Einbeziehung von Anwendungen wie Traffic-Proxies, Service-Meshes, Message-Busses und Linux. Dies wird den Anwendungsbereich der verwalteten Richtlinien erweitern, aber auch dazu beitragen, sie durch deklarative Konfigurationen unter Kontrolle zu haben.
+Erweiterung des Richtlinien-Toolings zur Einbeziehung von Anwendungen wie Traffic-Proxies, Service-Meshes, Message-Busse und Linux. Dies wird den Anwendungsbereich der verwalteten Richtlinien erweitern, aber auch dazu beitragen, sie durch deklarative Konfigurationen unter Kontrolle zu haben.
 
 ## <i class="fas fa-server"></i> Technologie
 
-### Technologie Überblick
+### Technologieüberblick
 
-Sie haben die volle Kontrolle über Ihre Umgebung und durch die schnelle Übernahme von Cloud-native-Patterns für neue Anwendungen und Plattformen Ihr Vertrauen gestärkt. Sie haben auch das Engagement des Unternehmens für Cloud-native gewonnen, was Ihnen noch mehr Auftrieb gibt, und Sie haben das Gefühl, dass Sie "die Kluft überwunden" haben.
+Sie haben die volle Kontrolle über Ihre Umgebung und durch die schnelle Übernahme von Cloud-native-Patterns für neue Anwendungen und Plattformen Ihr Vertrauen gestärkt. Sie haben auch das Bekenntnis des Unternehmens zu Cloud-native gewonnen, was Ihnen noch mehr Auftrieb verleiht. Sie haben das Gefühl, dass Sie den Durchbruch erreicht haben.
 
 ### Infrastruktur
 
@@ -93,15 +93,15 @@ Microservices sind zum bevorzugten Muster für Anwendungen geworden. Die Verwend
 
 ### Applikations-Releases und -betrieb
 
-Sie verwenden GitOps-Operatoren nicht nur für schnelle Deployments, sondern vielleicht auch für Entwicklungs- und Testzwecke. Sie erwarten, dass der Großteil Ihrer Software mit Helm paketiert wird und die Feedback-Schleife so schnell wie möglich geschlossen wird, um Configuration-Drift zu reduzieren.
+Sie verwenden GitOps-Operatoren nicht nur für schnelle Deployments, sondern vielleicht auch für Entwicklungs- und Testzwecke. Sie erwarten, dass der Großteil Ihrer Software mit Helm paketiert wird und dass Feedback-Schleifen so schnell wie möglich geschlossen werden um Configuration-Drift zu reduzieren.
 
 ### Sicherheit und Richtlinien
 
-Wenden Sie Ihre Richtlinie auf die Produktion an, falls Sie das noch nicht getan haben. Sie werden Ihre Richtlinien in der Produktion weiter optimieren.
+Wenden Sie Ihre Richtlinien auf die Produktion an, falls Sie das noch nicht getan haben. Sie werden Ihre Richtlinien in der Produktion weiter optimieren.
 
-### Testing und Fehlererkennung
+### Testen und Fehlererkennung
 
-Wenn Ihre Umgebung in der Produktion komplexer wird, kann es sein, dass die Behebung von Problemen eine Anpassung Ihrer Policy-as-Code, Komponenten Ihrer Infrastructure-as-Code oder Ihrer Anwendung erfordert. Probleme können sich auf mehr als eine Anwendung beziehen, sodass Sie sie über mehrere Anwendungen aggregieren müssen, um Trends zu erkennen. Dabei kann es sich um Bugs wie Speicherlecks sowie um Sicherheits- oder Richtlinienprobleme handeln. Ihre Behebung kann darin bestehen, sie an der Quelle zu beheben, idealerweise so "weit links" wie möglich, oder aber eine Automatisierung zu entwickeln, die in der Lage ist, sie unmittelbar beim Auftreten zu beheben, und sie im Laufe der Zeit zu optimieren.
+Wenn Ihre Umgebung in der Produktion komplexer wird, kann es sein, dass die Behebung von Problemen eine Anpassung Ihrer Policy-as-Code, Komponenten Ihrer Infrastructure-as-Code oder Ihrer Anwendung erfordert. Probleme können sich auf mehr als eine Anwendung beziehen, sodass Sie sie über mehrere Anwendungen aggregieren müssen um Trends zu erkennen. Dabei kann es sich um Bugs wie Speicherlecks sowie um Sicherheits- oder Richtlinienprobleme handeln. Ihre Behebung kann darin bestehen, sie an der Quelle zu beheben, idealerweise so "weit links" wie möglich, oder aber eine Automatisierung zu entwickeln, die in der Lage ist, sie unmittelbar beim Auftreten zu beheben und sie im Laufe der Zeit zu optimieren.
 
 ## <i class="fas fa-building"></i> Geschäftsnutzen
 

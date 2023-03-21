@@ -5,7 +5,7 @@ description: Die Cloud-native-Basis ist etabliert und Sie gehen in die Produktio
 
 ## <i class="fas fa-users"></i> Mitarbeiter 
 
-### Mitarbeiter Überblick
+### Mitarbeiterüberblick
 
 Jeder Einzelne investiert Zeit in Ausbildung und Qualifikation. Auf diese Weise entstehen kleine Gruppen von Fachexperten und Fachleuten. DevOps hat mit der Integration von Ingenieuren mit Cloud-Kenntnissen und Entwicklergruppen mit Plattform-Knowhow begonnen. Die Führungsebene unterstützt die Cloud-native-Bemühungen aktiv.
 
