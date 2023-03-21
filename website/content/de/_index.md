@@ -28,7 +28,7 @@ Die Entwicklung einer Cloud-native-Reife ist nicht nur eine technologische Reise
 4. Technologie - Welche Technologien sind erforderlich, damit Sie die Vorteile von Cloud-native nutzen und Menschen, Prozesse und Richtlinien sowie die Technologie für CI/CD, die Einführung von GitOps, Observability, Sicherheit, Speicherung, Vernetzung usw. unterstützen können?
 5. Geschäftsnutzen - Was kann das Unternehmen von Cloud-native erwarten? Wie werden Sie die Vorteile dem CXO und/oder der Geschäftsleitung vermitteln?
 
-## Aber was, wenn wir nicht in dieses Modell passen ...
+## Aber was, wenn wir nicht in dieses Modell passen...
 
 Entspannen Sie sich! Von keinem Projekt, keiner Organisation oder Person wird erwartet, dass sie alle Details des Modells perfekt erfüllen. Es ist bewusst so konzipiert, dass es viele verschiedene Szenarien abdeckt; alles von Start-ups bis hin zu Fortune-100-Unternehmen. Nehmen Sie das, was für Sie und Ihre Situation am relevantesten ist, und wenn es Ihnen hilft, sich für bestimmte Punkte oder Bereiche zu inspirieren (oder diese zwar zu berücksichtigen, dann aber auszuschließen), dann betrachten wir dies als Erfolg für Sie!
 
@@ -72,11 +72,11 @@ Wenn Sie die folgenden Kriterien erfüllen, sind Sie vermutlich bereit, Ihre Rei
 - Einige Automatisierungen sind verstreut.
 - Sie verfügen über grundlegende Sicherheitskomponenten wie SIEM, RBAC-Konzepte und eine Art von Verzeichnis.
 - Sie verfügen über eine gewisse Softwarepaketierung, die jedoch uneinheitlich sein kann.
-- Sie verfügen über Perimetersicherheit und über Netzwerkzonen auf den Schichten 1-4, aber Sie spüren vielleicht einige Ängste und Sicherheitspraktiken spüren.
+- Sie verfügen über Perimetersicherheit und über Netzwerkzonen auf den Schichten 1-4, aber verspüren vielleicht einige Ängste rund um Sicherheitspraktiken.
 - Ihre Erfahrung mit Verschlüsselung kann unterschiedlich sein - Sie haben z. B. einige Zertifizierungsstellen, aber sie werden vielleicht nicht ausgiebig genutzt, und die Einstiegshürde ist für viele hoch.
 - Ihre Anwendungen sind möglicherweise auf Infrastrukturlösungen für eine hohe Verfügbarkeit angewiesen, was wiederum teurer sein kann, als Ihnen lieb ist.
-- Ihr Serverbestand könnte von einzelnen physischen oder virtuellen Servern mit geringer Verfügbarkeit bis hin zu hochverfügbaren Clustern reichen. Die Skalierung könnte eine echte Herausforderung darstellen und erhebliche Investitionen in Geld, Zeit und Planung erfordern.
-- Sie haben vielleicht damit begonnen, Ihre Zehen in ein Everything-as-Code-Modell einzutauchen, d.h. Sie haben begonnen, Ihre Infrastruktur mit Terraform zu skripten.
+- Ihr Serverbestand könnte von einzelnen physischen oder virtuellen Servern mit geringer Verfügbarkeit bis hin zu hochverfügbaren Clustern reichen. Die Skalierung kann eine echte Herausforderung darstellen und erhebliche Investitionen in Geld, Zeit und Planung erfordern.
+- Sie haben vielleicht damit begonnen, in das Everything-as-Code-Modell einzutauchen. Zum Beispiel haben Sie bereits begonnen, Ihre Infrastruktur mit Terraform zu automatisieren.
 
 ![Frau auf einer Konferenz](/images/man-at-conference.jpg)
 
@@ -88,22 +88,22 @@ Wenn Sie die folgenden Kriterien erfüllen, sind Sie vermutlich bereit, Ihre Rei
 
 ## Die Reise durch das Cloud-native-Maturity-Model
 
-Das Cloud-native-Maturity-Model besteht aus fünf Stufen. Während Sie sich für eine Anwendung in Stufe fünf befinden, können Sie sich für eine andere Anwendung in Stufe 2 befinden. Behalten Sie das im Hinterkopf, wenn Sie Ihren Reifegrad ermitteln.
+Das Cloud-native-Maturity-Model besteht aus fünf Stufen. Während Sie sich für eine Anwendung in Stufe 5 befinden, können Sie sich für eine andere Anwendung in Stufe 2 befinden. Behalten Sie das im Hinterkopf, wenn Sie Ihren Reifegrad ermitteln.
 
 * **[Stufe 1 - Aufbau]({{< ref "/level-1" >}})**
-  Sie haben eine grundlegende Cloud-native-Implementierung eingerichtet und befinden sich in der Vorproduktionsphase.
+Sie haben eine grundlegende Cloud-native-Implementierung eingerichtet und befinden sich in der Vorproduktionsphase.
 
 * **[Stufe 2 - Betrieb]({{< ref "/level-2" >}})**
-  Die Cloud-native-Grundlage ist etabliert und Sie gehen in die Produktion über.
+Die Cloud-native-Grundlage ist etabliert und Sie gehen in die Produktion über.
 
 * **[Stufe 3 - Skalieren]({{< ref "/level-3" >}})**
-  Ihre Kompetenz wächst und Sie definieren Prozesse für die Skalierung.
+Ihre Kompetenz wächst und Sie definieren Prozesse für die Skalierung.
 
 * **[Stufe 4 - Verbessern]({{< ref "/level-4" >}})**
-  Sie verbessern die Sicherheit, die Richtlinien und die Verwaltung in Ihrer gesamten Umgebung.
+Sie verbessern die Sicherheit, die Richtlinien und die Verwaltung in Ihrer gesamten Umgebung.
 
 * **[Stufe 5 - Optimieren]({{< ref "/level-5" >}})**
-  Sie überprüfen frühere Entscheidungen und überwachen Anwendungen und Infrastrukturen, um sie zu optimieren.
+Sie überprüfen frühere Entscheidungen und überwachen Anwendungen und Infrastrukturen, um sie zu optimieren.
 
 In jedem der folgenden Abschnitte werden wir die Kernkonzepte hervorheben und erörtern, was dies in den einzelnen Reifegraden für Menschen, Prozesse, Richtlinien und Technologien bedeutet.
 
