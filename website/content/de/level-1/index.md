@@ -96,17 +96,17 @@ Sie machen die ersten Experimente mit Kubernetes und setzen es ein. Sie werden m
 
 ### Infrastruktur
 
-Sie bauen Ihre Cloud-Infrastruktur entweder vor Ort oder extern auf. Es zahlt sich aus, wenn Sie sich frühzeitig Gedanken über Ihre unterstützende Technologie wie Ihr Netzwerk, Firewalls und IAM, Zugriffskontrollen und Richtlinien machen (und ob Sie diese ändern müssen). Viele Themen werden sich aus Ihren ersten Experimenten mit Kubernetes ergeben, also stellen Sie sicher, dass Sie diese im Auge behalten - sie sind die "Brotkrumen", denen Sie folgen werden, wenn Sie sich in Richtung Cloud-native bewegen. Dazu gehören RBAC-Richtlinien, Load-Balancer- und/oder Ingress-Konfiguration, Cluster-Dashboards, privilegierter Zugriff (oder dessen Fehlen!) und Container-Protokollierung. Ihr Ziel ist es, von "Pets" zu "Cattle" überzugehen, also investieren Sie in deklarative Lösungen für Ihre Infrastructure-as-a-Service mit Infrastructure-as-Code (IaC)-Tools. Wenn Sie noch nicht über eine konsolidierte DevOps-Praxis auf dieser Ebene verfügen, sollten Sie Ihr künftiges Betriebsteam einbeziehen, um es mit der Materie vertraut zu machen.
+Sie bauen Ihre Cloud-Infrastruktur entweder vor Ort oder extern auf. Es zahlt sich aus, wenn Sie sich frühzeitig Gedanken über Ihre unterstützende Technologie wie Ihr Netzwerk, Firewalls und IAM, Zugriffskontrollen und Richtlinien machen (und ob Sie diese ändern müssen). Viele Themen werden sich aus Ihren ersten Experimenten mit Kubernetes ergeben, also stellen Sie sicher, dass Sie diese im Auge behalten - sie sind die "Brotkrumen", denen Sie folgen werden, wenn Sie sich in Richtung Cloud-native bewegen. Dazu gehören RBAC-Richtlinien, Load-Balancer- und/oder Ingress-Konfigurationen, Cluster-Dashboards, privilegierter Zugriff (oder dessen Fehlen!) und Container-Protokollierung. Ihr Ziel ist es, von "Pets" zu "Cattle" überzugehen, also investieren Sie in deklarative Lösungen für Ihre Infrastructure-as-a-Service mit Infrastructure-as-Code (IaC)-Tools. Wenn Sie noch nicht über eine konsolidierte DevOps-Praxis auf dieser Ebene verfügen, sollten Sie Ihr künftiges Betriebsteam einbeziehen, um es mit der Materie vertraut zu machen.
 
 ### Container- und Runtime-Management
 
-Zunächst werden Sie sich auf die Erstellung von Containern konzentrieren wollen. Einer Ihrer ersten Schritte wird sein, Container-Builds zu Ihrem CI für Ihre Anwendung hinzuzufügen. Außerdem sollten Sie eine Container-Registry für Ihre Images einrichten und sich Gedanken über die Versionierung und das Tagging machen, um sicher zu wissen, welcher Code verwendet wird.
+Zunächst werden Sie sich auf die Erstellung von Containern konzentrieren wollen. Einer Ihrer ersten Schritte wird sein, Container-Builds zu Ihrer CI für Ihre Anwendung hinzuzufügen. Außerdem sollten Sie eine Container-Registry für Ihre Images einrichten und sich Gedanken über Versionierung und Tagging machen, um sicher zu wissen, welcher Code verwendet wird.
 
 ### Applikationsmuster und Refactoring
 
-Wenn möglich starten Sie mit einer klassischen Microservice-Anwendung, und stellen Sie sicher, dass sie läuft und Ihre Mitarbeiter damit vertraut sind. Sie können es mit einer bestehenden oder monolithischen Anwendung versuchen, wenn dies sinnvoll ist, da dies die Werkzeuge und Abhängigkeiten, die Sie auf Ihrer Reise zu Cloud-native haben werden, wie kubectl, Netzwerkkonnektivität und andere Themen, identifizieren wird.
+Wenn möglich starten Sie mit einer klassischen Microservice-Anwendung, und stellen Sie sicher, dass sie läuft und Ihre Mitarbeiter damit vertraut sind. Sie können es mit einer bestehenden oder monolithischen Anwendung versuchen, wenn dies sinnvoll ist, da dies die Werkzeuge und Abhängigkeiten, die Sie auf Ihrer Reise zu Cloud-native haben werden, sowie Netzwerkkonnektivität und andere Themen, identifizieren wird.
 
-Ihr Unternehmen muss Microservice-Muster und -Architekturen prüfen und die Besonderheiten Ihrer Anwendungen verstehen. Nicht-funktionale Anforderungen wie Latenz, Ausfallsicherheit, Skalierung und Tools von Drittanbietern sollten unbedingt berücksichtigt werden. Wenn Sie einen Monolithen migrieren, kann dies zu einer erheblichen Umgestaltung der Anwendung führen, da für die bestehenden Anforderungen möglicherweise nicht die technischen Ressourcen zur Verfügung stehen. Prüfen Sie Ihr Zustandsmanagement, da das Refactoring eines Monolithen hier Aufwand erfordern kann. Stellen Sie sicher, dass das Wissen mit dem Code erhalten bleibt und die bestehenden Entwickler, die mit dem Code bereits vertraut sind, an der Migration in die Cloud teilnehmen. Minimieren Sie die Divergenz zwischen der Cloud und Ihrer existierenden Lösung, um allen zu zeigen, dass der Weg in zu Cloud-native verbindlich ist.
+Ihr Unternehmen muss Microservice-Muster und -Architekturen prüfen und die Besonderheiten Ihrer Anwendungen verstehen. Nicht-funktionale Anforderungen wie Latenz, Ausfallsicherheit, Skalierung und Tools von Drittanbietern sollten unbedingt berücksichtigt werden. Wenn Sie einen Monolithen migrieren, kann dies zu einer erheblichen Umgestaltung der Anwendung führen, da für die bestehenden Anforderungen möglicherweise nicht die technischen Ressourcen zur Verfügung stehen. Prüfen Sie Ihren Umgang mit State, da das Refactoring eines Monolithen hier Aufwand erfordern kann. Stellen Sie sicher, dass das Wissen mit dem Code erhalten bleibt und die bestehenden Entwickler, die mit dem Code bereits vertraut sind, an der Migration in die Cloud teilnehmen. Minimieren Sie die Divergenz zwischen der Cloud und Ihrer existierenden Lösung, um allen zu zeigen, dass der Weg in zu Cloud-native verbindlich ist.
 
 ### Applikations-Releases und Betrieb
 
@@ -132,18 +132,18 @@ Auf Level 1 des Cloud-native-Maturity-Model verfügt Ihr Team über eine Basisim
 
 Dies sind nur Beispiele, sie sind keine Garantie für Ihre Umgebung, da die Ergebnisse variieren können.
 
-In dieser Phase legen Sie fest, wie Sie den Erfolg Ihrer Cloud-nativeJourney messen (Ihre anfänglichen KPIs) und, was ebenso wichtig ist, wie Sie ihn den Stakeholdern demonstrieren werden. Dies ist ein wichtiges Ergebnis von Stufe 1, da der gesamte Erfolg der Reise auf diese Messung abgestimmt werden sollte. Denken Sie daran, dass dies nicht sofort an Tag 1 der Fall sein wird. Einige quantitative und qualitative Beispiele für KPIs könnten sein
+In dieser Phase legen Sie fest, wie Sie den Erfolg Ihrer Cloud-native Reise messen (Ihre anfänglichen KPIs) und, was ebenso wichtig ist, wie Sie ihn den Stakeholdern demonstrieren werden. Dies ist ein wichtiges Ergebnis von Stufe 1, da der gesamte Erfolg der Reise auf diese Messung abgestimmt werden sollte. Denken Sie daran, dass dies nicht sofort an Tag 1 der Fall sein wird. Einige quantitative und qualitative Beispiele für KPIs könnten sein:
 
-- Reduzierung der Ausgaben für die App-Infrastruktur um 25 % durch Kostenoptimierung
+- Reduzierung der Ausgaben für die Anwendungsinfrastruktur um 25% durch Kostenoptimierung
 - Verringerung der Entwicklungskosten um 10%
 - Reduzierung des Teamfokus auf die Anwendungsinfrastruktur um 15 % durch weitestgehende Automatisierung
-- erhöhte Sicherheit für die Anwendung durch Automatisierung der CVE-Identifizierung in Containern
+- erhöhte Sicherheit für die Anwendung durch Automatisierung der Identifizierug von CVEs in Containern
 - verbesserte Compliance, da Sie den Zugriff auf die Anwendung einschränken und verfolgen können; Nachweis der Compliance mit SOC 2
-- beschleunigte Entwicklungslebenszyklen durch Implementierung von CI/CD-Pipelines, die 10 % mehr Funktionen pro Quartal bereitstellen
+- beschleunigte Entwicklungslebenszyklen durch Implementierung von CI/CD-Pipelines, die 10% mehr Funktionen pro Quartal bereitstellen
 - Migrationsplan - dies hängt von Ihrem Unternehmen ab, aber Sie sollten einen Migrationsplan haben. Unabhängig davon, ob Sie zuerst eine oder mehrere Anwendungen migrieren wollen, sollten Sie diesen Plan bereits erstellt haben.
 - verbessertes Kundenerlebnis, gemessen an höheren Leistungskennzahlen
 - Beseitigung von Informationssilos: Abteilungen sind nicht mehr isoliert, sondern verfügen über ein einziges, integriertes Ökosystem.
 - Abstimmung von Geschäfts- und IT-Zielen: Jeder ist involviert und weiß Bescheid, sodass die Ressourcen besser eingesetzt werden können, um diese Ziele effizient zu erreichen.
-- verbesserte interne Kommunikation: Die gegenseitige Befruchtung bietet neue Perspektiven mit gemeinsamem Wissen.
+- verbesserte interne Kommunikation: Der gegenseitige Austausch bietet neue Perspektiven mit gemeinsamem Wissen.
 
 In dieser Phase ist es wichtig, dass die Geschäftsergebnisse untersucht und den Geschäftsinteressenten erläutert werden. Es sollte eine Diskussion mit der technischen Leitung, dem Eigentümer der Anwendung (Finanzen, Marketing usw.), dem CEO und sogar dem Vorstand stattfinden. Ohne diese Diskussionen und Abstimmung wird der Übergang zu den nächsten Phasen auf wenig Gegenliebe und möglicherweise sogar Skepsis stoßen.
