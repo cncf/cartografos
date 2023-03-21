@@ -27,7 +27,7 @@ Das Team ist mit technisch anspruchsvollen Problemen vertraut und weiß, wie Clo
 
 ### Fortbildung von Entwicklern
 
-Ihr breiteres Entwicklungsteam ist in der Lage, Kubernetes grundlegend zu bedienen, einschließlich:
+Ihr erweitertes Entwicklungsteam ist in der Lage, Kubernetes grundlegend zu bedienen, einschließlich:
 - Verbinden eines Operators mit der Kubernetes API
 - sich mit Kubectl-Befehlen vertraut machen
 - Verstehen, wie man Ressourcen auflistet und anzeigt
