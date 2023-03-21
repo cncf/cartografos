@@ -90,19 +90,19 @@ Wenn Sie die folgenden Kriterien erfüllen, sind Sie vermutlich bereit, Ihre Rei
 
 Das Cloud-native-Maturity-Model besteht aus fünf Stufen. Während Sie sich für eine Anwendung in Stufe fünf befinden, können Sie sich für eine andere Anwendung in Stufe 2 befinden. Behalten Sie das im Hinterkopf, wenn Sie Ihren Reifegrad ermitteln.
 
-- **[Stufe 1 - Aufbau](/de/level-1/)**
+* **[Stufe 1 - Aufbau]({{< ref "/level-1" >}})**
   Sie haben eine grundlegende Cloud-native-Implementierung eingerichtet und befinden sich in der Vorproduktionsphase.
 
-- **[Stufe 2 - Betrieb](/de/level-2/)**
+* **[Stufe 2 - Betrieb]({{< ref "/level-2" >}})**
   Die Cloud-native-Grundlage ist etabliert und Sie gehen in die Produktion über.
 
-- **[Stufe 3 - Skalieren](/de/level-3/)**
+* **[Stufe 3 - Skalieren]({{< ref "/level-3" >}})**
   Ihre Kompetenz wächst und Sie definieren Prozesse für die Skalierung.
 
-- **[Stufe 4 - Verbessern](/de/level-4/)**
+* **[Stufe 4 - Verbessern]({{< ref "/level-4" >}})**
   Sie verbessern die Sicherheit, die Richtlinien und die Verwaltung in Ihrer gesamten Umgebung.
 
-- **[Stufe 5 - Optimieren](/de/level-5/)**
+* **[Stufe 5 - Optimieren]({{< ref "/level-5" >}})**
   Sie überprüfen frühere Entscheidungen und überwachen Anwendungen und Infrastrukturen, um sie zu optimieren.
 
 In jedem der folgenden Abschnitte werden wir die Kernkonzepte hervorheben und erörtern, was dies in den einzelnen Reifegraden für Menschen, Prozesse, Richtlinien und Technologien bedeutet.
