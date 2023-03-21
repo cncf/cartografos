@@ -96,13 +96,13 @@ Sie haben eine grundlegende Cloud-native-Implementierung eingerichtet und befind
 * **[Stufe 2 - Betrieb]({{< ref "/level-2" >}})**  
 Die Cloud-native-Grundlage ist etabliert und Sie gehen in die Produktion über.
 
-* **[Stufe 3 - Skalieren]({{< ref "/level-3" >}})**  
+* **[Stufe 3 - Skalierung]({{< ref "/level-3" >}})**  
 Ihre Kompetenz wächst und Sie definieren Prozesse für die Skalierung.
 
-* **[Stufe 4 - Verbessern]({{< ref "/level-4" >}})**  
+* **[Stufe 4 - Verbesserung]({{< ref "/level-4" >}})**  
 Sie verbessern die Sicherheit, die Richtlinien und die Verwaltung in Ihrer gesamten Umgebung.
 
-* **[Stufe 5 - Optimieren]({{< ref "/level-5" >}})**  
+* **[Stufe 5 - Optimierung]({{< ref "/level-5" >}})**  
 Sie überprüfen frühere Entscheidungen und überwachen Anwendungen und Infrastrukturen, um sie zu optimieren.
 
 In jedem der folgenden Abschnitte werden wir die Kernkonzepte hervorheben und erörtern, was dies in den einzelnen Reifegraden für Menschen, Prozesse, Richtlinien und Technologien bedeutet.

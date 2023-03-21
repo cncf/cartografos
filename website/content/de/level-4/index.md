@@ -1,5 +1,5 @@
 ---
-title: Level 4 - Verbessern
+title: Level 4 - Verbesserung
 description: Sie verbessern Sicherheit, Richtlinien und Führung in Ihrer gesamten Umgebung.
 ---
 
