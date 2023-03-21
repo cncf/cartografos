@@ -82,7 +82,7 @@ Definieren Sie erste Ressourcenmetriken und beginnen Sie mit der Datenerfassung.
 
 Erstprüfung, die manuell oder durch einfache Skripte durchgeführt wird.
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> Technologie
 
 ### Technologie Überblick
 

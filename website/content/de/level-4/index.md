@@ -37,7 +37,7 @@ Organisationen sollten das CKS auf Stufe 4 in Betracht ziehen.
 
 Dieses Zertifikat garantiert, dass ein CKS über die Fähigkeiten, Kenntnisse und Kompetenzen im Bereich bewährter Methoden zur Sicherung von Container-basierten Anwendungen und Kubernetes-Plattformen während der Build-, Deployment- und Laufzeit verfügt. Zur Teilnahme an dieser Prüfung ist die CKA-Zertifizierung erforderlich.
 
-## <i class="fas fa-cogs"></i> Prozess
+## <i class="fas fa-cogs"></i> Prozesse
 
 ### Prozess Überblick
 
@@ -59,7 +59,7 @@ Stellen Sie sicher, dass die Sicherheitsbehebung automatisiert und/oder automati
 
 Audit und Alerting werden Main-Stream und sind für alle Anwendungen obligatorisch.
 
-## <i class="fas fa-edit"></i> Richtlinie
+## <i class="fas fa-edit"></i> Richtlinien
 
 ### Richtlinien Überblick
 

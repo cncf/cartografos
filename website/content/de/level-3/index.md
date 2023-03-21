@@ -63,7 +63,7 @@ Implementieren Sie eine automatische, kontinuierliche Überprüfung, um Fehlkonf
 
 Beginnen Sie mit der Prüfung und Umsetzung erster Warnmeldungen. Sie filtern Sie Rauschen heraus.
 
-## <i class="fas fa-edit"></i> Policy
+## <i class="fas fa-edit"></i> Richtlinien
 
 ### Richtlinien Überblick
 
@@ -107,7 +107,7 @@ Es ist an der Zeit, die Leitplanken für die Bereitstellung und die bewährten S
 
 Auf der Grundlage Ihrer Experimente in den vorherigen Leveln werden Sie dies in der Produktion implementieren und gute Warnmeldungen und Dashboards einbeziehen, um Ihre Beobachtungsfähigkeiten auszubauen.
 
-## <i class="fas fa-building"></i> Unternehmerische Ergebnisse
+## <i class="fas fa-building"></i> Geschäftsnutzen
 
 In Level 3 wächst Ihre Kompetenz und Sie skalieren. Bis zu diesem Punkt haben sich Ihre Teams auf das Erlernen von Cloud-native konzentriert. In dieser Phase sind Ihre unternehmerischen Ergebnisse von der Erfahrung Ihres Teams abhängig. In dem Maße, wie das Team Vertrauen aufbaut, wächst seine Kompetenz in Bezug auf Sicherheit, Effizienz und Zuverlässigkeit, und es wird definierte Prozesse für die Skalierung implementieren. All dies wird sich auf Ihre Dienste und Anwendungen auswirken, wenn sich das Team verbessert. Wenn dies nicht der Fall ist, müssen Sie die Kommunikation verbessern, um diese Skalierung zu demonstrieren, oder die tatsächlichen Skalierungsergebnisse überprüfen, damit sie weiter optimiert werden können.
 
