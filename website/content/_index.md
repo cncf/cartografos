@@ -74,7 +74,7 @@ You may be ready to start your cloud native journey if you meet the following cr
 * Some automation scattered around.
 * You will have baseline security components such as SIEM, RBAC concepts, and a directory of some type.
 * You have some software packaging, but this could be inconsistent.
-* You’ll have perimeter security and perhaps some course network zoning at layers 1-4, but you may feel some anxiety and security practices.
+* You’ll have perimeter security and perhaps some coarse network zoning at layers 1-4, but you may feel some anxiety and security practices.
 * Your experience with encryption may vary - you might have some certificate authorities for example, but they may not be used extensively, with a high barrier to entry for many.
 * Your applications may rely on infrastructure solutions for high availability, which in turn may be more costly than you’d like
 * Your server estate could range from single physical or virtual servers with low levels of availability, through to highly available clusters. Scaling could be a real challenge and may require considerable investment in money, time and planning.
