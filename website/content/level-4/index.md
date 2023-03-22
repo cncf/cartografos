@@ -76,7 +76,7 @@ Expansion of policy tooling to include applications such as traffic proxies, ser
 
 ### Technology Overview
 
-You’ve got full control over your environment, and you’ve built your confidence, with rapid adoption of cloud native patterns for new applications and platforms. You’ve also gained organizational commitment to cloud native and this is adding to your momenting. You’re starting to feel like you’ve “crossed the chasm.”
+You’ve got full control over your environment, and you’ve built your confidence, with rapid adoption of cloud native patterns for new applications and platforms. You’ve also gained organizational commitment to cloud native and this is adding to your momentum. You’re starting to feel like you’ve “crossed the chasm.”
 
 ### Infrastructure
 
