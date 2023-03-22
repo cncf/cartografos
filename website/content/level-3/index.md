@@ -15,7 +15,7 @@ As your people’s competency grows, the organization structure is now in place 
 
 ### Teams and Decentralization
 
-You’re really starting to see a high degree of centralisation, with clear and understood responsibilities. There may however be a decrease in velocity and chokepoints in the process. Things may start to slow down.
+You’re really starting to see a high degree of decentralisation, with clear and understood responsibilities. There may however be a decrease in velocity and chokepoints in the process. Things may start to slow down.
 
 ### Security
 
