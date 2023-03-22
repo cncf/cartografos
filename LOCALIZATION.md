@@ -1,12 +1,5 @@
 # Localization
 
-Now that the first version of the cloud native glossary is live,
-we'd love to start localizing it into different languages. 
-
- - [Initiate a new localization team](#initiating-a-new-localization-team)
- - [Join an existing localization team](#join-an-existing-localization-team)
- - [Localization team guidelines](#localization-team-guidelines)
-
 Contributions to improving the following localization guides and localization policies are also welcome.
 
 ---
@@ -83,6 +76,6 @@ Before opening a PR, ensure the website with the updated configuration works by 
 
 Open a PR and wait for it to be reviewed by the [maintainers](https://github.com/cncf/cartografos/blob/main/OWNERS).
 
-### 5. Merging the PR branch into `main` branch
+### 4. Merging the PR branch into `main` branch
 
 Once the PR is merged, the localized content will go live on its website 🎉
