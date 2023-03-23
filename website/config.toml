@@ -53,6 +53,13 @@ contentDir = "content/en"
 # Weight used for sorting.
 weight = 1
 
+[languages.de]
+title = "Cloud Native Maturity Model"
+description = "Das Cloud Native Maturity Model soll Ihnen dabei helfen, sich von den Anfängen bis zur vollständigen Übernahme von Cloud Native-Technologien unter Verwendung der CNCF-Landschaft zu bewegen, um alle Vorteile der Ausführung skalierbarer Anwendungen in modernen, dynamischen Umgebungen in öffentlichen und hybriden Clouds zu nutzen."
+languageName = "Deutsch"
+contentDir = "content/de"
+weight = 2
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

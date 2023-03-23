@@ -1,0 +1,12 @@
+# UI strings. Buttons and similar.
+
+# Footer text
+[footer_all_rights_reserved]
+other = " | Dokumentation unter CC-BY-4.0 verbreitet"
+
+[post_create_issue]
+other = "Problem melden"
+
+[page_contents]
+other = "Seiten Inhalt"
+

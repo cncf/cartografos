@@ -92,19 +92,19 @@ You may be ready to start your cloud native journey if you meet the following cr
 
 There are five stages within the cloud native maturity model. While you may be in stage five for one application, at the same time, you may be at stage 2 for another. Keep that in mind as you identify your stage of maturity.
 
-* **[Level 1 - Build](/level-1/)**  
+* **[Level 1 - Build]({{< ref "/level-1" >}})**  
 You have a baseline cloud native implementation in place and are in pre-production.
 
-* **[Level 2 - Operate](/level-2/)**  
+* **[Level 2 - Operate]({{< ref "/level-2" >}})**  
 The cloud native foundation is established and you are moving to production.
 
-* **[Level 3 - Scale](/level-3/)**  
+* **[Level 3 - Scale]({{< ref "/level-3" >}})**  
 Your competency is growing and you are defining processes for scale.
 
-* **[Level 4 - Improve](/level-4/)**  
+* **[Level 4 - Improve]({{< ref "/level-4" >}})**  
 You are improving security, policy and governance across your environment.
 
-* **[Level 5 - Optimize](/level-5/)**  
+* **[Level 5 - Optimize]({{< ref "/level-5" >}})**  
 You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
 
 In each of the following sections, we will highlight core concepts and discuss what this means in each stage of your maturity across people, process, policy and technology.
