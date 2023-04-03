@@ -24,7 +24,7 @@
   </div>
   <div id="content-desktop"></div>
   {{ end -}}
-  <nav class="collapse mt-3 td-sidebar-nav{{ if .Site.Params.ui.sidebar_menu_foldable }} foldable-nav{{ end }}" id="td-section-nav">
+  <nav class="collapse td-sidebar-nav{{ if .Site.Params.ui.sidebar_menu_foldable }} foldable-nav{{ end }}" id="td-section-nav">
 
     {{ if not .Params.hide_sidebar_nav }}
       {{ $navRoot := .Site.Home -}}
