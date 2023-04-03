@@ -25,11 +25,6 @@
   <div id="content-desktop"></div>
   {{ end -}}
   <nav class="collapse mt-3 td-sidebar-nav{{ if .Site.Params.ui.sidebar_menu_foldable }} foldable-nav{{ end }}" id="td-section-nav">
-    {{ if  (gt (len .Site.Home.Translations) 0) -}}
-    <div class="nav-item dropdown d-block d-lg-none">
-      {{ partial "navbar-lang-selector.html" . }}
-    </div>
-    {{ end -}}
 
     {{ if not .Params.hide_sidebar_nav }}
       {{ $navRoot := .Site.Home -}}
