@@ -20,14 +20,14 @@ Cartografos 工作组旨在提供工具，帮助采用者和最终用户在 CNCF
 
 工作组涉及的范围包括 CNCF 非代码资产，例如 CNCF Landscape、Trail Map，以及一个成熟度模型和领域指南 - 最后两个正在开发中。此外，任何其他有助于云原生技术采用者导航各种 CNCF 和云原生社区项目的资产也都在范围内。
 
-Currently assets under development:
+目前正在开发的资产：
 
-* The Cloud Native Maturity Model
-* The CNCF Landscape Guide, in association with the CNCF Business Value Subcommittee.
+* 云原生成熟度模型
+* 与CNCF商业价值小组合作的CNCF景观指南
 
-## Come join us
+## 加入我们
 
-Anyone interested in educating and informing users with guidance to understand the cloud native ecosystem is welcome to join the Cartografos Working Group! Please also join our our CNCF Slack channel, `#cartografos-wg`
+任何有兴趣通过指导教育和信息传递帮助用户了解云原生生态系统的人都可以加入 Cartografos 工作小组！请同时加入我们的 CNCF Slack 频道 #cartografos-wg。
 
 ## Meeting Information 
 
