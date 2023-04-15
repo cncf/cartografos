@@ -29,22 +29,21 @@ Cartografos 工作组旨在提供工具，帮助采用者和最终用户在 CNCF
 
 任何有兴趣通过指导教育和信息传递帮助用户了解云原生生态系统的人都可以加入 Cartografos 工作小组！请同时加入我们的 CNCF Slack 频道 #cartografos-wg。
 
-## Meeting Information 
+## 会议信息
 
 CNCF Slack #cartografos-wg
 
-Meeting times
+会议时间
 
-US: Bi-weekly on Tuesdays at 1pm US/EST
+美国: 每两周一次，美国东部时间周二下午1点
 
-To participate in the working group, please sign up to the CNCF’s community platform at https://community.cncf.io/ and join https://community.cncf.io/cncf-cartografos-working-group/. 
-Meetings are listed on the same page and you should RSVP to each meeting instance you want to attend: https://community.cncf.io/cncf-cartografos-working-group/.
+如想参加工作组，请在 CNCF 的社区平台 https://community.cncf.io/ 上注册并加入社区群组 https://community.cncf.io/cncf-cartografos-working-group/。会议列表也在同一页上，您需要在您想参加的每次会议前确认您要出席：https://community.cncf.io/cncf-cartografos-working-group/。
 
-[Meeting minutes and agenda](https://docs.google.com/document/d/15aRVtbMT9F472wOv8bBU7Wg893ugXUf-WtP3g9Ob_KY/edit#heading=h.itd3wrdelhab)
+[会议记录和议程](https://docs.google.com/document/d/15aRVtbMT9F472wOv8bBU7Wg893ugXUf-WtP3g9Ob_KY/edit#heading=h.itd3wrdelhab)
 
-## Questions
+## 问题
 
-Any questions can be directed to one of the co-chairs: 
+任何问题都可以直接向任何一位联席主席提问：
 
 Simon Forster, co-chair, simon@stackegy.com  
 Danielle Cook, co-chair, danielle@fairwinds.com  
