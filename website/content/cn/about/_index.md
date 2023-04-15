@@ -16,11 +16,9 @@ Cartografos 工作组旨在提供工具，帮助采用者和最终用户在 CNCF
 
 我们希望通过与 CNCF 内外的团体合作，为用户提供有效和实用的指导，帮助他们了解云原生生态系统。我们通过与内外部团体合作来实现这一目标。
 
-We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
-
 我们与 CNCF 各个不同水平的项目互动- 沙盒、孵化和毕业，以确保有效和准确地表达相关的信息，并参考CNCF 所有技术咨询小组的反馈。我们还提供一个供验证、讨论和反馈的供应商中立论坛。
 
-Areas in scope of the working group are CNCF non-code assets such as the CNCF Landscape, the Trail Map, as well as a maturity model and landscape guide - the last two under development. Additionally any other assets that help cloud native technology adopters navigate the various CNCF and cloud native community projects.
+工作组涉及的范围包括 CNCF 非代码资产，例如 CNCF Landscape、Trail Map，以及一个成熟度模型和领域指南 - 最后两个正在开发中。此外，任何其他有助于云原生技术采用者导航各种 CNCF 和云原生社区项目的资产也都在范围内。
 
 Currently assets under development:
 
