@@ -37,7 +37,8 @@ CNCF Slack #cartografos-wg
 
 美国: 每两周一次，美国东部时间周二下午1点
 
-如想参加工作组，请在 CNCF 的社区平台 https://community.cncf.io/ 上注册并加入社区群组 https://community.cncf.io/cncf-cartografos-working-group/。会议列表也在同一页上，您需要在您想参加的每次会议前确认您要出席：https://community.cncf.io/cncf-cartografos-working-group/。
+如想参加工作组，请在 CNCF 的社区平台 https://community.cncf.io/ 上注册并加入社区群组 https://community.cncf.io/cncf-cartografos-working-group/。    
+会议列表也在同一页上，您需要在您想参加的每次会议前确认您要出席：https://community.cncf.io/cncf-cartografos-working-group/。
 
 [会议记录和议程](https://docs.google.com/document/d/15aRVtbMT9F472wOv8bBU7Wg893ugXUf-WtP3g9Ob_KY/edit#heading=h.itd3wrdelhab)
 
