@@ -1,12 +1,13 @@
 ---
-title: About the Maturity Model
-linkTitle: About
+title: 关于成熟度模型
+linkTitle: 关于
 toc_hide: true
 menu:
   main:
     weight: 20
 description: >
-   The cloud native landscape and ecosystem is evolving quickly.
+   云原生的领域和生态系统正在快速发展。
+
 ---
 
 ## The Cartografos Working Group
