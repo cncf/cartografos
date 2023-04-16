@@ -8,18 +8,19 @@ menu:
 description: 欢迎！我们很高兴您想要为Cartografos工作组做出贡献。
 ---
 
-## Introduction
+## 简介
 
-The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.
+Cartografos工作组旨在提供工具，帮助采用者和终端用户在CNCF领域和更广泛的云原生生态系统中进行导航。
 
-We want to educate and inform users with effective and practical guidance to help them understand the cloud native ecosystem. We do this by collaborating with groups inside and outside the CNCF.
+我们希望通过与CNCF内外的团体合作，为用户提供有效和实用的指导，帮助他们了解云原生生态系统。
 
-We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
-As you get started, you are in the best position to give us feedback on areas where the working group needs help. This includes:
+我们与 CNCF 各个不同水平的项目互动- 沙盒、孵化和毕业，以确保有效和准确地表达相关的信息，并参考CNCF 所有技术咨询小组的反馈。我们还提供一个供验证、讨论和反馈的供应商中立论坛。
 
-- Gaps in our documentation
-- Working to define new artifacts
-- Engaging with TAGs and SIGs within the CNCF and its projects
+在您开始工作时，您是最有资格向我们提供有关工作组需要帮助的领域的反馈意见的人。这包括：
+
+- 我们文档中的不足
+- 工作以定义新的 artifact
+- 与CNCF及其项目内的TAG和SIG进行接触
 
 ## Contributing
 
