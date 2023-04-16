@@ -194,7 +194,7 @@ information on using pull requests.
 
 Install a local copy of the Cloud Native Maturity Model site with these instructions. Note you must have [npm](https://www.npmjs.com/) and [Hugo](https://gohugo.io/) installed.
 
-按照以下说明安装云原生成熟度模型网站的本地副本。请注意，您必须安装 npm 和 Hugo。
+按照以下说明安装云原生成熟度模型网站的本地副本。请注意，您必须安装[npm](https://www.npmjs.com/) 和 [Hugo](https://gohugo.io/)。
 
 ```
 git clone https://github.com/cncf/cartografos.git
@@ -204,4 +204,4 @@ cd website
 npm install
 ```
 
-You can then run the site using `hugo server`.
+你可以使用 hugo server 来启动网站。
