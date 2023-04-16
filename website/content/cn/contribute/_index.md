@@ -70,12 +70,12 @@ The first time you come, introducing yourself is more than enough. Over time, we
 - 确保分支与上游基础分支（例如main）保持最新。
 - 创建一个新的拉取请求（PR）。
 
-## Submitting a PR
+## 提交拉取请求（PR）
 
-Once you have updated your changes in your branch, you will open a PR to the upstream cartografos repo.
-Before opening the PR ensure you have rebased on the latest upstream.
-If other commits are pushed upstream before your PR is merged, you will also need to rebase again before it will be merged.
-For general advice on how to submit a pull request, please see [Creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) on GitHub.
+一旦您在分支中更新了更改，您将向上游 cartografos 仓库创建一个 PR。
+在打开 PR 之前，请确保您已在最新的上游上进行了 rebase。
+如果其他提交在您的 PR 合并之前被推送到上游，则在合并之前您还需要再次进行 rebase。
+有关如何提交拉取请求的一般建议，请参见 GitHub 上的 创建拉取请求(https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)。
 
 ## Contributor Ladder
 
