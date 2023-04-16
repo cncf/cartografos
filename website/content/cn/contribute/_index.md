@@ -182,7 +182,7 @@ The first time you come, introducing yourself is more than enough. Over time, we
 ## 参与网站开发
 
 
-我们使用【Hugo】(https://gohugo.io/) 来格式化和生成成熟度模型网站，使用【Docsy】（https://github.com/google/docsy） 主题进行样式和站点结构，使用【Netlify】(https://www.netlify.com/)来管理站点部署。Hugo是一种开源的静态网站生成器，为我们提供模板、标准目录结构中的内容组织以及网站生成引擎。您可以使用Markdown（或HTML）编写页面，然后Hugo将它们打包成一个网站。
+我们使用[Hugo](https://gohugo.io/) 来格式化和生成成熟度模型网站，使用[Docsy](https://github.com/google/docsy) 主题进行样式和站点结构，使用[Netlify](https://www.netlify.com/)来管理站点部署。Hugo是一种开源的静态网站生成器，为我们提供模板、标准目录结构中的内容组织以及网站生成引擎。您可以使用Markdown（或HTML）编写页面，然后Hugo将它们打包成一个网站。
 
 All submissions, including submissions by project members, require review. We
 use GitHub pull requests for this purpose. Consult
