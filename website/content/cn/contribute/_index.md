@@ -38,13 +38,15 @@ Cartografos工作组旨在提供工具，帮助采用者和终端用户在CNCF�
 
 并不是所有事情都通过GitHub拉取请求完成。请参加我们的会议或联系我们，讨论如何合作。
 
-## Come to Meetings
+## 参加会议
 
-Everyone is welcome to come to any of our meetings. We hold regular community meetings every second Tuesday at 6PM US/Eastern time
+欢迎每个人参加我们的任何会议。我们每个月的第二个星期二在美国东部时间下午6点举行定期社区会议。
 
-You will need to join the Cartografos Working Group community on <https://community.cncf.io> then simply RSVP within the meeting instance at <https://community.cncf.io/cncf-cartografos-working-group/>
+如想参加工作组，请在 CNCF 的社区平台 https://community.cncf.io/ 上注册并加入社区群组 https://community.cncf.io/cncf-cartografos-working-group/。
+会议列表也在同一页上，您需要在您想参加的每次会议前确认您要出席：https://community.cncf.io/cncf-cartografos-working-group/。
 
 The first time you come, introducing yourself is more than enough. Over time, we hope that you feel comfortable voicing your opinions, giving feedback on others’ ideas, and even sharing your own ideas, and experiences.
+第一次参加时，自我介绍就足够了。随着时间的推移，我们希望您畅所欲言地表达您的意见，给予反馈，甚至分享您自己的想法和经验。
 
 ## Ask for Help
 
