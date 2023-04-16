@@ -77,45 +77,45 @@ The first time you come, introducing yourself is more than enough. Over time, we
 如果其他提交在您的 PR 合并之前被推送到上游，则在合并之前您还需要再次进行 rebase。
 有关如何提交拉取请求的一般建议，请参见 GitHub 上的 创建拉取请求(https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)。
 
-## Contributor Ladder
+## 贡献者阶梯
 
-This contributor ladder outlines the different contributor roles within the working group, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the working group grows. Our working group members are happy to help you advance along the contributor ladder.
+这个贡献者阶梯概述了工作组中不同的贡献者角色，以及随之而来的责任和特权。社区成员通常从“阶梯”的第一级开始，随着他们在工作组中的参与度增加而向上晋升。我们的工作组成员很乐意帮助您在贡献者阶梯上取得进展。
 
-### Participant
+### 参与者
 
-A Working Group Participant engages with the group and its community, contributing their time, thoughts, etc. Community participants are usually users who have stopped being anonymous and started being active in group discussions.
+工作组参与者与该组及其社区互动，贡献他们的时间、想法等。社区参与者通常是已经停止匿名并开始在组内讨论中积极参与的用户。
 
-Responsibilities:
+职责：
 
-- Must follow the CNCF Code of Code of Conduct
+- 必须遵守 CNCF 行为准则。
 
-How users can get involved with the community:
+用户如何参与社区：
 
-- Participating in community discussions
-- Helping other users
-- Submitting and commenting on issues
-- Providing feedback on new artefact releases
-- Attending community events
+- 参与社区讨论
+- 帮助其他用户
+- 提交和评论问题
+- 对新产品发布提供反馈
+- 参加社区活动
 
-### Contributor
+### 贡献者
 
-A Working Group Contributor contributes directly to the group and adds value to it. People at the Contributor level may be new contributors, or they may only contribute occasionally.
+工作组贡献者直接为该组做出贡献并增加其价值。处于贡献者级别的人可能是新贡献者，也可能只偶尔做出贡献。
 
-Responsibilities include:
+职责包括：
 
-- Follow the CNCF Code of Code of Conduct
-- Follow the working group contributing guide
-- Requirements (one or several of the below):
-- Report and sometimes resolve issues
-- Occasionally submit PRs
-- Contributes to artifacts
-- Show up at meetings
-- Answer questions from other community members
-- Submit feedback on issues and PRs
-- Reviews artifact updates and provides feedback
-- Runs or helps run events
-- Promote the working group in public
-- Helps run the working group infrastructure
+遵守 CNCF 行为准则。
+遵循工作组的贡献指南。
+要求（以下之一或几个）：
+报告并有时解决问题。
+偶尔提交 PR。
+做出产品贡献。
+出席会议。
+回答其他社区成员的问题。
+对 issue 和 PR 提供反馈。
+审查工件更新并提供反馈。
+运营或协助运营活动。
+在公众场合宣传工作组。
+帮助运营工作组基础设施。
 
 ### Reviewer
 
