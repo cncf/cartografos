@@ -24,7 +24,7 @@ Cartografos工作组旨在提供工具，帮助采用者和终端用户在CNCF�
 
 ## 贡献
 
-我们鼓励每个人向工作组的工件提出变更、添加和改进的建议。我们采用由CNCF管理的社区驱动流程来开发和改进工件。欢迎所有符合工作组目的和章程的参与者做出贡献。任何想要做出贡献的人都可以提交GitHub issue 或创建 pull request。
+我们鼓励每个人向工作组的工件提出变更、添加和改进的建议。我们采用由CNCF管理的社区驱动流程来开发和改进工件。欢迎所有符合工作组目的和章程的参与者做出贡献。任何想要做出贡献的人都可以提交GitHub issue 或创建拉取请求 (pull request)。
 
 除了为工件和文档做出贡献外，我们非常欢迎您以以下方式提供帮助：
 
@@ -36,7 +36,7 @@ Cartografos工作组旨在提供工具，帮助采用者和终端用户在CNCF�
 - 通信/社交媒体/博客文章
 - 发布管理
 
-Not everything happens through a GitHub pull request. Please come to our meetings or contact us and discuss how we can work together.
+并不是所有事情都通过GitHub拉取请求完成。请参加我们的会议或联系我们，讨论如何合作。
 
 ## Come to Meetings
 
