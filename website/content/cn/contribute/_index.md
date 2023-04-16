@@ -148,25 +148,23 @@ The first time you come, introducing yourself is more than enough. Over time, we
 - 贡献者通过向适当的代码仓库提交 PR 的方式被提名，并将其 GitHub 用户名添加到一个或多个目录的 OWNERS 文件中。
 - 至少有两个已经是该代码仓库或主目录的拥有着团队里有批准者权限的成员审核该 PR。
 
-### Maintainer
+### 维护者
 
-Maintainers are very established contributors who are responsible for the entire working group. As such, they have the ability to approve PRs against any area of the repository, and are expected to participate in making decisions about the strategy and priorities of the working group.
+维护者是非常资深的贡献者，负责整个工作组。因此，他们有权批准针对存储库的任何区域的PR，并且有责任参与制定工作组的战略和优先事项。
 
-A Maintainer must meet the responsibilities and requirements of a Reviewer, plus:
-Responsibilities include:
+维护者必须满足评审者的责任和要求，以及职责包括：
+- 指导新的评审者
+- 撰写重构PR
+- 参加CNCF维护者活动
+- 确定工作组的战略和政策
+- 参加并主持社区会议
 
-- Mentoring new Reviewers
-- Writing refactoring PRs
-- Participating in CNCF maintainer activities
-- Determining strategy and policy for the working group
-- Participating in, and leading, community meetings
+要求：
 
-Requirements
-
-- Demonstrates a broad knowledge of the working group across multiple areas
-- Is able to exercise judgement for the good of the working group, independent of their employer, friends, or team
-- Mentors other contributors
-- Can commit to spending time working on the working group
+- 在多个领域展示出对工作组的广泛知识。
+- 能够独立于雇主、朋友或团队，为工作组的利益行使判断。
+- 指导其他贡献者。
+- 可以承诺花费时间参与工作组工作。
 
 Additional privileges:
 
