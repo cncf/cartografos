@@ -190,9 +190,11 @@ use GitHub pull requests for this purpose. Consult
 information on using pull requests.
 所有提交，包括项目成员的提交，都需要审核。我们使用GitHub 拉取请求进行审核。请参阅【GitHub帮助文档】（(https://help.github.com/articles/about-pull-requests/)） 以获取有关使用拉取请求的更多信息。
 
-### Setting up a local instance
+### 设置本地实例
 
 Install a local copy of the Cloud Native Maturity Model site with these instructions. Note you must have [npm](https://www.npmjs.com/) and [Hugo](https://gohugo.io/) installed.
+
+按照以下说明安装云原生成熟度模型网站的本地副本。请注意，您必须安装 npm 和 Hugo。
 
 ```
 git clone https://github.com/cncf/cartografos.git
