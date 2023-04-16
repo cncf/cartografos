@@ -166,33 +166,29 @@ The first time you come, introducing yourself is more than enough. Over time, we
 - 指导其他贡献者。
 - 可以承诺花费时间参与工作组工作。
 
-Additional privileges:
+额外特权:
 
-- Approve PRs to any area of the working group
-- Represent the working group in public as a Maintainer
-- Communicate with the CNCF on behalf of the working group
-- Have a vote in Maintainer decision-making meetings
+- 批准任何工作组领域的PR
+- 作为维护者代表工作组在公开场合发声
+- 代表工作组与CNCF沟通
+- 在维护者决策会议中具有投票权
 
-Process of becoming a maintainer:
+成为维护者的流程如下：
 
-- Any current Maintainer may nominate a current Reviewer to become a new Maintainer, by opening a PR against the root of the cncf/cartografos repository, adding the nominee as an Approver in the OWNERS file.
-- The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-- A majority of the current Maintainers must then approve the PR.
+- 任何现有的维护者都可以提名当前的审批者成为新的维护者，通过对 cncf/cartografos 存储库的根目录开启一个 PR，并将被提名者添加到 OWNERS 文件中作为审批者。
+- 被提名者将在 PR 中添加一条评论，证明他们同意成为维护者的所有要求。
+- 当前的维护者中，大多数成员必须批准该 PR。
 
-## Contributing to the Website
+## 参与网站开发
 
-We use [Hugo](https://gohugo.io/) to format and generate the Maturity Model website, the
-[Docsy](https://github.com/google/docsy) theme for styling and site structure,
-and [Netlify](https://www.netlify.com/) to manage the deployment of the site.
-Hugo is an open-source static site generator that provides us with templates,
-content organisation in a standard directory structure, and a website generation
-engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
-them up into a website.
+
+我们使用【Hugo】(https://gohugo.io/) 来格式化和生成成熟度模型网站，使用【Docsy】（https://github.com/google/docsy） 主题进行样式和站点结构，使用【Netlify】(https://www.netlify.com/)来管理站点部署。Hugo是一种开源的静态网站生成器，为我们提供模板、标准目录结构中的内容组织以及网站生成引擎。您可以使用Markdown（或HTML）编写页面，然后Hugo将它们打包成一个网站。
 
 All submissions, including submissions by project members, require review. We
 use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
+所有提交，包括项目成员的提交，都需要审核。我们使用GitHub 拉取请求进行审核。请参阅【GitHub帮助文档】（(https://help.github.com/articles/about-pull-requests/)） 以获取有关使用拉取请求的更多信息。
 
 ### Setting up a local instance
 
