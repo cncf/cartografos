@@ -24,7 +24,7 @@ Cartografos工作组旨在提供工具，帮助采用者和终端用户在CNCF�
 
 ## 贡献
 
-我们鼓励每个人向工作组的工件提出变更、添加和改进的建议。我们采用由CNCF管理的社区驱动流程来开发和改进工件。欢迎所有符合工作组目的和章程的参与者做出贡献。任何想要做出贡献的人都可以提交GitHub issue 或创建拉取请求 (pull request)。
+我们鼓励每个人向工作组的工件提出变更、添加和改进的建议。我们采用由CNCF管理的社区驱动流程来开发和改进工件。欢迎所有符合工作组目的和章程的参与者做出贡献。任何想要做出贡献的人都可以提交GitHub issue 或创建拉取请求 (PR - pull request)。
 
 除了为工件和文档做出贡献外，我们非常欢迎您以以下方式提供帮助：
 
@@ -48,26 +48,27 @@ Cartografos工作组旨在提供工具，帮助采用者和终端用户在CNCF�
 The first time you come, introducing yourself is more than enough. Over time, we hope that you feel comfortable voicing your opinions, giving feedback on others’ ideas, and even sharing your own ideas, and experiences.
 第一次参加时，自我介绍就足够了。随着时间的推移，我们希望您畅所欲言地表达您的意见，给予反馈，甚至分享您自己的想法和经验。
 
-## Ask for Help
+## 寻求帮助
 
-The best way to reach us with a question when contributing is:
+在贡献过程中，联系我们并提出问题的最佳方式是：
 
-- On the original GitHub issue
-- In GitHub Discussions within the repository
-- Our CNCF Slack channel - # cartografos-wg
-- And of course, in person at a meeting
+- 在原始的GitHub issue中提问
+- 在代码库中的GitHub讨论中提问
+- 在我们的CNCF Slack频道 - #cartografos-wg
+- 当然，您也可以在会议中亲自提出问题。
 
-## Contribution Flow
 
-Outline of what a contributor's workflow looks like:
+## 贡献流程
 
-- Fork it (<https://github.com/cncf/cartografos/fork>)
-- Create a branch from where you want to base your work (usually main). Example git checkout -b my-new-feature)
-- Make your changes and arrange them in readable commits.
-- Commit your changes (Ex. `git commit -am 'Add some feature'``)
-- Push to the branch (Ex. git push origin my-new-feature)
-- Make sure branch is up to date with upstream base branch (eg. main)
-- Create a new Pull Request (PR)
+贡献者的工作流程大致如下：
+
+- Fork项目（https://github.com/cncf/cartografos/fork）
+- 从您想要基于的位置（通常是main）创建一个分支。例如，git checkout -b my-new-feature。
+- 进行更改并将其组织成易读的提交。
+- 提交更改（例如，git commit -am 'Add some feature'）。
+- 推送到该分支（例如，git push origin my-new-feature）。
+- 确保分支与上游基础分支（例如main）保持最新。
+- 创建一个新的拉取请求（PR）。
 
 ## Submitting a PR
 
