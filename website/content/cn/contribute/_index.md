@@ -1,11 +1,11 @@
 ---
-title: How to Contribute
-linkTitle: "Contribute"
+title: 如何做出贡献
+linkTitle: "贡献"
 toc_hide: true
 menu:
   main:
     weight: 30
-description: Welcome! We are glad that you want to contribute to the Cartografos Working Group.
+description: 欢迎！我们很高兴您想要为Cartografos工作组做出贡献。
 ---
 
 ## Introduction
