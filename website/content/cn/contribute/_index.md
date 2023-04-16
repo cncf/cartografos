@@ -117,35 +117,36 @@ The first time you come, introducing yourself is more than enough. Over time, we
 在公众场合宣传工作组。
 帮助运营工作组基础设施。
 
-### Reviewer
+### 审批者 
 
-A Reviewer has responsibility for specific assets, documentation, or other working group areas. They are collectively responsible, with other Reviewers, for reviewing all changes to those areas and indicating whether those changes are ready to merge. They have a track record of contribution and review in the working group.
+审批者负责特定的资产、文档或其他工作组领域。他们与其他审批者共同负责审核所有对这些领域的更改，并指示这些更改是否准备好合并。他们在工作组中具有贡献和审核的记录。
 
-Reviewers are responsible for a "specific area." This can be a specific artifact, chapter of documentation, or other clearly-defined group artifact that is smaller than an entire repository. Most often it is one or a set of directories in one or more Git repositories. The "specific area" below refers to this area of responsibility.
+审批者负责“特定领域”。这可以是一个特定的工件，文件或其他明确定义的工作组资产，比整个存储库小。通常情况下，它是一个或多个Git存储库中的一个或多个目录。下面的“特定领域”是指这个责任区域。
 
-Reviewers have all the rights and responsibilities of a Contributor, plus:
+审批者具有贡献者的所有权利和责任，此外还有：
 
-- Responsibilities include:
-- Following the reviewing guide
-- Reviewing most Pull Requests against their specific areas of responsibility
-- Helping other contributors become reviewers
+- 责任包括：
+- 遵循审核指南
+- 针对他们负责的特定领域审核大多数拉取请求
+- 帮助其他贡献者成为审核者
 
-Requirements:
 
-- Experience as a Contributor
-- Is a working group member
-- Has demonstrated in-depth knowledge of their specific area, ideally having authored or significantly contributed to the artifact in their specific area.
-- Commits to being responsible for that specific area
-- Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
+要求:
 
-Additional privileges:
+- 具备作为贡献者的经验
+- 是工作组成员
+- 具有针对其特定领域的深入知识，最好曾经编写或在其特定领域中做出了显著的贡献。
+- 承诺对该特定领域负责
+- 支持新的和偶尔的贡献者，并帮助将有用的PR打造成可提交的形式。
 
-- Be an approver for pull requests in specific directories
-- Can recommend and review other contributors to become Reviewers
-The process of becoming a Reviewer is:
+额外的特权：
 
-- The contributor is nominated by opening a PR against the appropriate repository, which adds their GitHub username to the OWNERS file for one or more directories.
-- At least two members of the team that owns that repository or main directory, who are already Approvers, approve the PR.
+- 可以成为特定目录下的 PR 批准者。
+- 可以推荐并审核其他贡献者成为审核者。
+
+成为审核者的过程如下：
+- 贡献者通过向适当的代码仓库提交 PR 的方式被提名，并将其 GitHub 用户名添加到一个或多个目录的 OWNERS 文件中。
+- 至少有两个已经是该代码仓库或主目录的拥有着团队里有批准者权限的成员审核该 PR。
 
 ### Maintainer
 
