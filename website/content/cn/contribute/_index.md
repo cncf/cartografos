@@ -19,21 +19,22 @@ Cartografos工作组旨在提供工具，帮助采用者和终端用户在CNCF�
 在您开始工作时，您是最有资格向我们提供有关工作组需要帮助的领域的反馈意见的人。这包括：
 
 - 我们文档中的不足
-- 工作以定义新的 artifact
+- 工作以定义新的工件（artifact）
 - 与CNCF及其项目内的TAG和SIG进行接触
 
-## Contributing
+## 贡献
 
-Everyone is invited to suggest changes, additions and improvements to the working group’s artifacts.  We employ a community-driven process governed by the CNCF to develop and improve artifacts.  Contributions are welcome from all participants in compliance with the working group’s purpose and charter.  Anyone who wishes to make a contribution can submit a GitHub issue or create a pull request.
-As well as contributing to artifacts and documentation, we very much welcome your help in the following ways:
+我们鼓励每个人向工作组的工件提出变更、添加和改进的建议。我们采用由CNCF管理的社区驱动流程来开发和改进工件。欢迎所有符合工作组目的和章程的参与者做出贡献。任何想要做出贡献的人都可以提交GitHub issue 或创建 pull request。
 
-- Creating or contributing artifacts to the working group that help with the group’s mission of helping to navigate the the cloud native landscape
-- Contributing updates to existing artifacts
-- Ideas for new artifacts and improvements you’d like to see
-- Documentation
-- Issue Triage
-- Communications / Social Media / Blog Posts
-- Release management
+除了为工件和文档做出贡献外，我们非常欢迎您以以下方式提供帮助：
+
+- 创建或为工作组贡献工件，帮助实现工作组帮助导航云原生生态系统的使命
+- 为现有工件做出更新的贡献
+- 您希望看到的新工件和改进的想法
+- 文档
+- 问题分类
+- 通信/社交媒体/博客文章
+- 发布管理
 
 Not everything happens through a GitHub pull request. Please come to our meetings or contact us and discuss how we can work together.
 
