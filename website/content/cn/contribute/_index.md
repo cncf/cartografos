@@ -186,7 +186,7 @@ The first time you come, introducing yourself is more than enough. Over time, we
 
 All submissions, including submissions by project members, require review. We
 use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
+[GitHub Help](https://help.github.com/articles/about-pull-requests/)for more
 information on using pull requests.
 所有提交，包括项目成员的提交，都需要审核。我们使用GitHub 拉取请求进行审核。请参阅【GitHub帮助文档】（(https://help.github.com/articles/about-pull-requests/)） 以获取有关使用拉取请求的更多信息。
 
