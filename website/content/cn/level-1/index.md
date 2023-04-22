@@ -14,20 +14,20 @@ description: >
 
 在您进行转型时，您将有限的组织支持，可能处于概念验证（POC）阶段或仅专注于一个应用程序。
 
-### 团队和去中心化
+### 团队和分权化
 
 团队正在探索云原生工具，主要是Kubernetes。然而，这并不仅仅是为了探索，而是为了达到生产目标。所有的工作通常都是在一个正式的MVP计划中进行。
 
 ### 安全
 
-The people implementing cloud native will need to focus on security. Default security settings will be used and will work in pre-production. You’ll spend time identifying your open source security posture and conduct a security POC of the pre-production environment so that both Dev, Ops and security understands what is required in cloud native workloads.
-实施云原生的人员需要重视安全问题。将使用默认安全设置，并在预生产中发挥作用。您将花费时间确定开放源代码的安全态势，并对预生产环境进行安全性POC，以便开发、运维和安全人员了解云原生工作负载所需的条件。
+实施云原生的人员需要重视安全问题。将使用默认安全设置，并在预生产中发挥作用。您将花费时间确定开放源代码的安全态势，并对预生产环境进行安全性POC (概念验证)，以便开发、运维和安全人员了解云原生工作负载所需的条件。
 
-### Developer Agility
+### 开发者敏捷性
 
-Your organization is committed to decentralization and will employ “teams of teams”. This is an essential requirement of your people. Across the different levels of maturity, people will be implementing tools for automated testing, metrics and feedback. 
+您的组织致力于分权化，并将设置“teams of teams”组织架构。这是对您的组织成员的一个基本要求。在不同的成熟度水平上，人们将实施自动化测试、指标和反馈工具。
 
-Developers may have learned about Agile Manifesto and adopted Scrum Framework without necessarily including Operations. Developers may attempt to resolve external dependencies themselves, slowing down feedback, with incomplete features per sprint.
+开发人员可能已经了解敏捷宣言并采用了Scrum框架，但并未必然包括运维。开发人员可能会尝试自行解决外部依赖关系，从而减缓反馈速度，并导致每个迭代中的功能不完整。
+
 
 ### Upskilling Developers
 
