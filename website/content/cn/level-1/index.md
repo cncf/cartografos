@@ -49,11 +49,11 @@ description: >
 您将会描述应用程序要求，包括功能性（应用程序特征和代码）和非功能性要求，如性能、容量和可用性，并定义组织如何扩展。反馈将是手动的，例如通过Slack、电子邮件和电话，您还将手动进行修正。您将开始通过定义Git工作流程来实现可重复性，定期根据应用平台和技术生命周期进行更新，特别是安全更新，因为易受攻击的系统会带来特定的风险。您很可能会按需手动应用这些更新，或使用发行版中包含的更新系统。
 
 
-### CI/CD
+### CI/CD 
 
-Central to your cloud native transformation is the adoption of CI/CD. CI/CD helps you build, test and deploy applications based on modern software development practices. Your CI/CD process will mature over time.
+在您的云原生转型过程中，CI/CD的采用至关重要。CI/CD可以帮助您基于现代软件开发实践构建、测试和部署应用程序。随着时间的推移，您的CI/CD流程将会不断成熟。
 
-If you do CI/CD, you need to transform this into your cloud native environment. That includes taking existing best practices and building upon them.
+如果您正在使用CI/CD，您需要采用现有的最佳实践的基础上将其转换到您的云原生环境。
 
 ### Change Control
 
