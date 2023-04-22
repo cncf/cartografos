@@ -55,10 +55,11 @@ description: >
 
 如果您正在使用CI/CD，您需要采用现有的最佳实践的基础上将其转换到您的云原生环境。
 
-### Change Control
+### 变更控制
 
-Change control will need to be implemented to control your deployments.
-You have no change control process in place. Instead changes are performed based on ad-hoc requests.
+需要实施变更控制以调控您的部署。
+
+您目前没有变更控制流程，而是根据临时请求执行更改。
 
 ### Security
 
