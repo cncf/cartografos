@@ -29,23 +29,25 @@ description: >
 开发人员可能已经了解敏捷宣言并采用了Scrum框架，但并未必然包括运维。开发人员可能会尝试自行解决外部依赖关系，从而减缓反馈速度，并导致每个迭代中的功能不完整。
 
 
-### Upskilling Developers
+### 提升开发人员的技能
 
-The maturity of your people will include upskilling the development team. 
+您的团队成熟度将包括提升开发团队的技能。
 
-Your application team will be trained in 12 factor applications, microservice and cloud native patterns. You will also require developers who are quite comfortable with cloud native concepts and tooling such as kubectl in order to bootstrap your development team.
+您的应用团队将接受12-factor-app、微服务和云原生模式的培训。您还需要拥有对云原生概念和工具（如kubectl）非常熟悉的开发人员来启动您的开发团队。
 
-### CNCF Certifications
+### CNCF 认证
 
-Cloud Native Computing Foundation (CNCF) serves as the vendor-neutral home for many of the fastest-growing open source projects, including Kubernetes, Prometheus, and Envoy.
+云原生计算基金会（CNCF）是许多增长最快的开源项目（包括Kubernetes、Prometheus和Envoy）的独立于供应商的中心。
 
-In order for you to build a sustainable ecosystems for cloud native infrastructure is it important to have your team invest in the CNCF Certifications. It is unlikely you’ll achieve certifications in level 1. 
+为了构建云原生基础设施的可持续生态系统，您投资于团队的CNCF认证至关重要。您很可能不会在Level 1阶段获得所有认证。
 
-## <i class="fas fa-cogs"></i> Process
 
-### Process Overview
+## <i class="fas fa-cogs"></i> 流程
 
-You will map application requirements, both functional (application features and code) and non-functional, such as performance, capacity, and availability, and define how your organization will scale. Feedback will be manual such as by Slack, email, and phone, and you’ll also remediate manually also. You will start to implement repeatability by defining your Git workflow. Platform and technology lifecycle and updates, particularly security updates, need to be applied on a regular basis as vulnerable systems pose specific risks. You will likely be applying these updates by hand on an adhoc basis, or using update systems included in distributions.
+### 流程概述  
+
+您将会描述应用程序要求，包括功能性（应用程序特征和代码）和非功能性要求，如性能、容量和可用性，并定义组织如何扩展。反馈将是手动的，例如通过Slack、电子邮件和电话，您还将手动进行修正。您将开始通过定义Git工作流程来实现可重复性，定期根据应用平台和技术生命周期进行更新，特别是安全更新，因为易受攻击的系统会带来特定的风险。您很可能会按需手动应用这些更新，或使用发行版中包含的更新系统。
+
 
 ### CI/CD
 
