@@ -111,11 +111,14 @@ description: >
 初始阶段，你需要专注于构建容器。你的第一步将是将容器构建添加到应用程序的持续集成(CI)中。你还需要采用容器注册表来存储你的镜像，并需要考虑版本控制和贴标签，以确保你知道正在使用的代码的准确信息。
 
 
-### Application Patterns and Refactoring
+### 应用程序模式和重构
 
-Start with a canonical microservice application if you can and confirm that it runs and that people are familiar with it. Attempt to start with a microservice application on your cloud native journey if you can. You can try an existing or monolithic application if this makes sense, as this will flush out tooling and dependencies you'll have for your journey to cloud native, such as kubectl, network connectivity and other topics.
 
 Your business needs to review microservice patterns and architecture and look to understand the specifics for your applications. Non-functional requirements such as latency, resilience, scaling and third party tooling should definitely be considered. If you're transforming a monolith, this may impose significant redesign on the application as existing needs may not have the technical resources available. Consider your state management, as refactoring a monolith may require effort here. Try to ensure that the knowledge stays with the code, so make sure an existing developer familiar with the code participates in its migration to the cloud. Minimize divergence between cloud and your existing estate. This exercise will ensure all understand that it's a commitment to move to cloud native.
+如果可能的话，可以从一个典型的微服务应用程序开始，并确认其运行正常且人们熟悉它。如果可能，尝试从微服务应用程序开始您的云原生之旅。如果有意义，可以尝试使用现有的单块应用程序，因为这将揭示您在云原生之旅中所需的工具和依赖项，例如 kubectl、网络连接和其他主题。
+
+您的业务需要审查微服务模式和架构，并尝试了解应用程序的具体情况。一定要考虑诸如延迟、可靠性、扩展性和第三方工具等非功能性要求。如果要转换单块应用程序，则可能需要对应用程序进行重大的重新设计，因为现有的需求可能没有可用的技术资源。考虑您的状态管理，因为重构单块应用程序可能需要在此方面投入努力。请确保知识保留在代码中，因此确保熟悉代码的现有开发人员参与其迁移到云的过程。尽量减少云和现有资产之间的差异。此练习将确保所有人都明白这是一项承诺，要迁移到云原生。
+
 
 ### Application Release and Operations
 
