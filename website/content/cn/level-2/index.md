@@ -1,13 +1,15 @@
 ---
-title: Level 2 - Operate
-description: The cloud native foundation is established and you are moving to production.
+title: Level 2 - 运营
+description: 云原生基础已经建立，您正在转向生产。
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-users"></i> 人员
 
-### People Overview
+### 人员概述
 
 Individuals are actively invested in training and skills. The outcome is that small pockets of SMEs and expertise are appearing. DevOps has started to appear with inclusion of cloud skill engineers and developer groups offering platform skills. Cloud Native efforts are also owned by members of leadership.
+个人积极投入培训和提高技能。结果是出现了少数精通某一领域或主题的专家（SME）和专业知识团队。DevOps已经开始出现，包括云技术工程师和开发人员团队提供平台技能。云原生的努力也由组织领导成员主导。
+
 
 ### Organizational Change
 
