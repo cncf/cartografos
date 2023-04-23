@@ -7,25 +7,23 @@ description: 云原生基础已经建立，您正在转向生产。
 
 ### 人员概述
 
-Individuals are actively invested in training and skills. The outcome is that small pockets of SMEs and expertise are appearing. DevOps has started to appear with inclusion of cloud skill engineers and developer groups offering platform skills. Cloud Native efforts are also owned by members of leadership.
 个人积极投入培训和提高技能。结果是出现了少数精通某一领域或主题的专家（SME）和专业知识团队。DevOps已经开始出现，包括云技术工程师和开发人员团队提供平台技能。云原生的努力也由组织领导成员主导。
 
+### 组织变革
 
-### Organizational Change
+组织变革正在发生。您将确定项目团队，建立敏捷项目组，并拥有快速反馈/测试回路。
 
-Organizational change is happening. You will define project teams, create agile project groups and have quick feedback/testing loops.
+### 团队和去中心化
 
-### Teams and Decentralization
+我们开始正式集中服务和责任，包括工具的整合，以及淘汰或消除非云原生工具。
 
-We are starting to formalize central services and responsibilities, including the consolidation of tooling, as well as the culling or evaporation of non-cloud native tooling.
+### 安全
 
-### Security
+您的团队需要关注谁负责Kubernetes集群的安全以及如何管理它。这将需要让安全团队参与其中。
 
-Your team needs to focus on who is responsible for Kubernetes cluster security and how it will be managed. That will require the inclusion of the security team.
+### 开发人员敏捷性
 
-### Developer Agility
-
-The team is comfortable with technically challenging problems and how cloud native can help. There is an organizational commitment to decentralisation and automated testing of builds, with automated deployments to some environments.
+团队能自如对待技术上具有挑战性的问题以及利用云原生帮助解决这些问题。这是在组织架构上致力于在某些环境里构建去中心化的自动化测试，自动部署。
 
 ### Upskilling Developers
 
