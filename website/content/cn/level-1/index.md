@@ -141,19 +141,20 @@ description: >
 - 没有停机时间（改善客户的可靠性）
 - 由于弹性云架构而改善了业务连续性
 
-These are just examples, they are not a guarantee based on your environment as results may vary.
+这些只是例子，它们并不是基于您的环境的保证，因为结果可能会有所不同。
 
-In this phase, you will determine how you’ll measure (your initial KPIs) the success of your cloud native journey; and just as important, how you will demonstrate it to stakeholders. This is a major outcome of Level 1 as the entire success of the journey should be mapped to this measurement. Remember it won't be immediate on day 1. Some quantitative and qualitative example KPIs may include:
-- Reduced spend on app infrastructure by 25% by optimizing for cost
-- Dev cost lowered by 10%
-- Reduced team focus on app infrastructure by 15% by automating as much as possible
-- Increased security for the application by automating CVE identification in containers
-- Improve compliance as you can restrict and track access to the application; demonstrate compliance with SOC 2
-- Accelerated development life cycles as you implement CI/CD pipelines shipping 10% more features per quarter
-- Migrate plan - this will vary depending on your organization, but you should have a migration plan in place. Whether that’s to migrate one application first, or several, you should have this established.
-- Improved customer experience measured by increased performance scores
-- Elimination of information silos: departments no longer isolated; unique, integrated ecosystem in place.
-- Alignment of business and IT goals: everyone is involved and aware, so that resources are better addressed to meet those goals efficiently.
-- Increased internal communication: cross-pollination offers new perspectives with shared knowledge.
+在这个阶段，您将决定如何衡量您的云原生之旅的成功（您的初始KPI），并且同样重要的是，您将如何向利益相关者展示它。这是第一级的主要成果，整个旅程的成功应该映射到这个度量上。请记住，这不会在第一天立即发生。一些定量和定性的KPI示例可能包括：
+
+- 通过优化成本，将应用基础设施的支出降低了25%
+- 开发成本降低了10%
+- 通过尽可能自动化，将团队对应用基础设施的关注焦点降低了15%
+- 通过在容器中自动化公共漏洞和暴露（CVE）识别，提高了应用程序的安全性
+- 通过限制和跟踪对应用程序的访问，提高合规性；展示SOC2的合规性
+- 实施CI/CD流水线，每季度发布10%更多功能，加速开发生命周期
+- 迁移计划-这将因您的组织而异，但您应该有一个迁移计划。无论是首先迁移一个应用程序还是几个应用程序，您都应该已经制定好计划。
+- 通过提高性能评分，改善了客户体验
+- 消除信息孤岛：部门不再孤立；建立独特、集成的生态系统。
+- 对齐业务和IT目标：每个人都参与并了解，资源更好地被用于有效地实现这些目标。
+- 增加内部沟通：交叉授粉提供了共享知识的新视角。
 
 In this phase, it’s important that the business outcomes are examined and explained to business stakeholders. It should be a discussion with engineering leadership, the application owner (finance, marketing, etc), the CEO, and even the board. Without these discussions and alignment, maturing to the next phases will come with little appreciation and possibly even skepticism.
