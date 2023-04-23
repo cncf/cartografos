@@ -81,27 +81,30 @@ description: >
 
 您将制定有限的记录在案策略以支持您在云中构建的服务。
 
-### Policy Creation
+### 策略创建
 
-You will need to translate your organization’s policies and compliance requirements to your cloud native environment.
+你需要将你的组织策略和合规要求转化为云原生环境中的规则。
 
-Spend time understanding your application's functional and architectural requirements.
+花时间了解你的应用程序的功能和架构要求。
 
-### Compliance
+### 合规性
 
-You will need policies in place to achieve compliance especially in highly regulated industries. For compliance, there is a gradient of what you will achieve.
 
-Spend time understanding your compliance requirements: CIS, NIST, PCI for example. Design SLOs and priorities for compliance. This will take time and may not be a pre-production requirement, but will increase as you move to production.
+您需要制定策略以实现合规性，特别是在高度监管的行业。对于合规性，您将实现的内容是渐进的。
 
-## <i class="fas fa-server"></i> Technology
+花时间了解您的合规性要求：如CIS，NIST，PCI等。为合规性设计创建服务等级目标(SLO)和优先级。这需要时间，可能不是预生产的要求，但随着您进入生产，其重要性会增加。
 
-### Technology Overview
+、
 
-You’ll have your initial experimentation and adoption of Kubernetes. You’ll start with relatively basic tools and technology. You’ll assess your existing toolset to see how they fit within the new landscape (what plays well with cloud native, and what doesn’t?). You’ll have limited automation, but don’t worry, it’s coming! Your focus is on getting the baseline technology implemented, and you won’t be in production yet.
+## <i class="fas fa-server"></i> 技术
 
-### Infrastructure
+### 技术概述
 
-You are building your cloud infrastructure either on-prem or off. It will pay dividends to consider early your supporting technology such as your network, firewalls and IAM, access controls and policies (and if you need to change them). Many topics will come out of your initial experimentation with Kubernetes, so ensure you keep track of these - they are the ‘breadcrumbs’ you will follow as you move towards cloud native. This will include RBAC policies, load balancer and/or ingress configuration, cluster dashboards, privileged access (or lack thereof!) and container logging. Your aim is to move away from ‘pets’ to ‘livestock’ so you invest in declarative solutions for your Infrastructure as a Service with Infrastructure as Code (IaC) tooling. If you do not have a consolidated DevOps practice at this level, bring your future operations team in to build familiarity.
+您将开始测试并采用Kubernetes。您将着手使用相对基础的工具和技术。您将评估现有的工具集，看看它们在新的环境中适用程度（哪些工具能够很好地与云原生相容，哪些不能？）。您将实现有限的自动化，但不用担心，它即将到来！您的重点是实现基础技术，但还没有进入生产环境。
+
+### 基础设施
+
+您正在构建云基础架构，无论是在本地还是在云上。想得到好的效果，尽早考虑支持技术，如网络、防火墙、身分識別和存取管理 (IAM)、 访问控制以及策略（以及您是否需要更改它们）。在与 Kubernetes 的初始实验中，将涉及许多主题，因此请确保跟踪这些主题，它们是您朝着云原生发展的“面包屑”。这将包括 基于角色的访问权限控制(RBAC)策略、负载均衡器和/或入口配置、集群仪表板、特权访问（或缺乏访问）和容器日志记录。您的目标是把基础设施从当“宠物”变成当“家畜”，因此要使用基础设施即服务的声明性解决方案，并使用基础设施即代码（IaC）工具。如果在这个层面上您没有一个统一的 DevOps 实践，请让未来的运营团队参与并熟悉这个过程。
 
 ### Container and Runtime Management
 
