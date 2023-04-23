@@ -106,9 +106,10 @@ description: >
 
 您正在构建云基础架构，无论是在本地还是在云上。想得到好的效果，尽早考虑支持技术，如网络、防火墙、身分識別和存取管理 (IAM)、 访问控制以及策略（以及您是否需要更改它们）。在与 Kubernetes 的初始实验中，将涉及许多主题，因此请确保跟踪这些主题，它们是您朝着云原生发展的“面包屑”。这将包括 基于角色的访问权限控制(RBAC)策略、负载均衡器和/或入口配置、集群仪表板、特权访问（或缺乏访问）和容器日志记录。您的目标是把基础设施从当“宠物”变成当“家畜”，因此要使用基础设施即服务的声明性解决方案，并使用基础设施即代码（IaC）工具。如果在这个层面上您没有一个统一的 DevOps 实践，请让未来的运营团队参与并熟悉这个过程。
 
-### Container and Runtime Management
+### 容器和运行时管理
 
-Initially you’ll want to focus on just building containers. One of your first steps will be to add container builds to your CI for your application. You’ll also want to adopt a container registry for your images and you’ll need to consider versioning and tagging so that you can ensure you know exactly what code is in use.
+初始阶段，你需要专注于构建容器。你的第一步将是将容器构建添加到应用程序的持续集成(CI)中。你还需要采用容器注册表来存储你的镜像，并需要考虑版本控制和贴标签，以确保你知道正在使用的代码的准确信息。
+
 
 ### Application Patterns and Refactoring
 
