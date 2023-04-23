@@ -113,17 +113,17 @@ description: >
 
 ### 应用程序模式和重构
 
-
-Your business needs to review microservice patterns and architecture and look to understand the specifics for your applications. Non-functional requirements such as latency, resilience, scaling and third party tooling should definitely be considered. If you're transforming a monolith, this may impose significant redesign on the application as existing needs may not have the technical resources available. Consider your state management, as refactoring a monolith may require effort here. Try to ensure that the knowledge stays with the code, so make sure an existing developer familiar with the code participates in its migration to the cloud. Minimize divergence between cloud and your existing estate. This exercise will ensure all understand that it's a commitment to move to cloud native.
 如果可能的话，可以从一个典型的微服务应用程序开始，并确认其运行正常且人们熟悉它。如果可能，尝试从微服务应用程序开始您的云原生之旅。如果有意义，可以尝试使用现有的单块应用程序，因为这将揭示您在云原生之旅中所需的工具和依赖项，例如 kubectl、网络连接和其他主题。
 
 您的业务部门需要审查微服务模式和架构，并尝试了解应用程序的具体情况。一定要考虑诸如延迟、可靠性、扩展性和第三方工具等非功能性要求。如果要转换单块应用程序，则可能需要对应用程序进行重大的重新设计，因为现有的需求可能没有可用的技术资源。考虑您的状态管理，因为重构单块应用程序可能需要在此方面投入努力。需要代码和业务知识不分开，因此要确保熟悉代码的现有开发人员参与其迁移到云的过程。尽量减少云和现有资产之间的差异。此练习将确保所有人都明白要迁移到云原生需要不断的投入，。
 
 
-### Application Release and Operations
+### 应用发布和运营
 
-Managing a cluster with Infrastructure as Code (IaC) is different to managing application release and deployment, however many of the same techniques and tools will be common to both.
-When starting with Kubernetes, it is important that you start out with as much hands-on experience as possible. Initially you’ll be doing ad-hoc deployments with kubectl and kustomize.
+使用基础设施即代码（IaC）来管理集群与管理应用程序的发布和部署是不同的，但许多相同的技术和工具将适用于两者。
+
+在开始使用Kubernetes时，重要的是尽可能获得更多的实践经验。最初，您将使用kubectl和kustomize进行临时部署。
+
 
 ### Security and Policy
 
