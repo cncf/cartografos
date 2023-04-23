@@ -125,21 +125,21 @@ description: >
 在开始使用Kubernetes时，重要的是尽可能获得更多的实践经验。最初，您将使用kubectl和kustomize进行临时部署。
 
 
-### Security and Policy
+### 安全和策略
 
-Start building your secured CI-CD pipeline if you don’t have one already and don’t forget that what you are doing today with VMs will end up quite different in the future.
+如果您还没有建立安全的CI-CD管道，请开始建立，并且不要忘记，您今天在虚拟机上进行的操作在未来会有很大的不同(相比容器）。.
 
-### Testing and Issue Detection
+### 测试和问题检测
 
-When just starting out, much of your testing will be conducted manually on your business application that you’ve identified as your initial production candidate. With Kubernetes you’ll be focussing on your general network connectivity, and ensuring you’re able to deploy your applications. You will have smoke tests, and UAT testing.
+刚开始时，您的大部分测试将在您已确定为初始生产候选的业务应用程序上手动进行。使用Kubernetes，您将专注于您的一般网络连接性，并确保您能够部署您的应用程序。您将进行冒烟测试和用户验收测试。
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> 业务成果
 
-Level 1 of the Cloud Native Maturity Model is where your team has a baseline implementation in place and you are in pre-production. Here you will have completed a successful POC. Based on the POC, you should have initial findings on how cloud native will help improve your app. In a dev environment, you could, for example, have seen that:
-- An app is using less resources (cost savings / more efficient use)
-- A new feature shipped faster (faster time to market and thus increased revenue)
-- There was no downtime (improved reliability for customers)
-- Improved business continuity thanks to resilient cloud architectures
+云原生成熟度模型的第一级是您的团队已经有了基本实现，并处于预生产阶段。在这里，您将完成一个成功的POC（概念证明）。基于POC，您应该对云原生如何帮助改进您的应用程序有初步的发现。在开发环境中，例如，您可能已经看到：
+- 应用程序使用的资源更少（成本节约/更高效的使用）
+- 新功能更快地发布（更快的上市时间，从而增加收入）
+- 没有停机时间（改善客户的可靠性）
+- 由于弹性云架构而改善了业务连续性
 
 These are just examples, they are not a guarantee based on your environment as results may vary.
 
