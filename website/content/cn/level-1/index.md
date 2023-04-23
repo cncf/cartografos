@@ -61,25 +61,25 @@ description: >
 
 您目前没有变更控制流程，而是根据临时请求执行更改。
 
-### Security
-
-Incorporating security tooling and practices into your cloud native environment, whether through a practice or a process, as early as possible is crucial to keeping your cloud native environment secure. We often use the term ‘shift left’ to refer to bringing a practice, whether relating to testing or security, into a process as early as possible. Security is covered in all sections of the Cloud Native Maturity Model and each section with People, Process, Policy and Technology can be combined to support the security team as they seek to mature the organization’s cloud native security.
-
-Take action: your security journey starts here. Consider security in all aspects of implementation and make it a first class citizen.
+### 安全
  
-### Audit and Logs
+将安全工具和实践尽早地纳入到您的云原生环境中，无论是通过实践还是流程，对于保持您的云原生环境的安全至关重要。我们通常使用“shif left - 向左移动”这个术语，来指在流程的尽早阶段引入测试或安全等实践。安全涵盖了云原生成熟度模型的所有部分，每个部分包括人员、流程、政策和技术，都可以结合起来支持安全团队，使其在成熟组织的云原生安全方面取得进展。
 
-Your process will include logging and auditing. This can be based on internal requirements or support your compliance mandates.
+采取行动：您的安全之旅从这里开始。在所有实施方面考虑安全，并使其成为一等公民。
+ 
+### 审计和日志
 
-Manual log scraping is likely ad-hoc and you may not have a central logging point or SIEM.
+你的流程将包括日志记录和审计。这可以基于内部要求或支持你的合规性要求。
 
-## <i class="fas fa-edit"></i> Policy
+手动的日志收集可能是临时的，你可能没有集中的日志记录点或安全信息和事件管理系统（SIEM）。
 
-### Policy Overview
+## <i class="fas fa-edit"></i> 策略
 
-We recognize policy adoption is a gradient. Every organization has a different risk appetite. Use this document as a guide to how you can define and enforce policy. By level 5, you will have achieved full policy maturity, however your mileage may vary.
+### 策略概述
 
-You will have a limited set of documented policies in place to support services you're building in the cloud.
+我们意识到策略采纳是一个渐进的过程。每个组织的风险承受能力都不同。使用本文档作为指南，了解如何定义和执行策略。到达级别5，您将实现完全的策略成熟度，但实际情况可能有所不同。
+
+您将制定有限的记录在案策略以支持您在云中构建的服务。
 
 ### Policy Creation
 
