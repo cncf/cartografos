@@ -157,4 +157,4 @@ description: >
 - 对齐业务和IT目标：每个人都参与并了解，资源更好地被用于有效地实现这些目标。
 - 增加内部沟通：交叉授粉提供了共享知识的新视角。
 
-In this phase, it’s important that the business outcomes are examined and explained to business stakeholders. It should be a discussion with engineering leadership, the application owner (finance, marketing, etc), the CEO, and even the board. Without these discussions and alignment, maturing to the next phases will come with little appreciation and possibly even skepticism.
+在这个阶段，向业务利益相关者解释业务成果很重要。这应该是与工程领导、应用程序所有者（财务、营销等）、首席执行官甚至董事会进行的讨论。如果没有这些讨论和调整，那么成熟到下一个阶段可能会受到很少的赞赏，甚至可能会引起怀疑。
