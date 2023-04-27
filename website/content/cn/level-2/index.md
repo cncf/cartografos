@@ -25,13 +25,14 @@ description: 云原生基础已经建立，您正在转向生产。
 
 团队能自如对待技术上具有挑战性的问题以及利用云原生帮助解决这些问题。这是在组织架构上致力于在某些环境里构建去中心化的自动化测试，自动部署。
 
-### Upskilling Developers
+### 开发人员技能提升
 
-Your wider development team is able to operate the fundamentals of Kubernetes including:
-- Connecting an operator to the Kubernetes API
-- Become comfortable with Kubectl commands
-- Understanding how to list and view resources
-- Performing basic actions (mechanical actions with limited understanding of how it works)
+您更广泛的开发团队能够熟悉Kubernetes基本操作，包括：
+
+- 将operator连接到Kubernetes API
+- 熟悉Kubectl命令
+- 了解如何列出和查看资源
+- 执行基本操作（机械操作，对其工作原理的理解有限）
 
 ### CNCF Certifications
 
