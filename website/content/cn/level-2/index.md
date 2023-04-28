@@ -34,17 +34,18 @@ description: 云原生基础已经建立，您正在转向生产。
 - 了解如何列出和查看资源
 - 执行基本操作（机械操作，对其工作原理的理解有限）
 
-### CNCF Certifications
+### CNCF 认证
 
-Organizations may wish to consider the CKA and CKAD exams around level 2 and 3.
+组织可能希望在 2 级和 3 级左右考虑 CKA 和 CKAD 认证考试。
 
-#### Certified Kubernetes Administrator (CKA)
+#### 认证 Kubernetes 管理员 (CKA)
 
-This program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
+该计划确保 CKAs 具备执行 Kubernetes 管理员职责所需的技能、知识和能力。
 
-#### Certified Kubernetes Application Developer (CKAD)
+#### 认证 Kubernetes 应用开发者 (CKAD)
 
-This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
+该考试证明用户可以为 Kubernetes 设计、构建、配置和公开云原生应用程序。
+
 
 ## <i class="fas fa-cogs"></i> Process
 
