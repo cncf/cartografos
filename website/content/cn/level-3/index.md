@@ -9,17 +9,17 @@ description: 您的能力正在增长，您正在为扩展定义流程。
 
 团队的能力正在增长，并且Dev、Ops和安全方面都有承诺。您正在围绕云原生卓越中心正式形成专业知识。云原生成为战略的一等公民。
 
-### Organizational Change
+### 组织变革
 
-As your people’s competency grows, the organization structure is now in place to support best practices. You will have formalized responsibilities. A common pattern used for this structure often embraces agile and scrum.
+随着您的团队成员能力的提升，组织结构现在已经可以支持最佳实践。您将拥有正式的责任分工。常用于这种结构的常见模式通常采用敏捷和Scrum框架。
 
-### Teams and Decentralization
+### 团队和分权化
 
-You’re really starting to see a high degree of centralisation, with clear and understood responsibilities. There may however be a decrease in velocity and chokepoints in the process. Things may start to slow down.
+您真正开始看到了高度的集中化，具有明确和明确的责任分工。然而，在这个过程中可能会出现速度下降和新瓶颈的情况。事情可能会开始变慢。
 
-### Security
+### 安全性
 
-Your risk tolerance will impact at what level you are focused on cloud native security training so you are actively skilling people.
+您的风险容承受成度将影响你关注云原生安全培训的程度，所以您在积极培养人员的技能。
 
 ### Developer Agility
 
