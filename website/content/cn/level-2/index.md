@@ -123,5 +123,4 @@ description: 云原生基础已经建立，您正在转向生产。
 在操作阶段，您将专注于进入生产阶段。您会制定技术标准，您的团队将运作并实施策略和流程。您的业务成果将围绕生产迁移展开。您的组织业务领导层希望了解哪些应用正在移动以及为什么。能够清楚地向您的业务领导传达计划。随着团队在Level 2中的运作，可重复的模式也会出现。这些模式将应用于你的业务成果，以便在迁移另一个应用程序时，你能够从一个应用程序中看到的好处不需要太大的投入就可以得到应用。这些模式将有助于简化你的开发、安全和运营团队的运作。
 
 
-Your KPIs can also include your return on investment ROI, but know that in Level 2, your ROI will be lower than when you reach Level 5. This is because you are investing a lot in acquiring tools, establishing the right team and skill set, whereas in Level 5 you are optimizing.
 你的KPI还可以包括你的投资回报率ROI，但要知道在Level 2中，你的ROI将低于当你达到Level 5时。这是因为你在获得工具、建立合适的团队和技能方面投入了很多，而在Level 5中，你只是在优化。
