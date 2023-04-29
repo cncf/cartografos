@@ -90,29 +90,29 @@ description: 云原生基础已经建立，您正在转向生产。
 这标志着您迈入生产阶段的第一步。您在 Level 1 中努力构建了基础，现在正在进入生产阶段。您可能从相对较小和简单的东西开始，但是这次跃升到生产阶段肯定需要您解决一些重要的步骤。您可能已经将监控和可观察性纳入您的工作负载中。您将引入关键的可观察性工具，并开始监控集群的标准指标，例如RAM、CPU等。虽然您可能刚开始评估应用程序跟踪，但是如果您已经开始收集核心指标，不要过于担心。您的重点是使应用程序在生产环境中运行，并拥有足够的平台资源、可观察性和运营能力来支持它在您的组织内运行。
 
 
-### Infrastructure
+### 基础设施
 
-Because production is your goal, you’ve built Kubernetes clusters for production with a focus on reliability and security.
+由于生产是您的目标，因此您已经构建了针强调可靠和安全的生产用 Kubernetes 集群。
 
-### Container and Runtime Management
+### 容器和运行时管理
 
-You’re working in production now. You will experiment with tooling to augment the basics in production to help with security, policy management, workload misconfigurations, resource requests and limits. Key security practices for container hygiene are being incorporated.
+现在正在生产环境中工作。您将尝试使用工具来增强生产环境中的基础设施，以帮助处理安全、策略管理、工作负载错误配置、资源请求和限制等方面。正在纳入关键的安全措施以保持容器卫生。
 
-### Application Patterns and Refactoring
+### 应用程序模式和重构
 
-You're in production, with your first APIs exposed. Consider developing a “microservices first” framework particularly if your first choice is always a microservices approach. If not, consider moving applications suitable for lift and shift or don't migrate the app until later.
+您已经进入生产环境，首个API已经暴露出来。考虑开发“以微服务为先”的框架，尤其是如果您的第一选择一直是微服务方法。如果不是，请考虑将适合升级和迁移的应用程序移动，或者等到以后再迁移该应用程序。
 
-### Application Release and Operations
+### 应用程序发布和运营
 
-For your initial steps into production, you’ll be using CI or release tooling, kubectl and kustomize to potentially deploy your first smaller applications. It’s really important by now that you develop key skills in Kubernetes configuration.
+在您初步进入生产环境时，您将使用CI或发布工具，kubectl和kustomize来部署您的首批较小的应用程序。现在非常重要的是，您需要在Kubernetes配置方面发展关键技能。
 
-### Security and Policy
+### 安全和策略
 
-Ensure that your development and operations groups are following good practice with containers, secrets and security. Because you are in production, you will want to ensure that you have encryption as well and authentication and authorization addressed.
+确保您的开发和运营团队在容器、秘密和安全方面遵循良好的实践。因为您处于生产环境中，所以您需要确保具备加密、身份验证和授权的功能。
 
-### Testing and Issue Detection
+### 测试和问题检测
 
-Now that you are in production, you’ll be experimenting with tooling to help with security, policy management, workload misconfigurations, resource requests, limits and observability, in your staging or development environment.
+现在您已经进入生产环境，您将在您的暂存或开发环境中尝试使用工具来帮助处理安全、策略管理、工作负载错误配置、资源请求和限制以及可观测性等方面的问题。
 
 ## <i class="fas fa-building"></i> Business Outcomes
 
