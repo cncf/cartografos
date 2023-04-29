@@ -1,13 +1,13 @@
 ---
-title: Level 4 - Improve
-description: You are improving security, policy and governance across your environment.
+title: Level 4 - 改进
+description: 您正在改进跨环境的安全、策略和治理。
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-users"></i> 人员
 
-### People Overview
+### 人员概述
 
-As you improve, you are shifting competency to the development team for them to self-service. Full commitment from leadership.
+随着您的改进，您正在将能力转移给开发团队，让他们能自助服务。领导层将全力支持。
 
 ### Organizational Change
 
