@@ -61,33 +61,34 @@ description: 云原生基础已经建立，您正在转向生产。
 
 在这里，您将建立对从源代码管理（scm）到部署的工作流程的基本知识，并可以访问合并/标记提交以触发部署。
 
-### Security
+### 安全
 
-Build security into your CI process including container scanning and configuration scanning.
+将安全性纳入您的CI过程中，包括容器扫描和配置扫描。
 
-### Audit and Logs
+### 审计和日志
 
-Spend time defining log aggregation.
+花时间定义日志聚合
 
+## <i class="fas fa-edit"></i> 策略
 
-## <i class="fas fa-edit"></i> Policy
+### 策略概述
 
-### Policy Overview
-As your services approach production, you have initial policies agreed as standard and these are mostly documented.
+当您的服务逐渐进入生产阶段时，您需要制定初始政策作为标准，并且大多数这些政策都需要有文件记录。
 
-### Policy Creation
+### 策略创建
 
-Define initial resource metrics and start collecting data.
+定义初始资源指标并开始收集数据。
 
-### Compliance
+### 合规性
 
-Initial auditing, carried out manually or through simple scripts.
+初始审计，可以通过手动或简单脚本进行。
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> 技术
 
-### Technology Overview
+### 技术概述
 
-This marks your first step into production. You’ve worked hard to build your foundation in Level 1, and now you are moving to production. You might have started with something relatively small and simple, but this leap to production has certainly required you to address some significant steps. You’ll probably have had to incorporate monitoring and observability into your workloads. You’ll have brought key observability tooling in and started monitoring your clusters for standard metrics such as RAM, CPU etc. While you might be starting to evaluate application tracing, don’t worry about it too much if you have started to gather core metrics. Your focus here is on getting an application running in production and having enough platform resource, observability and operational capability to support it within your organization.
+这标志着您迈入生产阶段的第一步。您在 Level 1 中努力构建了基础，现在正在进入生产阶段。您可能从相对较小和简单的东西开始，但是这次跃升到生产阶段肯定需要您解决一些重要的步骤。您可能已经将监控和可观察性纳入您的工作负载中。您将引入关键的可观察性工具，并开始监控集群的标准指标，例如RAM、CPU等。虽然您可能刚开始评估应用程序跟踪，但是如果您已经开始收集核心指标，不要过于担心。您的重点是使应用程序在生产环境中运行，并拥有足够的平台资源、可观察性和运营能力来支持它在您的组织内运行。
+
 
 ### Infrastructure
 
