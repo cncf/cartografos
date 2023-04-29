@@ -84,10 +84,11 @@ description: 您的能力正在增长，您正在为扩展定义流程。
 
 在这里，您开始扩展规模。您的工具套件更加标准化。您正在安装发布工具、密钥管理和策略工具。您还开始在整个组织中获得一定程度的认可，这有助于推动您前进步。这是您将运行最多工具的地方，因为您将处于评估、实施和生产运行的繁忙阶段。
 
-### Infrastructure
+### 基础架构
 
-As part of building confidence in your cloud infrastructure, you need to gain visibility into what your infrastructure is doing. Developing your monitoring, alerting and resource usage capabilities is going to be your focus. An important consideration here is that where previously you may have considered machine-specific properties such as CPU, RAM etc, you’ll also want to factor in cluster resource metrics also. Additionally, you’ll replace components when they fail rather than spending time remediating issues in production. This builds on Level 2. Furthermore, you may also look to manage infrastructure with Kubernetes like you would software.
+基于建立对云基础架构的信心，你需要获得对基础架构正在执行的操作的可见性。你的重点将是发展监控、警报和资源使用能力。一个重要的考虑因素是，在以前，你可能考虑了与机器特定属性相关的指标，如 CPU、RAM 等，但现在你也需要考虑集群资源指标。此外，你将在组件发生故障时进行替换，而不是在生产环境中花费时间修复已出现的问题。这是建立在 Level 2 基础上的。此外，你还可以像管理软件一样，使用 Kubernetes 管理基础架构。
 
+、
 ### Container and Runtime Management
 
 Whereas in Level 2 you’ve been experimenting, in Level 3, as you increase your workload, and as you scale, you need consistent tooling across clusters to gain continuous visibility into your Kubernetes clusters. This should include automatic scanning and having runtime observability of what is occurring within your containers and your cluster. CNCF projects are good options here. You will have alerting and dashboards in place.
