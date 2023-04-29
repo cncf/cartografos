@@ -45,7 +45,8 @@ description: 您的能力正在增长，您正在为扩展定义流程。
 
 ### 流程概述
 
-You will implement standardization across the organization with the benefit of improving onboarding and expanding your cloud native footprint and awareness. You will create a feedback loop. You will invest in repeatability. Do you have the tools in place that are accessible to everyone? Do you have Git services? Have you implemented workspace collaboration to save time, labor or avoid duplication? Finally, what is your process for measuring resource usage? In level three, you should be measuring your container usage, CPU and memory (runtime and uptime). Automation and processes associated with software release will also be extended to platforms. Lifecycle operations such as upgrades and patching, particularly CVEs and critical updates will benefit from further automation and the introduction of Infrastructure-as-code technologies.
+您将在整个组织中实施标准化，以改善载入过程，扩大您的云原生印记和认知度。您将创建一个反馈循环。您将投资于可重复性。您是否已经为所有人提供了可用的工具？您是否有 Git 服务？您是否实施了工作空间协作以节省时间、劳动力或避免重复？最后，您的资源使用量测量过程是什么？在第三级，您应该测量容器使用量、CPU 和内存（运行时间和在线运行时间）。与软件发布相关的自动化和流程也将扩展到平台。生命周期操作（例如升级和修补程序，特别是 CVE 和关键更新）将受益于进一步的自动化和基础架构即代码技术的引入。
+
 
 ### CI/CD
 
