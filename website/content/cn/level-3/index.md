@@ -1,13 +1,13 @@
 ---
-title: Level 3 - Scale
-description: Your competency is growing and you are defining processes for scale.
+title: Level 3 - 规模
+description: 您的能力正在增长，您正在为扩展定义流程。
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-users"></i> 人员
 
-### People Overview
+### 人员总览
 
-The team’s competency is growing and there is commitment from Dev, Ops and security. You are formalizing expertise around a cloud native center of excellence. Cloud Native becomes a first-class citizen for strategy.
+团队的能力正在增长，并且Dev、Ops和安全方面都有承诺。您正在围绕云原生卓越中心正式形成专业知识。云原生成为战略的一等公民。
 
 ### Organizational Change
 
