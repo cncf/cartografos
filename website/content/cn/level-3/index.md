@@ -50,39 +50,39 @@ description: 您的能力正在增长，您正在为扩展定义流程。
 
 ### CI/CD
 
-You are implementing a center of excellence around your CI/CD process.
+您正在围绕您的 CI/CD 流程实施卓越中心。
 
-### Change Control
+### 变更控制
 
-Your code quality is improving as measured with automated tooling and you are seeing CI and test success frequently.
+您的代码质量正在提高，使用自动化工具进行衡量，您经常看到 CI 和测试成功。
 
-### Security
+### 安全
 
-Implement automatic continuous scanning to flag misconfigurations or security issues.
+实施自动连续扫描，以标记配置错误或安全问题。
 
-### Audit and Logs
+### 审计和日志
 
-Start to audit and implement initial alerts. Filter noise.
+开始审计并实施初始警报。过滤噪音。
 
-## <i class="fas fa-edit"></i> Policy
+## <i class="fas fa-edit"></i> 策略
 
-### Policy Overview
+### 策略概述
 
-You will implement policy-as-code and build this into your CI pipeline.
+您将实施策略即代码，并将其构建到您的 CI 流水线中。
 
-### Policy Creation
+### 策略创建
 
-Create policies based on metrics refined around security, efficiency and reliability.
+根据围绕安全性、效率和可靠性精细化的度量创建策略。
 
-### Compliance
+### 合规性
 
-Policy compliance and auditing carried out through automated means on Kubernetes. This will likely include initial development of policy-as-code.
+在 Kubernetes 上通过自动化手段进行策略合规性和审计。这可能包括策略即代码的初始开发。
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> 技术
 
-### Technology Overview
+### 技术概述
 
-Here you start to scale. Your suite of tools is more standardized. You're getting your release tooling, secrets management and policy tooling in place. You’re also starting to get a level of buy-in across your organization, which is helping to propel you forward. This is where you will be running the largest number of tools as you will be in the thick of evaluating, implementing, and running in production.
+在这里，您开始扩展规模。您的工具套件更加标准化。您正在安装发布工具、密钥管理和策略工具。您还开始在整个组织中获得一定程度的认可，这有助于推动您前进步。这是您将运行最多工具的地方，因为您将处于评估、实施和生产运行的繁忙阶段。
 
 ### Infrastructure
 
