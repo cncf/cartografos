@@ -89,27 +89,27 @@ description: 您的能力正在增长，您正在为扩展定义流程。
 基于建立对云基础架构的信心，你需要获得对基础架构正在执行的操作的可见性。你的重点将是发展监控、警报和资源使用能力。一个重要的考虑因素是，在以前，你可能考虑了与机器特定属性相关的指标，如 CPU、RAM 等，但现在你也需要考虑集群资源指标。此外，你将在组件发生故障时进行替换，而不是在生产环境中花费时间修复已出现的问题。这是建立在 Level 2 基础上的。此外，你还可以像管理软件一样，使用 Kubernetes 管理基础架构。
 
 、
-### Container and Runtime Management
+### 容器和运行时管理
 
-Whereas in Level 2 you’ve been experimenting, in Level 3, as you increase your workload, and as you scale, you need consistent tooling across clusters to gain continuous visibility into your Kubernetes clusters. This should include automatic scanning and having runtime observability of what is occurring within your containers and your cluster. CNCF projects are good options here. You will have alerting and dashboards in place.
+在第二级阶段中，您一直在进行试验，但在第三级阶段，随着工作量的增加和规模的扩大，您需要跨集群使用一致的工具，以持续了解您的 Kubernetes 集群。这应该包括自动扫描，并且具有运行时可观察性，了解容器和集群中发生的情况。CNCF 的有关项目是很好的选择。您将已有的警报系统和仪表板。
 
-### Application Patterns and Refactoring
+### 应用程序模式和重构
 
-Culturally, your organization has started to think about services rather than “servers”. Microservices are embraced within the organization and are now used by default where appropriate.
+从文化上讲，你的组织开始思考服务而不是“服务器”。微服务在组织中得到认可，并在适当的情况下成为默认选项。
 
-### Application Release and Operations
+### 应用发布和运维
 
-Because consistency is important, you may be starting to write Helm Charts for your application releases. You may also be starting to take your first steps into GitOps with Flux and Argo, introducing controllers to manage your release and operations.
+由于一致性非常重要，您可能会开始为应用程序发布编写Helm Charts。您可能还会开始尝试使用Flux和Argo进行GitOps，并引入控制器来管理您的发布和运维操作。
 
-### Security and Policy
+### 安全和策略
 
-It’s now time to step up and automate your deployment guardrails and security best practices with policy as code. Determine your strategy for enforcement. Begin adopting third party benchmarks and standards where relevant. Consider also adopting anomaly and threat detection technologies.
+现在是时候采取行动，通过代码制定策略来自动化您的部署防护和安全最佳实践。确定您的执行策略。开始采用第三方基准和标准（适用的情况下）。还要考虑采用异常和威胁检测技术。
 
-### Testing and Issue Detection
+### 测试和问题检测
 
-On the basis of your experiments in the previous level, you’ll be implementing this in production, and including good alerting and good dashboards, building out your observability capabilities.
+根据您在前一个级别的实验，您将在生产环境中实施此操作，并包括良好的警报功能和良好的仪表板，构建您的可观察性能力。
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> 业务成果
 
 In Level 3, your competency is growing and you are scaling. Up to this point, your teams have been focusing on learning cloud native. In this stage, your business outcomes are dependent on your team’s experience. As the team builds confidence, their competency around security, efficiency and reliability grows and they will implement defined processes for scale. All of these will impact your services and applications as the team improves. Your business should start to notice operations are more scalable and if not you will need to improve lines of communication to demonstrate this scale, or review the actual scaling results, so they can be optimized further.
 
