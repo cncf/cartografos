@@ -21,29 +21,29 @@ description: 您的能力正在增长，您正在为扩展定义流程。
 
 您的风险容承受成度将影响你关注云原生安全培训的程度，所以您在积极培养人员的技能。
 
-### Developer Agility
+### 开发人员的敏捷性
 
-Your people have implemented continuous delivery for all environments, including for complex releases and with built-in compliance testing. The ops team is now integrated into cross-functional teams, though individuals may not necessarily be able to do all functions.
+你的团队已经实现了所有环境的持续交付，包括复杂的发布和内置的合规性测试。运维团队现在已经整合到跨职能团队中，尽管个人可能并不一定能够执行所有职能。
 
-### Upskilling Developers
+### 提升开发者技能
 
-Implement a repeatable cycle of troubleshooting so changes and iterations are done quickly.
+实施可重复的故障排除循环，以便快速完成更改和迭代。
 
-### CNCF Certifications
+### CNCF 认证
 
-Organizations may wish to consider the CKA and CKAD exams around level 2 and 3.
+组织可能希望在第二级和第三级左右考虑 CKA 和 CKAD 考试认证。
 
-#### Certified Kubernetes Administrator (CKA)
+#### 认证 Kubernetes 管理员 (CKA)
 
-This program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
+该认证项目确保 CKAs 具备执行 Kubernetes 管理员职责所需的技能、知识和能力。
 
-#### Certified Kubernetes Application Developer (CKAD)
+#### 认证 Kubernetes 应用程序开发人员 (CKAD)
 
-This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
+该考试认证用户能够为 Kubernetes 设计、构建、配置和搬出云原生应用程序。
 
-## <i class="fas fa-cogs"></i> Process
+## <i class="fas fa-cogs"></i> 流程
 
-### Process Overview
+### 流程概述
 
 You will implement standardization across the organization with the benefit of improving onboarding and expanding your cloud native footprint and awareness. You will create a feedback loop. You will invest in repeatability. Do you have the tools in place that are accessible to everyone? Do you have Git services? Have you implemented workspace collaboration to save time, labor or avoid duplication? Finally, what is your process for measuring resource usage? In level three, you should be measuring your container usage, CPU and memory (runtime and uptime). Automation and processes associated with software release will also be extended to platforms. Lifecycle operations such as upgrades and patching, particularly CVEs and critical updates will benefit from further automation and the introduction of Infrastructure-as-code technologies.
 
