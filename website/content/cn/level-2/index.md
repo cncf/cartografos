@@ -114,12 +114,14 @@ description: 云原生基础已经建立，您正在转向生产。
 
 现在您已经进入生产环境，您将在您的暂存或开发环境中尝试使用工具来帮助处理安全、策略管理、工作负载错误配置、资源请求和限制以及可观测性等方面的问题。
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> 业务成果
 
-Cloud native is now established and your technologists are moving to production. While the technical outcome of Level 2 is a fully functional application or group of applications migrated to cloud native tools and practices, the business outcomes are the ability to evaluate the benefits of the migrations. This is also the level that most customers/corporations get to and plateau. This is when a cloud native maturity model shows its true value.
+云原生现在已经成熟，您的技术人员正在向生产环境转移。尽管第2级的技术结果是将一个完整的应用程序或一组应用程序完全迁移到云原生工具和实践中，但业务结果是能够评估迁移的好处。这也是大多数客户/公司达到并停滞不前的级别。这时云原生成熟度模型展现出其真正的价值。
 
-With your established KPIs from Level 1, you will measure success and communicate this to stakeholders.
+通过您在Level 1建立的关键绩效指标，您将衡量成功并将其传达给利益相关者。
 
-In the operation phase, you will be focused on moving to production. You’ll have established standards around technology, your people will be operating it and implementing policy and process. Your business outcome will be around production migration. The business leadership of your organization will want to understand what applications are being moved and why. Be able to clearly communicate the plans to your business leaders. Repeatable patterns will also emerge as teams operate in Level 2. These will be applied to your business outcomes so that benefits you see in one migrated application can be applied to another without as much as a heavy lift. These patterns will help streamline operations across your dev, sec and ops teams.
+在操作阶段，您将专注于进入生产阶段。您会制定技术标准，您的团队将运作并实施策略和流程。您的业务成果将围绕生产迁移展开。您的组织业务领导层希望了解哪些应用正在移动以及为什么。能够清楚地向您的业务领导传达计划。随着团队在Level 2中的运作，可重复的模式也会出现。这些模式将应用于你的业务成果，以便在迁移另一个应用程序时，你能够从一个应用程序中看到的好处不需要太大的投入就可以得到应用。这些模式将有助于简化你的开发、安全和运营团队的运作。
+
 
 Your KPIs can also include your return on investment ROI, but know that in Level 2, your ROI will be lower than when you reach Level 5. This is because you are investing a lot in acquiring tools, establishing the right team and skill set, whereas in Level 5 you are optimizing.
+你的KPI还可以包括你的投资回报率ROI，但要知道在Level 2中，你的ROI将低于当你达到Level 5时。这是因为你在获得工具、建立合适的团队和技能方面投入了很多，而在Level 5中，你只是在优化。
