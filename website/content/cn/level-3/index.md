@@ -111,16 +111,16 @@ description: 您的能力正在增长，您正在为扩展定义流程。
 
 ## <i class="fas fa-building"></i> 业务成果
 
-In Level 3, your competency is growing and you are scaling. Up to this point, your teams have been focusing on learning cloud native. In this stage, your business outcomes are dependent on your team’s experience. As the team builds confidence, their competency around security, efficiency and reliability grows and they will implement defined processes for scale. All of these will impact your services and applications as the team improves. Your business should start to notice operations are more scalable and if not you will need to improve lines of communication to demonstrate this scale, or review the actual scaling results, so they can be optimized further.
+在第三级，您的能力正在增长并且正在扩展。到目前为止，您的团队一直在专注于学习云原生。在这个阶段，您的业务成果取决于团队的经验。随着团队建立信心，他们在安全性、效率和可靠性方面的能力将增长，并将实施适用于扩展的定义流程。所有这些都将影响团队改进服务和应用程序。您的业务应该开始注意到操作的可扩展性，如果没有，您需要改善沟通渠道以展示这种可扩展性，或者审查实际的扩展结果，以便进一步优化。
 
-You will have safeguarded your application or service from a single point of failure or disappointing performance in Level 3.
+在第三级，您将保护您的应用程序或服务免受单点故障或性能不佳的影响。
 
-Monitoring is implemented. This will help the business get reports on what’s working and what isn't working. While the monitoring may be very specific, it will also provide insights into resource utilization to control costs and performance to ensure availability.
+已实施监控。这将帮助企业获得有关工作情况和问题的报告。虽然监控的内容可能非常具体，但它也将提供资源利用率的见解，以控制成本和确保可用性。
 
-Finally, you should be observing the flexibility and scalability of cloud native by comparing old vs. new:
 
-- Deploying a server takes minutes with Infrastructure as Code instead of days. Business translation: faster time to market.
-- Monitoring for security attacks. Business translation: less risk, stolen data.
-- Observability: Logging, metrics and tracing. Business translation: quicker responsiveness to changes in application behavior or business demand. Better customer experience and reduction in lost sales due to service degradation.
-- Improved Reusability: containers and microservices make it easier to reuse components already available from previous projects. Business translation: 1. guarantee of brand image consistency and standardized functionalities throughout the multiple apps; 2. a lower learning curve for customers using those apps.
+最后，您应该通过比较新旧技术来观察云原生的灵活性和可扩展性：
 
+- 采用基础架构即代码，部署服务器只需几分钟而不是几天。业务转化：更快的上市时间。
+- 监控安全攻击。业务转化：降低风险，避免数据被盗。
+- 可观察性：日志记录、指标和跟踪。业务转化：更快地响应应用行为或业务需求的变化。更好的客户体验，减少由于服务降级化而导致的销售损失。
+- 改进的可重用性：容器和微服务使得更容易重用之前项目中已有的组件。业务转化：1.保证品牌形象的一致性和多个应用程序中的标准功能；2.缩短客户使用这些应用程序的学习曲线。
