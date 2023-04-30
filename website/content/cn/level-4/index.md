@@ -9,25 +9,26 @@ description: 您正在改进跨环境的安全、策略和治理。
 
 随着您的改进，您正在将能力转移给开发团队，让他们能自助服务。领导层将全力支持。
 
-### Organizational Change
+### 组织变革
 
-Cloud is now the default infrastructure for all services. The business is now requesting services from DevSecOps vs. requesting traditional servers.
+云已成为所有服务的默认基础架构。现在业务部门要求的是DevSecOps（开发、安全和运维）服务，而不是要求传统的服务器。
 
-### Teams and Decentralization
+### 团队和分权化
 
-As the platform becomes more established, you can really start the process of decentralization. You can work on the development of a self-service portal incorporating the policies and processes of your organization to enable developer service ownership.
+随着平台的日趋成熟，您可以真正开始分权化的过程。您可以致力于开发一个自助门户，将您组织的策略和流程融入其中，以便开发人员能够拥有服务所有权。
 
-### Security
+### 安全性
 
-By this level, security is involved in design and deployment, you will enforce security in your cloud native environment. Your organization is committed to security with full understanding of policies and regulations both inside and outside of the organization.
+到了这个层级，安全性已经涉及到设计和部署，您将在云原生环境中加强安全。您的组织致力于安全，对组织内外的政策和法规有全面的理解。
 
-### Developer Agility
+### 开发者敏捷性
 
-Feedback is extended from application metrics through to platform and non-functional requirements with clear mapping of value streams to technological implementation. Developers are able to quickly test complex scenarios with many unknowns, cloud and application risks are easily and quickly identified and patched.
+反馈从应用程序指标延伸到平台和非功能需求，同时将价值流映射到技术实现上。开发人员能够快速测试具有许多未知因素的复杂情况，云和应用程序风险很容易且快速地被识别和修复。
 
-### Upskilling Developers
 
-Developers are more sophisticated and Kubernetes is widely adopted by multiple groups in different business areas, with a body of knowledge developing and actively shared including integration and release processes. Developers and cluster owners are actively expanding Kubernetes in line with their specific business and technical needs.
+### 提升开发者技能
+
+开发者更加老练，Kubernetes被多个不同业务领域的多个团队广泛采用，正在发展并积极分享一套包括集成和发布流程的知识体系。开发人员和集群所有者正在积极根据其特定的业务和技术需求扩展Kubernetes的应用。
 
 ### CNCF Certifications
 
