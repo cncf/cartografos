@@ -74,23 +74,23 @@ description: 您正在改进跨环境的安全、策略和治理。
 扩展策略工具，包括流量代理、服务网格、消息总线和 Linux 等应用程序。这将扩大受管策略的范围，但也将有助于通过声明性配置将其管控。
  
  
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> 技术
 
-### Technology Overview
+### 技术概述
 
-You’ve got full control over your environment, and you’ve built your confidence, with rapid adoption of cloud native patterns for new applications and platforms. You’ve also gained organizational commitment to cloud native and this is adding to your momentum. You’re starting to feel like you’ve “crossed the chasm.”
+您对环境拥有完基础设施全控制，并且通过快速采用云原生模式为新应用程序和平台建立了信心。您还获得了组织对云原生的承诺，这正在增强您的势头。您开始感觉自己已经“跨越了鸿沟”。
 
-### Infrastructure
+### 基础设施
 
-Kubernetes and its API has become extremely familiar to you. With your infrastructure and IaC tooling, you’ll likely find yourself investigating ClusterAPI and using that for deploying and managing the lifecycle of your clusters. As you also look to further refine control of your platforms, you’ll work to implement policy for your infrastructure control plane and other infrastructure controllers.
+Kubernetes及其API已经对您来说非常熟悉。通过基础架构和IaC工具，您可能会发现自己正在研究ClusterAPI并将其用于部署和管理集群的生命周期。同时，您也会进一步完善平台控制，实施基础设施控制平面和其他基础设施控制器的策略。
 
-### Container and Runtime Management
+### 容器和运行时管理
 
-With your sources of information you've gained from Level 3, your goal is to further integrate your data sources and gain visibility along with alerting. This closes the feedback loop on runtime and operations and allows you to respond quickly to unplanned events.
+在第三级获得的信息来源的基础上，您的目标是进一步整合数据源，增加可见性和报警功能。这样可以在运行时和操作上关闭反馈循环，使您能够快速应对突发事件。
 
-### Application Patterns and Refactoring
+### 应用程序模式和重构
 
-Microservices have become the preferred pattern for applications. The use of APIs is expanding within the organization, and other internal systems may be exposed and consumed, and they are available for general consumption, open across the organization via a service mesh. The organization becomes data-centric and API-centric, and data can be more easily consumed.
+微服务已成为应用程序的首选模式。 API 的使用在组织内扩展，其他内部系统可能会被公开和消费，并且它们可以通过服务网格在整个组织中开放使用。组织变得以数据为中心和以API为中心，并且数据可以更轻松地被消费。
 
 ### Application Release and Operations
 
