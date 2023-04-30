@@ -108,22 +108,20 @@ title: "云原生成熟度模型"
 ## 云原生成熟度模型之旅
 
 云原生成熟度模型包含五个阶段。尽管你可能某个应用程序处于第五阶段，但同时你可能另一个应用程序处于第二阶段。在确定你的成熟度阶段时，请记住这一点。
-
-* **[Level 1 - Build]({{< ref "/level-1" >}})**  
-* **[Level 1 - Build](/level-1/)**  
+ 
+* **[Level 1 - 构建](/level-1/)**  
 您已经拥有了一个基础的云原生实现并处于预生产阶段
 
-* **[Level 2 - Operate]({{< ref "/level-2" >}})**  
+* **[Level 2 - 运营](/level-2/)** 
 云原生基础设施已经建立，你正在向生产环境转移。
 
-* **[Level 3 - Scale]({{< ref "/level-3" >}})**  
+* **[Level 3 - 规模](/level-3/)**  
 你的能力正在增长，并且你正在定义用于扩展的流程。
 
-* **[Level 4 - Improve]({{< ref "/level-4" >}})**  
+* **[Level 4 - 改进](/level-4/)**  
 您正在改善整个环境中的安全、策略和治理。
 
-* **[Level 5 - Optimize]({{< ref "/level-5" >}})**  
-You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
+* **[Level 5 - 优化](/level-5/)**  
 你正在重新审视之前做出的决策，并监视应用程序和基础架构以进行优化。
 
 在以下各节中，我们将重点介绍核心概念，并讨论这在您的不同成熟度阶段在人员、流程、政策和技术方面意味着什么。
