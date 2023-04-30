@@ -105,15 +105,15 @@ Kubernetes及其API已经对您来说非常熟悉。通过基础架构和IaC工�
 随着您的生产环境变得更加复杂，一些问题的修复可能需要调整您的策略即代码或基础设施即代码的组件，以及您的应用程序。问题可能涉及多个应用程序，因此您将跨应用程序进行汇总以确定趋势。这些问题可能涉及错误，例如内存泄漏，以及安全或策略问题。您的解决方案可能是在源头修复它们，最好是尽可能“向左”，否则建立能够在出现问题时自动修复并随着时间推移进行调整的自动化。
 
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i>商业成果
 
-Level 4 is focused on improvements around security, policy and governance across your environment. The team can focus more of their time on your business instead of maintaining Kubernetes. Level 4 is also the next level where clients and customers plateau. And most customers can stay at this level as they further mature.
+Level 4的重点是改进您的环境中的安全、策略和治理。团队可以将更多时间集中在业务上，而不是维护Kubernetes。Level 4也是客户和用户的下一个平稳期。大多数客户可以在进一步成熟时保持在这个级别上。
 
-Your team has cloud native confidence and now it’s time to take that knowledge and apply it more thoroughly to your business goals.You have continued to measure yourself against established KPIs in Level 1 and provided those to the business. You’ll have alignment on goals because you can demonstrate outcomes. The business should expect to see:
+您的团队对云原生有信心，现在是将这些知识更彻底地应用于业务目标的时候了。您将继续根据Level 1建立的关键绩效指标对自己进行衡量，并将这些指标提供给业务部门。因为您可以展示成果，所以您将在目标上保持一致。业务部门应该可以期望看到：
 
-- Established protocols and procedures
-- Policy enforcement of compliance standards
-- Comparison of cloud native apps vs. non-cloud native
-- The business should expect more reporting in this phase. Reporting should cover compliance, security, performance and cost. These should be easily aligned to the business goals established in Level 1.
+－　建立的协议和程序
+－　合规标准的策略执行
+－　云原生应用与非云原生应用的比较
+－　在这个阶段，业务应该期望看到更多的报告。报告应涵盖合规性、安全性、性能和成本。这些应该很容易与在Level 1中建立的业务目标保持一致。
 
-At this point, you may start to migrate your other applications and have a better understanding of what you want to achieve and where you will see value during each level of maturity.
+此时，您可以开始迁移其他应用程序，并更好地了解您想要实现的目标以及在每个成熟级别中看到的价值。
