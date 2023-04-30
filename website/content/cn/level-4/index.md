@@ -92,17 +92,18 @@ Kubernetes及其API已经对您来说非常熟悉。通过基础架构和IaC工�
 
 微服务已成为应用程序的首选模式。 API 的使用在组织内扩展，其他内部系统可能会被公开和消费，并且它们可以通过服务网格在整个组织中开放使用。组织变得以数据为中心和以API为中心，并且数据可以更轻松地被消费。
 
-### Application Release and Operations
+### 应用程序发布与运营
 
-Not only are you using GitOps operators for rapid deployment, but you may also be using them for development and test purposes. You’ll be expecting most of your software to be packaged with Helm with the feedback loop being closed as quickly as possible to reduce configuration drift.
+你不仅使用GitOps operator来实现快速部署，还可能将它们用于开发和测试目的。你将期望大部分的软件都是通过Helm打包的，并尽可能快地关闭反馈循环，以减少配置漂移。
 
-### Security and Policy
+### 安全与策略
 
-Apply your policy against production in case you haven’t already. You’ll continue to tune your policies in production.
+如果您还没有这样做，请将您的策略应用于生产环境。您将继续在生产环境中调整您的策略。
 
-### Testing and Issue Detection
+### 测试和问题检测
 
-As your environment becomes more complex in production, some issue remediation may require adjusting your policy-as-code or components of your Infrastructure as Code, as well as your application. Issues may relate to more than one application so you will aggregate across applications to determine trends. These may relate to bugs such as memory leaks, as well as security or policy issues. Your remediation may be to fix them at source, ideally as ‘far left’ as possible, or otherwise building automation capable of fixing them when they occur, and tuning it over time.
+随着您的生产环境变得更加复杂，一些问题的修复可能需要调整您的策略即代码或基础设施即代码的组件，以及您的应用程序。问题可能涉及多个应用程序，因此您将跨应用程序进行汇总以确定趋势。这些问题可能涉及错误，例如内存泄漏，以及安全或策略问题。您的解决方案可能是在源头修复它们，最好是尽可能“向左”，否则建立能够在出现问题时自动修复并随着时间推移进行调整的自动化。
+
 
 ## <i class="fas fa-building"></i> Business Outcomes
 
