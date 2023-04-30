@@ -57,27 +57,27 @@ description: 您正在重新审视早期做出的决策，并监视应用程序�
 
 基于您的学习，随着组织成熟度的提高，您将完善策略，并利用诸如机器学习等技术来改进检测和执行。
 
-### Policy Creation
+### 策略创建
 
-Contribute policies to the open source community and active engagement with regulators and other external stakeholders.
+向开源社区贡献策略，并积极参与监管机构和其他外部利益相关者的互动。
 
-### Compliance
+### 合规性
 
-Compliance never ends! You will tighten the feedback loop with stakeholders and take advantage of advanced machine learning and other tooling to understand what is normal for your environment and ensure visibility of anomalous conditions in a large volume of compliance data.
+合规永无止境！您将加强与利益相关者的反馈循环，并利用先进的机器学习和其他工具来了解您的环境的正常情况，并确保在大量合规性数据中看到异常情况的可见性。
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> 技术
 
-### Technology Overview
+### 技术概述
 
-Your investment is now focused on automation in functional and non-functional areas such as scanning, policy, security and testing. You’ve got operators doing your operations for you and you’re fully automated.
+您的投资现在集中于在扫描、策略、安全和测试等功能和非功能领域中的自动化。您已经用operator为您执行操作，而您也已经完全自动化了。
 
-### Infrastructure
+### 基础设施
 
-Here you are managing your complete infrastructure lifecycle through software and tooling. Builds, upgrades, decommissioning is all taking place through code.
+在这里，您通过软件和工具管理完整的基础设施生命周期。构建、升级、停用都是通过代码进行的。
 
-### Container and Runtime Management
+### 容器和运行时管理
 
-You’re now automating the response to events, and you have all your security data in one central repository. The platform is able to respond to events.
+您现在正在自动响应事件，并将所有安全数据放在一个中央存储库中。该平台能够响应事件。
 
 ### Application Patterns and Refactoring
 
