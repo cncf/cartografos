@@ -55,33 +55,47 @@ title: "云原生成熟度模型"
 
 如果您符合以下标准，则可能已经准备好开始云原生之旅：
 
-### People
+### 人员
 
-* You have significant separation between development and operations, with a clear staff delineation between infrastructure, cloud, application operations and development.
-* You have traditionally split your operations and infrastructure divisions and your application development departments. This may have been enforced by regulatory requirements.
-* This split may have worked well for you, and indeed may be mandated. But you may be finding additional challenges as much of your platforms become code and application oriented. You may find you require skills in your platform area that have traditionally belonged within your application area.
+*您明确的区分开发和运维，基础设施、云、应用程序运维和开发都有不同的团队。
 
-### Process
+*您通常将运维和基础设施部门与应用程序开发部门分开。这可能是由监管要求造成的。
 
-* Your application deployments may be done manually in many cases, or your release processes may take a very long time to complete, often with multiple attempts.
-* You may support multiple distributions of the same software and have trouble upgrading or evaluating without significant down-time.
+*这种分割可能对您很有效，甚至可能是被迫的。但是，随着您的平台变得越来越以代码和应用为导向，您可能会面临额外的挑战。您可能会发现您需要在平台领域具备传统上属于应用领域的技能。
 
-### Policy
 
-* Policy may be in the form of conventions and rules that are located external to the application and its platform, and are not enforced natively within your applications and runtime environment.
-* Policies might be disparate and built in silos; defense in depth parity might be more of an accident than deliberate.
+### 流程
 
-### Technology
+*您的应用程序部署可能在许多情况下都是手动完成的，或者您的发布流程可能需要很长时间才能完成，通常需要多次尝试。
 
-* You’ll likely have VM’s on demand.
-* Some automation scattered around.
-* You will have baseline security components such as SIEM, RBAC concepts, and a directory of some type.
-* You have some software packaging, but this could be inconsistent.
-* You’ll have perimeter security and perhaps some coarse network zoning at layers 1-4, but you may feel some anxiety and security practices.
-* Your experience with encryption may vary - you might have some certificate authorities for example, but they may not be used extensively, with a high barrier to entry for many.
-* Your applications may rely on infrastructure solutions for high availability, which in turn may be more costly than you’d like
-* Your server estate could range from single physical or virtual servers with low levels of availability, through to highly available clusters. Scaling could be a real challenge and may require considerable investment in money, time and planning.
-* You may have started to dip your toe into a 'Everything as Code' model. i.e. started to script your infrastructure with Terraform.
+*您可能支持同一软件的多个发行版，并且在不引起重大停机时间的情况下升级或评估过程中存在问题。
+
+
+### 政策
+
+*政策可能以公约和规则的形式存在于应用程序和平台之外，并且不会在应用程序和运行时环境内部本地执行。
+
+*政策可能是分散的，并在孤立的组织中制定；深度防御的一致性可能更多地是偶然而非有意为之。
+
+### 技术
+
+*您可能会有随选VM。
+
+*有一些分散的自动化。
+
+*您将拥有基线安全组件，例如SIEM、RBAC概念和某种类型的目录。
+
+*您会有一些软件包装，但这可能不一致。
+
+*您会有周边安全性，也许在1-4层有一些网络分区，但您可能会对安全实践感到一些焦虑。
+
+*您的加密经验可能有所不同 - 您可能有一些证书颁发机构，但它们可能不会被广泛使用，并且对许多人来说具有很高的准入门槛。
+
+*您的应用程序可能依赖于基础架构解决方案来实现高可用性，这反过来可能比您想要的更昂贵
+
+*您的服务器集群可能从单个物理或虚拟服务器开始，可用性水平较低，到高可用性集群。扩展可能是一个真正的挑战，可能需要大量的投资资金，时间和策划。
+
+*您可能已经开始涉足“一切都是代码”的模式。也就是说，开始使用Terraform编写基础架构脚本。
 
 ![man at a conference](/images/man-at-conference.jpg)
 
