@@ -1,24 +1,23 @@
 ---
-title: "Cloud Native Maturity Model"
+title: "云原生成熟度模型"
 ---
-
-
 
 ![woman at a conference](/images/woman-at-conference.jpg)
 
-It’s no secret the world has gone cloud native! The authors of this body of work have seen many organizations start their cloud native journey with no real framework on how to adopt these new applications and platforms. The authors want to provide a framework for success.
+毫无疑问，世界已经走向了云原生！这个工作团队的作者们见证了许多组织开始他们的云原生之旅，但并没有真正的框架可以采用来接受这些新的应用程序和平台。作者希望为成功提供这样一个框架。
 
-The intent of this model is to help you move from inception through to full adoption of cloud native technologies using the CNCF landscape to achieve the full benefits of running scalable applications in modern, dynamic environments in public and hybrid clouds.
+这个模型的目的是帮助您通过使用CNCF的技术栈，从概念阶段到完全采用云原生技术，以在公有云和混合云中运行可扩展的应用程序，从而实现现代动态环境下的全部优势。
 
-## Target audience
+## 目标听众
 
-The main target for this model is broad and encompasses the following groups:
+这个模型的主要目标是广泛的，包括以下群体：
 
-* Businesses that are embarking or starting down the path of digital transformation
-* Those who want to navigate the massive CNCF landscape to hone in on a framework model you can implement and trust
-* Open source and CNCF projects and practitioners wishing to use or contribute to the model
-* Leadership teams looking to understand the benefits of cloud native, scope of effort, and level of investment
-* Technologists wishing to get started with moving towards cloud native technologies who are keen to understand in more detail the journey ahead of them, as well as have further areas for investigation highlighted
+＊　正在启动或踏上数字化转型之路的企业
+＊　希望在庞大的CNCF景观中寻找可实施并值得信赖的框架模型的人群
+＊　希望使用或为该模型做出贡献的开源和CNCF项目与从业者
+＊　领导团队，希望了解云原生的好处、工作范围和投资水平
+＊　希望开始转向云原生技术并渴望更详细地了解前方的旅程，以及有进一步研究重点的技术人员
+
 
 ## How the model is divided up
 
