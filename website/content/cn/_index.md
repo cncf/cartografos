@@ -99,35 +99,38 @@ title: "云原生成熟度模型"
 
 ![man at a conference](/images/man-at-conference.jpg)
 
-### Business Outcomes
+### 业务成果
 
-* Your business is growing and needs the ability to scale to meet demand.
-* Your business needs to improve and/or deliver an exceptional customer experience.
-* Your business needs to get features to market faster.
+＊ 您的业务正在增长，并需要具备扩展能力以满足需求。
+＊ 您的业务需要改进和/或提供卓越的客户体验。
+＊ 您的业务需要更快地将功能推向市场。
 
-## The Cloud Native Maturity Model Journey
+## 云原生成熟度模型之旅
 
-There are five stages within the cloud native maturity model. While you may be in stage five for one application, at the same time, you may be at stage 2 for another. Keep that in mind as you identify your stage of maturity.
+云原生成熟度模型包含五个阶段。尽管你可能某个应用程序处于第五阶段，但同时你可能另一个应用程序处于第二阶段。在确定你的成熟度阶段时，请记住这一点。
 
 * **[Level 1 - Build]({{< ref "/level-1" >}})**  
-You have a baseline cloud native implementation in place and are in pre-production.
+您已经拥有了一个基础的云原生实现并处于预生产阶段
 
 * **[Level 2 - Operate]({{< ref "/level-2" >}})**  
-The cloud native foundation is established and you are moving to production.
+云原生基础设施已经建立，你正在向生产环境转移。
 
 * **[Level 3 - Scale]({{< ref "/level-3" >}})**  
-Your competency is growing and you are defining processes for scale.
+你的能力正在增长，并且你正在定义用于扩展的流程。
 
 * **[Level 4 - Improve]({{< ref "/level-4" >}})**  
-You are improving security, policy and governance across your environment.
+您正在改善整个环境中的安全、策略和治理。
 
 * **[Level 5 - Optimize]({{< ref "/level-5" >}})**  
 You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
+你正在重新审视之前做出的决策，并监视应用程序和基础架构以进行优化。
 
-In each of the following sections, we will highlight core concepts and discuss what this means in each stage of your maturity across people, process, policy and technology.
+在以下各节中，我们将重点介绍核心概念，并讨论这在您的不同成熟度阶段在人员、流程、政策和技术方面意味着什么。
 
-We welcome feedback from the community on the Cloud Native Maturity Model!
+我们欢迎社区对云原生成熟度模型提供反馈！
 
-## Position on Included Technologies
-The Cloud Native Maturity model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software. 
+## 涉及的技术范围
+
+云原生成熟度模型仅包含CNCF的毕业或孵化项目。成熟度模型一般没有包括CNCF沙盒项目，除非在后期的成熟度阶段中提到（即达到 4 或 5 级的用户）。它现在不包括，以后也不会包括任何商业软件。
+
 
