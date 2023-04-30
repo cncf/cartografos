@@ -1,25 +1,26 @@
 ---
-title: Level 5 - Optimize
-description: You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
+title: Level 5 - 优化
+description: 您正在重新审视早期做出的决策，并监视应用程序和基础设施以进行优化。
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-users"></i> 人员
 
-### People Overview
+### 人员概述
 
-You've reached maturity, the organization is skilled and you have DevOps and DevSecOps working. Teams are comfortable experimenting with new technologies and sandbox trials.
+您已经达到了成熟期，组织具备了技能，拥有了DevOps和DevSecOps团队。团队已经逐渐熟悉了尝试新技术和沙箱试验。
 
-### Organizational Change
+### 组织变革
 
-At maturity, the entire organization is committed and onboarded to the cloud native environment.
+在成熟期，整个组织都致力于云原生环境，并已加入到云原生环境中。
 
-### Teams and Decentralization
+### 团队和去中心化
 
-You now have self-provisioning amongst different groups, along with organizational acceptance of the self-service portal. The business benefits from service ownership.
+现在，不同团队之间已经具备了自我配置的能力，同时组织也接受了自服务门户网站。业务部门从对服务的直接拥有中获益。
 
-### Security
+### 安全
 
 You will be actively developing security internally, with the community and regulators.
+您将积极在内部、社区和监管机构中开展安全开发。
 
 ### Developer Agility
 The group has strong ability to recover and maintain throughput tolerating individuals joining and leaving. Business decisions are well informed by rich and accurate data across all teams in the organization allowing adoption of FinOps.
