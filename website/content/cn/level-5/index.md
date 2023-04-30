@@ -19,21 +19,22 @@ description: 您正在重新审视早期做出的决策，并监视应用程序�
 
 ### 安全
 
-You will be actively developing security internally, with the community and regulators.
 您将积极在内部、社区和监管机构中开展安全开发。
 
-### Developer Agility
-The group has strong ability to recover and maintain throughput tolerating individuals joining and leaving. Business decisions are well informed by rich and accurate data across all teams in the organization allowing adoption of FinOps.
+### 开发人员的敏捷性
 
-### Upskilling Developers
+该团队具有强大的恢复和维护能力，能够容忍个体的加入和离开，组织业务决策以所有团队丰富而准确的数据做为支持，使得采用FinOps（云财务管理）成为可能。
 
-Advanced testing and release patterns developed and in use, such as blue/green or canary
+### 开发人员技能提升
 
-## <i class="fas fa-cogs"></i> Process
+已经开发并使用了高级的测试和发布模式，例如蓝/绿或金丝雀部署。
 
-### Process Overview
+## <i class="fas fa-cogs"></i> 过程
 
-Achieving process maturity will see you build design capabilities for cloud native. You’ll also automate responses by using monitoring failures to restart or manage problematic and failing resources. Resource usage data will help you optimize spend and your process will include providing the business cost analysis.
+### 过程概述
+
+实现过程成熟度将使您拥有构建云原生的设计能力。您还将使用监控故障来自动响应并重新启动或管理有问题和有问题的资源。资源使用数据将帮助您优化支出，并且您的过程将包括提供业务成本分析。
+
 
 ### CI/CD
 
