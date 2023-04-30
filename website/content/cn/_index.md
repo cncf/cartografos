@@ -37,21 +37,23 @@ title: "云原生成熟度模型"
 
 *该模型的目的不是过度地描述每个细节，而是为了成为一个指导您旅程的工具。云原生转型并不是一门精确的科学，而是存在于您的项目、您的组织中，并在特定的时间和地点进行。
 
-## Prerequisites for the Cloud Native Maturity Model
+## 云原生成熟度模型的先决条件
 
-The first, and arguably most important, thing to do when adopting cloud native is to outline your business and technology goals, particularly what your business expects to gain from the exercise.
 
-Few organizations start out with an entirely blank slate (often known as a greenfield).  You may have something like the following:
+在采用云原生技术时，首先（也可以说是最重要的）要做的事情是明确您的业务和技术目标，尤其是您的业务希望从这个过程中获得什么。
 
-* Your organization may range in age from a few months, years, decades or even longer. And may have a collection of technical debt.
-* You may have a considerable application, platform and infrastructure estate.
-* You may even have started a migration to cloud service providers, perhaps adopting a ‘lift and shift’ approach with your existing estate.
+很少有组织从完全的空白状态开始（通常称为绿田地）。您可能有以下情况：
 
-The most important thing you should have is a clear idea of the business outcomes you expect to achieve. These will be your ‘north star’, helping guide your decision making process.
+*您的组织可能存在几个月、几年、几十年甚至更长时间的存在，并且可能存在技术债务的积累。
+*您可能拥有相当数量的应用程序、平台和基础设施资产。
+*您甚至可能已经开始迁移到云服务提供商，也许是采用“提升和迁移”的方法来处理您现有的资产。
 
-## When is the right time
+您应该拥有的最重要的东西是对您期望实现的业务成果的清晰理解。这些将是您的“北极星”，帮助指导您的决策过程。
 
-You may be ready to start your cloud native journey if you meet the following criteria:
+
+## 什么时候是合适的时机
+
+如果您符合以下标准，则可能已经准备好开始云原生之旅：
 
 ### People
 
