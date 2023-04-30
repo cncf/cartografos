@@ -19,6 +19,7 @@ title: "云原生成熟度模型"
 －　希望开始转向云原生技术并渴望更详细地了解前方的旅程，以及有进一步研究重点的技术人员
 
 
+
 ## How the model is divided up
 
 Developing a cloud native maturity is not just a technology journey, but one which is influenced by four major areas:
