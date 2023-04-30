@@ -30,49 +30,50 @@ description: 您正在改进跨环境的安全、策略和治理。
 
 开发者更加老练，Kubernetes被多个不同业务领域的多个团队广泛采用，正在发展并积极分享一套包括集成和发布流程的知识体系。开发人员和集群所有者正在积极根据其特定的业务和技术需求扩展Kubernetes的应用。
 
-### CNCF Certifications
+### CNCF 认证
 
-Organizations may wish to consider the CKS around level 4.
+在第四级左右，组织可能希望考虑 CKS 认证。
 
-#### Certified Kubernetes Security Specialist (CKS)
-This program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
+#### 认证的 Kubernetes 安全专家（CKS）
+该认证项目提供保证，即 CKS 在保护基于容器的应用程序和 Kubernetes 平台的构建、部署和运行期间的广泛最佳实践方面拥有技能、知识和能力。参加此考试需要具备 CKA 认证。
 
-## <i class="fas fa-cogs"></i> Process
+## <i class="fas fa-cogs"></i> 流程
 
-### Process Overview
+### 流程概述
 
-The governance model in place will support DevSecOps. You have guardrails in place to support agile software development. You will establish an application services library. You will also set policy around container usage for example auto-scaling policies or HPC.
+这个治理模式支持敏捷安全软件开发。您已经设置了防护栏，以支持敏捷软件开发。您将建立一个应用程序服务库。您还将制定关于容器使用的策略，例如自动缩放策略或 HPC（高性能计算）。
 
 ### CI/CD
 
-You will measure your release velocity and cadence to make improvements.
+您将测量发布速度和节奏，以进行改进。
 
-### Change Control
+### 变更控制
 
-You have continuous delivery, but no continuous deployment to production - you still have a gate to production that requires operator approval.
+您已经实现了持续交付，但是没有持续部署到生产环境 - 您仍然需要一个进入生产环境的把关人，需要操作员批准。
 
-### Security
+### 安全性
 
-Ensure security remediation is automated and/or identified automatically with remediation advice.
+确保安全修复是自动化的和/或可以自动识别，并提供修复建议。
 
-### Audit and Logs
+### 审计和日志
 
-Audit and alerts become mainstream and are made mandatory across applications.
+审计和警报已经变得主流，并且已经成为各种应用程序的强制要求。
 
-## <i class="fas fa-edit"></i> Policy
+## <i class="fas fa-edit"></i>  策略
 
-### Policy Overview
+### 策略概述
 
-You now have defined SLAs around policies and remediation.
+您现在已经定义了关于策略和修复的服务级别协议（SLA）。
 
-### Policy Creation
+### 策略创建
 
-Customize policies based on your business needs and minimize exceptions.
+根据您的业务需求定制策略，并尽量减少例外情况。
 
-### Compliance
+### 合规性
 
-Expansion of policy tooling to include applications such as traffic proxies, service mesh, message buses and Linux. This will broaden the scope of managed policies, but it will also help in having them under control by way of declarative configurations.
-
+扩展策略工具，包括流量代理、服务网格、消息总线和 Linux 等应用程序。这将扩大受管策略的范围，但也将有助于通过声明性配置将其管控。
+ 
+ 
 ## <i class="fas fa-server"></i> Technology
 
 ### Technology Overview
