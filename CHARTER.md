@@ -36,7 +36,7 @@ We will propose new assets that guide adopters of cloud native technology, in li
 
   - John Forman, Accenture (john.t.forman@accenture.com)
 
-  - Simon Forster, Infra Europe (simon.forster@infraeurope.com)
+  - Simon Forster, Stackegy (simon@stackegy.com)
 
 ## Contact
 
