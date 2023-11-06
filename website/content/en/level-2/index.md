@@ -15,7 +15,7 @@ Moving business essential applications (i.e. production workloads) will come wit
 
 Whatever application is selected will force the technology team to set standards and innovate for new ways of working. The technology team will design and establish new patterns based on the business goals. The project(s) that are moved first will help establish new policy, technology, process and people changes. Be aware that the first application may require prerequisites to be implemented to fulfill specific obligations. For example, you may need to extend your current concept for identity and access management to cater for public cloud use cases. Be prepared for a cascade of activities to deliver the minimally acceptable prerequisites to get your first applications into production.
 
-“Organizations must develop meaningful processes for sharing information and results between technology and business units, which might mean seeking out new talent with technical expertise and passion for sharing information.” [CTO Summit](https://www.cncf.io/reports/cto-summit-na-2022/)
+*“Organizations must develop meaningful processes for sharing information and results between technology and business units, which might mean seeking out new talent with technical expertise and passion for sharing information.”* [CTO Summit](https://www.cncf.io/reports/cto-summit-na-2022/)
 
 Measurement is key as we move through business outcomes. Each KPI and OKR must map to the overall business goal. It must be documented in a language that the business can understand.
 

@@ -18,7 +18,7 @@ At this level, the organization is experimenting with cloud native. This should 
 
 ### Cost
 
-In level one, the finance, technology and business teams need to be aligned. Technology needs to understand resourcing and the finance team needs to understand change fees. The organization must make allowances for running both the legacy systems and new cloud environments. In level one, costs will not go down, however as it is just the build/experimentation phase, the costs should not be exorbit
+In level one, the finance, technology and business teams need to be aligned. Technology needs to understand resourcing and the finance team needs to understand change fees. The organization must make allowances for running both the legacy systems and new cloud environments. In level one, costs will not go down, however as it is just the build/experimentation phase, the costs should not be exorbitant.
 
 
 ## <i class="fas fa-users"></i> People

@@ -19,7 +19,7 @@ The business will have a clearer understanding of risk at this stage. Policy enf
 
 At level four, the technology is not as important as the business output. The improvements made should be focused on getting to business value faster by reducing repeatable processes.
 
-### Cost
+### Cost
 
 In level 4, you’ll want to focus your team on cloud cost optimization. How can you improve your infrastructure to reduce cost and how can you demonstrate this to the business. The finance team will not want to understand per cluster costs, but instead how you’ve made changes to reduce costs or why you need more capacity. Use tools that help you demonstrate cloud and Kubernetes cost optimization.
 
