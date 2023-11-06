@@ -50,7 +50,6 @@
                 "bungcip.better-toml",
                 "davidanson.vscode-markdownlint",
                 "dbaeumer.vscode-eslint",
-                "eamodio.gitlens",
                 "GitHub.vscode-pull-request-github",
                 "hediet.vscode-drawio",
                 "mushan.vscode-paste-image",
@@ -70,7 +69,7 @@
     //"updateContentCommand": "npm install",
     // Use 'postCreateCommand' to run commands after the container is created.
     // "postCreateCommand": "uname -a",
-    "postCreateCommand": "npm install",
+    // "postCreateCommand": "npm install",
     // Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
     "remoteUser": "node"
 }
