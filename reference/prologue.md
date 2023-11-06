@@ -108,7 +108,7 @@ Your competency is growing and you are defining processes for scale.
 * **Level 4: Improve**  
 You are improving security, policy and governance across your environment.
 
-* **Level 5: Optimize**  
+* **Level 5: Adapt**  
 You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
 
 In each of the following sections, we will highlight core concepts and discuss what this means in each stage of your maturity across people, process, policy and technology.
