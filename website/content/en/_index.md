@@ -52,6 +52,13 @@ The most important thing you should have is a clear idea of the business outcome
 
 You may be ready to start your cloud native journey if you meet the following criteria:
 
+### Business Outcomes
+
+* Whether you are a startup choosing to build on the cloud or an enterprise organization adopting cloud native, there must be long term business goals that require the investment in cloud native. These goals may be derived internally from corporate strategy, or from outside from industry trends, or competitive market pressures.
+* Prioritized business goals must drive the decision making with all stakeholders aligned.
+* Organizations should have established meaningful processes for sharing information and results between business units.
+
+
 ### People
 
 * You have significant separation between development and operations, with a clear staff delineation between infrastructure, cloud, application operations and development.
@@ -82,29 +89,23 @@ You may be ready to start your cloud native journey if you meet the following cr
 
 ![man at a conference](/images/man-at-conference.jpg)
 
-### Business Outcomes
-
-* Your business is growing and needs the ability to scale to meet demand.
-* Your business needs to improve and/or deliver an exceptional customer experience.
-* Your business needs to get features to market faster.
-
 ## The Cloud Native Maturity Model Journey
 
 There are five stages within the cloud native maturity model. While you may be in stage five for one application, at the same time, you may be at stage 2 for another. Keep that in mind as you identify your stage of maturity.
 
-* **[Level 1 - Build]({{< ref "/level-1" >}})**  
+* **[Level 1 - Build]({{< ref "/level-1" >}})**
 You have a baseline cloud native implementation in place and are in pre-production.
 
-* **[Level 2 - Operate]({{< ref "/level-2" >}})**  
+* **[Level 2 - Operate]({{< ref "/level-2" >}})**
 The cloud native foundation is established and you are moving to production.
 
-* **[Level 3 - Scale]({{< ref "/level-3" >}})**  
+* **[Level 3 - Scale]({{< ref "/level-3" >}})**
 Your competency is growing and you are defining processes for scale.
 
-* **[Level 4 - Improve]({{< ref "/level-4" >}})**  
+* **[Level 4 - Improve]({{< ref "/level-4" >}})**
 You are improving security, policy and governance across your environment.
 
-* **[Level 5 - Optimize]({{< ref "/level-5" >}})**  
+* **[Level 5 - Adapt]({{< ref "/level-5" >}})**
 You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
 
 In each of the following sections, we will highlight core concepts and discuss what this means in each stage of your maturity across people, process, policy and technology.
@@ -112,5 +113,4 @@ In each of the following sections, we will highlight core concepts and discuss w
 We welcome feedback from the community on the Cloud Native Maturity Model!
 
 ## Position on Included Technologies
-The Cloud Native Maturity model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software. 
-
+The Cloud Native Maturity model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software.

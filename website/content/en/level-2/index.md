@@ -3,7 +3,29 @@ title: Level 2 - Operate
 description: The cloud native foundation is established and you are moving to production.
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-building"></i> Business Outcomes
+
+At level two, you’ve experimented and made the decision to continue on the cloud native journey. Here you want to identify the projects that will uniquely benefit from cloud native. The business and technology needs to align on the project/service/application that makes the most sense to move. The decision could be focused on “where are we hurting the most” either internally or externally. While it may be easy to look at external “product or service” spend time considering internal requirements first.
+
+Part of the decision making process should be based on seeing a return on investment (ROI). You should be moving an application that can serve as your speed boat.
+
+> *Speed boat: transform to the cloud steadily and incrementally using speed boats to accelerate adoption and achieve extreme agility.*
+
+Moving business essential applications (i.e. production workloads) will come with trade offs so selection is key. If you choose application A for example, you may need to worry about cloud costs. If you choose application B, you’ll need to worry about compliance audits. Ensure that the decision of what applications to move first considers key non-functional requirements such as capacity, backup, DR, performance (availability) as well as any governance topics such as compliance (and audits, including relevant logging), and risks such as that to reputation through downtime or security compromise.
+
+Whatever application is selected will force the technology team to set standards and innovate for new ways of working. The technology team will design and establish new patterns based on the business goals. The project(s) that are moved first will help establish new policy, technology, process and people changes. Be aware that the first application may require prerequisites to be implemented to fulfill specific obligations. For example, you may need to extend your current concept for identity and access management to cater for public cloud use cases. Be prepared for a cascade of activities to deliver the minimally acceptable prerequisites to get your first applications into production.
+
+“Organizations must develop meaningful processes for sharing information and results between technology and business units, which might mean seeking out new talent with technical expertise and passion for sharing information.” [CTO Summit](https://www.cncf.io/reports/cto-summit-na-2022/)
+
+Measurement is key as we move through business outcomes. Each KPI and OKR must map to the overall business goal. It must be documented in a language that the business can understand.
+
+Before moving to level three - scale - you must demonstrate business value. Lots of organizations get stuck at level two because they cannot demonstrate how the technology has helped achieve the goal. Going through this goal mapping exercise as early as possible is vital to your cloud native journey.
+
+### Cost
+
+When selecting what you are moving first, you must consider how you will deal with changes in cost. You will no longer be buying server and network hardware and software directly, but instead effectively leasing or paying as you go for capacity. While this brings with it flexibility, it will also require some work with cloud providers to get discounts. Ensure your technology team is in lock-step with finance to plan accordingly. The business should continuously ask for ways of optimizing infrastructure to save money and/or for evidence as to why more or less capacity is needed.  Cost control really does become everyone’s responsibility as real money exits the organization on a regular basis.
+
+## <i class="fas fa-users"></i> People
 
 ### People Overview
 
@@ -110,13 +132,3 @@ Ensure that your development and operations groups are following good practice w
 ### Testing and Issue Detection
 
 Now that you are in production, you’ll be experimenting with tooling to help with security, policy management, workload misconfigurations, resource requests, limits and observability, in your staging or development environment.
-
-## <i class="fas fa-building"></i> Business Outcomes
-
-Cloud native is now established and your technologists are moving to production. While the technical outcome of Level 2 is a fully functional application or group of applications migrated to cloud native tools and practices, the business outcomes are the ability to evaluate the benefits of the migrations. This is also the level that most customers/corporations get to and plateau. This is when a cloud native maturity model shows its true value.
-
-With your established KPIs from Level 1, you will measure success and communicate this to stakeholders.
-
-In the operation phase, you will be focused on moving to production. You’ll have established standards around technology, your people will be operating it and implementing policy and process. Your business outcome will be around production migration. The business leadership of your organization will want to understand what applications are being moved and why. Be able to clearly communicate the plans to your business leaders. Repeatable patterns will also emerge as teams operate in Level 2. These will be applied to your business outcomes so that benefits you see in one migrated application can be applied to another without as much as a heavy lift. These patterns will help streamline operations across your dev, sec and ops teams.
-
-Your KPIs can also include your return on investment ROI, but know that in Level 2, your ROI will be lower than when you reach Level 5. This is because you are investing a lot in acquiring tools, establishing the right team and skill set, whereas in Level 5 you are optimizing.

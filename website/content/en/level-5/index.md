@@ -1,9 +1,19 @@
 ---
-title: Level 5 - Optimize
+title: Level 5 - Adapt
 description: You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-building"></i> Business Outcomes
+
+When reaching level five of the Cloud Native Maturity Model, the business has trust and confidence in the technology team i.e. they can sleep at night. There are no nasty surprises from auditors, no outages in the same way legacy systems faced. Your team no longer faces jarring and stressful pivots. You can look to the future without feeling anxiety about the current state.
+
+Essentially level five is utopia. You’ve met your business goals. You’ve invested the time in a platform that allows your teams to be flexible and adapt to businesses ever-evolving needs.
+
+### Cost
+
+IT spend has become more predictable as FinOps and policies have helped to avoid unforeseen circumstances and events. Both the business and technology teams can plot highs and lows throughout the year to make budget predictions and forecasts.
+
+## <i class="fas fa-users"></i> People
 
 ### People Overview
 
@@ -90,13 +100,3 @@ Here you will have ongoing optimization and adjustment in line with new requirem
 ### Testing and Issue Detection
 
 Here we further optimize the automation used in responses to issues by working to prevent mistakes from entering production in the first place.
-
-## <i class="fas fa-building"></i> Business Outcomes
-
-This phase of optimization will see lots of changes with people, process, policy and technology. For the business, you should have achieved your business goals and have the measurable results to show your leadership teams, CEO, CFO or the board.
-
-You will continue to optimize your workloads against further / more advanced cost and performance metrics. You will never stop optimizing your cloud native infrastructure and apps. Here the expected business outcome is the ability to track how optimization continues to move the bar against established goals.
-
-You may also revisit your goals at this point, adjusting them to what has been achieved and what you want to achieve in future.
-
-You’ll automate as much as possible according to cloud native best practices to remove human error as to avoid security and performance problems.

@@ -4,7 +4,24 @@ description: >
    You have a baseline cloud native implementation in place and are in pre-production.
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-building"></i> Business Outcomes
+
+### Business Outcomes
+
+*“For many business leaders, the migration and continuing adoption of cloud native technology are not as clear-cut as migrating workloads as-is from on-premises to hybrid/public clouds. They are unlikely to sign off on major technological shifts, which inevitably create process and cultural change, without understanding the tangible benefits to them.”* [CTO Summit](https://www.cncf.io/reports/cto-summit-na-2022/)
+
+Prior to arriving at level one of the model, your business should have agreed the goals for the move. These business goals need to inform adoption of cloud native technologies. Goals will center around managing risk, meeting compliance, customer satisfaction and trust and cost effectiveness. While the technologist might translate this into avoiding vendor lock-in, capacity and availability planning, disaster recovery, response times, etc, ensure that whenever discussing decisions to root the conversation in the business goal.
+
+In level one, the organization must prioritize its top business goals/issues. This is an important step as prioritization/ranking of business goals will help technologies factor in tradeoffs. Compliance and disaster recovery will no doubt be important, but for some organizations, that might not be the main driver. Business scenario planning is essential. For example, in the case where a company has decided to use public cloud, if customer satisfaction is the priority goal and needs faster website response times, then the technology team will select cloud regions close to the customer. If cost reduction is a primary goal however, then a more cost-effective cloud region might be selected. Another example might be that it is cheaper to host data in the US, but due to EU data privacy laws, that isn’t an option. This is a very high level example, but should showcase how the prioritization of all business goals must inform decision making.
+
+At this level, the organization is experimenting with cloud native. This should also translate into business expectations. Technologies should be given the freedom to try different experiments to achieve goals. Experiments should be documented, OKRs (Objectives and Key Results) or KPIs (Key Performance Indicators) created and provided to the business during this phase. The business should expect to see the outcomes of these experiments before continuing to embark on its cloud native journey. This helps to build confidence between the technology and business teams and is absolutely a vital step particularly as cloud native changes the way an organization operates.
+
+### Cost
+
+In level one, the finance, technology and business teams need to be aligned. Technology needs to understand resourcing and the finance team needs to understand change fees. The organization must make allowances for running both the legacy systems and new cloud environments. In level one, costs will not go down, however as it is just the build/experimentation phase, the costs should not be exorbit
+
+
+## <i class="fas fa-users"></i> People
 
 ### People Overview
 
@@ -24,13 +41,13 @@ The people implementing cloud native will need to focus on security. Default sec
 
 ### Developer Agility
 
-Your organization is committed to decentralization and will employ “teams of teams”. This is an essential requirement of your people. Across the different levels of maturity, people will be implementing tools for automated testing, metrics and feedback. 
+Your organization is committed to decentralization and will employ “teams of teams”. This is an essential requirement of your people. Across the different levels of maturity, people will be implementing tools for automated testing, metrics and feedback.
 
 Developers may have learned about Agile Manifesto and adopted Scrum Framework without necessarily including Operations. Developers may attempt to resolve external dependencies themselves, slowing down feedback, with incomplete features per sprint.
 
 ### Upskilling Developers
 
-The maturity of your people will include upskilling the development team. 
+The maturity of your people will include upskilling the development team.
 
 Your application team will be trained in 12 factor applications, microservice and cloud native patterns. You will also require developers who are quite comfortable with cloud native concepts and tooling such as kubectl in order to bootstrap your development team.
 
@@ -38,7 +55,7 @@ Your application team will be trained in 12 factor applications, microservice an
 
 Cloud Native Computing Foundation (CNCF) serves as the vendor-neutral home for many of the fastest-growing open source projects, including Kubernetes, Prometheus, and Envoy.
 
-In order for you to build a sustainable ecosystems for cloud native infrastructure is it important to have your team invest in the CNCF Certifications. It is unlikely you’ll achieve certifications in level 1. 
+In order for you to build a sustainable ecosystem for cloud native infrastructure is it important to have your team invest in the CNCF Certifications. It is unlikely you’ll achieve certifications in level 1.
 
 ## <i class="fas fa-cogs"></i> Process
 
@@ -62,7 +79,7 @@ You have no change control process in place. Instead changes are performed based
 Incorporating security tooling and practices into your cloud native environment, whether through a practice or a process, as early as possible is crucial to keeping your cloud native environment secure. We often use the term ‘shift left’ to refer to bringing a practice, whether relating to testing or security, into a process as early as possible. Security is covered in all sections of the Cloud Native Maturity Model and each section with People, Process, Policy and Technology can be combined to support the security team as they seek to mature the organization’s cloud native security.
 
 Take action: your security journey starts here. Consider security in all aspects of implementation and make it a first class citizen.
- 
+
 ### Audit and Logs
 
 Your process will include logging and auditing. This can be based on internal requirements or support your compliance mandates.
@@ -122,27 +139,3 @@ Start building your secured CI-CD pipeline if you don’t have one already and d
 
 When just starting out, much of your testing will be conducted manually on your business application that you’ve identified as your initial production candidate. With Kubernetes you’ll be focussing on your general network connectivity, and ensuring you’re able to deploy your applications. You will have smoke tests, and UAT testing.
 
-## <i class="fas fa-building"></i> Business Outcomes
-
-Level 1 of the Cloud Native Maturity Model is where your team has a baseline implementation in place and you are in pre-production. Here you will have completed a successful POC. Based on the POC, you should have initial findings on how cloud native will help improve your app. In a dev environment, you could, for example, have seen that:
-- An app is using less resources (cost savings / more efficient use)
-- A new feature shipped faster (faster time to market and thus increased revenue)
-- There was no downtime (improved reliability for customers)
-- Improved business continuity thanks to resilient cloud architectures
-
-These are just examples, they are not a guarantee based on your environment as results may vary.
-
-In this phase, you will determine how you’ll measure (your initial KPIs) the success of your cloud native journey; and just as important, how you will demonstrate it to stakeholders. This is a major outcome of Level 1 as the entire success of the journey should be mapped to this measurement. Remember it won't be immediate on day 1. Some quantitative and qualitative example KPIs may include:
-- Reduced spend on app infrastructure by 25% by optimizing for cost
-- Dev cost lowered by 10%
-- Reduced team focus on app infrastructure by 15% by automating as much as possible
-- Increased security for the application by automating CVE identification in containers
-- Improve compliance as you can restrict and track access to the application; demonstrate compliance with SOC 2
-- Accelerated development life cycles as you implement CI/CD pipelines shipping 10% more features per quarter
-- Migrate plan - this will vary depending on your organization, but you should have a migration plan in place. Whether that’s to migrate one application first, or several, you should have this established.
-- Improved customer experience measured by increased performance scores
-- Elimination of information silos: departments no longer isolated; unique, integrated ecosystem in place.
-- Alignment of business and IT goals: everyone is involved and aware, so that resources are better addressed to meet those goals efficiently.
-- Increased internal communication: cross-pollination offers new perspectives with shared knowledge.
-
-In this phase, it’s important that the business outcomes are examined and explained to business stakeholders. It should be a discussion with engineering leadership, the application owner (finance, marketing, etc), the CEO, and even the board. Without these discussions and alignment, maturing to the next phases will come with little appreciation and possibly even skepticism.

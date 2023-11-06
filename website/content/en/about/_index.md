@@ -22,7 +22,6 @@ Areas in scope of the working group are CNCF non-code assets such as the CNCF La
 Currently assets under development:
 
 * The Cloud Native Maturity Model
-* The CNCF Landscape Guide, in association with the CNCF Business Value Subcommittee.
 
 ## Come join us
 
@@ -45,6 +44,6 @@ Meetings are listed on the same page and you should RSVP to each meeting instanc
 
 Any questions can be directed to one of the co-chairs: 
 
-Simon Forster, co-chair, simon@stackegy.com  
+Simon Forster, co-chair, simon@stackegy.com  CNCF Slack: [siforster](https://cloud-native.slack.com/team/UAZG3NUEP)
 Danielle Cook, co-chair, danielle@fairwinds.com  
 John Forman, co-chair, john.t.forman@accenture.com

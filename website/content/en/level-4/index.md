@@ -3,7 +3,28 @@ title: Level 4 - Improve
 description: You are improving security, policy and governance across your environment.
 ---
 
-## <i class="fas fa-users"></i> People 
+## <i class="fas fa-building"></i> Business Outcomes
+
+At level four, the business should have complete alignment with technology on how cloud native has achieved goals. Here you’ll be moving remaining applications, only holding onto legacy applications if this is a strong compliance requirement. You also might let legacy applications age out as you build its replacement.
+
+The business should see that the investment in cloud native has helped reduce traditional support outages. There has been a change in the profile of how teams are staffed based on new skill sets.
+
+Overall, at level four, the technology team will spend more time on forward looking innovation vs. support. Because of the software development processes put in place for cloud native, the business can expect fewer disruptive (side) projects for upgrades, professional services or additional staff requirements. The teams have more time to focus on strategic initiatives and adding customer services/features, than having to spend cycles on maintenance.
+
+At level four, the business should expect to clean up the messy middle. There should be a consolidation of vendors and tooling to streamline the efficiency of the team and also of money spent externally. This consolidation will help to reduce risk as the business benefits from less management of patching/fixing and maintenance.
+
+The technology team will have a much clearer understanding of their requirements from third parties vs. in earlier levels where they might have procured more than needed. The team will be able to assess what software and tools they have and select the best tool that the team can maintain, scale and ensure proper implementation. While there may be a cost reduction via procurement of software, there may also be a give and take of spend in one area over another.
+
+The business will have a clearer understanding of risk at this stage. Policy enforcement from business goals down will be turned into automated scanning and remediation. The technology team will be able to demonstrate compliance.
+
+At level four, the technology is not as important as the business output. The improvements made should be focused on getting to business value faster by reducing repeatable processes.
+
+### Cost
+
+In level 4, you’ll want to focus your team on cloud cost optimization. How can you improve your infrastructure to reduce cost and how can you demonstrate this to the business. The finance team will not want to understand per cluster costs, but instead how you’ve made changes to reduce costs or why you need more capacity. Use tools that help you demonstrate cloud and Kubernetes cost optimization.
+
+
+## <i class="fas fa-users"></i> People
 
 ### People Overview
 
@@ -101,16 +122,3 @@ Apply your policy against production in case you haven’t already. You’ll con
 ### Testing and Issue Detection
 
 As your environment becomes more complex in production, some issue remediation may require adjusting your policy-as-code or components of your Infrastructure as Code, as well as your application. Issues may relate to more than one application so you will aggregate across applications to determine trends. These may relate to bugs such as memory leaks, as well as security or policy issues. Your remediation may be to fix them at source, ideally as ‘far left’ as possible, or otherwise building automation capable of fixing them when they occur, and tuning it over time.
-
-## <i class="fas fa-building"></i> Business Outcomes
-
-Level 4 is focused on improvements around security, policy and governance across your environment. The team can focus more of their time on your business instead of maintaining Kubernetes. Level 4 is also the next level where clients and customers plateau. And most customers can stay at this level as they further mature.
-
-Your team has cloud native confidence and now it’s time to take that knowledge and apply it more thoroughly to your business goals.You have continued to measure yourself against established KPIs in Level 1 and provided those to the business. You’ll have alignment on goals because you can demonstrate outcomes. The business should expect to see:
-
-- Established protocols and procedures
-- Policy enforcement of compliance standards
-- Comparison of cloud native apps vs. non-cloud native
-- The business should expect more reporting in this phase. Reporting should cover compliance, security, performance and cost. These should be easily aligned to the business goals established in Level 1.
-
-At this point, you may start to migrate your other applications and have a better understanding of what you want to achieve and where you will see value during each level of maturity.
