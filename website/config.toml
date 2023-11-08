@@ -60,6 +60,13 @@ languageName = "Deutsch"
 contentDir = "content/de"
 weight = 2
 
+[languages.zh]
+title = "Cloud Native Maturity Model"
+description = "云原生成熟度模型旨在帮助您从一开始就完全采用云原生技术，通过CNCF全景图获得在公有云和混合云中的现代动态环境中运行可扩展应用程序的全部优势。"
+languageName = "中文 Chinese"
+contentDir = "content/zh"
+weight = 3
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
