@@ -89,7 +89,7 @@ How users can get involved with the community:
 - Participating in community discussions
 - Helping other users
 - Submitting and commenting on issues
-- Providing feedback on new artefact releases
+- Providing feedback on new artifact releases
 - Attending community events
 
 ### Contributor
@@ -158,7 +158,7 @@ Responsibilities include:
 Requirements
 
 - Demonstrates a broad knowledge of the working group across multiple areas
-- Is able to exercise judgement for the good of the working group, independent of their employer, friends, or team
+- Is able to exercise judgment for the good of the working group, independent of their employer, friends, or team
 - Mentors other contributors
 - Can commit to spending time working on the working group
 
@@ -181,7 +181,7 @@ We use [Hugo](https://gohugo.io/) to format and generate the Maturity Model webs
 [Docsy](https://github.com/google/docsy) theme for styling and site structure,
 and [Netlify](https://www.netlify.com/) to manage the deployment of the site.
 Hugo is an open-source static site generator that provides us with templates,
-content organisation in a standard directory structure, and a website generation
+content organization in a standard directory structure, and a website generation
 engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
 them up into a website.
 
