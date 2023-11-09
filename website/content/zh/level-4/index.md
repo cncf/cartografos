@@ -1,9 +1,9 @@
 ---
-title: Level 4 - Improve
-description: You are improving security, policy and governance across your environment.
+title: 级别 4 - 改进
+description: 您正在提升整个环境的安全性、政策和治理。
 ---
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> 业务成果
 
 At level four, the business should have complete alignment with technology on how cloud native has achieved goals. Here you’ll be moving remaining applications, only holding onto legacy applications if this is a strong compliance requirement. You also might let legacy applications age out as you build its replacement.
 
@@ -19,12 +19,12 @@ The business will have a clearer understanding of risk at this stage. Policy enf
 
 At level four, the technology is not as important as the business output. The improvements made should be focused on getting to business value faster by reducing repeatable processes.
 
-### Cost
+### 成本
 
 In level 4, you’ll want to focus your team on cloud cost optimization. How can you improve your infrastructure to reduce cost and how can you demonstrate this to the business. The finance team will not want to understand per cluster costs, but instead how you’ve made changes to reduce costs or why you need more capacity. Use tools that help you demonstrate cloud and Kubernetes cost optimization.
 
 
-## <i class="fas fa-users"></i> People
+## <i class="fas fa-users"></i> 人
 
 ### People Overview
 
@@ -57,7 +57,7 @@ Organizations may wish to consider the CKS around level 4.
 #### Certified Kubernetes Security Specialist (CKS)
 This program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
 
-## <i class="fas fa-cogs"></i> Process
+## <i class="fas fa-cogs"></i> 流程
 
 ### Process Overview
 
@@ -79,7 +79,7 @@ Ensure security remediation is automated and/or identified automatically with re
 
 Audit and alerts become mainstream and are made mandatory across applications.
 
-## <i class="fas fa-edit"></i> Policy
+## <i class="fas fa-edit"></i> 制度
 
 ### Policy Overview
 
@@ -93,7 +93,7 @@ Customize policies based on your business needs and minimize exceptions.
 
 Expansion of policy tooling to include applications such as traffic proxies, service mesh, message buses and Linux. This will broaden the scope of managed policies, but it will also help in having them under control by way of declarative configurations.
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> 技术
 
 ### Technology Overview
 
