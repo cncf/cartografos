@@ -1,19 +1,19 @@
 ---
-title: Level 5 - Adapt
-description: You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
+title: 级别 5 - 适配
+description: 您正在重新审视之前做出的决策并监控应用程序和基础设施以进行优化。
 ---
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> 业务成果
 
 When reaching level five of the Cloud Native Maturity Model, the business has trust and confidence in the technology team i.e. they can sleep at night. There are no nasty surprises from auditors, no outages in the same way legacy systems faced. Your team no longer faces jarring and stressful pivots. You can look to the future without feeling anxiety about the current state.
 
 Essentially level five is utopia. You’ve met your business goals. You’ve invested the time in a platform that allows your teams to be flexible and adapt to businesses ever-evolving needs.
 
-### Cost
+### 成本
 
 IT spend has become more predictable as FinOps and policies have helped to avoid unforeseen circumstances and events. Both the business and technology teams can plot highs and lows throughout the year to make budget predictions and forecasts.
 
-## <i class="fas fa-users"></i> People
+## <i class="fas fa-users"></i> 人
 
 ### People Overview
 
@@ -38,7 +38,7 @@ The group has strong ability to recover and maintain throughput tolerating indiv
 
 Advanced testing and release patterns developed and in use, such as blue/green or canary
 
-## <i class="fas fa-cogs"></i> Process
+## <i class="fas fa-cogs"></i> 流程
 
 ### Process Overview
 
@@ -57,7 +57,7 @@ The software supply chain is secured, with reproducible builds and software bill
 ### Audit and Logs
 You are enforcing audits.
 
-## <i class="fas fa-edit"></i> Policy
+## <i class="fas fa-edit"></i> 制度
 
 ### Policy Overview
 
@@ -71,7 +71,7 @@ Contribute policies to the open source community and active engagement with regu
 
 Compliance never ends! You will tighten the feedback loop with stakeholders and take advantage of advanced machine learning and other tooling to understand what is normal for your environment and ensure visibility of anomalous conditions in a large volume of compliance data.
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> 技术
 
 ### Technology Overview
 
