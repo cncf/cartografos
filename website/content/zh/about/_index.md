@@ -6,43 +6,43 @@ menu:
   main:
     weight: 20
 description: >
-   The cloud native landscape and ecosystem is evolving quickly.
+   云原生全景和生态正迅速发展。
 ---
 
-## The Cartografos Working Group
+## Cartografos 工作组
 
- The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.
+Cartografos 工作组的目标是提供工具，帮助采用者和最终用户驾驭 CNCF 全景和更广泛的云原生生态系统。
 
-We want to educate and inform users with effective and practical guidance to help them understand the cloud native ecosystem. We do this by collaborating with groups inside and outside the CNCF.
+我们希望通过有效实用的指导来教育和告知用户，帮助他们了解云原生生态系统。为此，我们与 CNCF 内外的团队开展合作。
 
-We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
+我们致力于参与 CNCF 沙盒、孵化和已毕业的项目，以确保在资产和 CNCF 技术顾问委员会中有效、准确地体现项目的价值。我们还为验证、讨论和反馈提供了一个供应商中立的论坛。
 
-Areas in scope of the working group are CNCF non-code assets such as the CNCF Landscape, the Trail Map, as well as a maturity model and landscape guide - the last two under development. Additionally any other assets that help cloud native technology adopters navigate the various CNCF and cloud native community projects.
+工作组的工作范围包括 CNCF 的非代码资产，如 CNCF 全景图、路径图以及成熟度模型和全景指南（后两者正在开发中）。此外，还包括为云原生技术采用者导航各种 CNCF 和云原生社区项目的其他资产。
 
-Currently assets under development:
+当前正在开发中的：
 
-* The Cloud Native Maturity Model
+* 云原生成熟度模型
 
-## Come join us
+## 加入我们
 
-Anyone interested in educating and informing users with guidance to understand the cloud native ecosystem is welcome to join the Cartografos Working Group! Please also join our our CNCF Slack channel, `#cartografos-wg`
+欢迎任何对教育和指导用户了解云原生生态系统感兴趣的人士加入 Cartografos 工作组！也请加入我们的 CNCF Slack 频道 `#cartografos-wg` 
 
-## Meeting Information 
+## 会议信息
 
 CNCF Slack #cartografos-wg
 
-Meeting times
+会议时间 
 
-US: Bi-weekly on Tuesdays at 1pm US/EST
+美国时间：双周二 1pm US/EST
 
-To participate in the working group, please sign up to the CNCF’s community platform at https://community.cncf.io/ and join https://community.cncf.io/cncf-cartografos-working-group/. 
-Meetings are listed on the same page and you should RSVP to each meeting instance you want to attend: https://community.cncf.io/cncf-cartografos-working-group/.
+如需加入工作组，请先在 CNCF 社区平台 https://community.cncf.io/ 注册后加入 https://community.cncf.io/cncf-cartografos-working-group/ 。
+会议在同一页面上列出，如果您想参加每次会议，请通过 https://community.cncf.io/cncf-cartografos-working-group/ 进行 RSVP。
 
-[Meeting minutes and agenda](https://docs.google.com/document/d/15aRVtbMT9F472wOv8bBU7Wg893ugXUf-WtP3g9Ob_KY/edit#heading=h.itd3wrdelhab)
+[会议纪要和议程](https://docs.google.com/document/d/15aRVtbMT9F472wOv8bBU7Wg893ugXUf-WtP3g9Ob_KY/edit#heading=h.itd3wrdelhab)
 
-## Questions
+## 问题
 
-Any questions can be directed to one of the co-chairs: 
+有任何问题都可以直接向联合主席提出：
 
 Simon Forster, co-chair, simon@stackegy.com  CNCF Slack: [siforster](https://cloud-native.slack.com/team/UAZG3NUEP)
 Danielle Cook, co-chair, danielle@fairwinds.com  
