@@ -1,9 +1,9 @@
 ---
-title: Level 3 - Scale
-description: Your competency is growing and you are defining processes for scale.
+title: 级别 3 - 扩展
+description: 您的能力正在不断增强，并且您正在定义规模化流程。
 ---
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> 业务成果
 
 Level three, scale, is the **“Messy Middle.”** Your organization - both business and technology - has bought into cloud native. You are seeing business goals achieved. You’ve resolved common challenges most organizations face, you understand how things are happening and are no longer spending time on what’s already been discovered/created/learnined. You’ve also made changes to people, process and technology. You’ll have repeatable patterns in place.
 
@@ -19,7 +19,7 @@ While there is a dedicated people section within scale, at level three the busin
 
 The business needs to encourage ways to help people to learn the technology, process and policies so that you can achieve business goals. The organization needs to safeguard the leaders i.e. the people who have spearheaded the cloud native movement while encouraging others to onboard and become experts.
 
-### Cost
+### 成本
 
 As you scale your cloud native infrastructure, you’ll now start to scale down your legacy system. This is where your costs will start to even out and/or reduce. The chart below shows how you would expect to see your costs change over time.
 
@@ -30,7 +30,7 @@ At this level you’ll also, particularly in the case of a migration to public c
 When cost issues occur in the ‘messy middle’ which are particularly urgent, for example a proliferation of Kubernetes clusters rather than a consolidation onto a fewer number of clusters through more advanced resource usage patterns, maintain a strategy of working to resolve the issue and consider relevant options, rather than abandoning the transition to cloud native. Your technical team will likely have a solution but they may need to invest time to realize gains. They will also be addressing this as part of level four.
 
 
-## <i class="fas fa-users"></i> People
+## <i class="fas fa-users"></i> 人
 
 ### People Overview
 
@@ -68,7 +68,7 @@ This program provides assurance that CKAs have the skills, knowledge, and compet
 
 This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
 
-## <i class="fas fa-cogs"></i> Process
+## <i class="fas fa-cogs"></i> 流程
 
 ### Process Overview
 
@@ -90,7 +90,7 @@ Implement automatic continuous scanning to flag misconfigurations or security is
 
 Start to audit and implement initial alerts. Filter noise.
 
-## <i class="fas fa-edit"></i> Policy
+## <i class="fas fa-edit"></i> 制度
 
 ### Policy Overview
 
@@ -104,7 +104,7 @@ Create policies based on metrics refined around security, efficiency and reliabi
 
 Policy compliance and auditing carried out through automated means on Kubernetes. This will likely include initial development of policy-as-code.
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> 技术
 
 ### Technology Overview
 
