@@ -1,9 +1,9 @@
 ---
-title: Level 2 - Operate
-description: The cloud native foundation is established and you are moving to production.
+title: 级别 2 - 运营
+description: 云原生基础已经建立，您正在向生产阶段迈进。
 ---
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> 业务成果
 
 At level two, you’ve experimented and made the decision to continue on the cloud native journey. Here you want to identify the projects that will uniquely benefit from cloud native. The business and technology needs to align on the project/service/application that makes the most sense to move. The decision could be focused on “where are we hurting the most” either internally or externally. While it may be easy to look at external “product or service” spend time considering internal requirements first.
 
@@ -21,11 +21,11 @@ Measurement is key as we move through business outcomes. Each KPI and OKR must m
 
 Before moving to level three - scale - you must demonstrate business value. Lots of organizations get stuck at level two because they cannot demonstrate how the technology has helped achieve the goal. Going through this goal mapping exercise as early as possible is vital to your cloud native journey.
 
-### Cost
+### 成本
 
 When selecting what you are moving first, you must consider how you will deal with changes in cost. You will no longer be buying server and network hardware and software directly, but instead effectively leasing or paying as you go for capacity. While this brings with it flexibility, it will also require some work with cloud providers to get discounts. Ensure your technology team is in lock-step with finance to plan accordingly. The business should continuously ask for ways of optimizing infrastructure to save money and/or for evidence as to why more or less capacity is needed.  Cost control really does become everyone’s responsibility as real money exits the organization on a regular basis.
 
-## <i class="fas fa-users"></i> People
+## <i class="fas fa-users"></i> 人
 
 ### People Overview
 
@@ -67,7 +67,7 @@ This program provides assurance that CKAs have the skills, knowledge, and compet
 
 This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
 
-## <i class="fas fa-cogs"></i> Process
+## <i class="fas fa-cogs"></i> 流程
 
 ### Process Overview
 
@@ -90,7 +90,7 @@ Build security into your CI process including container scanning and configurati
 Spend time defining log aggregation.
 
 
-## <i class="fas fa-edit"></i> Policy
+## <i class="fas fa-edit"></i> 制度
 
 ### Policy Overview
 As your services approach production, you have initial policies agreed as standard and these are mostly documented.
@@ -103,7 +103,7 @@ Define initial resource metrics and start collecting data.
 
 Initial auditing, carried out manually or through simple scripts.
 
-## <i class="fas fa-server"></i> Technology
+## <i class="fas fa-server"></i> 技术
 
 ### Technology Overview
 
