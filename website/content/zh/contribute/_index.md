@@ -5,38 +5,38 @@ toc_hide: true
 menu:
   main:
     weight: 30
-description: Welcome! We are glad that you want to contribute to the Cartografos Working Group.
+description: 欢迎！我们很高兴您愿意为 Cartografos 工作组做出贡献。
 ---
 
-## Introduction
+## 概述
 
-The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.
+Cartografos 工作组的目标是提供工具，帮助采用者和最终用户驾驭 CNCF 全景和更广泛的云原生生态系统。
 
-We want to educate and inform users with effective and practical guidance to help them understand the cloud native ecosystem. We do this by collaborating with groups inside and outside the CNCF.
+我们希望通过有效实用的指导来教育和告知用户，帮助他们了解云原生生态系统。为此，我们与 CNCF 内外的团队开展合作。
 
-We work to engage with CNCF projects at sandbox, incubating, and graduated level to ensure effective and accurate representation within assets, as well as CNCF Technical Advisory Groups. We also provide a vendor neutral forum for validation, discussion and feedback.
-As you get started, you are in the best position to give us feedback on areas where the working group needs help. This includes:
+我们致力于参与 CNCF 沙盒、孵化和已毕业的项目，以确保在资产和 CNCF 技术顾问委员会中有效、准确地体现项目的价值。我们还为验证、讨论和反馈提供了一个供应商中立的论坛。
+在一开始，您最适合就工作组需要帮助的领域向我们提供反馈意见，这包括：
 
-- Gaps in our documentation
-- Working to define new artifacts
-- Engaging with TAGs and SIGs within the CNCF and its projects
+- 完善文档中的空缺
+- 参与定义新的输出件
+- 与 CNCF 及其项目中的 TAG 和 SIG 合作
 
-## Contributing
+## 贡献
 
-Everyone is invited to suggest changes, additions and improvements to the working group’s artifacts.  We employ a community-driven process governed by the CNCF to develop and improve artifacts.  Contributions are welcome from all participants in compliance with the working group’s purpose and charter.  Anyone who wishes to make a contribution can submit a GitHub issue or create a pull request.
-As well as contributing to artifacts and documentation, we very much welcome your help in the following ways:
+欢迎大家对工作组的工具提出修改、补充和改进建议。 我们采用由 CNCF 管理的社区驱动流程来开发和改进工具。 我们欢迎所有参与者根据工作组的宗旨和章程做出贡献。 任何希望做出贡献的人都可以提交 GitHub Issue 或创建 PR 。
+除了为输出件和文档做出贡献，我们还非常欢迎您在以下方面提供帮助：
 
-- Creating or contributing artifacts to the working group that help with the group’s mission of helping to navigate the the cloud native landscape
-- Contributing updates to existing artifacts
-- Ideas for new artifacts and improvements you’d like to see
-- Documentation
-- Issue Triage
-- Communications / Social Media / Blog Posts
-- Release management
+- 创建或向工作组提供有助于完成工作组任务的输出件，帮助引导云原生环境的发展
+- 向已有输出件做出贡献
+- 提议新的输出件和您希望看到的改进
+- 文档
+- Issue 分类
+- 传播 / 社交媒体 / 博客文章
+- 发布管理
 
-Not everything happens through a GitHub pull request. Please come to our meetings or contact us and discuss how we can work together.
+并非所有事情都通过 GitHub PR 来完成。请参加我们的会议或联系我们，探讨我们如何合作。
 
-## Come to Meetings
+## 出席会议
 
 Everyone is welcome to come to any of our meetings. We hold regular community meetings every second Tuesday at 6PM US/Eastern time
 
@@ -44,7 +44,7 @@ You will need to join the Cartografos Working Group community on <https://commun
 
 The first time you come, introducing yourself is more than enough. Over time, we hope that you feel comfortable voicing your opinions, giving feedback on others’ ideas, and even sharing your own ideas, and experiences.
 
-## Ask for Help
+## 寻求帮助
 
 The best way to reach us with a question when contributing is:
 
@@ -53,7 +53,7 @@ The best way to reach us with a question when contributing is:
 - Our CNCF Slack channel - # cartografos-wg
 - And of course, in person at a meeting
 
-## Contribution Flow
+## 贡献流程
 
 Outline of what a contributor's workflow looks like:
 
@@ -65,18 +65,18 @@ Outline of what a contributor's workflow looks like:
 - Make sure branch is up to date with upstream base branch (eg. main)
 - Create a new Pull Request (PR)
 
-## Submitting a PR
+## 提交 PR
 
 Once you have updated your changes in your branch, you will open a PR to the upstream cartografos repo.
 Before opening the PR ensure you have rebased on the latest upstream.
 If other commits are pushed upstream before your PR is merged, you will also need to rebase again before it will be merged.
 For general advice on how to submit a pull request, please see [Creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) on GitHub.
 
-## Contributor Ladder
+## 贡献者阶梯
 
 This contributor ladder outlines the different contributor roles within the working group, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the working group grows. Our working group members are happy to help you advance along the contributor ladder.
 
-### Participant
+### 参加
 
 A Working Group Participant engages with the group and its community, contributing their time, thoughts, etc. Community participants are usually users who have stopped being anonymous and started being active in group discussions.
 
@@ -92,7 +92,7 @@ How users can get involved with the community:
 - Providing feedback on new artifact releases
 - Attending community events
 
-### Contributor
+### 贡献者
 
 A Working Group Contributor contributes directly to the group and adds value to it. People at the Contributor level may be new contributors, or they may only contribute occasionally.
 
@@ -112,7 +112,7 @@ Responsibilities include:
 - Promote the working group in public
 - Helps run the working group infrastructure
 
-### Reviewer
+### 评审者
 
 A Reviewer has responsibility for specific assets, documentation, or other working group areas. They are collectively responsible, with other Reviewers, for reviewing all changes to those areas and indicating whether those changes are ready to merge. They have a track record of contribution and review in the working group.
 
@@ -142,7 +142,7 @@ The process of becoming a Reviewer is:
 - The contributor is nominated by opening a PR against the appropriate repository, which adds their GitHub username to the OWNERS file for one or more directories.
 - At least two members of the team that owns that repository or main directory, who are already Approvers, approve the PR.
 
-### Maintainer
+### 维护者
 
 Maintainers are very established contributors who are responsible for the entire working group. As such, they have the ability to approve PRs against any area of the repository, and are expected to participate in making decisions about the strategy and priorities of the working group.
 
@@ -175,7 +175,7 @@ Process of becoming a maintainer:
 - The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
 - A majority of the current Maintainers must then approve the PR.
 
-## Contributing to the Website
+## 网站建设贡献
 
 We use [Hugo](https://gohugo.io/) to format and generate the Maturity Model website, the
 [Docsy](https://github.com/google/docsy) theme for styling and site structure,
@@ -190,7 +190,7 @@ use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
 
-### Setting up a local instance
+### 安装本地实例
 
 Install a local copy of the Cloud Native Maturity Model site with these instructions. Note you must have [npm](https://www.npmjs.com/) and [Hugo](https://gohugo.io/) installed.
 
