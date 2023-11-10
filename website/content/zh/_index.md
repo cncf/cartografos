@@ -6,13 +6,13 @@ title: "云原生成熟度模型"
 
 ![woman at a conference](/images/woman-at-conference.jpg)
 
-世界已经进入云原生时代，这已经不是什么秘密了！作者看到许多企业在开始云原生之旅的时候，并没有关于如何采用这些新应用程序和平台的真正框架，因此作者希望提供一个成功的框架。
+世界已经进入云原生时代，这已是公开的秘密了！作者看到许多企业在开始云原生之旅的时候，并没有关于如何采用这些新应用程序和平台的真正框架，因此作者希望提供一个成功的框架。
 
-此模型旨在帮助您使用 CNCF 构架从开始到全面采用云原生技术，从而在公有云和混合云的现代动态环境中运行可扩展应用程序时充分受益。
+此模型旨在帮助您使用 CNCF 全景图，从概念阶段开始到逐步采用云原生技术，从而获得在公有云和混合云的现代动态环境中运行可扩展应用程序的全部优势。
 
 ## 云原生成熟度模型 3.0（2023年秋更新）
 
-云原生成熟度模型于 2021 年推出，主要侧重于人员、流程、制度和技术部分以及企业开展的相关活动。后来又增加了 "业务成果 "部分，作为其他类别的补充。云原生成熟度模型 3.0 的最新版本将业务成果置于模型的顶端。 原来的四个部分成为设计、开发和交付业务成果的支柱。
+云原生成熟度模型于 2021 年推出，主要侧重于人员、流程、和技术部分以及企业开展的相关活动。后来又增加了 "业务成果 "部分，作为其他类别的补充。云原生成熟度模型 3.0 的最新版本将业务成果置于模型的顶端。 原来的四个部分成为设计、开发和交付业务成果的支柱。
 
 该成熟度模型参考 CNCF 中的资源得到了进一步加强，您可以通过阅读这些资源获得更深入的洞察和理解。
 
@@ -20,132 +20,132 @@ title: "云原生成熟度模型"
 
 作为一个行业，云原生专业人士往往默认深入讨论技术。这可能会导致 "业务 "与技术人员之间的错位。业务 "并不关心技术，它关心的是管理风险、履行合规义务、客户满意度和信任度以及成本效益。在云原生成熟度模型中，我们谈论了很多技术，但我们需要将所有技术转化为对业务有意义的语言。
 
-在阅读成熟度模型时，每个级别都会首先讨论业务和技术人员需要关注的问题，然后再讨论这些问题对人员、流程、制度和技术的影响。在本练习中，业务人员指的是任何不属于 DevOps 团队、基础设施或平台工程小组或产品和服务开发部门的人员。如果您是技术人员，这些内容将有助于您在云原生语言和技术与业务目标和要求之间架起一座桥梁。另外值得注意的是，在该模型的较低层次中，技术确实占据主导地位，但如果您能更早地将制度、流程和执行纳入其中，就能更快地实现目标。这就是采用云原生技术如何使企业实现业务战略左移的一个例子。
+在阅读成熟度模型时，每个级别都会首先讨论业务和技术人员需要关注的问题，然后再讨论这些问题对人员、流程、和技术的影响。在本练习中，业务人员指的是任何不属于 DevOps 团队、基础设施或平台工程小组或产品和服务开发部门的人员。如果您是技术人员，这些内容将有助于您在云原生语言和技术与业务目标和要求之间架起一座桥梁。另外值得注意的是，在该模型的较低层次中，技术确实占据主导地位，但如果您能更早地将、流程和执行纳入其中，就能更快地实现目标。这就是采用云原生技术如何使企业实现业务战略左移的一个例子。
 最后的成本，云原生并非降低成本的 "万全之策"。随着时间的推移，它将带来许多经济效益，但企业需要面对成本之旅。一个简单的例子是，如果企业转向更多的公共云消费，CAPEX（长期资本和固定资产成本，如计算设备和折旧）与 OPEX（运营成本，通常作为“即收即付”类型安排的支出）之间的差异就需要以不同的方式来看待成本。但这并不是同类比较，在成熟度的最初几个阶段，随着“传统”基础设施的维护和“云原生”平台的推出，成本可能会上升。对于这些企业规模的组织而言，需要采用 FinOps，并作为这段旅程中的财务盟友。
 
 ### 示例 KPI
 
 云原生成熟度模型有四个维度：
-1. 人
+1. 人员
 2. 流程
-3. 制度
+3. 政策
 4. 技术
 
 这些都体现了特定的业务目标。下图举例说明了凌驾于业务和技术之上的目标，以及这些目标如何在各个维度之间转化。其中包括一些业务 KPI 示例。
 
-|                      | Business to Business                                                                                                                                                                                                                       | Business to Business                                                                                                                                                                                                                     | Business to Consumer                                                                                                                                                             |
+|                      | B2B                                                                                                                                                                                                                       | B2B                                                                                                                                                                                                                     | B2C                                                                                                                                                             |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Business  model**  | ACME software sells to the enterprise market.                                                                                                                                                                                              | Anville Enterprise provides data to financial service organizations using ACME software.                                                                                                                                                 | ABC Company purchases data from Anville Enterprise.                                                                                                                              |
-| **Business goal**    | To sell to the enterprise, ACME must demonstrate security and compliance within the supply chain.<br>*KPI: Zero policy violations*                                                                                                         | To meet its customers' demands, it must scale to deliver services to 20,000 locations.<br>*KPI: Scalability*                                                                                                                             | To hit its revenue targets, it must improve customer retention through improved satisfaction rates.<br>*KPI: eg. High Availability*                                              |
-| **Technology goal**  | ACME software must ensure that all software is signed and has Software Bill of Materials (SBOM) as part of its deliverables, and meets all PCI, NIST and SOC2 standards for software delivery.                                             | Anville must rely on a cloud native platform that is able to deliver capacity as required. It must be able to ensure compliance with policy at all times.                                                                                | ABC must ensure that it has modern applications accessible from all platforms at all times, with frequent updates, and can be trusted by customers with their financial details. |
-| **Process goals**    | Implement a pipeline for delivering software with all relevant metadata attached and signed.                                                                                                                                               | Anville must have a strong delivery process for its software and platforms.                                                                                                                                                              | ABC must understand the data it is purchasing with the assurance it meets all standards and can be audited i.e. how did we get the data and how did Anville process it.          |
-| **Policy goals**     | ACME will understand what requirements it needs to meet to sell to customers, including customers’ own policy requirements                                                                                                                 | Business dictates what regulatory requirements it must meet. Outcome will be a documented completed checklist of achieved standards for the business to review.                                                                          | ABC must meet (and all vendors meet) PCI compliance standards and pass PCI audits.                                                                                               |
-| **People goals**     | People will follow all security and policy requirements. People will adopt a security first approach to all activities. ACME will invest in a security center of excellence and train developers on secure software development processes. | Developers responsible for integration of ACME’s software, and DevOps teams responsible for operating platforms will be well skilled on cloud native and have adopted an agile approach with quick feedback/testing loops to meet scale. | Development teams are getting new features to market faster as they are enabled with guardrails.                                                                                 |
-| **Example KPIs**     | Count of software vulnerabilities<br>Time to patch<br>Code coverage testing<br>SOC 2 Audit Report                                                                                                                                          | Uptime measurement<br>SLAs<br>Response times<br>Time to patch<br>Release frequency                                                                                                                                                       | Baseline customer retention rate (CRR)<br>Net Promoter Score (NPS)<br>Customer effort score (CES)<br>Customer satisfaction score (CSAT)<br>Customer churn rate                   |
+| **商业模式**  | ACME software sells to the enterprise market.                                                                                                                                                                                              | Anville Enterprise provides data to financial service organizations using ACME software.                                                                                                                                                 | ABC Company purchases data from Anville Enterprise.                                                                                                                              |
+| **商业目标**    | To sell to the enterprise, ACME must demonstrate security and compliance within the supply chain.<br>*KPI: Zero policy violations*                                                                                                         | To meet its customers' demands, it must scale to deliver services to 20,000 locations.<br>*KPI: Scalability*                                                                                                                             | To hit its revenue targets, it must improve customer retention through improved satisfaction rates.<br>*KPI: eg. High Availability*                                              |
+| **技术目标**  | ACME software must ensure that all software is signed and has Software Bill of Materials (SBOM) as part of its deliverables, and meets all PCI, NIST and SOC2 standards for software delivery.                                             | Anville must rely on a cloud native platform that is able to deliver capacity as required. It must be able to ensure compliance with policy at all times.                                                                                | ABC must ensure that it has modern applications accessible from all platforms at all times, with frequent updates, and can be trusted by customers with their financial details. |
+| **流程目标**    | Implement a pipeline for delivering software with all relevant metadata attached and signed.                                                                                                                                               | Anville must have a strong delivery process for its software and platforms.                                                                                                                                                              | ABC must understand the data it is purchasing with the assurance it meets all standards and can be audited i.e. how did we get the data and how did Anville process it.          |
+| **政策目标**     | ACME will understand what requirements it needs to meet to sell to customers, including customers’ own policy requirements                                                                                                                 | Business dictates what regulatory requirements it must meet. Outcome will be a documented completed checklist of achieved standards for the business to review.                                                                          | ABC must meet (and all vendors meet) PCI compliance standards and pass PCI audits.                                                                                               |
+| **人员目标**     | People will follow all security and policy requirements. People will adopt a security first approach to all activities. ACME will invest in a security center of excellence and train developers on secure software development processes. | Developers responsible for integration of ACME’s software, and DevOps teams responsible for operating platforms will be well skilled on cloud native and have adopted an agile approach with quick feedback/testing loops to meet scale. | Development teams are getting new features to market faster as they are enabled with guardrails.                                                                                 |
+| **示例 KPI**     | 软件漏洞数量<br>修复时间<br>代码测试覆盖率<br>SOC 2 审计报告                                                                                                                                          | 正常运行时间<br>SLA<br>响应时间<br>修复时间<br>发布频率                                                                                                                                                       | 基准客户留存率(CRR)<br>净推荐值(NPS)<br>客户成本得分(CES)<br>客户满意度(CSAT)<br>客户流失率                   |
 
 
 ## 目标受众
 
-The main target for this model is broad and encompasses the following groups:
+该模型的主要目标很广泛，包括以下群体：
 
-* Businesses that are embarking or starting down the path of digital transformation
-* Those who want to navigate the massive CNCF landscape to hone in on a framework model you can implement and trust
-* Open source and CNCF projects and practitioners wishing to use or contribute to the model
-* Leadership teams looking to understand the benefits of cloud native, scope of effort, and level of investment
-* Technologists wishing to get started with moving towards cloud native technologies who are keen to understand in more detail the journey ahead of them, as well as have further areas for investigation highlighted
+* 正在启动或开始数字化转型之路的企业
+* 希望在庞大的CNCF全景图中探索可实施和可信赖的框架模型的人
+* 开源项目、CNCF项目以及希望使用或为该模型做出贡献的从业者
+* 希望了解云原生的优势、工作范围和投资水平的领导团队
+* 希望开始转向云原生技术并渴望更详细地了解后续旅程，以及强调进一步的重点研究领域的技术人员
 
 ## 模型是如何划分的
 
-Developing a cloud native maturity is not just a technology journey, but one which is influenced by five major areas:
+发展云原生成熟度不仅仅是一个技术过程，还受到五个主要方面的影响：
 
-1. Business outcomes - What can the business expect to achieve from cloud native? How are you going to communicate the benefits to the CXO and/or business leadership?
-2. People - How do we work, what skills do we require, what does our organization look like as we move through this process, and how do we weave security into how people work?
-3. Process - What processes do we need, what technology is required and how do we map workflows and CI/CD using infrastructure as code (IaC) and how do we shift security as "far left" as possible?.
-4. Policy - What internal and external policies are required to achieve security and compliance mandates? Do these policies reflect your business’s operating environment?
-5. Technology - What technology is required for you to deliver on the benefits of cloud native and support people, processes and policy as well as the technology for CI/CD, adoption of GitOps, observability, security, storage, networking, etc.
+1. 业务成果 - 企业期望从云原生中获得什么？您将如何向 CXO 和/或业务领导层传达这些优势？
+2. 人员 - 我们如何工作，我们需要什么技能，我们的组织在这一过程中是什么样子，我们如何将安全融入人们的工作方式中？
+3. 流程 - 我们需要什么样的流程，需要什么样的技术，如何使用基础设施即代码 (IaC) 映射工作流程和 CI/CD，以及如何尽可能 "左移 "安全性？
+4. 政策 - 需要哪些内部和外部政策来实现安全性和合规性要求？这些政策是否反映了企业的运营环境？
+5. 技术 - 您需要哪些技术来实现云原生的优势，支持人员、流程和政策，以及 CI/CD、采用 GitOps、可观察性、安全性、存储、网络等方面的技术。
 
-## 但如果该模型不适合我们呢 ... ...
+## 如果我们不符合该模型呢 ... ...
 
-Relax! No project, organization or person is expected to match all of the details contained within the model, perfectly. It’s deliberately designed to cover many different scenarios; everything from startups to Fortune 100 companies. Take what is most relevant to you and your situation, and if this helps inspire you in (or indeed account for, but then rule out) any items or areas, then we consider this to be a success for you!
+放轻松！任何项目、组织或个人都不可能完全符合模型中包含的所有细节。我们特意设计了这个模型，以涵盖从初创公司到财富 100 强公司的各种不同情况。请选择与您和您的情况最相关的内容，如果这有助于启发您（或确实考虑到，但又排除了）任何项目或领域，那么我们认为这对您来说就是成功的！
 
-*The aim of this model is not to be overly prescriptive, but rather to be a tool to help guide you on your journey. Cloud native transformation is not an exact science, but rather lives within your project, your organization, and of course takes place in a specific time and place.*
+*本模型的目的不是为了过分规范，而是作为一种工具，帮助指导您的旅程。云原生转型并不是一门精确的科学，而是与您的项目、您的组织息息相关，当然也会在特定的时间和地点发生。*
 
 ## 云原生成熟度模型的先决条件
 
-The first, and arguably most important, thing to do when adopting cloud native is to outline your business and technology goals, particularly what your business expects to gain from the exercise.
+采用云原生技术的第一件事，也可以说是最重要的一件事，就是概述您的业务和技术目标，特别是您的企业希望从这项工作中获得什么。
 
-Few organizations start out with an entirely blank slate (often known as a greenfield).  You may have something like the following:
+很少有组织一开始就完全是一张白纸（通常称为 "绿地"）。 您可能会有以下情况：
 
-* Your organization may range in age from a few months, years, decades or even longer. And may have a collection of technical debt.
-* You may have a considerable application, platform and infrastructure estate.
-* You may even have started a migration to cloud service providers, perhaps adopting a ‘lift and shift’ approach with your existing estate.
+* 您的组织的年龄可能只有几个月、几年、几十年甚至更长。而且还可能存在一系列技术债务。
+* 您可能拥有大量的应用程序、平台和基础设施。
+* 您甚至可能已经开始向云服务提供商迁移，也许会对现有设备采用 "改进和转移 "的方法。
 
-The most important thing you should have is a clear idea of the business outcomes you expect to achieve. These will be your ‘north star’, helping guide your decision making process.
+最重要的是，你应该清楚地了解自己期望实现的业务成果。这些成果将成为您的 "北极星"，为您的决策过程提供指导。
 
 ## 何时才是正确的时机
 
-You may be ready to start your cloud native journey if you meet the following criteria:
+如果您满足以下条件，就可能已经准备好了开始您的云原生之旅：
 
 ### 业务成果
 
-* Whether you are a startup choosing to build on the cloud or an enterprise organization adopting cloud native, there must be long term business goals that require the investment in cloud native. These goals may be derived internally from corporate strategy, or from outside from industry trends, or competitive market pressures.
-* Prioritized business goals must drive the decision making with all stakeholders aligned.
-* Organizations should have established meaningful processes for sharing information and results between business units.
-
+* 无论您是选择在云上构建的初创团队，还是采用云原生技术的企业级组织，肯定会有需要投资云原生技术的长期业务目标。这些目标可能来自企业内部战略，也可能来自外部行业趋势或市场竞争压力。
+* 业务目标的优先级必须与所有利益相关者保持一致，以推动决策制定。
+* 组织应建立有意义的流程，在业务部门之间共享信息和成果。
 
 ### 人
 
-* You have significant separation between development and operations, with a clear staff delineation between infrastructure, cloud, application operations and development.
-* You have traditionally split your operations and infrastructure divisions and your application development departments. This may have been enforced by regulatory requirements.
-* This split may have worked well for you, and indeed may be mandated. But you may be finding additional challenges as much of your platforms become code and application oriented. You may find you require skills in your platform area that have traditionally belonged within your application area.
+* 开发和运营之间有明显的分离，基础设施、云、应用运营和开发之间有明确的人员分工。
+* 传统上，您会划分运营和基础设施部门以及应用程序开发部门，这可能是出于监管要求。
+* 这种分工可能对你很有效，事实上也可能是强制性的。但是，随着大部分平台变得以代码和应用为导向，您可能会发现更多的挑战。您可能会发现，您在平台领域需要的技能传统上属于应用领域。
 
 ### 流程
 
-* Your application deployments may be done manually in many cases, or your release processes may take a very long time to complete, often with multiple attempts.
-* You may support multiple distributions of the same software and have trouble upgrading or evaluating without significant down-time.
+* 在许多情况下，您的应用程序部署可能是手动完成的，或者您的发布流程可能需要很长时间才能完成，通常需要多次尝试。
+* 您可能支持同一软件的多个发行版，在不出现严重停机的情况下，很难进行升级或评估。
 
-### 制度
+### 政策
 
-* Policy may be in the form of conventions and rules that are located external to the application and its platform, and are not enforced natively within your applications and runtime environment.
-* Policies might be disparate and built in silos; defense in depth parity might be more of an accident than deliberate.
+* 政策可以是约定和规则的形式，这些约定和规则位于应用程序及其平台的外部，不会在应用程序和运行环境中本地执行。
+* 政策可能各行其是，各自为政；纵深防御均等可能是意外而非刻意为之。
 
 ### 技术
 
-* You’ll likely have VM’s on demand.
-* Some automation scattered around.
-* You will have baseline security components such as SIEM, RBAC concepts, and a directory of some type.
-* You have some software packaging, but this could be inconsistent.
-* You’ll have perimeter security and perhaps some coarse network zoning at layers 1-4, but you may feel some anxiety and security practices.
-* Your experience with encryption may vary - you might have some certificate authorities for example, but they may not be used extensively, with a high barrier to entry for many.
-* Your applications may rely on infrastructure solutions for high availability, which in turn may be more costly than you’d like
-* Your server estate could range from single physical or virtual servers with low levels of availability, through to highly available clusters. Scaling could be a real challenge and may require considerable investment in money, time and planning.
-* You may have started to dip your toe into a 'Everything as Code' model. i.e. started to script your infrastructure with Terraform.
+* 您可能需要虚拟机。
+* 散布在各处的一些自动化设备。
+* 具备基本的安全组件，如 SIEM、RBAC 概念和某种类型的目录。
+* 有一些软件包，但可能不一致。
+* 您将拥有周边安全，也许在 1-4 层有一些粗略的网络分区，但您可能会感到一些焦虑和安全实践。
+* 你们在加密方面的经验可能各不相同——例如，你们可能有一些证书颁发机构，但它们可能没有被广泛使用，对许多人来说进入门槛很高。
+* 您的应用程序可能依赖基础设施解决方案来实现高可用性，而这反过来又可能比您希望的成本更高
+* 从可用性较低的单个物理或虚拟服务器到高可用性的集群，您的服务器群可能不一而足。扩展可能是一个真正的挑战，可能需要投入大量的资金、时间和计划。
+* 您可能已经开始涉足“一切皆代码”模式，即开始使用 Terraform 编写基础设施脚本。
 
 ![man at a conference](/images/man-at-conference.jpg)
 
 ## 云原生成熟度模型旅程
 
-There are five stages within the cloud native maturity model. While you may be in stage five for one application, at the same time, you may be at stage 2 for another. Keep that in mind as you identify your stage of maturity.
+云原生成熟度模型分为五级，一个应用可能处于第五级，而与此同时，另一个应用可能处于第二级。在确定自己的成熟级别时，请牢记这一点。
 
-* **[Level 1 - Build]({{< ref "/level-1" >}})**
-You have a baseline cloud native implementation in place and are in pre-production.
+* **[级别 1 - 建设]({{< ref "/level-1" >}})**
+您已制定了云原生实施基线，并已进入试运行阶段。
 
-* **[Level 2 - Operate]({{< ref "/level-2" >}})**
-The cloud native foundation is established and you are moving to production.
+* **[级别 2 - 运营]({{< ref "/level-2" >}})**
+云原生基础已经建立，您正在向生产阶段迈进。
 
-* **[Level 3 - Scale]({{< ref "/level-3" >}})**
-Your competency is growing and you are defining processes for scale.
+* **[级别 3 - 规模]({{< ref "/level-3" >}})**
+您的能力在不断提高，您正在制定规模化流程。
 
-* **[Level 4 - Improve]({{< ref "/level-4" >}})**
-You are improving security, policy and governance across your environment.
+* **[级别 4 - 改进]({{< ref "/level-4" >}})**
+您正在改善整个环境的安全性、政策和管理。
 
-* **[Level 5 - Adapt]({{< ref "/level-5" >}})**
-You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
+* **[级别 5 - 优化]({{< ref "/level-5" >}})**
+您需要重新审视之前做出的决策，并监控应用程序和基础架构以进行优化。
 
-In each of the following sections, we will highlight core concepts and discuss what this means in each stage of your maturity across people, process, policy and technology.
+在后续各节中，我们将强调核心概念，并讨论在人员、流程、政策和技术成熟度的各个阶段这意味着什么。
 
-We welcome feedback from the community on the Cloud Native Maturity Model!
+我们欢迎社区对云原生成熟度模型提出反馈意见！
 
 
-## 涉及到的技术立场
-The Cloud Native Maturity model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software.
+## 相关技术立场
+
+云原生成熟度模型仅引用 CNCF 已毕业或正在孵化的项目。成熟度模型对 CNCF 沙盒项目的默认定位是排除，除非在成熟度的后期阶段（即已达到 4 级或 5 级的用户）引用。成熟度模型现在和将来都不会提及商业软件。
