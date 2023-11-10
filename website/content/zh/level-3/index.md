@@ -1,23 +1,23 @@
 ---
-title: 级别 3 - 扩展
+title: 级别 3 - 规模
 description: 您的能力正在不断增强，并且您正在定义规模化流程。
 ---
 
 ## <i class="fas fa-building"></i> 业务成果
 
-Level three, scale, is the **“Messy Middle.”** Your organization - both business and technology - has bought into cloud native. You are seeing business goals achieved. You’ve resolved common challenges most organizations face, you understand how things are happening and are no longer spending time on what’s already been discovered/created/learnined. You’ve also made changes to people, process and technology. You’ll have repeatable patterns in place.
+第三层，规模，是**“混乱的中间层”** 。您的组织——包括业务和技术——已经接受了云原生。您看到了业务目标的实现。您已经解决了大多数组织面临的共同挑战，了解了事情是如何发生的，不再把时间花在已经发现/创建/学习的东西上。你们还对人员、流程和技术进行了改革。您将拥有可重复的模式。
 
-While this all sounds great, this is the messy middle because while people are comfortable with cloud native, things are happening much faster and there are new requirements emerging. Teams are adopting new technologies to support your business goals.
+虽然这一切听起来都很不错，但这是一个混乱的中间环节，因为虽然人们对云原生技术已经驾轻就熟，但事情发展得更快，新的需求也在不断涌现。团队正在采用新技术来支持您的业务目标。
 
-But with scale comes new requirements. You’ll have requests for new tooling to meet security, compliance, and availability requirements. You may have several teams working with different tools. There will be a proliferation of tooling - some of it from existing or legacy infrastructure and systems, some of it dating from level one, and level two, and new tooling as new tools are introduced to add functionality or capabilities that the initial tool choices may not necessarily have had. This is the time where there will be the most sprawl.  Furthermore, there may also be significant inefficiency where, for example, incorrectly sized platforms are being deployed, further driving up cost. All of this will need to be worked through and the business needs to understand that with scale can come complexity that the technology team needs to work through.
+但随着规模的扩大，新的要求也随之而来。你需要新的工具来满足安全性、合规性和可用性要求。你可能会有多个团队使用不同的工具。工具会大量增加，其中一些来自现有或遗留的基础架构和系统，一些来自一级和二级，还有一些新工具，因为新工具的引入增加了最初选择的工具不一定具备的功能或能力。这也是系统蔓延最严重的时期。 此外，还可能出现效率严重低下的情况，例如，部署的平台尺寸不正确，从而进一步增加了成本。所有这些都需要加以解决，企业需要明白，随着规模的扩大，技术团队需要解决的问题也会变得复杂。
 
-For example, at level three there may be multiple logging systems in place collecting audit events for archiving - one for existing platforms and one for new cloud native platforms. These will eventually be consolidated, along with the potential merging and archiving of duplicate data. It is at this point you may become familiar with the concept of “technical debt.” This is where short term actions are taken to get a new feature or service shipped, but that results in future rework. Time and labor will need to be expended whether a task is fully completed with a strategic solution, or a short term tactical solution needing rework, so do recognize that a short term fix now will need to have someone go back and tidy up later on.
+例如，在第三级，可能有多个日志系统在收集用于归档的审计事件--一个用于现有平台，一个用于新的云本地平台。这些系统最终将进行整合，并可能合并和归档重复数据。此时，您可能会对 "技术债务 "的概念有所了解。这是指为了实现新功能或提供新服务而采取的短期行为，但会导致未来的返工。无论一项任务是通过战略解决方案全面完成，还是通过需要返工的短期战术解决方案完成，都需要花费时间和人力，因此，请务必认识到，现在的短期修复需要有人在日后进行回访和整理。
 
-Either way, don’t give up in the messy middle. While  you might have some applications that are running beautifully, not all may. The ones that are successful need to be used to demonstrate what can be achieved. Keep driving these forward to serve as ‘lighthouses’ for what is possible within your company. Small organizations might swim through level three, while large enterprise organizations with lots of heritage and legacy, might be here for years.
+无论如何，都不要中途放弃。虽然有些应用程序可能运行得很好，但并非所有应用程序都是如此。成功的应用程序需要用来展示可以实现的目标。继续推动这些应用向前发展，使其成为公司内部的 "灯塔"。小型企业可能会游过第三级，而拥有大量遗产和传统的大型企业可能会在这里停留数年。
 
-While there is a dedicated people section within scale, at level three the business needs to recognize how teams must evolve. As cloud native scales beyond a few projects, apps or services, more people will be onboarded to the new ways of working. The business should expect some resistance from users slow to accept cloud native. This is a journey that the business needs to expect, but also to bring users along the ride early so that when you get to level three, teams aren’t surprised. Training should be done as early as possible across the organization showing positive outcomes of the experimentation phase (level one) and migration phase (level two) for some applications. You don’t want cloud native to be viewed as an obstacle to work and you don’t want resistant users to become a hindrance to adoption.
+虽然规模内有专门的人员部分，但在第三级，企业需要认识到团队必须如何发展。随着云原生扩展到几个项目、应用程序或服务之外，将有更多的人加入到新的工作方式中。企业应该预料到用户在接受云原生时会遇到一些阻力。这是企业需要预料到的一个过程，但也要尽早让用户参与进来，这样当你进入第三级时，团队才不会感到惊讶。应尽早在整个组织内开展培训，展示某些应用在实验阶段（第一级）和迁移阶段（第二级）的积极成果。不要让云原生被视为工作的障碍，也不要让抵触的用户成为采用的阻碍。
 
-The business needs to encourage ways to help people to learn the technology, process and policies so that you can achieve business goals. The organization needs to safeguard the leaders i.e. the people who have spearheaded the cloud native movement while encouraging others to onboard and become experts.
+企业需要鼓励帮助员工学习技术、流程和政策，从而实现业务目标。企业需要保护领导者，即率先开展云原生运动的人员，同时鼓励其他人加入并成为专家。
 
 ### 成本
 
