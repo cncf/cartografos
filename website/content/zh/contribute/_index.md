@@ -38,87 +38,88 @@ Cartografos 工作组的目标是提供工具，帮助采用者和最终用户�
 
 ## 出席会议
 
-Everyone is welcome to come to any of our meetings. We hold regular community meetings every second Tuesday at 6PM US/Eastern time
+欢迎大家参加我们的任何会议。我们定期在美国东部时间第二个星期二下午 6 点举行社区会议。
 
-You will need to join the Cartografos Working Group community on <https://community.cncf.io> then simply RSVP within the meeting instance at <https://community.cncf.io/cncf-cartografos-working-group/>
+您需要在 <https://community.cncf.io> 上加入 Cartografos 工作组社区，然后只需在 <https://community.cncf.io/cncf-cartografos-working-group/> 的会议中进行 RSVP 即可。
 
-The first time you come, introducing yourself is more than enough. Over time, we hope that you feel comfortable voicing your opinions, giving feedback on others’ ideas, and even sharing your own ideas, and experiences.
+第一次来的时候，自我介绍就足够了。随着时间的推移，我们希望您能自如地发表自己的意见，对他人的想法给予反馈，甚至分享自己的想法和经验。
 
 ## 寻求帮助
 
-The best way to reach us with a question when contributing is:
+如果你在贡献过程中遇到问题，找我们的最好方式是：
 
-- On the original GitHub issue
-- In GitHub Discussions within the repository
-- Our CNCF Slack channel - # cartografos-wg
-- And of course, in person at a meeting
+- 在最初的 GitHub issue
+- 在 GitHub 仓库的讨论区
+- 我们的 CNCF Slack 频道 —— #cartografos-wg
+- 当然，也可以亲自参加会议并提出
 
 ## 贡献流程
 
-Outline of what a contributor's workflow looks like:
+贡献者的工作流程如下：
 
-- Fork it (<https://github.com/cncf/cartografos/fork>)
-- Create a branch from where you want to base your work (usually main). Example git checkout -b my-new-feature)
-- Make your changes and arrange them in readable commits.
-- Commit your changes (Ex. `git commit -am 'Add some feature'``)
-- Push to the branch (Ex. git push origin my-new-feature)
-- Make sure branch is up to date with upstream base branch (eg. main)
-- Create a new Pull Request (PR)
+- Fork 仓库 (<https://github.com/cncf/cartografos/fork>)
+- 从你期望开展工作的基线（通常是 main 分支）创建一个新分支，比如 git checkout -b my-new-feature
+- 进行修改，并将其整理成易于阅读的提交信息。
+- 提交你的修改（如 `git commit -am '增加了某某功能'``）
+- 推送分支（如 git push origin my-new-feature）
+- 确保该分支与上游基线分支（如 main 分支）保持一致
+- 创建一个新的 PR
 
 ## 提交 PR
 
-Once you have updated your changes in your branch, you will open a PR to the upstream cartografos repo.
-Before opening the PR ensure you have rebased on the latest upstream.
+在你自己的分支更新改动后，你将向上游 cartografos 代码库提交一个新 PR。
+在新建 PR 之前，请确保您已基于最新的上游版本进行了 rebase。
 If other commits are pushed upstream before your PR is merged, you will also need to rebase again before it will be merged.
-For general advice on how to submit a pull request, please see [Creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) on GitHub.
+如果在您的 PR 被合并之前，有其他提交推送到了上游，您也需要在合并之前再次 rebase 。
+关于如何提交 PR 的一般建议，请参阅 GitHub 上的 [创建 PR](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)。
 
 ## 贡献者阶梯
 
-This contributor ladder outlines the different contributor roles within the working group, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the working group grows. Our working group members are happy to help you advance along the contributor ladder.
+贡献者阶梯概述了工作组中不同贡献者的角色，以及相应的责任和权限。社区成员一般从“阶梯”的第一级开始，随着他们在工作组中的参与度增加，他们的级别也会随之提高。我们的工作组成员很乐意帮助您沿着贡献者阶梯晋升。
 
 ### 参加
 
-A Working Group Participant engages with the group and its community, contributing their time, thoughts, etc. Community participants are usually users who have stopped being anonymous and started being active in group discussions.
+工作组参与者参与工作组及其社区，贡献自己的时间和想法等。社区参与者通常是停止匿名并开始积极参与小组讨论的用户。
 
-Responsibilities:
+职责：
 
-- Must follow the CNCF Code of Code of Conduct
+- 必须遵循CNCF行为准则
 
-How users can get involved with the community:
+用户如何参与社区活动：
 
-- Participating in community discussions
-- Helping other users
-- Submitting and commenting on issues
-- Providing feedback on new artifact releases
-- Attending community events
+- 参加社区讨论
+- 帮助其他用户
+- 提交和评论 issue
+- 为新发布的交付物提供反馈
+- 出席社区活动
 
 ### 贡献者
 
-A Working Group Contributor contributes directly to the group and adds value to it. People at the Contributor level may be new contributors, or they may only contribute occasionally.
+工作组贡献者直接为工作组做出贡献，并为工作组增添价值。贡献者级别的人员可能是新贡献者，也可能只是偶尔贡献。
 
-Responsibilities include:
+职责包括：
 
-- Follow the CNCF Code of Code of Conduct
-- Follow the working group contributing guide
-- Requirements (one or several of the below):
-- Report and sometimes resolve issues
-- Occasionally submit PRs
-- Contributes to artifacts
-- Show up at meetings
-- Answer questions from other community members
-- Submit feedback on issues and PRs
-- Reviews artifact updates and provides feedback
-- Runs or helps run events
-- Promote the working group in public
-- Helps run the working group infrastructure
+- 遵守CNCF行为守则
+- 遵守工作组贡献指南
+- 要求（以下一个或几个）：
+- 报告问题，或有时候解决问题
+- 偶尔提交 PR
+- 贡献交付物
+- 参加会议
+- 回答其他社区成员的问题
+- 就 Issue 和 PR 提交反馈
+- 评审交付物更新并提供反馈
+- 举办或协助举办活动
+- 向公众宣传本工作组
+- 帮助运行和管理工作组的基础设施
 
 ### 评审者
 
-A Reviewer has responsibility for specific assets, documentation, or other working group areas. They are collectively responsible, with other Reviewers, for reviewing all changes to those areas and indicating whether those changes are ready to merge. They have a track record of contribution and review in the working group.
+评审者对特定资产、文档或其他工作组领域负责。他们与其他评审人一起，负责评审对这些领域的所有变更，并指出这些变更是否准备合并。他们在工作组中有贡献和审查的记录。
 
-Reviewers are responsible for a "specific area." This can be a specific artifact, chapter of documentation, or other clearly-defined group artifact that is smaller than an entire repository. Most often it is one or a set of directories in one or more Git repositories. The "specific area" below refers to this area of responsibility.
+评审者负责“特定领域”。这可以是特定的输出件，文档的章节或其他比整个仓库小的明确定义的一组输出件。通常，它是一个或多个 Git 仓库中的一个或一组目录。以下“特定领域”就是指这一负责领域。
 
-Reviewers have all the rights and responsibilities of a Contributor, plus:
+审阅者拥有贡献者的所有权利和责任，再加上：
 
 - Responsibilities include:
 - Following the reviewing guide
