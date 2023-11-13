@@ -99,12 +99,12 @@ If other commits are pushed upstream before your PR is merged, you will also nee
 
 职责包括：
 
-- 遵守CNCF行为守则
-- 遵守工作组贡献指南
+- 遵守CNCF行为守则 
+- 遵守工作组贡献指南 
 - 要求（以下一个或几个）：
 - 报告问题，或有时候解决问题
-- 偶尔提交 PR
-- 贡献交付物
+- 偶尔提交 PR 
+- 贡献交付物 
 - 参加会议
 - 回答其他社区成员的问题
 - 就 Issue 和 PR 提交反馈
@@ -121,79 +121,79 @@ If other commits are pushed upstream before your PR is merged, you will also nee
 
 审阅者拥有贡献者的所有权利和责任，再加上：
 
-- Responsibilities include:
-- Following the reviewing guide
-- Reviewing most Pull Requests against their specific areas of responsibility
-- Helping other contributors become reviewers
+职责：
 
-Requirements:
+- 遵循评审指南
+- 根据其具体职责范围审查大多数的  PR 
+- 帮助其他贡献者成长为审核者
 
-- Experience as a Contributor
-- Is a working group member
-- Has demonstrated in-depth knowledge of their specific area, ideally having authored or significantly contributed to the artifact in their specific area.
-- Commits to being responsible for that specific area
-- Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
+要求：
 
-Additional privileges:
+- 有贡献者经验
+- 是工作组成员
+- 对其特定领域有深入了解，最好是对其特定领域的输出件有参与撰写过或有重大贡献。
+- 承诺对特定领域负责
+- 支持新的和低频贡献者，并帮助获得有价值 PR 完成提交
 
-- Be an approver for pull requests in specific directories
-- Can recommend and review other contributors to become Reviewers
-The process of becoming a Reviewer is:
+额外权限：
 
-- The contributor is nominated by opening a PR against the appropriate repository, which adds their GitHub username to the OWNERS file for one or more directories.
-- At least two members of the team that owns that repository or main directory, who are already Approvers, approve the PR.
+- 成为特定目录的 PR 审批者
+- 可以推荐或审核其他贡献者成为审核者
+
+成为审核者的流程：
+- 贡献者被提名的方式是在相应仓库里新建一个 PR，将其 GitHub 用户名添加到一个或多个目录的 OWNERS 文件中。
+- 至少有两名拥有该仓库或主目录的团队成员（已经是审批者）批准该 PR。
 
 ### 维护者
 
-Maintainers are very established contributors who are responsible for the entire working group. As such, they have the ability to approve PRs against any area of the repository, and are expected to participate in making decisions about the strategy and priorities of the working group.
+维护者是非常成熟的贡献者，他们对整个工作组负责。因此，他们有能力批准针对版本库任何部分的 PR，并应参与有关工作组战略和优先事项的决策。
 
-A Maintainer must meet the responsibilities and requirements of a Reviewer, plus:
-Responsibilities include:
+维护者必须符合评审者的职责和要求，此外还必须：
 
-- Mentoring new Reviewers
-- Writing refactoring PRs
-- Participating in CNCF maintainer activities
-- Determining strategy and policy for the working group
-- Participating in, and leading, community meetings
+职责：
 
-Requirements
+- 指导新任评审者
+- 编写重构 PR
+- 参加 CNCF 维护者活动
+- 决定工作组的战略和政策
+- 参加并主导社区会议
 
-- Demonstrates a broad knowledge of the working group across multiple areas
-- Is able to exercise judgment for the good of the working group, independent of their employer, friends, or team
-- Mentors other contributors
-- Can commit to spending time working on the working group
+要求：
 
-Additional privileges:
+- 展示工作组在多个领域的广泛知识
+- 能够独立于雇主、朋友或团队，为工作组的利益做出判断
+- 指导其他贡献者
+- 能够承诺花时间参与工作组的工作
 
-- Approve PRs to any area of the working group
-- Represent the working group in public as a Maintainer
-- Communicate with the CNCF on behalf of the working group
-- Have a vote in Maintainer decision-making meetings
+额外权限：
 
-Process of becoming a maintainer:
+- 批准工作组任何领域的 PR
+- 以维护者的身份公开代表工作组
+- 代表工作组与CNCF沟通
+- 在维护者决策会议上拥有投票权
 
-- Any current Maintainer may nominate a current Reviewer to become a new Maintainer, by opening a PR against the root of the cncf/cartografos repository, adding the nominee as an Approver in the OWNERS file.
-- The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-- A majority of the current Maintainers must then approve the PR.
+成为维护者的流程：
 
-## 网站建设贡献
+- 任何当前维护者都可以提名一名当前评审者成为新的维护者，方法是在 cncf/cartografos 仓库根目录下的 OWNERS 文件中将被提名人添加为审批人，并新建一个 PR 。
+- 被提名者将在 PR 中添加一条评论，证明他们同意成为维护者的所有要求。
+- 随后，当前维护者中，大多数成员必须批准该 PR。
 
-We use [Hugo](https://gohugo.io/) to format and generate the Maturity Model website, the
-[Docsy](https://github.com/google/docsy) theme for styling and site structure,
-and [Netlify](https://www.netlify.com/) to manage the deployment of the site.
-Hugo is an open-source static site generator that provides us with templates,
-content organization in a standard directory structure, and a website generation
-engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
-them up into a website.
+## 网站建设贡献 
 
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+我们使用 [Hugo](https://gohugo.io/) 来格式化并生成成熟度模型的网站，使用
+[Docsy](https://github.com/google/docsy) 主题来实现样式和管理网站结构，
+以及使用 [Netlify](https://www.netlify.com/) 来管理网站的部署。
+Hugo 是一款开源的静态网站生成器，为我们提供模板，
+并用一种标准的目录结构来实现内容组织，是一个网站上生成引擎。
+你只要用 Markdown （或者HTML，如果你想用的话）来编写静态内容，Hugo 会封装转换为网站。
+
+所有的提交，包括来自项目成员的提交，都需要经过评审。
+我们使用 GitHub PR 来实现这一目标。
+查阅 [GitHub 帮助](https://help.github.com/articles/about-pull-requests/) 了解更多使用 PR 的信息。
 
 ### 安装本地实例
 
-Install a local copy of the Cloud Native Maturity Model site with these instructions. Note you must have [npm](https://www.npmjs.com/) and [Hugo](https://gohugo.io/) installed.
+按照这些说明可在本地安装云原生成熟度模型站点的实例。请注意，您必须要先安装 [npm](https://www.npmjs.com/) 和 [Hugo](https://gohugo.io/)。
 
 ```
 git clone https://github.com/cncf/cartografos.git
@@ -203,4 +203,4 @@ cd website
 npm install
 ```
 
-You can then run the site using `hugo server`.
+然后你可以执行命令 `hugo server` 来运行网站。
