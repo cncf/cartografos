@@ -4,138 +4,138 @@ description: >
    您已经制定了基准的云原生设施并且正在进行预生产。
 ---
 
-## <i class="fas fa-building"></i> Business Outcomes
+## <i class="fas fa-building"></i> 业务成果
 
 ### 业务成果
 
-*“For many business leaders, the migration and continuing adoption of cloud native technology are not as clear-cut as migrating workloads as-is from on-premises to hybrid/public clouds. They are unlikely to sign off on major technological shifts, which inevitably create process and cultural change, without understanding the tangible benefits to them.”* [CTO Summit](https://www.cncf.io/reports/cto-summit-na-2022/)
+*“对于许多企业领导者来说，迁移和持续采用云原生技术并不像将工作负载从内部部署迁移到混合云/公有云那样一目了然。他们不太可能同意重大的技术转变，因为这种转变必然会带来流程和文化的变革，而他们又不了解这种转变会给他们带来哪些切实的好处。”* [CTO 峰会](https://www.cncf.io/reports/cto-summit-na-2022/)
 
-Prior to arriving at level one of the model, your business should have agreed the goals for the move. These business goals need to inform adoption of cloud native technologies. Goals will center around managing risk, meeting compliance, customer satisfaction and trust and cost effectiveness. While the technologist might translate this into avoiding vendor lock-in, capacity and availability planning, disaster recovery, response times, etc, ensure that whenever discussing decisions to root the conversation in the business goal.
+在达到本模型的第一级之前，您的企业应该已经商定了迁移的目标。这些业务目标需要为云原生技术的采用提供依据。这些目标将围绕风险管理、合规性、客户满意度和信任度以及成本效益展开。虽然技术专家可能会将其转化为避免供应商锁定、容量和可用性规划、灾难恢复、响应时间等，但无论何时讨论决策，都要确保对话以业务目标为基础。
 
-In level one, the organization must prioritize its top business goals/issues. This is an important step as prioritization/ranking of business goals will help technologies factor in tradeoffs. Compliance and disaster recovery will no doubt be important, but for some organizations, that might not be the main driver. Business scenario planning is essential. For example, in the case where a company has decided to use public cloud, if customer satisfaction is the priority goal and needs faster website response times, then the technology team will select cloud regions close to the customer. If cost reduction is a primary goal however, then a more cost-effective cloud region might be selected. Another example might be that it is cheaper to host data in the US, but due to EU data privacy laws, that isn’t an option. This is a very high level example, but should showcase how the prioritization of all business goals must inform decision making.
+在第一级，组织必须确定其首要业务目标/问题的优先级。这一步很重要，因为业务目标的优先级/排序将有助于技术因素的权衡。合规性和灾难恢复无疑很重要，但对某些组织来说，这可能不是主要驱动因素。业务情景规划至关重要。例如，在公司决定使用公共云的情况下，如果客户满意度是首要目标，并且需要更快的网站响应时间，那么技术团队就会选择更靠近客户的云区域。但如果降低成本是首要目标，则可能会选择成本效益更高的云区域。另一个例子可能是，在美国托管数据更便宜，但由于欧盟的数据隐私法，这不是一个可选项。虽然这只是一个较高层次的例子，但同样可以说明所有业务目标的优先级必须为决策提供依据。
 
-At this level, the organization is experimenting with cloud native. This should also translate into business expectations. Technologies should be given the freedom to try different experiments to achieve goals. Experiments should be documented, OKRs (Objectives and Key Results) or KPIs (Key Performance Indicators) created and provided to the business during this phase. The business should expect to see the outcomes of these experiments before continuing to embark on its cloud native journey. This helps to build confidence between the technology and business teams and is absolutely a vital step particularly as cloud native changes the way an organization operates.
+在这个级别，组织正在尝试使用云原生技术。这也应转化为业务期望。应允许技术人员自由尝试不同的实验来实现目标。在此阶段，应记录实验、创建 OKR（目标和关键结果）或 KPI（关键绩效指标）并提供给业务部门。在继续开展云原生之旅之前，企业应期待看到这些实验的结果。这有助于在技术团队和业务团队之间建立信任，尤其是在云原生改变企业运营方式的过程中，这绝对是至关重要的一步。
 
 ### 成本
 
-In level one, the finance, technology and business teams need to be aligned. Technology needs to understand resourcing and the finance team needs to understand change fees. The organization must make allowances for running both the legacy systems and new cloud environments. In level one, costs will not go down, however as it is just the build/experimentation phase, the costs should not be exorbitant.
+在第一级，财务、技术和业务团队需要保持一致。技术团队需要了解资源配置，财务团队需要了解变更费用。企业必须为运行旧系统和新的云环境留出余地。在第一级，成本不会下降，但由于只是构建/实验阶段，成本不应过高。
 
 
-## <i class="fas fa-users"></i> 人
+## <i class="fas fa-users"></i> 人员
 
 ### 概述
 
-Cloud native framework is driving your business and technical goals. You and your team are new to the technology, however do have some basic technical understanding and some pre-existing qualifications. Your business leaders understand the benefits of cloud native.
+云原生框架正在推动您实现业务和技术目标。您和您的团队是这项技术的新手，但对这项技术有了一些基本的了解，并且已经具备一些资质。您的业务领导者了解云原生技术的优势。
 
 ### 组织变革
 
-As you transform, you will have limited organizational support and will be in a proof of concept (POC) phase or be focused on only one application.
+在转型过程中，您将获得有限的组织支持，并将处于概念验证 (POC) 阶段或只专注于某一个应用。
 
 ### 团队与去中心化
 
-Teams are exploring cloud native tooling, primarily Kubernetes. However, this is not just for the sake of exploring, but rather it is with the goal of reaching production. All work is generally taking place within a formal MVP program.
+团队正在探索云原生工具，主要是 Kubernetes。不过，这不仅仅是为了探索而探索，而是以投入生产为目标。所有工作一般都在正式的 MVP 计划内进行。
 
 ### 安全
 
-The people implementing cloud native will need to focus on security. Default security settings will be used and will work in pre-production. You’ll spend time identifying your open source security posture and conduct a security POC of the pre-production environment so that both Dev, Ops and security understands what is required in cloud native workloads.
+实施云原生的人员需要关注安全性。将使用默认的安全设置，并在预生产环境中运行。您需要花时间确定您的开源安全态势，并对预生产环境进行安全 POC，以便开发、运维和安全人员了解云原生工作负载的要求。
 
 ### 开发者敏捷性
 
-Your organization is committed to decentralization and will employ “teams of teams”. This is an essential requirement of your people. Across the different levels of maturity, people will be implementing tools for automated testing, metrics and feedback.
+贵组织致力于权力下放，将采用 "团队的团队"。这是对员工的基本要求。在不同的成熟度级别中，员工将实施自动化测试、度量和反馈工具。
 
-Developers may have learned about Agile Manifesto and adopted Scrum Framework without necessarily including Operations. Developers may attempt to resolve external dependencies themselves, slowing down feedback, with incomplete features per sprint.
+开发人员可能已经了解了《敏捷宣言》并采用了 Scrum 框架，但不一定包括运维部门。开发人员可能会试图自行解决外部依赖性问题，从而减慢反馈速度，导致每个冲刺阶段的功能不完整。
 
 ### 开发者技能提升
 
-The maturity of your people will include upskilling the development team.
+人员的成熟度包括了开发团队的技能提升。
 
-Your application team will be trained in 12 factor applications, microservice and cloud native patterns. You will also require developers who are quite comfortable with cloud native concepts and tooling such as kubectl in order to bootstrap your development team.
+您的业务团队将接受 12 因子应用、微服务和云原生模式方面的培训。您还需要熟悉云原生概念和工具（如 kubectl）的开发人员，以便引导您的开发团队。
 
 ### CNCF 认证
 
-Cloud Native Computing Foundation (CNCF) serves as the vendor-neutral home for many of the fastest-growing open source projects, including Kubernetes, Prometheus, and Envoy.
+云原生计算基金会（CNCF）作为供应商中立的组织，是许多高速发展的开源项目（包括 Kubernetes、Prometheus 和 Envoy）的家园。
 
-In order for you to build a sustainable ecosystem for cloud native infrastructure is it important to have your team invest in the CNCF Certifications. It is unlikely you’ll achieve certifications in level 1.
+为了建立一个可持续的云原生基础设施生态系统，让您的团队投资 CNCF 认证非常重要。您可能并不是在第一级就获得认证。
 
 ## <i class="fas fa-cogs"></i> 流程
 
 ### 流程概述
 
-You will map application requirements, both functional (application features and code) and non-functional, such as performance, capacity, and availability, and define how your organization will scale. Feedback will be manual such as by Slack, email, and phone, and you’ll also remediate manually also. You will start to implement repeatability by defining your Git workflow. Platform and technology lifecycle and updates, particularly security updates, need to be applied on a regular basis as vulnerable systems pose specific risks. You will likely be applying these updates by hand on an adhoc basis, or using update systems included in distributions.
+您将描绘应用需求，包括功能性需求（应用功能和代码）和非功能性需求（如性能、容量和可用性），并定义您的组织将如何扩展。反馈将通过 Slack、电子邮件和电话等人工方式进行，您还将手动进行补救。通过定义 Git 工作流，您将开始实现可重复性。由于易受攻击的系统会带来特定风险，因此需要定期采用平台和技术生命周期并更新，尤其是安全更新。您可能会临时手动应用这些更新，或使用发行版中包含的更新系统。
 
 ### CI/CD
 
-Central to your cloud native transformation is the adoption of CI/CD. CI/CD helps you build, test and deploy applications based on modern software development practices. Your CI/CD process will mature over time.
+云原生转型的核心是采用 CI/CD。CI/CD 可帮助您根据现代软件开发实践构建、测试和部署应用程序。随着时间的推移，您的 CI/CD 流程将日趋成熟。
 
-If you do CI/CD, you need to transform this into your cloud native environment. That includes taking existing best practices and building upon them.
+如果您采用 CI/CD，则需要将其转化为云原生环境。这包括采用现有的最佳实践，并在此基础上加以改进。
 
 ### 变更控制
 
-Change control will need to be implemented to control your deployments.
-You have no change control process in place. Instead changes are performed based on ad-hoc requests.
+需要实施变更控制，以控制部署。
+您没有变更控制流程，而是根据临时要求进行更改。
 
 ### 安全
 
-Incorporating security tooling and practices into your cloud native environment, whether through a practice or a process, as early as possible is crucial to keeping your cloud native environment secure. We often use the term ‘shift left’ to refer to bringing a practice, whether relating to testing or security, into a process as early as possible. Security is covered in all sections of the Cloud Native Maturity Model and each section with People, Process, Policy and Technology can be combined to support the security team as they seek to mature the organization’s cloud native security.
+无论是通过实践还是流程，尽早将安全工具和实践纳入云原生环境对于确保云原生环境的安全至关重要。我们经常使用 "左移 "一词来指代尽早将与测试或安全相关的实践纳入流程。云原生成熟度模型的所有部分都涵盖了安全问题，每个部分都可以与人员、流程、政策和技术相结合，为安全团队提供支持，帮助他们实现企业云原生安全的成熟。
 
-Take action: your security journey starts here. Consider security in all aspects of implementation and make it a first class citizen.
+行动措施：你的安全之旅由此开始。在实施的各个方面都要考虑安全问题，使其成为一等公民。
 
 ### 审计和日志
 
-Your process will include logging and auditing. This can be based on internal requirements or support your compliance mandates.
+您的流程将包括日志记录和审计。这可以基于内部要求，也可以支持合规性要求。
 
-Manual log scraping is likely ad-hoc and you may not have a central logging point or SIEM.
+手动日志搜索很可能是临时性的，您可能没有中心化的日志记录点或 SIEM。
 
 ## <i class="fas fa-edit"></i> 制度
 
 ### 制度概述
 
-We recognize policy adoption is a gradient. Every organization has a different risk appetite. Use this document as a guide to how you can define and enforce policy. By level 5, you will have achieved full policy maturity, however your mileage may vary.
+我们认识到政策的采用是一个渐进的过程。每个组织都有不同的风险偏好。请将本文件作为如何定义和执行政策的指南。到第 5 级时，您将达到完全的政策成熟度，但具体情况可能会有所不同。
 
-You will have a limited set of documented policies in place to support services you're building in the cloud.
+您将有一套有限的文档政策来支持您在云上构建的服务。
 
 ### 制度建设
 
-You will need to translate your organization’s policies and compliance requirements to your cloud native environment.
+您需要将组织的政策和合规性要求转化为云原生环境下的要求。
 
-Spend time understanding your application's functional and architectural requirements.
+花时间了解应用程序的功能和架构要求。
 
 ### 合规
 
-You will need policies in place to achieve compliance especially in highly regulated industries. For compliance, there is a gradient of what you will achieve.
+您需要制定政策来实现合规性，尤其是在受到严格监管的行业。在合规方面，您需要实现的目标是梯度渐进的。
 
-Spend time understanding your compliance requirements: CIS, NIST, PCI for example. Design SLOs and priorities for compliance. This will take time and may not be a pre-production requirement, but will increase as you move to production.
+花时间了解合规要求： 如 CIS、NIST、PCI。为合规性设计 SLO 和优先级。这需要时间，可能不是预生产环境的要求，但随着生产的进行，要求会越来越多。
 
 ## <i class="fas fa-server"></i> 技术
 
 ### 技术概述
 
-You’ll have your initial experimentation and adoption of Kubernetes. You’ll start with relatively basic tools and technology. You’ll assess your existing toolset to see how they fit within the new landscape (what plays well with cloud native, and what doesn’t?). You’ll have limited automation, but don’t worry, it’s coming! Your focus is on getting the baseline technology implemented, and you won’t be in production yet.
+您将对 Kubernetes 进行初步尝试和采用。您将从相对基础的工具和技术开始。您将评估现有的工具集，看看它们如何适应新的环境（哪些能很好地发挥云原生的作用，哪些不能？） 您的自动化程度有限，但不用担心，它会实现的！您的重点是实施基线技术，而且您还不会投入生产。
 
 ### 基础设施
 
-You are building your cloud infrastructure either on-prem or off. It will pay dividends to consider early your supporting technology such as your network, firewalls and IAM, access controls and policies (and if you need to change them). Many topics will come out of your initial experimentation with Kubernetes, so ensure you keep track of these - they are the ‘breadcrumbs’ you will follow as you move towards cloud native. This will include RBAC policies, load balancer and/or ingress configuration, cluster dashboards, privileged access (or lack thereof!) and container logging. Your aim is to move away from ‘pets’ to ‘livestock’ so you invest in declarative solutions for your Infrastructure as a Service with Infrastructure as Code (IaC) tooling. If you do not have a consolidated DevOps practice at this level, bring your future operations team in to build familiarity.
+您正在本地或离线构建云基础设施。尽早考虑您的支持技术，如网络、防火墙和 IAM、访问控制和策略（以及您是否需要更改它们），将会给您带来收益。在使用 Kubernetes 的初期实验中会出现许多主题，因此请确保您跟踪这些主题--它们是您向云原生迁移过程中的 "面包屑"。这将包括 RBAC 策略、负载均衡和/或入口配置、集群面板、特权访问（或无特权访问！）和容器日志。您的目标是从 "宠物 "转变为 "家畜"，因此您需要使用基础设施即代码（IaC）工具为基础设施即服务投资声明式解决方案。如果您在这一层面还没有固化的 DevOps 实践，请让您未来的运营团队参与进来，以建立熟悉度。
 
 ### 容器和运行时管理
 
-Initially you’ll want to focus on just building containers. One of your first steps will be to add container builds to your CI for your application. You’ll also want to adopt a container registry for your images and you’ll need to consider versioning and tagging so that you can ensure you know exactly what code is in use.
+最初，您只想专注于构建容器。第一步是在应用程序的 CI 中添加容器构建。您还需要为您的镜像采用容器注册表，并考虑版本控制和打标记，以确保您能准确了解正在使用的代码。
 
 ### 应用模式和重构
 
-Start with a canonical microservice application if you can and confirm that it runs and that people are familiar with it. Attempt to start with a microservice application on your cloud native journey if you can. You can try an existing or monolithic application if this makes sense, as this will flush out tooling and dependencies you'll have for your journey to cloud native, such as kubectl, network connectivity and other topics.
+如果可以的话，从典型的微服务应用程序开始，并确认其运行情况和人们对其的熟悉程度，并尝试在云原生之旅中从微服务应用程序开始。如果可行，您可以尝试使用现有的或单体应用程序，因为这将为您的云原生之旅找出工具和依赖关系，如 kubectl、网络连接和其他主题。
 
-Your business needs to review microservice patterns and architecture and look to understand the specifics for your applications. Non-functional requirements such as latency, resilience, scaling and third party tooling should definitely be considered. If you're transforming a monolith, this may impose significant redesign on the application as existing needs may not have the technical resources available. Consider your state management, as refactoring a monolith may require effort here. Try to ensure that the knowledge stays with the code, so make sure an existing developer familiar with the code participates in its migration to the cloud. Minimize divergence between cloud and your existing estate. This exercise will ensure all understand that it's a commitment to move to cloud native.
+您的企业需要审查微服务模式和架构，并了解应用程序的具体情况。非功能性要求，如延迟、弹性、扩展和第三方工具等，一定要考虑在内。如果你要改造一个单体应用，这可能会对应用程序进行较大重构，因为现有的需求可能没有可用的技术资源。考虑你的状态管理，因为重构单体应用可能需要付出努力。尽量确保知识与代码保持一致，因此确保熟悉代码的现有开发人员参与代码向云的迁移。尽量减少云计算与现有系统之间的差异。这项工作将确保所有人都明白，迁移到云原生是一项承诺。
 
 ### 应用发布和运维
 
-Managing a cluster with Infrastructure as Code (IaC) is different to managing application release and deployment, however many of the same techniques and tools will be common to both.
-When starting with Kubernetes, it is important that you start out with as much hands-on experience as possible. Initially you’ll be doing ad-hoc deployments with kubectl and kustomize.
+使用 "基础设施即代码"（IaC）管理集群与管理应用程序的发布和部署不同，但两者有许多相同的技术和工具。
+开始使用 Kubernetes 时，尽可能多地积累实践经验非常重要。一开始，您将使用 kubectl 和 kustomize 进行临时部署。
 
 ### 安全与政策
 
-Start building your secured CI-CD pipeline if you don’t have one already and don’t forget that what you are doing today with VMs will end up quite different in the future.
+如果您还没有安全的 CI-CD 流水线，请开始构建它，并且要记得，您今天使用虚拟机所做的事情在未来会大不相同。
 
 ### 测试和问题检测
 
-When just starting out, much of your testing will be conducted manually on your business application that you’ve identified as your initial production candidate. With Kubernetes you’ll be focussing on your general network connectivity, and ensuring you’re able to deploy your applications. You will have smoke tests, and UAT testing.
-
+刚开始时，您的大部分测试工作都将在您的业务应用程序上手动进行，您已将其确定为最初的生产候选程序。使用 Kubernetes 时，您将专注于一般的网络连通性，并确保您能够部署应用程序。您将进行冒烟测试和 UAT 测试。
+ 
