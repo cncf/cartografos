@@ -201,4 +201,4 @@ cd website
 npm installieren
 ```
 
-Anschließend können Sie die Website mit `hugo server` ausführen.
+Anschließend können Sie die Website mit `npm run serve` ausführen.
