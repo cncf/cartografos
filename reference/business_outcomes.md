@@ -75,7 +75,7 @@ The business should expect more reporting in this phase. Reporting should cover 
 
 At this point, you may start to migrate your other applications and have a better understanding of what you want to achieve and where you will see value during each level of maturity. 
 
-## Level 5: Optimize
+## Level 5: Adapt
 
 This phase of optimization will see lots of changes with people, process, policy and technology. For the business, you should have achieved your business goals and have the measurable results to show your leadership teams, CEO, CFO or the board.
 
