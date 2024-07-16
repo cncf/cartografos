@@ -5,130 +5,134 @@ description: 云原生基础已经建立，您正在向生产阶段迈进。
 
 ## <i class="fas fa-building"></i> 业务成果
 
-At level two, you’ve experimented and made the decision to continue on the cloud native journey. Here you want to identify the projects that will uniquely benefit from cloud native. The business and technology needs to align on the project/service/application that makes the most sense to move. The decision could be focused on “where are we hurting the most” either internally or externally. While it may be easy to look at external “product or service” spend time considering internal requirements first.
+在第二级，你已经进行了实验，并决定继续云原生之旅。在这一级，你要确定哪些项目将从云原生中获得独特的收益。业务和技术要就最有意义的项目/服务/应用达成一致。这一决定可以侧重于“我们最大的痛点在哪里”，无论是对内还是对外。虽然考虑外部“产品或服务 ”可能很容易，但首先要花时间考虑内部需求。 
 
-Part of the decision making process should be based on seeing a return on investment (ROI). You should be moving an application that can serve as your speed boat.
+决策过程的一部分应基于投资回报率 (ROI)。你应该优先撬动一个可以充当“快艇”的应用。
 
-> *Speed boat: transform to the cloud steadily and incrementally using speed boats to accelerate adoption and achieve extreme agility.*
+> *快艇：使用快艇稳步、增量地向云转型，以加速采用并实现极高的敏捷性。*
 
-Moving business essential applications (i.e. production workloads) will come with trade offs so selection is key. If you choose application A for example, you may need to worry about cloud costs. If you choose application B, you’ll need to worry about compliance audits. Ensure that the decision of what applications to move first considers key non-functional requirements such as capacity, backup, DR, performance (availability) as well as any governance topics such as compliance (and audits, including relevant logging), and risks such as that to reputation through downtime or security compromise.
+迁移业务关键应用程序（即生产工作负载）需要权衡利弊，因此选择是关键。例如，如果选择应用程序 A，你可能需要担心云成本。如果选择应用程序 B，则需要担心合规性审核。确保在决定首先迁移哪些应用程序时，考虑到容量、备份、灾难恢复、性能（可用性）等关键的非功能性要求，以及合规性（和审计，包括相关的日志）等任何管理主题，以及因停机或安全漏洞而对声誉造成的风险。
 
-Whatever application is selected will force the technology team to set standards and innovate for new ways of working. The technology team will design and establish new patterns based on the business goals. The project(s) that are moved first will help establish new policy, technology, process and people changes. Be aware that the first application may require prerequisites to be implemented to fulfill specific obligations. For example, you may need to extend your current concept for identity and access management to cater for public cloud use cases. Be prepared for a cascade of activities to deliver the minimally acceptable prerequisites to get your first applications into production.
+无论选择哪种应用程序，都将迫使技术团队制定标准，并为新的工作方式进行创新。技术团队将根据业务目标设计和建立新的模式。首先实施的项目将有助于建立新的政策、技术、流程和人员变革。请注意，第一个应用程序可能需要先决条件才能实施，以履行特定义务。例如，你可能需要扩展当前的身份和访问管理概念，以满足公有云使用案例的需要。准备好开展一系列活动，以提供最低限度可接受的先决条件，从而将首个应用程序投入生产。
 
-*“Organizations must develop meaningful processes for sharing information and results between technology and business units, which might mean seeking out new talent with technical expertise and passion for sharing information.”* [CTO Summit](https://www.cncf.io/reports/cto-summit-na-2022/)
+*“组织必须制定有意义的流程，以便在技术和业务部门之间共享信息和成果，这可能意味着要寻找具有技术专长和共享信息热情的新型人才。”* [CTO Summit](https://www.cncf.io/reports/cto-summit-na-2022/)
 
-Measurement is key as we move through business outcomes. Each KPI and OKR must map to the overall business goal. It must be documented in a language that the business can understand.
+度量是取得业务成果的关键。每个 KPI 和 OKR 必须映射到总体业务目标，并以企业可以理解的语言记录。
 
-Before moving to level three - scale - you must demonstrate business value. Lots of organizations get stuck at level two because they cannot demonstrate how the technology has helped achieve the goal. Going through this goal mapping exercise as early as possible is vital to your cloud native journey.
+在进入第三级（规模化）之前，你必须证明业务价值。很多组织都卡在了第二级，因为他们无法证明技术是如何帮助实现目标的。尽早完成目标映射工作对你的云原生之旅至关重要。
 
 ### 成本
 
-When selecting what you are moving first, you must consider how you will deal with changes in cost. You will no longer be buying server and network hardware and software directly, but instead effectively leasing or paying as you go for capacity. While this brings with it flexibility, it will also require some work with cloud providers to get discounts. Ensure your technology team is in lock-step with finance to plan accordingly. The business should continuously ask for ways of optimizing infrastructure to save money and/or for evidence as to why more or less capacity is needed.  Cost control really does become everyone’s responsibility as real money exits the organization on a regular basis.
+在选择首批迁移内容时，首先必须考虑如何应对成本变化。你将不再直接购买服务器和网络硬件及软件，而是有效地租赁或按容量付费。虽然这带来了灵活性，但也需要与云提供商合作以获得折扣。确保技术团队与财务部门步调一致，以制定相应的计划。企业应不断询问优化基础设施的方法，以节省开支，并/或提供证据说明为什么需要更多或更少的容量。成本控制确实是每个人的责任，因为真金白银会定期流出企业。
 
-## <i class="fas fa-users"></i> 人
 
-### People Overview
+## <i class="fas fa-users"></i> 人员
 
-Individuals are actively invested in training and skills. The outcome is that small pockets of SMEs and expertise are appearing. DevOps has started to appear with inclusion of cloud skill engineers and developer groups offering platform skills. Cloud Native efforts are also owned by members of leadership.
+### 人员概览
 
-### Organizational Change
+个人积极投资于培训和技能。结果是出现了一小部分中小企业和专业知识。 DevOps 已经开始出现，其中包括提供平台技能的云技能工程师和开发人员团体。云原生的努力也归属于领导层成员所有。
 
-Organizational change is happening. You will define project teams, create agile project groups and have quick feedback/testing loops.
+### 组织变革
 
-### Teams and Decentralization
+组织变革正在发生。你将定义项目团队、创建敏捷项目组并拥有快速反馈/测试循环。
 
-We are starting to formalize central services and responsibilities, including the consolidation of tooling, as well as the culling or evaporation of non-cloud native tooling.
+### 团队与去中心化
 
-### Security
+我们开始正式确定中心化服务和职责，包括工具整合，以及裁剪或淘汰非云原生工具。
 
-Your team needs to focus on who is responsible for Kubernetes cluster security and how it will be managed. That will require the inclusion of the security team.
+### 安全
 
-### Developer Agility
+你的团队需要关注谁负责 Kubernetes 集群安全以及如何管理它。这需要安全团队的参与。
 
-The team is comfortable with technically challenging problems and how cloud native can help. There is an organizational commitment to decentralisation and automated testing of builds, with automated deployments to some environments.
+### 开发者敏捷性
 
-### Upskilling Developers
+团队乐于应对技术上的挑战性问题，以及如何借助云原生提供帮助。组织致力于去中心化和自动测试构建，并在某些环境中进行自动部署。
 
-Your wider development team is able to operate the fundamentals of Kubernetes including:
-- Connecting an operator to the Kubernetes API
-- Become comfortable with Kubectl commands
-- Understanding how to list and view resources
-- Performing basic actions (mechanical actions with limited understanding of how it works)
+### 开发者技能提升
 
-### CNCF Certifications
+更广泛的开发团队能够掌握 Kubernetes 基础操作，包括
+- 将 operator 连接到 Kubernetes API
+- 熟练使用 Kubectl 命令
+- 了解如何查看资源列表和详情
+- 执行基本操作（对其工作原理理解有限的机械操作）
 
-Organizations may wish to consider the CKA and CKAD exams around level 2 and 3.
+### CNCF 认证
 
-#### Certified Kubernetes Administrator (CKA)
+组织可能希望考虑 2 级和 3 级左右的 CKA 和 CKAD 考试。
 
-This program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
+#### 认证 K8s 管理员（CKA）
 
-#### Certified Kubernetes Application Developer (CKAD)
+该计划确保 CKA 具备履行 Kubernetes 管理员职责的技能、知识和能力。
 
-This exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.
+#### 认证 K8s 应用开发者（CKAD）
+
+该考试证明用户可以为 Kubernetes 设计、构建、配置和发行云原生应用程序。
 
 ## <i class="fas fa-cogs"></i> 流程
 
-### Process Overview
+### 流程概览
 
-You’ll focus on production promotion of basic applications. This includes being well established with Git and CI. You are also instituting structured build and deployment processes that exhibit the qualities of a cloud and container native CI/CD system.
+你将专注于基本应用程序的生产推广，包括熟练使用 Git 和 CI。你还需要建立结构化的构建和部署流程，展现云和容器原生 CI/CD 系统的特质。
 
 ### CI/CD
 
-For your application, you will institute structured build and deployment processes that exhibit the qualities of a cloud and container native CI/CD system.
+对于应用程序，你将采用结构化的构建和部署流程，展现云和容器原生 CI/CD 系统的特质。
 
-### Change Control
+### 变更控制
 
-Here you develop a fundamental understanding of the workflow from source control management (scm) to deployment and have access to merge/tag commits in scm to trigger deployments.
+在这里，你将对从源代码控制管理 (SCM) 到部署的工作流程有一个基本的了解，并能使用 SCM 中的 merge/tag 提交来触发部署。
 
-### Security
+### 安全
 
-Build security into your CI process including container scanning and configuration scanning.
+将安全性纳入 CI 流程，包括容器扫描和配置扫描。
 
-### Audit and Logs
+### 审计与日志
 
-Spend time defining log aggregation.
+花时间定义日志聚合。
 
 
 ## <i class="fas fa-edit"></i> 制度
 
-### Policy Overview
-As your services approach production, you have initial policies agreed as standard and these are mostly documented.
+### 制度概览
 
-### Policy Creation
+当你的服务即将投入生产时，你已将初步政策商定为标准，而且这些政策大多已记录在案。
 
-Define initial resource metrics and start collecting data.
+### 政策制定
 
-### Compliance
+定义初始资源指标并开始收集数据。
 
-Initial auditing, carried out manually or through simple scripts.
+### 合规
+
+手动或通过简单脚本进行初审。
 
 ## <i class="fas fa-server"></i> 技术
 
-### Technology Overview
+### 技术概览
 
-This marks your first step into production. You’ve worked hard to build your foundation in Level 1, and now you are moving to production. You might have started with something relatively small and simple, but this leap to production has certainly required you to address some significant steps. You’ll probably have had to incorporate monitoring and observability into your workloads. You’ll have brought key observability tooling in and started monitoring your clusters for standard metrics such as RAM, CPU etc. While you might be starting to evaluate application tracing, don’t worry about it too much if you have started to gather core metrics. Your focus here is on getting an application running in production and having enough platform resource, observability and operational capability to support it within your organization.
+这标志着你迈出了投入生产的第一步。你已经在第 1 级中努力建立了基础，现在正转向生产。你可能是从相对较小和简单的东西开始的，但是这种向生产的飞跃肯定需要你解决一些重要的步骤。你可能必须将监控和可观测性纳入工作负载中。你将引入关键的可观测性工具，并开始监控集群的典型指标，例如 RAM、CPU 等。虽然你可能刚开始评估应用程序调用链，但如果你已经开始收集核心指标，则不必太担心。此处的重点是让应用程序在生产中运行，并拥有足够的平台资源、可观测性和操作能力来在组织内支持它。
 
-### Infrastructure
+### 基础设施
 
-Because production is your goal, you’ve built Kubernetes clusters for production with a focus on reliability and security.
+因为生产环境才是你的目标，所以你为生产环境构建了 Kubernetes 集群，重点关注可靠性和安全性。
 
-### Container and Runtime Management
+### 容器与运行时管理
 
-You’re working in production now. You will experiment with tooling to augment the basics in production to help with security, policy management, workload misconfigurations, resource requests and limits. Key security practices for container hygiene are being incorporated.
+你现在正在生产环境中工作。你将尝试使用工具来增强生产中的基本功能，以帮助解决安全性、策略管理、工作负载配置不当、资源请求和限制等问题。容器健康的关键安全实践也将纳入其中。
 
-### Application Patterns and Refactoring
+### 应用模式与重构
 
-You're in production, with your first APIs exposed. Consider developing a “microservices first” framework particularly if your first choice is always a microservices approach. If not, consider moving applications suitable for lift and shift or don't migrate the app until later.
+你已投入生产，并公开了第一个 API。考虑开发一个“微服务优先”框架，尤其是如果你的首选始终是微服务方法；如果不是，请考虑推动适合直接迁移的应用程序，或者稍后再迁移应用程序。
 
-### Application Release and Operations
 
-For your initial steps into production, you’ll be using CI or release tooling, kubectl and kustomize to potentially deploy your first smaller applications. It’s really important by now that you develop key skills in Kubernetes configuration.
+### 应用发布与运维
 
-### Security and Policy
+在进入生产阶段的最初步骤中，你将使用 CI 或发布工具、kubectl 和 kustomize 来部署你的第一个小型应用程序。现在，发展 Kubernetes 配置方面的关键技能非常重要。
 
-Ensure that your development and operations groups are following good practice with containers, secrets and security. Because you are in production, you will want to ensure that you have encryption as well and authentication and authorization addressed.
 
-### Testing and Issue Detection
+### 安全与政策  
 
-Now that you are in production, you’ll be experimenting with tooling to help with security, policy management, workload misconfigurations, resource requests, limits and observability, in your staging or development environment.
+确保你的开发和运营团队在容器、机密和安全方面遵循良好的实践。由于正在进行生产，你需要确保加密以及身份验证和授权。  
+
+### 测试与问题检测  
+
+现在，你已进入生产阶段，你将在暂存或开发环境中尝试使用工具来帮助解决安全、策略管理、工作负载配置错误、资源请求、限制和可观测性等问题。
