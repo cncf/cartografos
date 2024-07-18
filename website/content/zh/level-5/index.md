@@ -1,102 +1,108 @@
 ---
-title: 级别 5 - 适配
-description: 您正在重新审视之前做出的决策并监控应用程序和基础设施以进行优化。
+title: 级别 5 - 优化
+description: 你正在重新审视之前做出的决策并监控应用程序和基础设施以进行优化。
 ---
 
 ## <i class="fas fa-building"></i> 业务成果
 
-When reaching level five of the Cloud Native Maturity Model, the business has trust and confidence in the technology team i.e. they can sleep at night. There are no nasty surprises from auditors, no outages in the same way legacy systems faced. Your team no longer faces jarring and stressful pivots. You can look to the future without feeling anxiety about the current state.
+当达到云原生成熟度模型的第五级时，企业对技术团队已经建立了信任和信心，意味着他们可以晚上睡个好觉。审计人员不会面对令人讨厌的意外情况，也不会出现像遗留系统所面临的那种停机情况。团队不再面临不和谐且充满压力的转变。你可以展望未来，而不必为当前状态感到焦虑。
 
-Essentially level five is utopia. You’ve met your business goals. You’ve invested the time in a platform that allows your teams to be flexible and adapt to businesses ever-evolving needs.
+第五层实际上就是乌托邦。你已经实现了业务目标，已将时间投入到一个平台上，该平台使你的团队能够灵活地适应企业不断变化的需求。
+
 
 ### 成本
 
-IT spend has become more predictable as FinOps and policies have helped to avoid unforeseen circumstances and events. Both the business and technology teams can plot highs and lows throughout the year to make budget predictions and forecasts.
+由于 FinOps 和政策有助于避免不可预见的情况和事件，IT 支出变得更加可预测。业务和技术团队都可以绘制全年的高点和低点，以进行预算预测和估算。
+
 
 ## <i class="fas fa-users"></i> 人
 
-### People Overview
+### 人员概览
 
-You've reached maturity, the organization is skilled and you have DevOps and DevSecOps working. Teams are comfortable experimenting with new technologies and sandbox trials.
+你已经到了成熟阶段，组织技术精湛，并且 DevOps 和 DevSecOps 正在发挥作用。团队可以轻松地尝试新技术和沙箱试验。
 
-### Organizational Change
+### 组织变革
 
-At maturity, the entire organization is committed and onboarded to the cloud native environment.
+在成熟阶段，整个组织都致力于并加入云原生环境。
 
-### Teams and Decentralization
+### 团队与去中心化
 
-You now have self-provisioning amongst different groups, along with organizational acceptance of the self-service portal. The business benefits from service ownership.
+现在你可以在不同的组之间进行自我配置，并且组织认可自助服务门户。业务从服务所有权中获益。
 
-### Security
+### 安全
 
-You will be actively developing security internally, with the community and regulators.
+你将与社区和监管机构一起在积极发展内部安全性。
 
-### Developer Agility
-The group has strong ability to recover and maintain throughput tolerating individuals joining and leaving. Business decisions are well informed by rich and accurate data across all teams in the organization allowing adoption of FinOps.
+### 开发者敏捷性
 
-### Upskilling Developers
+团队具有很强的恢复能力，并维持和容忍一定数量的个人入和离开。组织中所有团队丰富而准确的数据可以为业务决策提供充分信息，从而允许采纳 FinOps。
 
-Advanced testing and release patterns developed and in use, such as blue/green or canary
+### 开发者技能提升
+
+开发和使用高级测试和发布模式，例如蓝/绿或金丝雀发布。
 
 ## <i class="fas fa-cogs"></i> 流程
 
-### Process Overview
+### 流程概览
 
-Achieving process maturity will see you build design capabilities for cloud native. You’ll also automate responses by using monitoring failures to restart or manage problematic and failing resources. Resource usage data will help you optimize spend and your process will include providing the business cost analysis.
+实现流程成熟度将推动构建云原生的设计能力。你还可以通过使用监控故障来重新启动或管理有问题和失败的资源来自动响应。资源使用数据将帮助你优化支出，你的流程将包括提供业务成本分析。
 
 ### CI/CD
 
-Achieving maturity ensures you can demonstrate the benefit of your CI/CD process to the organization. You’ll be able to clearly see an increase in velocity, continuous deployment speed and see the effect on your business. For example, you will ship new features faster.
+实现成熟度可确保你能够向组织展示 CI/CD 流程的优势。你将能够清楚地看到持续部署速度的提升以及对业务的影响。例如，你将更快地发布新功能。
 
-### Change Control
-You now have quality engineering (QE) capability. That means you have quality guardrails in place, continuous deployment to production with only a failed automated test preventing an update being automatically released to production. You are seeing fewer defects, hotfixes and bug fixes being released. You now have best practices in place and have removed human access from production in favor of service accounts. You are also using monitoring failures to restart or manage problematic and failing resources.
+### 变更控制
 
-### Security
-The software supply chain is secured, with reproducible builds and software bills of materials providing insight into code and dependencies, with clear code provenance and secured release pipelines.You've shifted security left. You are preserving security by continuously monitoring Kubernetes for security and vulnerabilities.
+你现在拥有质量工程 (QE) 能力。这表示你拥有适当的质量护栏，实现持续部署到生产环境，只有失败的自动化测试才能阻止更新自动发布到生产环境。你会看到发布的缺陷、修补程序和错误修复越来越少。你现在已经制定了最佳实践，并从生产中删除了人工访问，转而使用服务帐户。你还可以使用监视故障来重新启动或管理有问题和发生故障的资源。
 
-### Audit and Logs
-You are enforcing audits.
+### 安全
 
-## <i class="fas fa-edit"></i> 制度
+软件供应链是安全的，可重复的构建和软件物料清单提供了对代码和依赖关系的洞察，具有清晰的代码来源和安全的发布流水线。你已经将安全性向左转移了。你可以通过持续监控 Kubernetes 的安全性和漏洞来维护安全。
 
-### Policy Overview
+### 审计与日志
 
-Based on your learnings, you will refine your policies as your organization achieves maturity, taking advantage of technologies such as machine learning in order to improve detection and enforcement.
+施行强制审计。
 
-### Policy Creation
+## <i class="fas fa-edit"></i> 政策
 
-Contribute policies to the open source community and active engagement with regulators and other external stakeholders.
+### 政策概览
 
-### Compliance
+你将根据经验教训，随着组织走向成熟而完善你的策略，利用机器学习等技术来改进检测和执行。
 
-Compliance never ends! You will tighten the feedback loop with stakeholders and take advantage of advanced machine learning and other tooling to understand what is normal for your environment and ensure visibility of anomalous conditions in a large volume of compliance data.
+### 建立政策
+
+向开源社区贡献政策，并与监管机构和其他外部利益相关者积极互动。
+
+### 合规
+
+合规工作没有尽头！你将加强与利益相关者的反馈循环，并利用先进的机器学习和其他工具来了解自身环境的正常情况，并确保在大量合规性数据中异常情况的可见性。
 
 ## <i class="fas fa-server"></i> 技术
 
-### Technology Overview
+### 技术概览
 
-Your investment is now focused on automation in functional and non-functional areas such as scanning, policy, security and testing. You’ve got operators doing your operations for you and you’re fully automated.
+你的投入现在集中在功能和非功能领域的自动化，例如扫描、策略、安全和测试。有 operator 为你进行操作，你已实现完全自动化。
 
-### Infrastructure
+### 基础设施
 
-Here you are managing your complete infrastructure lifecycle through software and tooling. Builds, upgrades, decommissioning is all taking place through code.
+在此，你可以通过软件和工具管理整个基础设施的生命周期。构建、升级、退役都是通过代码进行的。
 
-### Container and Runtime Management
+### 容器和运行时管理
 
-You’re now automating the response to events, and you have all your security data in one central repository. The platform is able to respond to events.
+现在事件响应正在自动化进行，并且所有安全数据都位于一个中央存储库中；该平台能够响应事件。
 
-### Application Patterns and Refactoring
+### 应用模式与重构
 
-Unless applications have specific requirements, such as extremely low latency, new greenfield applications are cloud native. You’ll look to onboard your existing portfolio of applications to your cloud native platform using your proven process. You’ll see now that your application matches your platform strengths and capabilities.
+除非应用程序有特定要求（例如极低延迟），否则新建的应用程序都是云原生的。你希望使用经过验证的流程将现有的应用程序组合添加到云原生平台。现在你将看到应用程序与平台优势和功能相匹配。
 
-### Application Release and Operations
+### 应用发布与运维
 
-You’re now in full production with GitOps operators and controls, and your release and operations workflows reside within Git.
+你现在已在产品中全面使用 GitOps operator 和控件，并且在 Git 中实现发布和操作工作流。
 
-### Security and Policy
+### 安全与政策
 
-Here you will have ongoing optimization and adjustment in line with new requirements, aligning with the ongoing threat environment. Exceptions to policy are both minimized, and are formally controlled. You may incorporate machine learning as part of your threat detection practices.
+在此你将根据新的要求进行持续的优化和调整，与持续的威胁环境保持一致。政策的例外情况都被最小化，并且受到正式控制。你可以将机器学习纳入威胁检测实践。
 
-### Testing and Issue Detection
+### 测试与问题检测
 
-Here we further optimize the automation used in responses to issues by working to prevent mistakes from entering production in the first place.
+在此我们首先通过努力防止错误引入生产，进一步优化问题响应的自动化水平。
