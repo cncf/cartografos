@@ -57,7 +57,7 @@ The main target for this model is broad and encompasses the following groups:
 
 ## How the model is divided up
 
-Developing a cloud native maturity is not just a technology journey, but one which is influenced by five major areas:
+Developing a cloud native maturity model is not just a technology journey, but one which is influenced by five major areas:
 
 1. Business outcomes - What can the business expect to achieve from cloud native? How are you going to communicate the benefits to the CXO and/or business leadership?
 2. People - How do we work, what skills do we require, what does our organization look like as we move through this process, and how do we weave security into how people work?
