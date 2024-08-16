@@ -5,120 +5,121 @@ description: 您正在提升整个环境的安全性、政策和治理。
 
 ## <i class="fas fa-building"></i> 业务成果
 
-At level four, the business should have complete alignment with technology on how cloud native has achieved goals. Here you’ll be moving remaining applications, only holding onto legacy applications if this is a strong compliance requirement. You also might let legacy applications age out as you build its replacement.
+在第四级，在云原生如何实现目标方面，业务应当与技术完全一致。在这里，你将迁移剩余的应用程序，仅当这是严格的合规性要求时才保留旧应用程序。当构建其替代品时，你还可能会让遗留应用程序过时。
 
-The business should see that the investment in cloud native has helped reduce traditional support outages. There has been a change in the profile of how teams are staffed based on new skill sets.
+企业应该看到对云原生的投资有助于减少传统支持中断。根据新的技能组合，团队的人员配置方式发生了变化。
 
-Overall, at level four, the technology team will spend more time on forward looking innovation vs. support. Because of the software development processes put in place for cloud native, the business can expect fewer disruptive (side) projects for upgrades, professional services or additional staff requirements. The teams have more time to focus on strategic initiatives and adding customer services/features, than having to spend cycles on maintenance.
+总体而言，在第四级，技术团队将花更多时间在前瞻性创新上，而不是支持上。由于软件开发流程为云原生做好了准备，企业可以预期升级、专业服务或额外员工需求的颠覆性（侧面）项目会减少。团队有更多的时间专注于战略计划和添加客户服务/功能，而不是花费周期进行维护。
 
-At level four, the business should expect to clean up the messy middle. There should be a consolidation of vendors and tooling to streamline the efficiency of the team and also of money spent externally. This consolidation will help to reduce risk as the business benefits from less management of patching/fixing and maintenance.
+在第四级，业务应该期望清理混乱的中间部分。应该整合供应商和工具，以提高团队的效率以及外部支出的效率。这种整合将有助于降低风险，因为业务可以从减少修补/修复和维护管理中受益。
 
-The technology team will have a much clearer understanding of their requirements from third parties vs. in earlier levels where they might have procured more than needed. The team will be able to assess what software and tools they have and select the best tool that the team can maintain, scale and ensure proper implementation. While there may be a cost reduction via procurement of software, there may also be a give and take of spend in one area over another.
+技术团队将对第三方的需求有更清晰的了解，而在早期阶段，他们可能会采购超出需要的产品。团队将能够评估他们拥有哪些软件和工具，并选择团队可以维护、扩展和确保正确实施的最佳工具。虽然通过采购软件可能会降低成本，但也可能会在一个领域相对于另一个领域存在支出的交换。
 
-The business will have a clearer understanding of risk at this stage. Policy enforcement from business goals down will be turned into automated scanning and remediation. The technology team will be able to demonstrate compliance.
+在这个阶段，企业对风险会有更清晰的认识。从业务目标向下的策略执行将转变为自动扫描和修复。技术团队将能够证明合规性。
 
-At level four, the technology is not as important as the business output. The improvements made should be focused on getting to business value faster by reducing repeatable processes.
+在第四级，技术并不像业务产出那么重要。所做的改进应侧重于通过减少可重复的流程来更快地实现业务价值。
 
 ### 成本
 
-In level 4, you’ll want to focus your team on cloud cost optimization. How can you improve your infrastructure to reduce cost and how can you demonstrate this to the business. The finance team will not want to understand per cluster costs, but instead how you’ve made changes to reduce costs or why you need more capacity. Use tools that help you demonstrate cloud and Kubernetes cost optimization.
+在第 4 级中，你需要让团队专注于云成本优化。如何改进基础设施以降低成本以及如何向企业展示这一点。财务团队不想了解每个集群的成本，而是想了解如何进行更改以降低成本或为什么需要更多容量。使用可帮助你演示云和 Kubernetes 成本优化的工具。
 
 
-## <i class="fas fa-users"></i> 人
+## <i class="fas fa-users"></i> 人员
 
-### People Overview
+### 人员概述
 
-As you improve, you are shifting competency to the development team for them to self-service. Full commitment from leadership.
+随着你的进步，正在将能力转移给开发团队，让他们进行自助服务。领导层充分承诺。
 
-### Organizational Change
+### 组织变革
 
-Cloud is now the default infrastructure for all services. The business is now requesting services from DevSecOps vs. requesting traditional servers.
+云现在是所有服务的默认基础架构。业务请求现在访问的是 DevSecOps 服务，而不是请求传统服务器。
 
-### Teams and Decentralization
+### 团队与权力下放
 
-As the platform becomes more established, you can really start the process of decentralization. You can work on the development of a self-service portal incorporating the policies and processes of your organization to enable developer service ownership.
+随着平台变得更加成熟，你可以真正开始去中心化的过程。你可以开发一个包含组织策略和流程的自服务门户，以实现开发者服务所有权。
 
-### Security
+### 安全
 
-By this level, security is involved in design and deployment, you will enforce security in your cloud native environment. Your organization is committed to security with full understanding of policies and regulations both inside and outside of the organization.
+到了这个级别，安全性就涉及到设计和部署，你将在云原生环境中实施安全性。你的组织致力于安全并充分了解组织内部和外部的政策和法规。
 
-### Developer Agility
+### 开发者敏捷性
 
-Feedback is extended from application metrics through to platform and non-functional requirements with clear mapping of value streams to technological implementation. Developers are able to quickly test complex scenarios with many unknowns, cloud and application risks are easily and quickly identified and patched.
+反馈从应用程序指标扩展到平台和非功能性需求，并清晰地映射价值流到技术实现。开发人员能够快速测试具有许多未知因素的复杂场景，轻松快速地识别和修补云和应用程序风险。
 
-### Upskilling Developers
+### 开发者技能提升
 
-Developers are more sophisticated and Kubernetes is widely adopted by multiple groups in different business areas, with a body of knowledge developing and actively shared including integration and release processes. Developers and cluster owners are actively expanding Kubernetes in line with their specific business and technical needs.
+开发人员更加成熟，Kubernetes 被不同业务领域的多个群体广泛采用，知识体系不断发展并积极共享，包括集成和发布流程。开发人员和集群所有者正在根据其特定的业务和技术需求积极扩展 Kubernetes。
 
-### CNCF Certifications
+### CNCF 认证
 
-Organizations may wish to consider the CKS around level 4.
+组织可能希望考虑 4 级左右的 CKS。
 
-#### Certified Kubernetes Security Specialist (CKS)
-This program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
+#### K8s安全专家认证（CKS）
+
+该计划可确保 CKS 具备广泛的最佳实践技能、知识和能力，以在构建、部署和运行时保护基于容器的应用程序和 Kubernetes 平台。参加此考试需要获得 CKA 认证。
 
 ## <i class="fas fa-cogs"></i> 流程
 
-### Process Overview
+### 流程概述
 
-The governance model in place will support DevSecOps. You have guardrails in place to support agile software development. You will establish an application services library. You will also set policy around container usage for example auto-scaling policies or HPC.
+现有的治理模型将支持 DevSecOps。你有适当的护栏来支持敏捷软件开发。你将建立一个应用程序服务库，还将设置有关容器使用的策略，例如自动扩展策略或 HPC。
 
 ### CI/CD
 
-You will measure your release velocity and cadence to make improvements.
+你将度量发布速度和节奏以进行改进。
 
-### Change Control
+### 变更控制
 
-You have continuous delivery, but no continuous deployment to production - you still have a gate to production that requires operator approval.
+你已实现持续交付，但没有持续部署到生产环境 —— 你仍然有一个需要运维人员批准的生产门禁。
 
-### Security
+### 安全
 
-Ensure security remediation is automated and/or identified automatically with remediation advice.
+确保安全修复是自动化的和/或通过修复建议自动识别。
 
-### Audit and Logs
+### 审计与日志
 
-Audit and alerts become mainstream and are made mandatory across applications.
+审计和告警成为主流，并且在应用程序中强制执行。
 
-## <i class="fas fa-edit"></i> 制度
+## <i class="fas fa-edit"></i> 政策
 
-### Policy Overview
+### 政策概述
 
-You now have defined SLAs around policies and remediation.
+你现在已经围绕策略和修复措施定义了 SLA。
 
-### Policy Creation
+### 政策制定
 
-Customize policies based on your business needs and minimize exceptions.
+根据你的业务需求自定义策略并最大程度地减少例外情况。
 
-### Compliance
+### 合规
 
-Expansion of policy tooling to include applications such as traffic proxies, service mesh, message buses and Linux. This will broaden the scope of managed policies, but it will also help in having them under control by way of declarative configurations.
+策略工具的扩展包括流量代理、服务网格、消息总线和 Linux 等应用程序。这将扩大托管策略的范围，但也有助于通过声明性配置来控制它们。
 
 ## <i class="fas fa-server"></i> 技术
 
-### Technology Overview
+### 技术概述
 
-You’ve got full control over your environment, and you’ve built your confidence, with rapid adoption of cloud native patterns for new applications and platforms. You’ve also gained organizational commitment to cloud native and this is adding to your momentum. You’re starting to feel like you’ve “crossed the chasm.”
+通过为新应用程序和平台快速快速采用云原生模式，你可以完全控制你的环境，并建立信心。你还获得了组织对云原生的承诺，这增加了你的动力。你开始感觉到自己已经“跨越了鸿沟”。
 
-### Infrastructure
+### 基础设施
 
-Kubernetes and its API has become extremely familiar to you. With your infrastructure and IaC tooling, you’ll likely find yourself investigating ClusterAPI and using that for deploying and managing the lifecycle of your clusters. As you also look to further refine control of your platforms, you’ll work to implement policy for your infrastructure control plane and other infrastructure controllers.
+你已经对 Kubernetes 及其 API 变得非常熟悉。借助基础设施和 IaC 工具，你可能会发现自己正在研究 ClusterAPI 并使用它来部署和管理集群的生命周期。当希望进一步完善对平台的控制时，你将努力为基础设施控制平面和其他基础设施控制器实施相应策略。
 
-### Container and Runtime Management
+### 容器与运行时管理
 
-With your sources of information you've gained from Level 3, your goal is to further integrate your data sources and gain visibility along with alerting. This closes the feedback loop on runtime and operations and allows you to respond quickly to unplanned events.
+利用从第 3 级获得的信息源，你的目标是进一步集成数据源并获得可见性和告警。这会关闭运行时和操作的反馈循环，并允许你快速响应计划外事件。
 
-### Application Patterns and Refactoring
+### 应用模式与重构
 
-Microservices have become the preferred pattern for applications. The use of APIs is expanding within the organization, and other internal systems may be exposed and consumed, and they are available for general consumption, open across the organization via a service mesh. The organization becomes data-centric and API-centric, and data can be more easily consumed.
+微服务已成为应用程序的首选模式。 API 的使用正在组织内扩散，其他内部系统可能会被公开和使用，并且它们可用于一般消费，通过服务网格在整个组织中开放。组织变得以数据为中心、以 API 为中心，数据可以更容易地被使用。
 
-### Application Release and Operations
+### 应用发布和运维
 
-Not only are you using GitOps operators for rapid deployment, but you may also be using them for development and test purposes. You’ll be expecting most of your software to be packaged with Helm with the feedback loop being closed as quickly as possible to reduce configuration drift.
+你不仅使用 GitOps Operator 进行快速部署，还可能将它们用于开发和测试目的。你会期望大部分软件都与 Helm 一起打包，并尽快关闭反馈循环以减少配置漂移。
 
-### Security and Policy
+### 安全政策
 
-Apply your policy against production in case you haven’t already. You’ll continue to tune your policies in production.
+如果你还没有应用针对生产环境的政策，请执行此操作。你将持续调整生产中的策略。
 
-### Testing and Issue Detection
+### 测试与异常检测
 
-As your environment becomes more complex in production, some issue remediation may require adjusting your policy-as-code or components of your Infrastructure as Code, as well as your application. Issues may relate to more than one application so you will aggregate across applications to determine trends. These may relate to bugs such as memory leaks, as well as security or policy issues. Your remediation may be to fix them at source, ideally as ‘far left’ as possible, or otherwise building automation capable of fixing them when they occur, and tuning it over time.
+随着你的环境在生产中变得更加复杂，某些问题的修复可能需要调整你策略即代码或基础设施即代码的组件以及应用程序。问题可能与多个应用程序相关，因此你将跨应用程序进行汇总以确定趋势。这些可能与内存泄漏等错误以及安全或策略问题有关。你的补救措施可能是从源头修复它们，最好是尽可能选择“最左边”，或者以其他方式构建能够在它们发生时能修复自动化机制，并随着时间的推移对其进行调整。
