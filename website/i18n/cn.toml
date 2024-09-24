@@ -1,0 +1,11 @@
+# UI strings. Buttons and similar. 
+
+# Footer text
+[footer_all_rights_reserved]
+other = " | 文档以 CC-BY-4.0 许可证分发。"
+
+[post_create_issue]
+other = "创建议题"
+
+[page_contents]
+other = "页面内容"
