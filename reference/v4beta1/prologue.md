@@ -1,15 +1,14 @@
-
 # Cloud Native Maturity Model \- Prologue
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of six separate documents - this document, the [Prologue](./prologue.md), and the five key reference documents:
+The Cloud Native Maturity Model is composed of six separate documents \- this document, the [Prologue](http://./prologue.md), and the five key reference documents:
 
-* [People](./people.md)  
-* [Process](./process.md)  
-* [Policy](./policy.md)  
-* [Technology](./technology.md)
-* [Business Outcomes](./business_outcomes.md)
+* [People](http://./people.md)  
+* [Process](http://./process.md)  
+* [Policy](http://./policy.md)  
+* [Technology](http://./technology.md)  
+* [Business Outcomes](http://./business_outcomes.md)
 
 # The Cloud Native Maturity Model: A Framework for Your Success
 
@@ -163,3 +162,4 @@ We welcome feedback from the community on the Cloud Native Maturity Model\!
 ## **Position on Included Technologies**
 
 The Cloud Native Maturity Model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software.
+

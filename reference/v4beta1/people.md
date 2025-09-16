@@ -1,16 +1,16 @@
-# Cloud Native Maturity Model - People
+# Cloud Native Maturity Model \- People
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of six separate documents - the [Prologue](./prologue.md) and the five key reference documents:
+The Cloud Native Maturity Model is composed of six separate documents \- the [Prologue](http://./prologue.md) and the five key reference documents:
 
-* [People](./people.md)  
-* [Process](./process.md)  
-* [Policy](./policy.md)  
-* [Technology](./technology.md)
-* [Business Outcomes](./business_outcomes.md)
+* [People](http://./people.md)  
+* [Process](http://./process.md)  
+* [Policy](http://./policy.md)  
+* [Technology](http://./technology.md)  
+* [Business Outcomes](http://./business_outcomes.md)
 
-## Introduction
+## People Introduction
 
 As you adopt cloud native technologies, your team's expertise will grow. The Cloud Native Maturity Model spans five key dimensions: People, Process, Policy, Technology and Business Outcomes. This paper focuses on People—the foundation of a successful deployment.  
 
@@ -114,8 +114,7 @@ As well as its profound effect on technology, AI brings in new roles and respons
     
   Data scientists and ML engineers that are familiar with data and machine learning develop scripts locally and then may have them reengineered by Distributed Systems Engineers for distributed execution, at scale, perhaps on non-cloud native platforms, perpetuating a clear division of labour and expertise. At Level 1, as you take your first steps into cloud native AI, a need for close collaboration between AI and cloud native platform engineering teams emerges as the need becomes clear for specific engineering to cater for complex configurations and tasks like GPU virtualisation and dynamic allocation. AI practitioners find they need to engage in activities outside their core ML expertise such as becoming familiar with Kubernetes and containers, and, from their perspective, other platform or infrastructure concerns.  The first AI/ML pipelines in Kubernetes may include multiple technologies that are not tightly integrated.
 
-* Level 2: As we enter production efforts are made to simplify the interaction between AI practitioners and cloud native platforms through abstraction layers and improved tooling.  AI practitioners start to look towards user friendly and well known SDKs that abstract away Kubernetes details. Debugging may remain challenging, requiring involvement between both AI/MLOps teams and platform engineering.
-
+* Level 2: As we enter production efforts are made to simplify the interaction between AI practitioners and cloud native platforms through abstraction layers and improved tooling.  AI practitioners start to look towards user friendly and well known SDKs that abstract away Kubernetes details. Debugging may remain challenging, requiring involvement between both AI/MLOps teams and platform engineering.   
   New roles or responsibilities may need to be created to help with governance and compliance. These may include model validation as well as ensuring activities are compliant with rules such as the European Union’s Artificial Intelligence Act.  
     
 * Level 3: As we scale out AI within the organization, we may start to see the emergence of the MLDevOps or AI Engineer as the glue between data science, platform engineering, infrastructure, and development. We may also see the emergence of trust and safety experts to manage content and conduct, mitigate abuse and protect user rights and brand safety. Operators will likely start to develop skills using AI-powered tooling for Kubernetes management such as  K8sGPT for the natural language processing of logs, or using machine learning to analyze massive datasets for security threat identification.
@@ -142,15 +141,15 @@ To build a sustainable cloud native ecosystem, investing in CNCF certifications 
 
 * This program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
 
-[**Kubernetes and Cloud Native Associate (KCNA)**](https://www.cncf.io/training/certification/kcna/)
+[Kubernetes and Cloud Native Associate (KCNA)](https://www.cncf.io/training/certification/kcna/)
 
 * KCNA is a pre-professional certification designed for candidates interested in advancing to the professional level through a demonstrated understanding of Kubernetes foundational knowledge and skills.
 
 
-[**Kubernetes and Cloud Security Associate (KCSA)**](https://www.cncf.io/training/certification/kcsa/) 
+[Kubernetes and Cloud Security Associate (KCSA)](https://www.cncf.io/training/certification/kcsa/) 
 
 * This certification is ideal for individuals interested in learning about or working with cloud native security technologies.
 
-[**Kubestronaut Program**](https://www.cncf.io/training/kubestronaut/)
+[Kubestronaut Program](https://www.cncf.io/training/kubestronaut/)
 
 * Individuals who have successfully passed every CNCF’s Kubernetes certifications – CKA, CKAD, CKS, KCNA, KCSA.

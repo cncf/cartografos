@@ -1,14 +1,14 @@
-# Cloud Native Maturity Model - Policy
+# Cloud Native Maturity Model \- Policy
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of six separate documents - the [Prologue](./prologue.md) and the five key reference documents:
+The Cloud Native Maturity Model is composed of six separate documents \- the [Prologue](http://./prologue.md) and the five key reference documents:
 
-* [People](./people.md)
-* [Process](./process.md)
-* [Policy](./policy.md)
-* [Technology](./technology.md)
-* [Business Outcomes](./business_outcomes.md)
+* [People](http://./people.md)  
+* [Process](http://./process.md)  
+* [Policy](http://./policy.md)  
+* [Technology](http://./technology.md)  
+* [Business Outcomes](http://./business_outcomes.md)
 
 ## Introduction
 

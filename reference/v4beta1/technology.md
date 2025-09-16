@@ -1,14 +1,14 @@
-# Cloud Native Maturity Model - Technology
+# Cloud Native Maturity Model \- Technology
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of six separate documents - the [Prologue](./prologue.md) and the five key reference documents:
+The Cloud Native Maturity Model is composed of six separate documents \- the [Prologue](http://./prologue.md) and the five key reference documents:
 
-* [People](./people.md)  
-* [Process](./process.md)  
-* [Policy](./policy.md)  
-* [Technology](./technology.md)
-* [Business Outcomes](./business_outcomes.md)
+* [People](http://./people.md)  
+* [Process](http://./process.md)  
+* [Policy](http://./policy.md)  
+* [Technology](http://./technology.md)  
+* [Business Outcomes](http://./business_outcomes.md)
 
 ## Position on Included Technologies
 
@@ -16,12 +16,11 @@ The Cloud Native Maturity Model is composed of six separate documents - the [Pro
 
 ## Introduction
 
-The Cloud Native Maturity Model covers five key dimensions \- People, Process, Policy, Technology and Business Outcomes. This paper addresses technology \- the practical tooling that makes up cloud native applications, platforms, and infrastructure. As well as referring to specific technologies, this paper aims to show the stages you may go through as you move from starting out all the way through to cloud native excellence.
+The Cloud Native Maturity Model covers five major dimensions \- People, Process, Policy, Technology and Business Outcomes. This paper addresses technology \- the practical tooling that makes up cloud native applications, platforms, and infrastructure. As well as referring to specific technologies, this paper aims to show the stages you may go through as you move from starting out all the way through to cloud native excellence.
 
 This paper illustrates just one path, but all journeys differ. This is absolutely as it should be, as organizations all start out at different points and have different destinations (business outcomes). Different locations, sizes, starting points (greenfield or long established), regulatory environments, and of course people, all influence the cloud native journey.
 
-The technology section of the Cloud Native Maturity Model is not exhaustive. We would love contributions to ensure the model is robust and useful for all users.
-All readers are encouraged to submit GitHub PRs with comments and suggestions.
+The technology section of the Cloud Native Maturity Model is not exhaustive. We would love contributions to ensure the model is robust and useful for all users. All readers are encouraged to submit GitHub PRs with comments and suggestions.
 
 ## The Technology Overview
 
@@ -149,13 +148,13 @@ Here is a working model for the microservices path. You may adapt this to your m
   Developers must also understand pod-to-container relationships and models like sidecars, which help separate concerns. IP addresses are dynamic, so service discovery must rely on DNS, the Kubernetes API or other appropriate means.  
 * Level 2: You’re in production now, and the focus shifts to scale, availability, observability, and alignment between your platform and applications. You may be introducing service meshes and more advanced monitoring.  
   If you’re adopting GitOps, developers need a clear understanding of its key principles and how to get started. Irrespective of this decision, they should begin using Kubernetes-native configuration management tools. This includes externalizing configuration using ConfigMaps, Secrets, or other runtime mechanisms—rather than embedding configuration in the image at build time. This approach improves validation and reduces drift, making practices like `git diff` effective for tracking changes.  
-  Because the platform is software, it requires regular maintenance. Kubernetes releases approximately three times per year, so establishing a proactive cluster lifecycle and maintenance process is critical. Regular updates should be scheduled as part of ongoing operations—not treated as exceptional events.  
-  From the start, developers must understand that pods are ephemeral. They should account for this by implementing node and pod affinities, PodDisruptionBudgets, and TopologySpreadConstraints to ensure service continuity during cluster upgrades and disruptions.  
+  Because the platform is software, it requires regular maintenance. Kubernetes releases [approximately three times per year](https://kubernetes.io/releases/release/#the-release-cycle), so establishing a proactive cluster lifecycle and maintenance process is critical. Regular updates should be scheduled as part of ongoing operations—not treated as exceptional events.  
+  From the start, developers must understand that pods are ephemeral. They should account for this by implementing node and pod affinities, [PodDisruptionBudgets](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/), and [TopologySpreadConstraints](https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/) to ensure service continuity during cluster upgrades and disruptions.  
 * Level 3: At Level 2, application patterns are well defined and there's a strong push for consistency in foundational practices. At Level 3, you begin expanding beyond the basics and may encounter the limitations of your existing tooling.  
   Applications are refactored to better align with platform-native resource types—such as using object storage instead of persistent volumes—and to adopt operator-first patterns for lifecycle management. Where developers previously worked within a namespace-as-a-service model, they may now explore cluster-as-a-service options to gain greater isolation or flexibility.  
-  You may introduce abstraction layers like Dapr to decouple infrastructure services (e.g., messaging, storage) from application code, simplifying development and improving portability. Kubernetes is no longer just an infrastructure platform—it’s evolving into a true application hosting platform, a foundation for your internal PaaS.  
-  New application patterns are emerging, while older, less scalable ones are phased out. These shifts are guided by your evolving non-functional requirements and the capabilities of the underlying platform.   
-* Level 4: At this stage, cloud native design patterns are formalized and shared across the organization—often documented in Git repositories or collaboration tools like Confluence. Consistency in implementation is not only visible but may now be actively enforced.  
+  You may introduce abstraction layers like [Dapr](https://dapr.io/) to decouple infrastructure services (e.g., messaging, storage) from application code, simplifying development and improving portability. Kubernetes is no longer just an infrastructure platform—it’s evolving into a true application hosting platform, a foundation for your internal PaaS.  
+  New application patterns are emerging, while older, less scalable ones are phased out. These shifts are guided by your evolving [non-functional requirements](https://en.wikipedia.org/wiki/Non-functional_requirement) and the capabilities of the underlying platform.   
+* Level 4: At this stage, cloud native [design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) are formalized and shared across the organization—often documented in Git repositories or collaboration tools like Confluence. Consistency in implementation is not only visible but may now be actively enforced.  
   The organization strikes a balance between standardization and flexibility. While standardization is ideal for scale and maintainability, some variation remains to support the “right tool for the job” approach. This balance directly influences application architecture and development patterns.  
   By this point, the organization is converging on a well-defined set of tools and practices that align with both platform capabilities and business needs.  
 * Level 5: At this level, all new greenfield applications are developed with a cloud native-first approach—unless specific requirements (such as ultra-low latency) dictate otherwise. You’re actively onboarding your existing application portfolio to the platform using proven, repeatable processes.  
@@ -171,7 +170,7 @@ Here is a working model for the microservices path. You may adapt this to your m
   You likely begin using Helm charts (e.g., for Ingress-NGINX) and deploy your first operators for core functionality such as secrets management. Understanding the Kubernetes operator model and custom resources (CRDs) becomes highly valuable.   
 * Level 2: Now running in production, you begin augmenting the basics with tools for security, policy enforcement, and workload configuration. You establish practices around container hygiene and begin defining policies for base images and dependency management. This may include:  
 - Using standardized base images (e.g., UBI or internal Ubuntu mirrors)  
-- Allowing upstream images from sources like Docker Hub or Quay.io with SBOM validation  
+- Allowing upstream images from sources like Docker Hub or [Quay.io](http://Quay.io) with SBOM validation  
 - Maintaining a catalog of hardened, source-built images  
     
   Security practices include automated scanning, runtime observability, and policy controls. CNCF projects become strong candidates to support observability and governance requirements.  
@@ -208,15 +207,15 @@ Managing a cluster with Infrastructure as Code (IaC) differs from managing appli
     
 * Level 2: You are now using GitOps operators for rapid, consistent deployment across all environments. Controlling access to configuration repositories and ensuring they reflect what is deployed is critical. You are consuming Helm charts and upstream package artifacts to configure third-party tools.  
   Supply chain security techniques are being incorporated into your releases (see the Security and Policy section). Observability is now vital to operating cloud native applications. With increased flexibility in environment creation, new release paradigms—such as maintaining two production environments to allow upgrades at any time—can offer significant benefits.  
-  You are adopting a “roll forward” approach to issue remediation, applying the last known good configuration to the cluster. Using resources as feature flags (e.g., with Kustomize) is an effective strategy for testing upgrades. Application teams are expected to maintain all components and third-party dependencies in their solutions.  
-  If development and operations remain separate, there must be an approval process for promoting changes to production, with operations reviewing each release. SBOMs are required for any third-party applications, possibly as a contractual or licensing requirement. It is essential to follow strong security practices for both container images and Kubernetes deployments, and to document and share these practices. Robust configuration management accelerates testing and security patching.  
+  You are adopting a “roll forward” approach to issue remediation, applying the last known good configuration to the cluster. Using resources as feature flags (e.g., with [Kustomize](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/)) is an effective strategy for testing upgrades. Application teams are expected to maintain all components and third-party dependencies in their solutions.  
+  If development and operations remain separate, there must be an approval process for promoting changes to production, with operations reviewing each release. [SBOM](https://www.cisa.gov/topics/cyber-threats-and-advisories/sbom/sbomresourceslibrary)s are required for any third-party applications, possibly as a contractual or licensing requirement. It is essential to follow strong security practices for both container images and Kubernetes deployments, and to document and share these practices. Robust configuration management accelerates testing and security patching.  
 * Level 3: Developers are now responsible for their own releases, including developing their own continuous deployment pipelines. They use the same deployment process for dev, test, and production environments. You are placing greater emphasis on provenance and controlling what enters your clusters (see Security and Policy section).  
   Instrumentation is robust and includes tracing, observability, service meshes, and mutual TLS. Awareness of cloud provider offerings increases, and performance becomes a key concern. You must now balance performance and cost.  
   Sharing learning across the organization is essential to avoid perpetuating inefficient practices and technical debt. Upstream third-party tools often release updates as quickly as your internal platform, making it important to stay current with new versions, features, and best practices. As you scale, capacity limits in your initial tooling may surface, making capacity planning and deeper tooling utilization critical.  
-* Level 4: You are actively securing the supply chain, and policies now govern both the release pipeline and runtime state. The Kubernetes API is used not only for container orchestration but also to manage other data center components having likely been extended with Crossplane and other technologies.  
+* Level 4: You are actively securing the supply chain, and policies now govern both the release pipeline and runtime state. The Kubernetes API is used not only for container orchestration but also to manage other data center components having likely been extended with [Crossplane](https://www.crossplane.io/) and other technologies.  
   Organizations at this level can create and destroy production-ready clusters on demand and take advantage of beta and alpha APIs. Releases are automated, reliable, consistent, measurable, auditable, revertable, and quick. Artifacts are standardized and predictable.  
-  Automation—including admission controllers—is used to validate workloads before production release. Security and policy controllers enforce defense-in-depth strategies. Kubernetes becomes a foundational platform component, and developers begin coding against infrastructure capabilities. Tools like Crossplane illustrate this evolution by integrating cloud and infrastructure lifecycles directly into applications.  
-* Level 5: Code is released at the highest level of abstraction and with idempotence from the underlying infrastructure, enabling maximum velocity and minimal vendor lock-in. You are effectively managing controlling artifacts and addressing technical debt.  
+  Automation—including [admission controllers](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/)—is used to validate workloads before production release. Security and policy controllers enforce defense-in-depth strategies. Kubernetes becomes a foundational platform component, and developers begin coding against infrastructure capabilities. Tools like [Crossplane](https://www.crossplane.io/) illustrate this evolution by integrating cloud and infrastructure lifecycles directly into applications.  
+* Level 5: Code is released at the highest level of abstraction and with [idempotence](https://en.wikipedia.org/wiki/Idempotence) from the underlying infrastructure, enabling maximum velocity and minimal vendor lock-in. You are effectively managing controlling artifacts and addressing technical debt.  
     
   Continuous deployment to production is now in place, supported by a fast, controlled, and automated release pipeline.
 
@@ -230,7 +229,7 @@ Testing and issue detection evolve significantly as organizations adopt cloud na
     
 * Level 2: Now that you're in production, you’ll begin experimenting with tools that support security, policy enforcement, misconfiguration detection, resource management, and observability—starting in staging or development environments.  
     
-  Development teams are supported by platform and infrastructure teams for environment management. Tooling decisions should prioritize customer-impacting functionality. For example, don’t focus on low-priority policy controls if customers are experiencing latency issues that could be addressed by monitoring through a service mesh.  
+  Development teams are supported by platform and infrastructure teams for environment management. Tooling decisions should prioritize customer-impacting functionality. For example, don’t focus on low-priority policy controls if customers are experiencing latency issues that could be addressed by monitoring through a [service mesh](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options/).  
     
   You’re actively prioritizing based on business needs and customer satisfaction. Production feedback becomes a valuable source of insight. Metrics should be tracked and visualized from both platform and application sources. While logging may be challenging at this stage, it is essential for effective troubleshooting. You may also start evaluating tracing tools.  
     
@@ -254,23 +253,23 @@ Testing and issue detection evolve significantly as organizations adopt cloud na
 This section outlines how security and policy practices mature alongside cloud native adoption, starting with basic IAM and secret management and evolving toward automated, policy-driven platforms. As organizations progress, they implement defense-in-depth strategies, enforce compliance through policy as code, and continuously optimize security in response to changing threats.
 
 * Level 1: Begin building your secured CI/CD pipeline if you haven’t already, and remember that your current practices with VMs will evolve significantly. You have developed an Identity Provider and Identity and Access Management (IAM) infrastructure, integrating it into your clusters using tools such as RBAC and service accounts.  
-  Following the 12-Factor principles, configuration is stored in the environment—including secrets, which are base64-encoded (not encrypted)—to allow stage-specific configurations (e.g., dev, test, prod). Much more can be stored in the environment, enabling immutable images and a strong separation between application and configuration. Avoid embedding environment-specific information, such as credentials, directly in container images.  
+  Following the [12-Factor](https://12factor.net/) principles, configuration is stored in the environment—including secrets, which are base64-encoded (not encrypted)—to allow stage-specific configurations (e.g., dev, test, prod). Much more can be stored in the environment, enabling immutable images and a strong separation between application and configuration. Avoid embedding environment-specific information, such as credentials, directly in container images.  
   You are becoming familiar with the Kubernetes API and are aware of its users. You also understand Kubernetes’ flat networking model, where all pods can connect to each other by default, with no inherent workload isolation.  
 * Level 2: Ensure that development and operations teams follow best practices for container, secrets, and security management. In production, you must address encryption, authentication, and authorization. This includes certificate management and a functioning CA infrastructure that can issue certificates to running pods.  
   You are implementing secret management tools and automation. TLS or mutual TLS is being deployed at the cluster level and between pods—especially for sensitive workloads. A service mesh may be considered to enhance traffic visibility and manage network security features.  
   Your systems are auditable, with logs and events captured and retained. Generic accounts that are not traceable to individuals (e.g., “administrator” or “kubeadmin”) are not used, in contrast to service accounts used by software to access resources.  
-  You may limit service exposure to load balancers and restrict network access to the production cluster to prevent unnecessary or unexpected exposure. These measures are especially important in multi-tenant clusters (e.g., Namespace as a Service).  
+  You may limit service exposure to load balancers and restrict network access to the production cluster to prevent unnecessary or unexpected exposure. These measures are especially important in [multi-tenant clusters](https://kubernetes.io/docs/concepts/security/multi-tenancy/) (e.g., [Namespace as a Service](https://kubernetes.io/docs/concepts/security/multi-tenancy/#namespaces)).  
   Access policies are expanding to include source control, automation components, and dependencies used for managing clusters. You are extending GitOps to the platform layer, ensuring consistency and convergence to a known state, and reverting any drift—whether malicious or accidental.  
   You are beginning to restrict API access, and validating incoming requests using admission controllers, possibly including mutating admission controllers.  
 * Level 3: Now is the time to automate deployment guardrails and platform components like certificate management while implementing security best practices through policy as code. Define your enforcement strategy and begin adopting relevant third-party benchmarks and standards. Consider incorporating anomaly and threat detection technologies.  
   As production environments grow more complex, some issue remediation may require changes to your policy-as-code, Infrastructure as Code, or application code.  
-  You are evaluating SPIFFE/SPIRE as you move towards a zero trust model for security, and are well underway with certificate and trust store automation, and service mesh integration. Admission controllers now read from your policy platform, enforcing organization-wide or application-specific rules.  
-  You are scanning container images, identifying and addressing CVEs, and maintaining SBOMs to provide provenance. You aim to meet SLSA Build Level 1 requirements. Machine learning may also be introduced to enhance threat detection practices.  
+  You are evaluating [SPIFFE/SPIRE](https://spiffe.io/docs/latest/spire-about/spire-concepts/) as you move towards a zero trust model for security, and are well underway with certificate and trust store automation, and service mesh integration. Admission controllers now read from your policy platform, enforcing organization-wide or application-specific rules.  
+  You are scanning container images, identifying and addressing [CVE](https://www.cve.org/)s, and maintaining SBOMs to provide provenance. You aim to meet [SLSA Build Level 1](https://slsa.dev/spec/v1.1/levels) requirements. Machine learning may also be introduced to enhance threat detection practices.  
 * Level 4: Apply your security policies to production, if you haven’t already, and continue tuning them. You have implemented measures to reduce attack surfaces, such as preventing manual pod access (e.g., no shell inside pods), while providing safer alternatives with full audit trails (e.g., Falco).  
-  You’re improving security posture by removing the need for insecure workarounds or legacy practices. At this stage, you are working toward SLSA Build Level 2 compliance.  
-* Level 5: Security policies are continuously optimized in response to evolving threats and business requirements. Exceptions are minimized and formally controlled. You are working toward compliance with SLSA Build Level 3.
+  You’re improving security posture by removing the need for insecure workarounds or legacy practices. At this stage, you are working toward [SLSA Build Level 2](https://slsa.dev/spec/v1.1/levels#build-l2-hosted-build-platform) compliance.  
+* Level 5: Security policies are continuously optimized in response to evolving threats and business requirements. Exceptions are minimized and formally controlled. You are working toward compliance with [SLSA Build Level 3](https://slsa.dev/spec/v1.1/levels#build-l3-hardened-builds).
 
-## Cost Efficiency, Resource Usage and Sustainability
+# Cost Efficiency, Resource Usage and Sustainability
 
 This section outlines how efficiency and sustainability practices evolve from basic resource tuning and cost awareness to full optimization of workloads across architecture, geography, and carbon impact. As organizations mature, they incorporate FinOps, sustainability reporting, and developer accountability to achieve peak efficiency and minimize wasted resources.
 
@@ -278,7 +277,7 @@ This section outlines how efficiency and sustainability practices evolve from ba
     
 * Level 2: The primary focus is reaching production. This often results in cluster sprawl across environments, leading to increased costs and operational complexity. You begin limiting resource consumption and may explore multi-tenancy (e.g., Namespace as a Service) or consolidating environments (e.g., dev and test in a single cluster with separate namespaces).  
     
-  You might evaluate CNCF projects like Capsule to reduce the overhead of running multi-tenant clusters. Chargeback and FinOps capabilities are introduced in a basic form, such as tracking CPU and pod requests or applying quotas at the namespace level. These practices will become more granular as you mature. You also begin experimenting with vertical and horizontal pod autoscaling—initially based on platform metrics, with early exploration into application-level metrics to inform scaling decisions using KEDA.  
+  You might evaluate CNCF projects like [Capsule](https://projectcapsule.dev/) to reduce the overhead of running multi-tenant clusters. Chargeback and FinOps capabilities are introduced in a basic form, such as tracking CPU and pod requests or applying quotas at the namespace level. These practices will become more granular as you mature. You also begin experimenting with vertical and horizontal pod autoscaling—initially based on platform metrics, with early exploration into application-level metrics to inform scaling decisions using KEDA.  
     
 * Level 3: Sticker shock may occur here (or even earlier). You begin consolidating workloads and resources more aggressively, potentially using spot VMs and deploying in lower-cost regions, while balancing availability and performance. Idle development and test workloads are scaled down outside business hours where possible.  
     
@@ -292,7 +291,7 @@ This section outlines how efficiency and sustainability practices evolve from ba
 
 ## AI
 
-The CNCF AI White Paper describes “Cloud Native Artificial Intelligence \[as\] an evolving extension of Cloud Native” that “...refers to approaches and patterns for building and deploying AI applications and workloads using the principles of Cloud Native.  Enabling repeatable and scalable AI-focused workflows allows AI practitioners to focus on their domain”.  In this context, cloud native works to solve with its scalability, resilience, observability and manageability many of the challenges that AI suffers.
+The [CNCF AI White Paper](https://www.cncf.io/reports/cloud-native-artificial-intelligence-whitepaper/) describes “Cloud Native Artificial Intelligence \[as\] an evolving extension of Cloud Native” that “...refers to approaches and patterns for building and deploying AI applications and workloads using the principles of Cloud Native.  Enabling repeatable and scalable AI-focused workflows allows AI practitioners to focus on their domain”.  In this context, cloud native works to solve with its scalability, resilience, observability and manageability many of the challenges that AI suffers.
 
 * Level 1: Starting out with initial development and experimentation, organizations explore basic AI concepts and conduct small-scale experiments, typically where the outcome is known using discriminative AI such as the classification of email.  Developers working with AI will be working mostly on rapid prototyping and gaining access to resources such as storage, networking and processing for training (the process of building an AI model from data) and inference (computing results from AI models).  Kubernetes facilitates resource access and model dependencies can be effectively managed through containerization and as OCI artifacts, models can be stored in registries and caching can be enabled.
 

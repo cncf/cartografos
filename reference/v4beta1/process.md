@@ -1,16 +1,17 @@
-# Cloud Native Maturity Model - Process
+# Cloud Native Maturity Model \- Process
 
 ## Navigation
 
-The Cloud Native Maturity Model is composed of six separate documents - the [Prologue](./prologue.md) and the five key reference documents:
+The Cloud Native Maturity Model is composed of six separate documents \- the [Prologue](http://./prologue.md) and the five key reference documents:
 
-* [People](./people.md)  
-* [Process](./process.md)  
-* [Policy](./policy.md)  
-* [Technology](./technology.md)
-* [Business Outcomes](./business_outcomes.md)
+* [People](http://./people.md)  
+* [Process](http://./process.md)  
+* [Policy](http://./policy.md)  
+* [Technology](http://./technology.md)  
+* [Business Outcomes](http://./business_outcomes.md)
 
 ## Introduction
+
 The Cloud Native Maturity Model spans five key dimensions: People, Process, Policy, Technology and Business Outcomes. This paper addresses the process. Your process will affect your cloud native footprint, cluster topology and sizing. It will support your CI/CD maturity and help to improve your team's ability to ship applications faster.
 
 As you start your transformation, you will lack process and consistency across implementations. However, that will change over time as you develop and document your processes and capability. Documentation should be close to code and potentially machine based. By the time you are achieving maturity, you will have a consistent and mature process with a template-based approach, and you will actively revisit your standards, identify configuration drift and adjust standards based on business requirements.
