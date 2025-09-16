@@ -1,5 +1,6 @@
 ---
 title: "Level 1 - Build"
+weight: 1
 description: >
    You have a baseline cloud native implementation in place and are in pre-production.
 ---

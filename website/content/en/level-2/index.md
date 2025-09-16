@@ -1,5 +1,6 @@
 ---
 title: Level 2 - Operate
+weight: 2
 description: The cloud native foundation is established and you are moving to production.
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Level 3 - Scale
+weight: 3
 description: Your competency is growing and you are defining processes for scale.
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Level 5 - Adapt
+weight: 5
 description: You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
 ---
 
