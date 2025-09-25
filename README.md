@@ -56,5 +56,4 @@ Any questions can be directed to one of the co-chairs:
 
 Leadership:
 Simon Forster, co-chair, simon@stackegy.com
-Danielle Cook, co-chair, danielle@appcd.com
-John Forman, co-chair, john.t.forman@accenture.com
+Danielle Cook, co-chair, danielle@cookedcontent.com
