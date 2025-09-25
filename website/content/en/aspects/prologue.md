@@ -1,10 +1,16 @@
----
-title: "Cloud Native Maturity Model"
----
+# Cloud Native Maturity Model \- Prologue
 
+## Navigation
 
+The Cloud Native Maturity Model is composed of six separate documents \- this document, the [Prologue](http://./prologue.md), and the five key reference documents:
 
-![woman at a conference](/images/woman-at-conference.jpg)
+* [People](http://./people.md)  
+* [Process](http://./process.md)  
+* [Policy](http://./policy.md)  
+* [Technology](http://./technology.md)  
+* [Business Outcomes](http://./business_outcomes.md)
+
+# The Cloud Native Maturity Model: A Framework for Your Success
 
 The Cloud Native Maturity Model is designed to support *you*—whether you're just beginning your cloud native journey, leading a team of practitioners, or are already an experienced expert. This model helps identify where you may need to invest in tools, processes, people, or policies. Most importantly, it bridges the gap between technical goals and business outcomes, enabling you to effectively communicate the value of your cloud native strategy to organizational leadership.
 
@@ -12,7 +18,7 @@ Developed by practitioners who have guided numerous organizations through cloud 
 
 By aligning with the CNCF landscape, the model helps you unlock the full potential of cloud native technologies to build and operate scalable, resilient applications across public and hybrid cloud environments.
 
-## **Cloud Native Maturity Model 4.0 (Beta) Now Available**
+# **Cloud Native Maturity Model 4.0 (Beta) Now Available**
 
 The beta release of Cloud Native Maturity Model (CNMM) 4.0 is here. The Cartografos Working Group has updated the model to reflect the rapid evolution of the cloud native ecosystem since its initial launch in 2021 and subsequent updates in 2022 and 2023\.
 
@@ -36,7 +42,7 @@ The CNMM is designed to work alongside the Platform Maturity Model, offering bot
 
 We hope this beta release serves as a cornerstone reference for end users navigating cloud native adoption. As always, we welcome feedback and contributions to continuously evolve the model.
 
-## **Where Are You in Your Cloud Native Maturity?**
+# **Where Are You in Your Cloud Native Maturity?**
 
 We surveyed the CNCF community to understand where organizations see themselves on the cloud native maturity journey:
 
@@ -122,7 +128,7 @@ You may be ready to start your cloud native journey if you meet the following cr
 
 ### **Policy**
 
-* Policy may be in the form of conventions and rules that are located external to the application and its platform, and are not enforced in a native way within your applications and runtime environment.  
+* Policy may be in the form of conventions and rules that are located external to the application and its platform, and are not enforced natively within your applications and runtime environment.  
 * Policies might be disparate and built in silos; defense in depth parity might be more of an accident than deliberate.
 
 ### **Technology**
@@ -137,25 +143,23 @@ You may be ready to start your cloud native journey if you meet the following cr
 * Your server estate could range from single physical or virtual servers with low levels of availability, through to highly available clusters. Scaling could be a real challenge and may require considerable investment in money, time and planning.  
 * You may have started to dip your toe into a ‘Everything as Code’ model. i.e. started to script your infrastructure with Terraform.
 
-![man at a conference](/images/man-at-conference.jpg)
-
 ## **The Cloud Native Maturity Model Journey**
 
 There are five stages within the cloud native maturity model. While you may be in stage five for one application, at the same time, you may be at stage 2 for another. Keep that in mind as you identify your stage of maturity.
 
 Through level 4, you've likely stood on the shoulders of giants. At level 5, you become the giant—there's no one left to stand on but you.
 
-* [**Level 1 - Build**]({{< ref "/level-1" >}}) You have a baseline cloud native implementation in place and are in pre-production. Of importance, level one isn’t a lab or POC, you do have an implementation in place. It can be really hard to move from a build to operate stage.   
-* [**Level 2 - Operate**]({{< ref "/level-2" >}}) The cloud native foundation is established and you are moving to production.  
-* [**Level 3 - Scale**]({{< ref "/level-3" >}}) Your competency is growing and you are defining processes for scale.  
-* [**Level 4 - Improve**]({{< ref "/level-4" >}}) You are improving security, policy and governance across your environment.  
-* [**Level 5 - Adapt**]({{< ref "/level-5" >}}) You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
+* [**Level 1 \- Build**](https://maturitymodel.cncf.io/level-1/) You have a baseline cloud native implementation in place and are in pre-production. Of importance, level one isn’t a lab or POC, you do have an implementation in place. It can be really hard to move from a build to operate stage.   
+* [**Level 2 \- Operate**](https://maturitymodel.cncf.io/level-2/) The cloud native foundation is established and you are moving to production.  
+* [**Level 3 \- Scale**](https://maturitymodel.cncf.io/level-3/) Your competency is growing and you are defining processes for scale.  
+* [**Level 4 \- Improve**](https://maturitymodel.cncf.io/level-4/) You are improving security, policy and governance across your environment.  
+* [**Level 5 \- Adapt**](https://maturitymodel.cncf.io/level-5/) You are revisiting decisions made earlier and monitoring applications and infrastructure for optimization.
 
 In each of the following sections, we will highlight core concepts and discuss what this means in each stage of your maturity across people, process, policy and technology.
 
-We welcome feedback from the community on the Cloud Native Maturity Model!
-
+We welcome feedback from the community on the Cloud Native Maturity Model\!
 
 ## **Position on Included Technologies**
 
 The Cloud Native Maturity Model includes references to only CNCF graduated or incubating projects. The Maturity Model’s default position on CNCF sandbox projects will be to exclude unless referenced in later stages of maturity (i.e. users that have achieved level 4 or 5). It does not and will not include any reference to commercial software.
+
