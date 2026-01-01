@@ -29,13 +29,13 @@ The Cloud Native Maturity Model Reference documents are located in this reposito
 * [Technology](./reference/technology.md)
 * [Business Outcomes](./reference/business_outcomes.md)
 
-As these are living documents, we welcome your feed back and invite you to submit issues and pull requests.
+As these are living documents, we welcome your feedback and invite you to submit issues and pull requests.
 
 ## Come join us
 
 Anyone interested in educating and informing users with guidance to understand the cloud native ecosystem is welcome to join the Cartografos Working Group! Above we showcase assets under development.  
 
-Please also join our our CNCF Slack channel, `#cartografos-wg`
+Please also join our CNCF Slack channel, `#cartografos-wg`
 
 # Meeting Information 
 
