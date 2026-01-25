@@ -79,8 +79,9 @@
 		<div class="horizontal-rule d-none d-lg-block mb-4"></div>
 		<div class="copyright py-2">
 			<small>
-				&copy; {{ now.Year}} The CNCF Authors | Documentation
-				Distributed under CC BY 4.0</small>
+	&copy; {{ now.Year}} Cartografos Contributors. A Cloud Native Computing Foundation project.
+	Documentation distributed under CC BY 4.0.
+			</small>
 			{{ if not .Site.Params.ui.footer_about_disable }}
 			{{ with .Site.GetPage "about" }}
 			<p class="mt-2"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
